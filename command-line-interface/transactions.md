@@ -4,23 +4,25 @@ description: Send it!
 
 # Transactions
 
+## Transactions
+
 You can send a transaction on the juno network by using the following format:
 
-```sh
+```bash
 junod tx bank send <sender_key_name_or_address> <recipient_address> 10token --chain-id=<chain_id>
 ```
 
-## Fees and gas
+### Fees and gas
 
 You'll often need to specify fees and gas in order for a command to work.
 
-# Getting help
+## Getting help
 
 Almost every command will have docs available. You can access these by appending the `-h` flag.
 
 For example, running:
 
-```sh
+```bash
 junod tx bank send -h
 ```
 
@@ -64,3 +66,4 @@ Global Flags:
 ```
 
 Appending the `-h` flag is a good way of learning how the various CLI commands work.
+
