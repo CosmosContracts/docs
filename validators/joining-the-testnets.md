@@ -10,21 +10,50 @@ description: Time to Connect!
 
 ## **Joining as a Validator**
 
+{% hint style="info" %}
+In the following examples, `chainId`, `chain-id`, `CHAIN_ID` etc all should be the testnet name, i.e. something like `juno-testnet-1`
+If you're unsure what the current testnet chain ID is, ask on Discord.
+{% endhint %}
+
 Run the following command from a server to propose yourself as a validator:
 
-```text
+```sh
 starport network chain join [chainID] --nightly
 ```
 
-Follow the prompts to provide information about the validator. Starport will download the source code of the blockchain node, build, initialize and create and send two proposals to SPN: to add an account and to add a validator with self-delegation. By running a `join` command you act as a "validator". When filling out the required parameters ensure to include the **'stake'** word after the required values for the inputs to be accepted. If the terminal gets an error or hangs then you can also try: `starport network chain join [chainID] --nightly --keyring-backend "test"`
+Follow the prompts to provide information about the validator. You will need to create an account on the Starport Network (SPN), followed by one on the testnet.
 
-Be sure to write down your seed phrase, you'll need to add your key to junod to interact with the chain.
+Starport will download the source code of the blockchain node, build, initialize and create and send two proposals to SPN: to add an account and to add a validator with self-delegation.
+
+By running a `join` command you act as a "validator".
+
+When going through the setup, you can use the default values for tokens etc. Where a field says `(optional)` hit `ENTER` to continue if you are happy with the default.
+
+When filling out the required parameters ensure to include the **'stake'** word after the required values for the inputs to be accepted. 
+
+**Important!** if the terminal gets an error or hangs then you can also try: 
+
+```sh
+starport network chain join [chainID] --nightly --keyring-backend "test"`
+```
+
+{% hint style="info" %}
+**IMPORTANT:** Be sure to write down your seed phrase, you'll need to add your key to junod to interact with the chain.
+{% endhint %}
+
+When you are done, you can check your proposal with:
+
+```sh
+starport network proposal list [chainID] --nightly | grep $(curl -s ifconfig.me) -B 1
+```
+
+The output should contain your server IP address.
 
 ## Starting your Blockchain Node
 
 Run the following command to start your blockchain node:
 
-```text
+```sh
 starport network chain start [chainID] --nightly
 ```
 
@@ -32,9 +61,13 @@ This command will use SPN to create a correct genesis file, configure and launch
 
 ## Running in Production
 
+{% hint style="info" %}
+Before launching your validator, make sure that the genesis has been built and released, otherwise you will need to reset your chain and restart.
+{% endhint %}
+
 Create a systemd file for your Juno service:
 
-```text
+```sh
 sudo vi /etc/systemd/system/junod.service
 ```
 
@@ -55,24 +88,34 @@ LimitNOFILE=4096
 WantedBy=multi-user.target
 ```
 
+{% hint style="info" %}
 **This assumes `$HOME/go_workspace` to be your Go workspace. Your actual workspace directory may vary.**
+**The default port here is `26656` - this should be open via the server firewall and any external security measures (e.g. AWS security group)**
+{% endhint %}
 
 Enable and start the new service:
 
-```text
+```sh
 sudo systemctl enable junod
 sudo systemctl start junod
 ```
 
 Check status:
 
-```text
+```sh
 junod status
 ```
 
 Check logs:
 
-```text
+```sh
 journalctl -u junod -f
 ```
 
+When the chain is coming up, you should be able to see output for this command:
+
+```sh
+curl -s localhost:26657/consensus_state | jq '.result.round_state.height_vote_set[0].prevotes_bit_array'
+```
+
+If you see output, your node is up. Note that the command requires the `jq` tool.

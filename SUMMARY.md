@@ -10,6 +10,7 @@
 
 * [Getting Setup](validators/getting-setup.md)
 * [Joining The Testnets](validators/joining-the-testnets.md)
+* [Mainnet](validators/mainnet.md)
 
 ## Command-Line Interface
 
