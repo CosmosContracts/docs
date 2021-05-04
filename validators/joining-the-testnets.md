@@ -21,19 +21,33 @@ Run the following command from a server to propose yourself as a validator:
 starport network chain join [chainID] --nightly
 ```
 
-Follow the prompts to provide information about the validator. Starport will download the source code of the blockchain node, build, initialize and create and send two proposals to SPN: to add an account and to add a validator with self-delegation.
+Follow the prompts to provide information about the validator. You will need to create an account on the Starport Network (SPN), followed by one on the testnet.
+
+Starport will download the source code of the blockchain node, build, initialize and create and send two proposals to SPN: to add an account and to add a validator with self-delegation.
 
 By running a `join` command you act as a "validator".
 
-When going through the setup, you can use the default values for tokens etc.
+When going through the setup, you can use the default values for tokens etc. Where a field says `(optional)` hit `ENTER` to continue if you are happy with the default.
 
 When filling out the required parameters ensure to include the **'stake'** word after the required values for the inputs to be accepted. 
 
-If the terminal gets an error or hangs then you can also try: `starport network chain join [chainID] --nightly --keyring-backend "test"`
+**Important!** if the terminal gets an error or hangs then you can also try: 
+
+```sh
+starport network chain join [chainID] --nightly --keyring-backend "test"`
+```
 
 {% hint style="info" %}
 **IMPORTANT:** Be sure to write down your seed phrase, you'll need to add your key to junod to interact with the chain.
 {% endhint %}
+
+When you are done, you can check your proposal with:
+
+```sh
+starport network proposal list [chainID] --nightly | grep $(curl -s ifconfig.me) -B 1
+```
+
+The output should contain your server IP address.
 
 ## Starting your Blockchain Node
 
@@ -45,11 +59,11 @@ starport network chain start [chainID] --nightly
 
 This command will use SPN to create a correct genesis file, configure and launch your blockchain node. Once the node is started and the required number of validators are online, you will see output with incrementing block height number, which means that the blockchain has been successfully started.
 
+## Running in Production
+
 {% hint style="info" %}
 Before launching your validator, make sure that the genesis has been built and released, otherwise you will need to reset your chain and restart.
 {% endhint %}
-
-## Running in Production
 
 Create a systemd file for your Juno service:
 
