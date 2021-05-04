@@ -4,7 +4,9 @@ description: 'Welcome to Juno, where smart contracts have evolved.'
 
 # Introduction
 
-Welcome to the documentation and user guides for [Juno](https://junochain.com), the decentralized, community-run smart contract platform. Juno -- "Smart Contracts, Evolved" - is the sister hub for the Cosmos network; our aim is to materialize the vision of an inter-chain smart contract platform with super low fees and blazing fast speeds.
+Welcome to the documentation and user guides for [Juno](https://junochain.com), the decentralized, community-run smart contract platform.
+
+Juno - 'Smart Contracts, Evolved' - is the sister hub for the Cosmos network. Our aim is to materialize the vision of an inter-chain smart contract platform with super low fees and blazing fast speeds.
 
 {% tabs %}
 {% tab title="Guides" %}
@@ -13,6 +15,8 @@ Welcome to the documentation and user guides for [Juno](https://junochain.com), 
 {% page-ref page="validators/getting-setup.md" %}
 
 {% page-ref page="validators/joining-the-testnets.md" %}
+
+{% page-ref page="validators/mainnet.md" %}
 
 ### CLI
 
@@ -39,8 +43,3 @@ Welcome to the documentation and user guides for [Juno](https://junochain.com), 
 {% page-ref page="faqs/delegator-faq.md" %}
 {% endtab %}
 {% endtabs %}
-
-
-
-
-
