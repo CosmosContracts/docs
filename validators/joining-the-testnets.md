@@ -12,6 +12,7 @@ description: Time to Connect!
 
 {% hint style="info" %}
 In the following examples, `chainId`, `chain-id`, `CHAIN_ID` etc all should be the testnet name, i.e. something like `juno-testnet-1`
+
 If you're unsure what the current testnet chain ID is, ask on Discord.
 {% endhint %}
 
@@ -29,7 +30,7 @@ By running a `join` command you act as a "validator".
 
 When going through the setup, you can use the default values for tokens etc. Where a field says `(optional)` hit `ENTER` to continue if you are happy with the default.
 
-When filling out the required parameters ensure to include the **'stake'** word after the required values for the inputs to be accepted. 
+When filling out the required parameters ensure to include the **'stake'** word after the required values for the inputs to be accepted. This is because for early testnets we are using the defaults rather than juno-specific names.
 
 **Important!** if the terminal gets an error or hangs then you can also try: 
 
@@ -49,7 +50,21 @@ starport network proposal list [chainID] --nightly | grep $(curl -s ifconfig.me)
 
 The output should contain your server IP address.
 
+At this point, you should probably add the key you've just created to `junod`:
+
+```sh
+junod keys add <your-key-name> -i
+```
+
+`junod` will prompt you for the seed phrase you were given earlier. The key name you use here will be the one that you pass to the `--from` flag later.
+
+This will allow you to transact on the testnet.
+
 ## Starting your Blockchain Node
+
+{% hint style="info" %}
+Before launching your validator, make sure that the genesis has been built and released, otherwise you will need to reset your chain and restart.
+{% endhint %}
 
 Run the following command to start your blockchain node:
 
@@ -59,11 +74,9 @@ starport network chain start [chainID] --nightly
 
 This command will use SPN to create a correct genesis file, configure and launch your blockchain node. Once the node is started and the required number of validators are online, you will see output with incrementing block height number, which means that the blockchain has been successfully started.
 
-## Running in Production
+Even if you are going to run with `systemd` as per the examples below, you will need to run this command first, as it fetches the genesis.
 
-{% hint style="info" %}
-Before launching your validator, make sure that the genesis has been built and released, otherwise you will need to reset your chain and restart.
-{% endhint %}
+## Running in Production
 
 Create a systemd file for your Juno service:
 
@@ -90,6 +103,7 @@ WantedBy=multi-user.target
 
 {% hint style="info" %}
 **This assumes `$HOME/go_workspace` to be your Go workspace. Your actual workspace directory may vary.**
+
 **The default port here is `26656` - this should be open via the server firewall and any external security measures (e.g. AWS security group)**
 {% endhint %}
 
