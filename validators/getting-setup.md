@@ -1,5 +1,5 @@
 ---
-description: 'Join us, we don''t have cookies!'
+description: 'Smart Contracts, Evolved!'
 ---
 
 # Getting Setup
