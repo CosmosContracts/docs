@@ -18,11 +18,11 @@ If you're unsure what the current testnet chain ID is, ask on Discord.
 
 Run the following command from a server to propose yourself as a validator:
 
-```sh
+```bash
 starport network chain join [chainID] --nightly
 ```
 
-Follow the prompts to provide information about the validator. You will need to create an account on the Starport Network (SPN), followed by one on the testnet.
+Follow the prompts to provide information about the validator. You will need to create an account on the Starport Network \(SPN\), followed by one on the testnet.
 
 Starport will download the source code of the blockchain node, build, initialize and create and send two proposals to SPN: to add an account and to add a validator with self-delegation.
 
@@ -32,9 +32,9 @@ When going through the setup, you can use the default values for tokens etc. Whe
 
 When filling out the required parameters ensure to include the **'stake'** word after the required values for the inputs to be accepted. This is because for early testnets we are using the defaults rather than juno-specific names.
 
-**Important!** if the terminal gets an error or hangs then you can also try: 
+**Important!** if the terminal gets an error or hangs then you can also try:
 
-```sh
+```bash
 starport network chain join [chainID] --nightly --keyring-backend "test"`
 ```
 
@@ -44,7 +44,7 @@ starport network chain join [chainID] --nightly --keyring-backend "test"`
 
 When you are done, you can check your proposal with:
 
-```sh
+```bash
 starport network proposal list [chainID] --nightly | grep $(curl -s ifconfig.me) -B 1
 ```
 
@@ -68,7 +68,7 @@ Before launching your validator, make sure that the genesis has been built and r
 
 Run the following command to start your blockchain node:
 
-```sh
+```bash
 starport network chain start [chainID] --nightly
 ```
 
@@ -80,7 +80,7 @@ Even if you are going to run with `systemd` as per the examples below, you will 
 
 Create a systemd file for your Juno service:
 
-```sh
+```bash
 sudo vi /etc/systemd/system/junod.service
 ```
 
@@ -104,32 +104,33 @@ WantedBy=multi-user.target
 {% hint style="info" %}
 **This assumes `$HOME/go_workspace` to be your Go workspace. Your actual workspace directory may vary.**
 
-**The default port here is `26656` - this should be open via the server firewall and any external security measures (e.g. AWS security group)**
+**The default port here is `26656` - this should be open via the server firewall and any external security measures \(e.g. AWS security group\)**
 {% endhint %}
 
 Enable and start the new service:
 
-```sh
+```bash
 sudo systemctl enable junod
 sudo systemctl start junod
 ```
 
 Check status:
 
-```sh
+```bash
 junod status
 ```
 
 Check logs:
 
-```sh
+```bash
 journalctl -u junod -f
 ```
 
 When the chain is coming up, you should be able to see output for this command:
 
-```sh
+```bash
 curl -s localhost:26657/consensus_state | jq '.result.round_state.height_vote_set[0].prevotes_bit_array'
 ```
 
 If you see output, your node is up. Note that the command requires the `jq` tool.
+

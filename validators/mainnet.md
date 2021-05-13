@@ -1,5 +1,5 @@
 ---
-description: 'It''s 🚀 time!'
+description: "It's \U0001F680 time!"
 ---
 
 # Mainnet

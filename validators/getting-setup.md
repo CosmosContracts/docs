@@ -1,8 +1,8 @@
 ---
-description: 'Join us, we don''t have cookies!'
+description: 'Smart Contracts, Evolved!'
 ---
 
-# Setup
+# Getting Setup
 
 Welcome To The _Wild West_
 
@@ -32,9 +32,9 @@ Feel ready to get started?, let's get moving and install starport:
 Starport uses [Git LFS](https://git-lfs.github.com/). **Please make sure that it is installed before cloning Starport.** If you have installed Git LFS after cloning Starport, checkout to your preferred branch to trigger a pull for large files or run **`git lfs pull`**
 {% endhint %}
 
-You need to ensure your gopath configuration is correct. If the following **'make'** step does not work then you might have to add these lines to your .profile or .zshrc in the user's home (i.e. `~` or `$HOME`) folder:
+You need to ensure your gopath configuration is correct. If the following **'make'** step does not work then you might have to add these lines to your .profile or .zshrc in the user's home \(i.e. `~` or `$HOME`\) folder:
 
-```sh
+```bash
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/go
 export GO111MODULE=on
@@ -43,7 +43,7 @@ export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin
 
 > Now lets build and install `starport` binary into `$GOBIN`.
 
-```sh
+```bash
 git clone https://github.com/tendermint/starport
 cd starport && git checkout develop
 make
@@ -51,7 +51,7 @@ make
 
 **Note**: When building from source, it is important to have your `$GOPATH` set correctly. When in doubt, the following should do:
 
-```sh
+```bash
 mkdir ~/go
 export GOPATH=~/go
 ```
@@ -65,3 +65,4 @@ At a minimum, you should read and understand [these](https://hub.cosmos.network/
 
 Another good article on general best practices is [here](https://www.digitalocean.com/community/tutorials/recommended-security-measures-to-protect-your-servers).
 {% endhint %}
+

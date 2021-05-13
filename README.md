@@ -4,6 +4,8 @@ description: 'Welcome to Juno, where smart contracts have evolved.'
 
 # Introduction
 
+
+
 Welcome to the documentation and user guides for [Juno](https://junochain.com), the decentralized, community-run smart contract platform.
 
 Juno - 'Smart Contracts, Evolved' - is the sister hub for the Cosmos network. Our aim is to materialize the vision of an inter-chain smart contract platform with super low fees and blazing fast speeds.
@@ -31,10 +33,6 @@ Juno - 'Smart Contracts, Evolved' - is the sister hub for the Cosmos network. Ou
 {% page-ref page="smart-contracts/uploading-smart-contracts.md" %}
 {% endtab %}
 
-{% tab title="Community" %}
-{% page-ref page="miscellaneous/community-channels.md" %}
-{% endtab %}
-
 {% tab title="FAQs" %}
 {% page-ref page="faqs/validator-faq.md" %}
 
@@ -42,4 +40,15 @@ Juno - 'Smart Contracts, Evolved' - is the sister hub for the Cosmos network. Ou
 
 {% page-ref page="faqs/delegator-faq.md" %}
 {% endtab %}
+
+{% tab title="Misc" %}
+{% page-ref page="miscellaneous/community-channels.md" %}
+
+{% page-ref page="miscellaneous/more-info.md" %}
+{% endtab %}
 {% endtabs %}
+
+
+
+
+

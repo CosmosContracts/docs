@@ -24,9 +24,5 @@ Eventually Golang will be also be supported for writing the contracts, and in th
 
 ## Forking The Sample Project
 
-We went ahead and created a sample project that you can fork to follow along with. This repo contains the files that are needed to proceed to the next step.
-
-### Project Structure
-
-* filename1.txt
+Coming Soon!
 
