@@ -1,6 +1,6 @@
 # Developer FAQ
 
-## Why is there no questions here?
+## Why are there no questions here?
 
 Because it is still a work in progress!
 

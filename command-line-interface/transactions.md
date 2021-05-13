@@ -10,9 +10,19 @@ You can send a transaction on the juno network by using the following format:
 junod tx bank send <sender_key_name_or_address> <recipient_address> 10token --chain-id=<chain_id>
 ```
 
+# Unjailing
+
+Occasionally, your validator might get jailed. Unjail it with:
+
+```sh
+junod tx slashing unjail --from <your-key-here> --chain-id juno-testnet-n --gas auto --fees 5000stake
+```
+
+On a testnet, you can be more relaxed, but on a mainnet you want to have set up monitoring so that blocks don't get missed and you don't get jailed!
+
 ## Fees and gas
 
-You'll often need to specify fees and gas in order for a command to work.
+You'll often need to specify fees and gas in order for a command to work. Trying something like `--gas auto --fees 5000stake` will usually force something to work - just adjust how much you're willing to pay. Often, the error message will specify the minimum fee.
 
 # Getting help
 
