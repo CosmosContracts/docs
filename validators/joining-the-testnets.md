@@ -22,6 +22,10 @@ Run the following command from a server to propose yourself as a validator:
 starport network chain join [chainID] --nightly
 ```
 
+{% hint style="danger" %}
+You can only run this command _once_ per testnet. Each time this wizard is completed, the state in `.spn-chain-homes/<chain-name>` will be reset, meaning you could lose your validator private keys.
+{% endhint %}
+
 Follow the prompts to provide information about the validator. You will need to create an account on the Starport Network \(SPN\), followed by one on the testnet.
 
 Starport will download the source code of the blockchain node, build, initialize and create and send two proposals to SPN: to add an account and to add a validator with self-delegation.
@@ -58,7 +62,7 @@ junod keys add <your-key-name> -i
 
 `junod` will prompt you for the seed phrase you were given earlier. The key name you use here will be the one that you pass to the `--from` flag later.
 
-This will allow you to transact on the testnet.
+This will allow you to transact on the testnet. Alternatively, you can use the `--home` flag to point to Starport's `.spn-chain-homes/<chain-name>/` folder when executing commands with `junod`.
 
 ## Starting your Blockchain Node
 
@@ -134,3 +138,59 @@ curl -s localhost:26657/consensus_state | jq '.result.round_state.height_vote_se
 
 If you see output, your node is up. Note that the command requires the `jq` tool.
 
+
+## Joining after genesis
+
+This section applies to those who are looking to join the testnet post genesis.
+
+1. Initialise the chain and start your node
+
+```sh
+junod init <moniker-name> --chain-id=[chainId]
+```
+
+In early testnets, the denom will be `stake`. In later ones it will be `ujuno`
+
+2. Get Genesis and set peers
+
+Set seed nodes and get a valid Genesis file.
+
+Genesis should go in:
+
+```sh
+$HOME/.junod/config/genesis.json
+```
+
+You can set peers in the config file, which should be at:
+
+```sh
+vi $HOME/.junod/config/config.toml
+```
+
+3. Create a local key pair
+
+Create or import your key
+
+```sh
+junod keys add <key-name>
+junod keys show <key-name> -a
+```
+
+4. Submit your create validator tx
+
+This command submits using 1denom (`stake` or `juno`). You should be able to get this from the `#faucet` channel on Discord.
+
+```sh
+junod tx staking create-validator \
+  --amount 9000000denom \
+  --commission-max-change-rate "0.1" \
+  --commission-max-rate "0.20" \
+  --commission-rate "0.1" \
+  --min-self-delegation "1" \
+  --details "validators write bios too" \
+  --pubkey=$(junod tendermint show-validator) \
+  --moniker <your_moniker> \
+  --chain-id <chain-id> \
+  --gas-prices 0.025denom \
+  --from <key-name>
+```
