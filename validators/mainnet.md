@@ -13,3 +13,4 @@ If you are comfortable with server ops, you might want to build out a [Sentry No
 {% hint style="info" %}
 If you are using a cloud services provider, you may want to mount `$HOME` on an externally mountable storage volume, as you may need to shuffle the data onto a larger storage device later. You can specify the `home` directory in most commands, or just use symlinks.
 {% endhint %}
+

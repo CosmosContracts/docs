@@ -57,12 +57,23 @@ export GOPATH=~/go
 ```
 
 {% hint style="danger" %}
-It is up to you as a validator to secure your server, and to keep it secure. Failure to do so could have dire consequences!
-
-Testnets are an ideal place to learn the basics of securing your validator.
-
-At a minimum, you should read and understand [these](https://hub.cosmos.network/main/validators/security.html) [basics](https://wiki.polkadot.network/docs/en/maintain-guides-secure-validator#linux-best-practices).
-
-Another good article on general best practices is [here](https://www.digitalocean.com/community/tutorials/recommended-security-measures-to-protect-your-servers).
+It is up to you as a validator to secure your server, and to keep it secure. Failure to do so could have dire consequences! Testnets are an ideal place to learn the basics of securing your validator. At a minimum, you should read and understand [these](https://hub.cosmos.network/main/validators/security.html) basics. Another good article on general best practices is [here](https://www.digitalocean.com/community/tutorials/recommended-security-measures-to-protect-your-servers).
 {% endhint %}
+
+## Ubuntu 18.04 - setup
+
+### Install Go
+
+```bash
+$ nano setup.sh
+```
+
+```bash
+# Install python and make upgrade
+sudo apt-get upgrade -y
+sudo apt-get update -y
+sudo apt install ntp -y
+sudo apt-get install -y supervisor jq
+sudo apt install -y git gcc make
+```
 

@@ -18,9 +18,10 @@
 
 ## Smart Contracts
 
+* [Installation](smart-contracts/installation.md)
+* [Downloading and Compiling Smart Contracts](smart-contracts/downloading-and-compiling-smart-contracts.md)
+* [Uploading and Interacting](smart-contracts/uploading-and-interacting.md)
 * [Creating Smart Contracts](smart-contracts/creating-smart-contracts.md)
-* [Compiling Smart Contracts](smart-contracts/compiling-smart-contracts.md)
-* [Uploading Smart Contracts](smart-contracts/uploading-smart-contracts.md)
 
 ## FAQs
 

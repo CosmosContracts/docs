@@ -56,7 +56,7 @@ The output should contain your server IP address.
 
 At this point, you should probably add the key you've just created to `junod`:
 
-```sh
+```bash
 junod keys add <your-key-name> -i
 ```
 
@@ -138,49 +138,48 @@ curl -s localhost:26657/consensus_state | jq '.result.round_state.height_vote_se
 
 If you see output, your node is up. Note that the command requires the `jq` tool.
 
-
 ## Joining after genesis
 
 This section applies to those who are looking to join the testnet post genesis.
 
 1. Initialise the chain and start your node
 
-```sh
+```bash
 junod init <moniker-name> --chain-id=[chainId]
 ```
 
 In early testnets, the denom will be `stake`. In later ones it will be `ujuno`
 
-2. Get Genesis and set peers
+1. Get Genesis and set peers
 
 Set seed nodes and get a valid Genesis file.
 
 Genesis should go in:
 
-```sh
+```bash
 $HOME/.junod/config/genesis.json
 ```
 
 You can set peers in the config file, which should be at:
 
-```sh
+```bash
 vi $HOME/.junod/config/config.toml
 ```
 
-3. Create a local key pair
+1. Create a local key pair
 
 Create or import your key
 
-```sh
+```bash
 junod keys add <key-name>
 junod keys show <key-name> -a
 ```
 
-4. Submit your create validator tx
+1. Submit your create validator tx
 
-This command submits using 1denom (`stake` or `juno`). You should be able to get this from the `#faucet` channel on Discord.
+This command submits using 1denom \(`stake` or `juno`\). You should be able to get this from the `#faucet` channel on Discord.
 
-```sh
+```bash
 junod tx staking create-validator \
   --amount 9000000denom \
   --commission-max-change-rate "0.1" \
@@ -194,3 +193,4 @@ junod tx staking create-validator \
   --gas-prices 0.025denom \
   --from <key-name>
 ```
+

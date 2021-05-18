@@ -24,5 +24,5 @@ Eventually Golang will be also be supported for writing the contracts, and in th
 
 ## Forking The Sample Project
 
-Coming Soon!
+
 

@@ -2,6 +2,8 @@
 description: Send it!
 ---
 
+# Transactions
+
 ## Transactions
 
 You can send a transaction on the juno network by using the following format:
@@ -14,7 +16,7 @@ junod tx bank send <sender_key_name_or_address> <recipient_address> 10token --ch
 
 Occasionally, your validator might get jailed. Unjail it with:
 
-```sh
+```bash
 junod tx slashing unjail --from <your-key-here> --chain-id juno-testnet-n --gas auto --fees 5000stake
 ```
 
