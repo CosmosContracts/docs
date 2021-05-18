@@ -8,7 +8,7 @@ Please first review the [client setup instructions](https://docs.cosmwasm.com/0.
 
 Let's download the repo in which we collect [`cosmwasm-examples` \(opens new window\)](https://github.com/CosmWasm/cosmwasm-examples)and try out an existing simple escrow contract that can hold some native tokens and gives the power to an arbiter to release them to a pre-defined beneficiary. First, clone the repo and try to build the wasm bundle:
 
-```text
+```bash
 # get the code
 git clone https://github.com/CosmWasm/cosmwasm-examples
 cd cosmwasm-examples
@@ -24,7 +24,7 @@ cargo wasm
 After this compiles, it should produce a file in `target/wasm32-unknown-unknown/release/cw_escrow.wasm`. A quick `ls -l` should show around 2MB. This is a release build, but not stripped of all unneeded code. To produce a much smaller version, you can run this which tells the compiler to strip all unused code out:Copy  
 
 
-```text
+```bash
 RUSTFLAGS='-C link-arg=-s' cargo wasm
 ```
 
@@ -34,13 +34,13 @@ This produces a file about 174kB. We use this and another optimiser in the next 
 
 Let's try running the unit tests:
 
-```text
+```bash
 RUST_BACKTRACE=1 cargo unit-test
 ```
 
 After some compilation steps, you should see:
 
-```text
+```bash
 running 5 tests
 test contract::tests::cannot_initialize_expired ... ok
 test contract::tests::proper_initialization ... ok
@@ -57,7 +57,7 @@ test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out
 
 Smart contract binary size must be as small as possible for reduced gas cost. This will not only cost less on deployment, also for every single interaction. Simply, **optimize production code** using [cosmwasm/rust-optimizer \(opens new window\)](https://github.com/CosmWasm/rust-optimizer). **rust-optimizer** also produces reproducible builds of cosmwasm smart contracts. This means third parties can verify the contract is the actually the claimed code.
 
-```text
+```bash
 Optimized Compilation
 Smart contract binary size must be as small as possible for reduced gas cost. This will not only cost less on deployment, also for every single interaction. Simply, optimize production code using cosmwasm/rust-optimizer (opens new window). rust-optimizer also produces reproducible builds of cosmwasm smart contracts. This means third parties can verify the contract is the actually the claimed code.
 

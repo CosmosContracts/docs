@@ -87,8 +87,7 @@ Use go 1.15 for compiling`junod`executable
 # clone wasmd repo
 git clone https://github.com/CosmWasm/wasmd.git && cd wasmd
 
-# wasmd runs on wasmd v0.14.1
-git checkout v0.15.1
+git checkout v0.16.0
 
 # build wasmd executable
 make install

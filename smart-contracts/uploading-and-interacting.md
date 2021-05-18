@@ -10,7 +10,7 @@ description: >-
 
 We generated a wasm binary executable in the previous chapter. Let's put it into use. Now, we will upload the code to the blockchain. Afterwards, you can download the bytecode to verify it is proper. The contract.wasm is the compiled version and is directory dependant in the command. So make sure you include the path in to the command.
 
-```text
+```bash
 # see how many codes we have now
 junod query wasm list-code $NODE
 
@@ -35,7 +35,7 @@ diff contract.wasm download.wasm
 
 We can now create an instance of this wasm contract. Here the verifier will fund an escrow, that will allow fred to control payout and upon release, the funds go to bob.
 
-```text
+```bash
 # instantiate contract and verify
 INIT=$(jq -n --arg highlander2 $(junod keys show -a fred) --arg bob $(junod keys show -a bob) '{"arbiter":$fred,"recipient":$bob}')
 
