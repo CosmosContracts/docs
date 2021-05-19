@@ -142,7 +142,7 @@ If you see output, your node is up. Note that the command requires the `jq` tool
 
 This section applies to those who are looking to join the testnet post genesis.
 
-1. Initialise the chain and start your node
+**1. Initialise the chain and start your node**
 
 ```bash
 junod init <moniker-name> --chain-id=[chainId]
@@ -150,7 +150,7 @@ junod init <moniker-name> --chain-id=[chainId]
 
 In early testnets, the denom will be `stake`. In later ones it will be `ujuno`
 
-1. Get Genesis and set peers
+**2. Get Genesis and set peers**
 
 Set seed nodes and get a valid Genesis file.
 
@@ -166,7 +166,7 @@ You can set peers in the config file, which should be at:
 vi $HOME/.junod/config/config.toml
 ```
 
-1. Create a local key pair
+**3. Create a local key pair**
 
 Create or import your key
 
@@ -175,7 +175,7 @@ junod keys add <key-name>
 junod keys show <key-name> -a
 ```
 
-1. Submit your create validator tx
+**4. Submit your create validator tx**
 
 This command submits using 1denom \(`stake` or `juno`\). You should be able to get this from the `#faucet` channel on Discord.
 
