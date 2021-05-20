@@ -96,7 +96,7 @@ After=network-online.target
 
 [Service]
 User=root
-ExecStart=/home/<YOUR_USERNAME>/<GO_WORKSPACE>/go/bin/junod start --p2p.laddr tcp://0.0.0.0:26656 --home /home/<YOUR_USERNAME>/.spn-chain-homes/<CHAIN_ID>
+ExecStart=/home/<YOUR_USERNAME>/<GO_WORKSPACE>/go/bin/junod start --p2p.laddr tcp://0.0.0.0:26656
 Restart=on-failure
 RestartSec=3
 LimitNOFILE=4096
@@ -157,13 +157,13 @@ Set seed nodes and get a valid Genesis file.
 Genesis should go in:
 
 ```bash
-$HOME/.junod/config/genesis.json
+$HOME/.juno/config/genesis.json
 ```
 
 You can set peers in the config file, which should be at:
 
 ```bash
-vi $HOME/.junod/config/config.toml
+vi $HOME/.juno/config/config.toml
 ```
 
 **3. Create a local key pair**
