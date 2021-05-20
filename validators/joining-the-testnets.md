@@ -157,13 +157,13 @@ Set seed nodes and get a valid Genesis file.
 Genesis should go in:
 
 ```bash
-$HOME/.junod/config/genesis.json
+$HOME/.juno/config/genesis.json
 ```
 
 You can set peers in the config file, which should be at:
 
 ```bash
-vi $HOME/.junod/config/config.toml
+vi $HOME/.juno/config/config.toml
 ```
 
 **3. Create a local key pair**
