@@ -23,6 +23,14 @@
 * [Uploading and Interacting](smart-contracts/uploading-and-interacting.md)
 * [Creating Smart Contracts](smart-contracts/creating-smart-contracts.md)
 
+### ERC20 Tutorial
+
+* [Introduction](smart-contracts/erc20-tutorial/introduction.md)
+* [Installation](smart-contracts/erc20-tutorial/installation.md)
+* [Download, Compile, Store](smart-contracts/erc20-tutorial/compile.md)
+* [Initialise the Contract](smart-contracts/erc20-tutorial/initialise.md)
+* [Query and run commands](smart-contracts/erc20-tutorial/query.md)
+
 ## FAQs
 
 * [Validator FAQ](faqs/validator-faq.md)

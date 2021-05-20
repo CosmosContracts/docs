@@ -75,7 +75,9 @@ make install
 wasmd version
 ```
 
+{% hint style="info" %}
 ⓘ If you have any problems here, check your `PATH`. `make install` will copy `wasmd` to `$HOME/go/bin` by default, please make sure that is set up in your `PATH` as well, which should be the case in general for building Go code from source.
+{% endhint %}
 
 ## Using Juno Testnets 
 
@@ -87,7 +89,7 @@ Use go 1.15 for compiling`junod`executable
 # clone wasmd repo
 git clone https://github.com/CosmWasm/wasmd.git && cd wasmd
 
-git checkout v0.16.0
+git checkout v0.15.1
 
 # build wasmd executable
 make install

@@ -40,6 +40,3 @@ We can now create an instance of this wasm contract. Here the verifier will fund
 INIT=$(jq -n --arg highlander2 $(junod keys show -a fred) --arg bob $(junod keys show -a bob) '{"arbiter":$fred,"recipient":$bob}')
 
 ```
-
-
-
