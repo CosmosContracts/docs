@@ -8,8 +8,6 @@ Welcome to the documentation and user guides for [Juno](https://junochain.com), 
 
 Juno - 'Smart Contracts, Evolved' - is the sister hub for the Cosmos network. Our aim is to materialize the vision of an inter-chain smart contract platform with super low fees and blazing fast speeds.
 
-{% tabs %}
-{% tab title="Guides" %}
 ### Validators
 
 {% page-ref page="validators/getting-setup.md" %}
@@ -31,22 +29,25 @@ Juno - 'Smart Contracts, Evolved' - is the sister hub for the Cosmos network. Ou
 {% page-ref page="smart-contracts/uploading-and-interacting.md" %}
 
 {% page-ref page="smart-contracts/creating-smart-contracts.md" %}
-{% endtab %}
 
-{% tab title="FAQs" %}
+#### Smart Contract ERC20 Tutorial
+
+{% page-ref page="smart-contracts/erc20-tutorial/introduction.md" %}
+
+### FAQ
+
 {% page-ref page="faqs/validator-faq.md" %}
 
 {% page-ref page="faqs/developer-faq.md" %}
 
 {% page-ref page="faqs/delegator-faq.md" %}
-{% endtab %}
 
-{% tab title="Misc" %}
+### Misc
+
 {% page-ref page="miscellaneous/community-channels.md" %}
 
 {% page-ref page="miscellaneous/more-info.md" %}
-{% endtab %}
-{% endtabs %}
+
 
 
 
