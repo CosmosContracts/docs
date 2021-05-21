@@ -9,19 +9,17 @@ Welcome to the documentation and user guides for [Juno](https://junochain.com), 
 Juno - 'Smart Contracts, Evolved' - is the sister hub for the Cosmos network. Our aim is to materialize the vision of an inter-chain smart contract platform with super low fees and blazing fast speeds.
 
 {% tabs %}
-{% tab title="Guides" %}
-### Validators
-
+{% tab title="Validators" %}
 {% page-ref page="validators/getting-setup.md" %}
 {% page-ref page="validators/joining-the-testnets.md" %}
 {% page-ref page="validators/mainnet.md" %}
+{% endtab %}
 
-### CLI
-
+{% tab title="CLI" %}
 {% page-ref page="command-line-interface/transactions.md" %}
+{% endtab %}
 
-### Smart Contracts
-
+{% tab title="Smart Contracts" %}
 {% page-ref page="smart-contracts/installation.md" %}
 {% page-ref page="smart-contracts/downloading-and-compiling-smart-contracts.md" %}
 {% page-ref page="smart-contracts/uploading-and-interacting.md" %}
