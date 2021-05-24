@@ -17,6 +17,8 @@ Choose another name rather than Poodle Coin/POOD, as this is likely already take
 
 To generate the JSON, you can use `jq`, or, if you're more familiar with JS/node, write a hash and encode it using the node CLI.
 
+This example uses the `node` REPL. If you have `node` installed, just type `node` in the terminal and hit enter to access it.
+
 ```js
 > const initHash = {
   name: "Poodle Coin",
@@ -37,10 +39,20 @@ To generate the JSON, you can use `jq`, or, if you're more familiar with JS/node
 
 ## Instantiate the contract
 
-Note also that the `--amount` is used to initialise the new account.
+Note also that the `--amount` is used to initialise the new account associated with the contract.
+
+In the example below, `6` is the value of `$CODE_ID`.
 
 ```sh
 junod tx wasm instantiate 6 \
+    '{"name":"Poodle Coin","symbol":"POOD","decimals":6,"initial_balances":[{"address":"<validator-self-delegate-address>","amount":"12345678000"}],"mint":{"minter":"<validator-self-delegate-address>","cap":"99900000000"}}' \
+    --amount=50000stake  --label "Poodlecoin erc20" --from <your-key> --chain-id=<chain-id> --gas auto -y
+```
+
+If you have set `$CODE_ID` in your shell, you can instead run:
+
+```sh
+junod tx wasm instantiate $CODE_ID \
     '{"name":"Poodle Coin","symbol":"POOD","decimals":6,"initial_balances":[{"address":"<validator-self-delegate-address>","amount":"12345678000"}],"mint":{"minter":"<validator-self-delegate-address>","cap":"99900000000"}}' \
     --amount=50000stake  --label "Poodlecoin erc20" --from <your-key> --chain-id=<chain-id> --gas auto -y
 ```
