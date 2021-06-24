@@ -13,8 +13,8 @@ Let's download the repo in which we collect [`cosmwasm-examples` \(opens new win
 git clone https://github.com/CosmWasm/cosmwasm-examples
 cd cosmwasm-examples
 git fetch
-git checkout escrow-0.7.0
-cd escrow
+git checkout escrow-0.10.0
+cd contracts/escrow
 
 # compile the wasm contract with stable toolchain
 rustup default stable
