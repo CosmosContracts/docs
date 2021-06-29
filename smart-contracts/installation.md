@@ -58,7 +58,7 @@ For those new to rust, the `stable` channel comes out every 6 weeks with a stabl
 
 ## wasmd
 
-`wasmd` is the backbone of CosmWasm platform. It is the implementation of a Cosmoszone with wasm smart contracts enabled.
+`wasmd` is the backbone of CosmWasm platform. It is the implementation of a Cosmoszone with wasm smart contracts enabled. Use this if you don't want to use Juno, but instead want a bleeding-edge version.
 
 This code was forked from the `cosmos/gaia` repository as a basis and then added x/wasm and cleaned up many gaia-specific files. However, the wasmd binary should function just like gaiad except for the addition of the x/wasm module.
 
@@ -81,13 +81,13 @@ wasmd version
 
 ## Using Juno Testnets 
 
-Testing network [https://github.com/CosmosContracts/Juno](https://github.com/CosmosContracts/Juno) is launched to save you of the hassle of running a local network and speed up your development.
+A Juno testnet [https://github.com/CosmosContracts/Juno](https://github.com/CosmosContracts/Juno) has been launched to save you of the hassle of running a local network and speed up your development.
 
-Use go 1.15 for compiling`junod`executable
+Use go 1.16.3 for compiling`junod`executable if you are building from source. If you already are running a validator node, it's likely `junod` is already accessible. If `which junod` shows output, then you're probably good to go.
 
 ```bash
 # clone wasmd repo
-git clone https://github.com/CosmWasm/wasmd.git && cd wasmd
+git clone https://github.com/CosmosContracts/juno.git && cd juno
 
 git checkout v0.15.1
 
