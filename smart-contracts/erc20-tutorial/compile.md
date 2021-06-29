@@ -14,8 +14,8 @@ We're going to grab the `cosmwasm-examples` repo and compile our chosen contract
 git clone https://github.com/CosmWasm/cosmwasm-examples
 cd cosmwasm-examples
 git fetch
-git checkout escrow-0.7.0 # this is a known working branch, even though we're not using escrow
-cd erc20
+git checkout v0.10.0 # current at time of writing
+cd contracts/erc20
 ```
 
 ## Compile
@@ -31,10 +31,10 @@ cargo wasm
 However, we want to create an optimised version to limit gas usage, so we're going to run:
 
 ```sh
-docker run --rm -v "$(pwd)":/code \
-  --mount type=volume,source="$(basename "$(pwd)")_cache",target=/code/target \
-  --mount type=volume,source=registry_cache,target=/usr/local/cargo/registry \
-  cosmwasm/rust-optimizer:0.10.7
+sudo docker run --rm -v "$(pwd)":/code \
+    --mount type=volume,source="$(basename "$(pwd)")_cache",target=/code/target \
+    --mount type=volume,source=registry_cache,target=/usr/local/cargo/registry \
+    cosmwasm/rust-optimizer:0.11.4
 ```
 
 This will result in an artifact called `cw_erc20.wasm` being created in the `artifacts` directory.
