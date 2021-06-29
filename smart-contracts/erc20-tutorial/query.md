@@ -25,3 +25,29 @@ junod tx wasm execute [contract_addr_bech32] [json_encoded_send_args] --amount [
 ```
 
 You can omit `--amount` if not needed.
+
+## Passing arguments
+
+As before, you can encode whatever JSON arguments you need via the node CLI (or another tool of your choice). But how do you know what arguments to use?
+
+Every contract specifies the arguments that can be used for each action exposed to `execute`. Their types are also specified.
+
+This specification, or spec, for short, can be found in the schema for the contract.
+
+In the folder `contracts/erc20` within `cosmwasm-examples`, for example, you can see the schemas:
+
+```sh
+tree schema
+
+schema
+├── allowance_response.json
+├── balance_response.json
+├── constants.json
+├── execute_msg.json
+├── instantiate_msg.json
+└── query_msg.json
+```
+
+Each of the JSON files above is a JSON schema, specifying the correct shape of JSON that it accepts.
+
+Even though it is your job as a developer to provide documentation to your users, at a bare minimum, the schema will enforce argument correctness and provide basic documentation to others.
