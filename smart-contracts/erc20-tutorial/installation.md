@@ -36,8 +36,6 @@ Use go 1.16.3 for compiling`junod`executable if you are building from source. If
 # clone wasmd repo
 git clone https://github.com/CosmosContracts/juno.git && cd juno
 
-git checkout v0.15.1
-
 # build wasmd executable
 make install
 
