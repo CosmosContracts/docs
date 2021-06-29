@@ -33,12 +33,11 @@ A Juno testnet [https://github.com/CosmosContracts/Juno](https://github.com/Cosm
 Use go 1.16.3 for compiling`junod`executable if you are building from source. If you already are running a validator node, it's likely `junod` is already accessible. If `which junod` shows output, then you're probably good to go.
 
 ```bash
-# clone wasmd repo
+# clone juno repo
 git clone https://github.com/CosmosContracts/juno.git && cd juno
 
-# build wasmd executable
+# build juno executable
 make install
-
 ```
 
 You will probably also want to ensure you have `jq` installed.

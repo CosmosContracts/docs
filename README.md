@@ -24,12 +24,6 @@ Juno - 'Smart Contracts, Evolved' - is the sister hub for the Cosmos network. Ou
 
 {% page-ref page="smart-contracts/installation.md" %}
 
-{% page-ref page="smart-contracts/downloading-and-compiling-smart-contracts.md" %}
-
-{% page-ref page="smart-contracts/uploading-and-interacting.md" %}
-
-{% page-ref page="smart-contracts/creating-smart-contracts.md" %}
-
 #### Smart Contract ERC20 Tutorial
 
 {% page-ref page="smart-contracts/erc20-tutorial/introduction.md" %}

@@ -19,11 +19,8 @@
 ## Smart Contracts
 
 * [Installation](smart-contracts/installation.md)
-* [Downloading and Compiling Smart Contracts](smart-contracts/downloading-and-compiling-smart-contracts.md)
-* [Uploading and Interacting](smart-contracts/uploading-and-interacting.md)
-* [Creating Smart Contracts](smart-contracts/creating-smart-contracts.md)
 
-### ERC20 Tutorial
+### Smart Contract ERC20 Tutorial
 
 * [Introduction](smart-contracts/erc20-tutorial/introduction.md)
 * [Installation](smart-contracts/erc20-tutorial/installation.md)
