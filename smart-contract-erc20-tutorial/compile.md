@@ -1,9 +1,11 @@
 ---
 order: 3
-description: Now we're going to download a contract, compile it, and upload it to the Juno chain.
+description: >-
+  Now we're going to download a contract, compile it, and upload it to the Juno
+  chain.
 ---
 
-# Download, compile and store
+# Download, Compile, Store
 
 ## Download
 
@@ -22,7 +24,7 @@ cd contracts/erc20
 
 We can compile our contract like so:
 
-```
+```text
 # compile the wasm contract with stable toolchain
 rustup default stable
 cargo wasm
@@ -30,7 +32,7 @@ cargo wasm
 
 However, we want to create an optimised version to limit gas usage, so we're going to run:
 
-```sh
+```bash
 sudo docker run --rm -v "$(pwd)":/code \
     --mount type=volume,source="$(basename "$(pwd)")_cache",target=/code/target \
     --mount type=volume,source=registry_cache,target=/usr/local/cargo/registry \
@@ -43,7 +45,7 @@ This will result in an artifact called `cw_erc20.wasm` being created in the `art
 
 You can now upload, or 'store' this to the chain via your local node.
 
-```sh
+```bash
 cd artifacts
 junod tx wasm store cw_erc20.wasm  --from <your-key> --chain-id=<chain-id> --gas auto
 ```
@@ -54,7 +56,7 @@ You will need to look in the output for this command for the code ID of the cont
 
 Alternatively, you can capture the output of the command run above, by doing these steps instead, and use the `jq` tool installed earlier to get the `code_id` value:
 
-```sh
+```bash
 cd artifacts
 RES=$(junod tx wasm store cw_erc20.wasm  --from <your-key> --chain-id=<chain-id> --gas auto -y)
 CODE_ID=$(echo $RES | jq -r '.logs[0].events[0].attributes[-1].value')
@@ -62,6 +64,7 @@ CODE_ID=$(echo $RES | jq -r '.logs[0].events[0].attributes[-1].value')
 
 You can now see this value with:
 
-```sh
+```bash
 echo $CODE_ID
 ```
+

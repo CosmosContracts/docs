@@ -107,9 +107,7 @@ WantedBy=multi-user.target
 
 {% hint style="info" %}
 1. If you are joining _after_ genesis, then `--home` should be set to the location of `.juno`. This is likely to be the default of `$HOME/.juno`
-
 2. This assumes `$HOME/go_workspace` to be your Go workspace. Your actual workspace directory may vary.
-
 3. The default port here is `26656` - this should be open via the server firewall and any external security measures \(e.g. AWS security group\)
 {% endhint %}
 

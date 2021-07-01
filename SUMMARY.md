@@ -20,13 +20,13 @@
 
 * [Installation](smart-contracts/installation.md)
 
-### Smart Contract ERC20 Tutorial
+## Smart Contract ERC20 Tutorial
 
-* [Introduction](smart-contracts/erc20-tutorial/introduction.md)
-* [Installation](smart-contracts/erc20-tutorial/installation.md)
-* [Download, Compile, Store](smart-contracts/erc20-tutorial/compile.md)
-* [Initialise the Contract](smart-contracts/erc20-tutorial/initialise.md)
-* [Query and run commands](smart-contracts/erc20-tutorial/query.md)
+* [Introduction](smart-contract-erc20-tutorial/introduction.md)
+* [Installation](smart-contract-erc20-tutorial/installation.md)
+* [Download, Compile, Store](smart-contract-erc20-tutorial/compile.md)
+* [Initialise the Contract](smart-contract-erc20-tutorial/initialise.md)
+* [Query and run commands](smart-contract-erc20-tutorial/query.md)
 
 ## FAQs
 
