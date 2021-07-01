@@ -17,3 +17,7 @@ There are four steps involved in working with a smart contract.
 4. Execute commands provided by the smart contract
 
 We will go through all of these in this tutorial.
+
+There is a video version available as well:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c3DDHobH3Ow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
