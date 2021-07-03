@@ -7,7 +7,7 @@ description: >-
 
 # Initialise the Contract
 
-Now we've uploaded the contract, we need to initialise it.
+Now we've uploaded the contract, now we need to initialise it.
 
 We're using the Poodle Coin example here - `$POOD` was the first meme coin deployed to a Juno testnet.
 

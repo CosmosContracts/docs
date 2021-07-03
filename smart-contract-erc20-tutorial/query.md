@@ -24,7 +24,13 @@ Using the commands supported by `execute` work the same way. The incantation for
 junod tx wasm execute [contract_addr_bech32] [json_encoded_send_args] --amount [coins,optional] [flags]
 ```
 
-You can omit `--amount` if not needed.
+You can omit `--amount` if not needed for `execute` calls.
+
+In this case, your command will look something like:
+
+```text
+junod tx wasm execute <contract-addr> '{"transfer":{"amount":"200","owner":"<validator-self-delegate-address>","recipient":"<recipient-address>"}}' --from <your-key> --chain-id <chain-id>
+```
 
 ## Passing arguments
 
