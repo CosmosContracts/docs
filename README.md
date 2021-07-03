@@ -2,7 +2,9 @@
 description: 'Welcome to Juno, where smart contracts have evolved.'
 ---
 
-# Introduction
+# Home
+
+![](.gitbook/assets/juno-image.png)
 
 Welcome to the documentation and user guides for [Juno](https://junochain.com), the decentralized, community-run smart contract platform.
 
@@ -27,6 +29,10 @@ Juno - 'Smart Contracts, Evolved' - is the sister hub for the Cosmos network. Ou
 ### Smart Contract ERC20 Tutorial
 
 {% page-ref page="smart-contract-erc20-tutorial/introduction.md" %}
+
+### Smart Contract CW1 Tutorial \(CosmWasm Plus\)
+
+{% page-ref page="smart-contract-cw1-tutorial/introduction.md" %}
 
 ## FAQ
 
