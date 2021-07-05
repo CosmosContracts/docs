@@ -15,5 +15,9 @@ As before, this will take four steps. Unlike before, we have more options for ex
    3. See tokens arrive at key \(C\)
    4. See allowance decrease for key \(B\)
 
+There is a video available that walks through the steps in this tutorial:
+
+{% embed url="https://youtu.be/9yDaCklWlU0" %}
+
 
 
