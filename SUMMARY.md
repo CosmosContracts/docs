@@ -11,6 +11,7 @@
 * [Getting Setup](validators/getting-setup.md)
 * [Joining The Testnets](validators/joining-the-testnets.md)
 * [Mainnet](validators/mainnet.md)
+* [Setting up Cosmovisor](validators/setting-up-cosmovisor.md)
 
 ## Command-Line Interface
 

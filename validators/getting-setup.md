@@ -4,11 +4,13 @@ description: 'Smart Contracts, Evolved!'
 
 # Getting Setup
 
-Welcome To The _Wild West_
+Welcome To The _Wild West_ 🤠
 
 So you want to get your hands dirty and become a validator?
 
-The best way for you to learn the tools of the trade is to join a Juno testnet. Here you will run into real-world issues, learning how to overcome them. This will prepare you for the experience of running a validator, and dealing with production dangers and bugs. Now is the time to battle harden your validator!
+The best way for you to learn the tools of the trade is to join a Juno testnet. Here you will run into real-world issues, learning how to overcome them. 
+
+This will prepare you for the experience of running a validator, and dealing with production dangers and bugs. Now is the time to battle harden your validator!
 
 {% hint style="info" %}
 Testnets come and go, so to find out which is the latest, please go to our discord validator-lounge channel: [Discord-Validator-Lounge](https://discord.gg/QcWPfK4gJ2%20)
@@ -22,7 +24,9 @@ Testnets come and go, so to find out which is the latest, please go to our disco
 * 1.4 GHz CPU
 {% endhint %}
 
-Feel ready to get started?, let's get moving and install starport:
+
+
+Feel ready to get started? Okay, let's get moving and install starport:
 
 > Starport is the easiest way to build a blockchain. It is a developer-friendly interface to the [Cosmos SDK](https://github.com/cosmos/cosmos-sdk), the world's most widely-used blockchain application framework. Starport generates boilerplate code for you, so you can focus on writing business logic.
 
