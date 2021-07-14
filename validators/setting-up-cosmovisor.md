@@ -9,6 +9,10 @@ description: >-
 
 Setting up Cosmovisor is relatively straightforward. However, it does expect certain environment variables and folder structure to be set.
 
+Cosmovisor allows you to download binaries ahead of time for chain upgrades, meaning that you can do zero \(or close to zero\) downtime chain upgrades. It's also useful if your local timezone means that a chain upgrade will fall at a bad time.
+
+Rather than having to do stressful ops tasks late at night, it's always better if you can automate them away, and that's what Cosmovisor tries to do.
+
 ## Install
 
 First, go and get cosmovisor \(recommended approach\):
