@@ -154,6 +154,12 @@ sudo -S systemctl enable cosmovisor
 sudo systemctl start cosmovisor
 ```
 
+Check it is running using:
+
+```text
+sudo systemctl status cosmovisor
+```
+
 If you need to monitor it after launch, you can view the logs using:
 
 ```bash
