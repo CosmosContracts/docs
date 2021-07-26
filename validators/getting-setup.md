@@ -24,11 +24,21 @@ Testnets come and go, so to find out which is the latest, please go to our disco
 * 1.4 GHz CPU
 {% endhint %}
 
+## Ubuntu 18.04 - setup
 
+### Install pre-requisites
 
-Feel ready to get started? Okay, let's get moving and install starport:
+```bash
+sudo apt-get update
+sudo apt-get install make build-essential gcc git git-lfs jq -yqq 
+git lfs install --skip-repo
+```
 
-> Starport is the easiest way to build a blockchain. It is a developer-friendly interface to the [Cosmos SDK](https://github.com/cosmos/cosmos-sdk), the world's most widely-used blockchain application framework. Starport generates boilerplate code for you, so you can focus on writing business logic.
+### Install Go
+
+Follow the instructions [here](https://golang.org/doc/install) to install Go.
+
+### Install Starport
 
 **Prerequisites:** If you want to install Starport locally, make sure to have [Golang &gt;=1.16](https://golang.org/). The latest version of Starport also requires [Protocol Buffer compiler](https://grpc.io/docs/protoc-installation/) to be installed. [Node.js &gt;=12.19.0](https://nodejs.org/) is used to build the welcome screen, block explorer and to run the web scaffold.
 
@@ -45,7 +55,7 @@ export GO111MODULE=on
 export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin
 ```
 
-> Now lets build and install `starport` binary into `$GOBIN`.
+> Now build the `starport` binary into `$GOBIN`.
 
 ```bash
 git clone https://github.com/tendermint/starport
@@ -63,21 +73,4 @@ export GOPATH=~/go
 {% hint style="danger" %}
 It is up to you as a validator to secure your server, and to keep it secure. Failure to do so could have dire consequences! Testnets are an ideal place to learn the basics of securing your validator. At a minimum, you should read and understand [these](https://hub.cosmos.network/main/validators/security.html) basics. Another good article on general best practices is [here](https://www.digitalocean.com/community/tutorials/recommended-security-measures-to-protect-your-servers).
 {% endhint %}
-
-## Ubuntu 18.04 - setup
-
-### Install Go
-
-```bash
-$ nano setup.sh
-```
-
-```bash
-# Install python and make upgrade
-sudo apt-get upgrade -y
-sudo apt-get update -y
-sudo apt install ntp -y
-sudo apt-get install -y supervisor jq
-sudo apt install -y git gcc make
-```
 
