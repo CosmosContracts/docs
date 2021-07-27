@@ -1,6 +1,6 @@
 ---
 description: >-
-  In this section, we will gear up your workspace for developing, deploying and,
+  In this section, we will gear up your workspace for developing, deploying and
   enjoying smart contracts on Cosmos SDK.
 ---
 
