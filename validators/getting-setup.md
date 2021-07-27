@@ -74,3 +74,27 @@ export GOPATH=~/go
 It is up to you as a validator to secure your server, and to keep it secure. Failure to do so could have dire consequences! Testnets are an ideal place to learn the basics of securing your validator. At a minimum, you should read and understand [these](https://hub.cosmos.network/main/validators/security.html) basics. Another good article on general best practices is [here](https://www.digitalocean.com/community/tutorials/recommended-security-measures-to-protect-your-servers).
 {% endhint %}
 
+## Build Juno from source
+
+```bash
+git clone https://github.com/CosmosContracts/Juno.git
+cd juno
+git fetch
+git checkout <current-testnet-tag>
+```
+
+If you don't know what the current testnet is, then jump into the discord and ask!
+
+Once you're on the correct tag, you can build:
+
+```bash
+# in juno dir
+make install
+```
+
+To confirm that the installation has succeeded, you can run:
+
+```bash
+junod version
+```
+
