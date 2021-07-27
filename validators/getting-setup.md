@@ -38,15 +38,7 @@ git lfs install --skip-repo
 
 Follow the instructions [here](https://golang.org/doc/install) to install Go.
 
-### Install Starport
-
-**Prerequisites:** If you want to install Starport locally, make sure to have [Golang &gt;=1.16](https://golang.org/). The latest version of Starport also requires [Protocol Buffer compiler](https://grpc.io/docs/protoc-installation/) to be installed. [Node.js &gt;=12.19.0](https://nodejs.org/) is used to build the welcome screen, block explorer and to run the web scaffold.
-
-{% hint style="info" %}
-Starport uses [Git LFS](https://git-lfs.github.com/). **Please make sure that it is installed before cloning Starport.** If you have installed Git LFS after cloning Starport, checkout to your preferred branch to trigger a pull for large files or run **`git lfs pull`**
-{% endhint %}
-
-You need to ensure your gopath configuration is correct. If the following **'make'** step does not work then you might have to add these lines to your .profile or .zshrc in the user's home \(i.e. `~` or `$HOME`\) folder:
+If you are in any way unsure about how to configure Go, then set these in the `.profile` in the user's home \(i.e. `~`\) folder.
 
 ```bash
 export GOROOT=/usr/local/go
@@ -55,7 +47,15 @@ export GO111MODULE=on
 export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin
 ```
 
-> Now build the `starport` binary into `$GOBIN`.
+### Install Starport
+
+**Prerequisites:** If you want to install Starport locally, make sure to have [Golang &gt;=1.16](https://golang.org/). The latest version of Starport also requires [Protocol Buffer compiler](https://grpc.io/docs/protoc-installation/) to be installed. [Node.js &gt;=12.19.0](https://nodejs.org/) is used to build the welcome screen, block explorer and to run the web scaffold.
+
+{% hint style="info" %}
+Starport uses [Git LFS](https://git-lfs.github.com/). **Please make sure that it is installed before cloning Starport.** If you have installed Git LFS after cloning Starport, checkout to your preferred branch to trigger a pull for large files or run **`git lfs pull`**
+{% endhint %}
+
+Now build the `starport` binary into `$GOBIN` -
 
 ```bash
 git clone https://github.com/tendermint/starport
@@ -63,12 +63,7 @@ cd starport && git checkout develop
 make
 ```
 
-**Note**: When building from source, it is important to have your `$GOPATH` set correctly. When in doubt, the following should do:
-
-```bash
-mkdir ~/go
-export GOPATH=~/go
-```
+You need to ensure your gopath configuration is correct. If the **'make'** steps for either Starport or Juno do not work then you might have to add the lines above from the 'Install Go' section to your .profile or .zshrc in the user's home \(i.e. `~` or `$HOME`\) folder.
 
 {% hint style="danger" %}
 It is up to you as a validator to secure your server, and to keep it secure. Failure to do so could have dire consequences! Testnets are an ideal place to learn the basics of securing your validator. At a minimum, you should read and understand [these](https://hub.cosmos.network/main/validators/security.html) basics. Another good article on general best practices is [here](https://www.digitalocean.com/community/tutorials/recommended-security-measures-to-protect-your-servers).
