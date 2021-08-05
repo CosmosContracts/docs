@@ -8,6 +8,8 @@ description: Time to Connect!
 **IMPORTANT: Be sure to run the following on the machine you'll use for the testnet.** 🙇
 {% endhint %}
 
+If you're joining after genesis, then skip to [joining after genesis](joining-the-testnets.md#joining-after-genesis). Also note that the `lucina` testnet does not use Starport, so you should follow instructions [here](https://github.com/CosmosContracts/testnets).
+
 ## **Joining as a Validator**
 
 {% hint style="info" %}
@@ -152,7 +154,7 @@ In early testnets, the denom will be `stake`. In later ones it will be `ujuno`
 
 **2. Get Genesis and set peers**
 
-Set seed nodes and get a valid Genesis file.
+Set seed nodes and get a valid Genesis file. The genesis can be found in the [testnets repo on Github](https://github.com/CosmosContracts/testnets).
 
 Genesis should go in:
 
