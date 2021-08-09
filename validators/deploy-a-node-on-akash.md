@@ -2,7 +2,7 @@
 description: A detailed guide to deploy a Juno node on Akash decentralised cloud
 ---
 
-# Deploy a Juno Node on Akash
+# Deploy a Node on Akash
 
 ## Introduction
 

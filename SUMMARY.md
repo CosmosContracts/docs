@@ -12,7 +12,7 @@
 * [Joining The Testnets](validators/joining-the-testnets.md)
 * [Mainnet](validators/mainnet.md)
 * [Setting up Cosmovisor](validators/setting-up-cosmovisor.md)
-* [Deploy a Juno Node on Akash](validators/deploy-a-juno-node-on-akash.md)
+* [Deploy a Node on Akash](validators/deploy-a-node-on-akash.md)
 
 ## Command-Line Interface
 
