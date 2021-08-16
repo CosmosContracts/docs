@@ -8,7 +8,7 @@ description: The slashing module can unjail your validator
 
 | Name | Description |
 | :--- | :--- |
-| [unjail](https://www.irisnet.org/docs/cli-client/slashing.html#iris-tx-slashing-unjail) | Unjail validator previously jailed for downtime or double-sign. |
+| [unjail](cli-slashing.md#junod-tx-slashing-unjail) | Unjail validator previously jailed for downtime or double-sign. |
 
 ### junod tx slashing unjail
 
