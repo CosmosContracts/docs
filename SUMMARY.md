@@ -14,8 +14,22 @@
 * [Setting up Cosmovisor](validators/setting-up-cosmovisor.md)
 * [Deploy a Node on Akash](validators/deploy-a-node-on-akash.md)
 
-## Command-Line Interface
+## Command-Line Interface \(CLI\) <a id="command-line-interface"></a>
 
+* [Introduction](command-line-interface/cli-introduction.md)
+* [bank](command-line-interface/cli-bank.md)
+* [debug](command-line-interface/cli-debug.md)
+* [distribution](command-line-interface/cli-distribution.md)
+* [gov](command-line-interface/cli-gov.md)
+* [keys](command-line-interface/cli-keys.md)
+* [params](command-line-interface/cli-params.md)
+* [slashing](command-line-interface/cli-slashing.md)
+* [staking](command-line-interface/cli-staking.md)
+* [status](command-line-interface/cli-status.md)
+* [tendermint](command-line-interface/cli-tendermint.md)
+* [tx](command-line-interface/cli-tx.md)
+* [upgrade](command-line-interface/cli-upgrade.md)
+* [wasm](command-line-interface/cli-wasm.md)
 * [Transactions](command-line-interface/transactions.md)
 
 ## Smart Contracts
