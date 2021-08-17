@@ -8,11 +8,20 @@ description: 'Welcome to Juno, where smart contracts have evolved.'
 
 
 
+The Juno docs describe the Juno open source project, a blockchain built for scale.
 
+The network architecture goes on to satisfy all three desirable properties of a proper blockchain: it is scalable, secure and decentralized.
 
-Welcome to the documentation and user guides for [Juno](https://junochain.com), the decentralized, community-run smart contract platform.
+Built using the most widely adopted blockchain framework, the Cosmos SDK and utilizing Tendermint BFT consensus.
 
-Juno - 'Smart Contracts, Evolved' - is the sister hub for the Cosmos network. Our aim is to materialize the vision of an inter-chain smart contract platform with super low fees and blazing fast speeds.
+**Why Juno?**
+
+Deploy apps thats scale!
+
+Benefit from an open source platform for interoperable smart contracts which automatically executes, controls or documents a procedure of relevant events and actions according to the terms of such contract or agreement to be valid & usable across multiple sovereign networks.
+
+Juno as a sovereign public blockchain in the Cosmos ecosystem, aims to provide a sandbox environment for the deployment of such interoperable smart contracts. The network serves as a decentralized, permissionless & censorship resistant avenue for developers to efficiently and securely launch application specific smart contracts using proven frameworks and compile them in various languages Rust & Go with the potential future addition of C and C++ 
+Battle tested contract modules such as CosmWasm, allow for decentralized applications (dapps) to be compiled on robust and secure multi-chain smart contracts.
 
 ## Validators
 
