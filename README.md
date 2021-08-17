@@ -4,7 +4,8 @@ description: 'Welcome to Juno, where smart contracts have evolved.'
 
 # Home
 
-![](.gitbook/assets/juno-image.png)
+![JUNOVERSE 5](https://user-images.githubusercontent.com/79812965/129765030-ac5367f2-11f5-4fbc-9486-7801204130d0.png)
+
 
 Welcome to the documentation and user guides for [Juno](https://junochain.com), the decentralized, community-run smart contract platform.
 
