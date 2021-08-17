@@ -21,7 +21,7 @@ Deploy apps thats scale!
 
 Benefit from an open source platform for interoperable smart contracts which automatically executes, controls or documents a procedure of relevant events and actions according to the terms of such contract or agreement to be valid & usable across multiple sovereign networks.
 
-Juno as a sovereign public blockchain in the Cosmos ecosystem, aims to provide a sandbox environment for the deployment of such interoperable smart contracts. The network serves as a decentralized, permissionless & censorship resistant avenue for developers to efficiently and securely launch application specific smart contracts using proven frameworks and compile them in various languages Rust & Go with the potential future addition of C and C++ 
+Juno as a sovereign public blockchain in the Cosmos ecosystem, aims to provide a sandbox environment for the deployment of such interoperable smart contracts. The network serves as a decentralized, permissionless & censorship resistant avenue for developers to efficiently and securely launch application specific smart contracts using proven frameworks and compile them in various languages Rust & Go.
 Battle tested contract modules such as CosmWasm, allow for decentralized applications (dapps) to be compiled on robust and secure multi-chain smart contracts.
 
 ## Validators
