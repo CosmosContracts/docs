@@ -4,7 +4,8 @@ description: 'Welcome to Juno, where smart contracts have evolved.'
 
 # Home
 
-![-](https://user-images.githubusercontent.com/79812965/129765354-5cc81b60-df3b-4ce4-af67-3f9e9496167f.png)
+![JUNO BANNER](https://user-images.githubusercontent.com/79812965/129765622-38997a7f-2848-4bf5-af65-7f5cd9b4b3ad.png)
+
 
 
 
