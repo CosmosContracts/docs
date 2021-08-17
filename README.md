@@ -1,5 +1,5 @@
 ---
-description: 'Welcome to Juno, where smart contracts have evolved.'
+description: 'Build Apps that Scale.'
 ---
 
 # Home
