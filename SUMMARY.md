@@ -4,7 +4,7 @@
 
 ## Juno
 
-* [Origins](juno/origins.md)
+* [Introduction](juno/origins.md)
 
 ## Validators
 

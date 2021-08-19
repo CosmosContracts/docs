@@ -1,13 +1,10 @@
 ---
-description: 'Build Apps that Scale.'
+description: Build Apps that Scale.
 ---
 
 # Home
 
 ![-](https://user-images.githubusercontent.com/79812965/129795919-4a521d03-26ea-4cfe-a153-82658cbd2923.png)
-
-
-
 
 The Juno docs describe the Juno open source project, a blockchain built for scale.
 
@@ -21,8 +18,7 @@ Deploy apps thats scale!
 
 Benefit from an open source platform for interoperable smart contracts which automatically executes, controls or documents a procedure of relevant events and actions according to the terms of such contract or agreement to be valid & usable across multiple sovereign networks.
 
-Juno as a sovereign public blockchain in the Cosmos ecosystem, aims to provide a sandbox environment for the deployment of such interoperable smart contracts. The network serves as a decentralized, permissionless & censorship resistant avenue for developers to efficiently and securely launch application specific smart contracts using proven frameworks and compile them in various languages Rust & Go.
-Battle tested contract modules such as CosmWasm, allow for decentralized applications (dapps) to be compiled on robust and secure multi-chain smart contracts.
+Juno as a sovereign public blockchain in the Cosmos ecosystem, aims to provide a sandbox environment for the deployment of such interoperable smart contracts. The network serves as a decentralized, permissionless & censorship resistant avenue for developers to efficiently and securely launch application specific smart contracts using proven frameworks and compile them in various languages Rust & Go. Battle tested contract modules such as CosmWasm, allow for decentralized applications \(dapps\) to be compiled on robust and secure multi-chain smart contracts.
 
 ## Validators
 
