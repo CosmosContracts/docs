@@ -2,7 +2,7 @@
 description: Build Apps that Scale.
 ---
 
-# Home
+# Junø - Documentation
 
 The Juno docs describe the Juno open source project, a blockchain built for scale.
 

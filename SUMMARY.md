@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Home](README.md)
+* [Junø - Documentation](README.md)
 
 ## Juno
 
