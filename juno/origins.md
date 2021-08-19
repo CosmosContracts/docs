@@ -10,6 +10,7 @@ The chain is built using the Starport framework and agreement on the network is 
 
 $Juno, the native asset of the network, serves as a work token to give access to on chain governance, security of the blockchain and to provide utility in the deployment and execution of smart contracts.
 
-![Juno Logo Red Square PNG (1)](https://user-images.githubusercontent.com/79812965/129767846-804c4489-03d2-4d17-91d8-83a04faec353.png)
+![- (2)](https://user-images.githubusercontent.com/79812965/130063483-9030b78a-9f11-49cd-a005-7f8306b53590.png)
+
 
 
