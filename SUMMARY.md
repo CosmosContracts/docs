@@ -4,7 +4,7 @@
 
 ## Juno
 
-* [Introduction](juno/origins.md)
+* [Introduction](juno/juno-interoperable-smart-contracts.md)
 
 ## Validators
 
