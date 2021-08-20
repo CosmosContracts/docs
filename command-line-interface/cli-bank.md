@@ -50,7 +50,7 @@ junod query bank total [flags]
 Sending tokens to another address, this command includes `generate`, `sign` and `broadcast` steps.
 
 ```text
-junod tx bank send [from_key_or_address] [to_address] [amount] [flags]
+iris tx bank send [from_key_or_address] [to_address] [amount] [flags]
 ```
 
 **Flags:**

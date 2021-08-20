@@ -5,6 +5,9 @@
 ## Juno
 
 * [Introduction](juno/juno-interoperable-smart-contracts.md)
+* [Origin](juno/origin.md)
+* [Economic Overview](juno/economic-overview.md)
+* [Incentive Structure](juno/incentive-structure.md)
 
 ## Validators
 
