@@ -10,9 +10,9 @@ Junø is an open source platform for interoperable smart contracts which automat
 
 **Why Juno?**
 
-Juno as a **sovereign public blockchain** in the Cosmos ecosystem, aims to provide an environment for the deployment of interoperable smart contracts. The network serves as a **decentralized, permissionless & censorship resistant** avenue for developers to efficiently and securely launch application specific smart contracts using proven frameworks and compile them in various languages **Rust & Go.**
+Juno as a **sovereign public blockchain** in the Cosmos ecosystem, aims to provide an environment for the deployment of interoperable smart contracts. The network serves as a **decentralized, permissionless & censorship resistant** avenue for developers to efficiently and securely launch smart contracts using proven frameworks and compile them in various languages **Rust & Go.**
 
-Battle tested contract modules such as CosmWasm, will allow for decentralized applications \(dapps\) to be compiled on robust and secure multi-chain smart contracts. EVM support and additional specialized modules to be introduced after genesis subject to onchain governance.
+Battle tested contract modules such as CosmWasm, allow for decentralized applications \(dapps\) to be compiled on robust and secure multi-chain smart contracts. EVM support and additional specialized modules are to be introduced after genesis and are subject to onchain governance.
 
 **What is IBC?**
 
