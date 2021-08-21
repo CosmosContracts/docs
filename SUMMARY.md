@@ -6,7 +6,7 @@
 
 * [Introduction](juno/juno-interoperable-smart-contracts.md)
 * [Origin](juno/origin.md)
-* [Economics](juno/economic-overview/README.md)
+* [Economic Overview](juno/economic-overview/README.md)
   * [Asset](juno/economic-overview/asset.md)
   * [Incentive structure](juno/economic-overview/incentive-structure.md)
 
