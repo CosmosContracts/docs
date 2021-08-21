@@ -1,2 +1,0 @@
-# Incentive Structure
-

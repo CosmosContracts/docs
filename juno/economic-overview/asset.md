@@ -4,7 +4,7 @@ description: JUNO
 
 # Asset
 
-JUNO, the native asset of the network carries a variety of use cases within the ecosystem, including **securing the proof of stake network**, **key to on-chain governance**, act as **transport fuel for all interoperable smart contracts** deployed in the ecosystem, **collateral** in various smart contract usecases and **work token** to capture value from dapps built on top of JUNO.
+JUNO the native asset of the network carries a variety of use cases within the ecosystem, including **securing the proof of stake network**, **key to on-chain governance**, act as **transport fuel for all interoperable smart contracts** deployed in the ecosystem, **collateral** in various smart contract usecases and **work token** to capture value from dapps built on top of JUNO.
 
 ### **Supply breakdown** <a id="bf63"></a>
 
