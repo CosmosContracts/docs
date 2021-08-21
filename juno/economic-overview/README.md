@@ -2,7 +2,7 @@
 
 Juno´s economic system is designed to foster a self-sustaining economy were incentives are aligned to drive security and decentralization of the Juno Network. 
 
-Participants in this economy include developers, validators and delegators.
+Participants in this economy include validators and delegators.
 
 The network incentive structures is pre-set in the Juno Protocol at genesis but subject to change based on the flexible evolution of the economy. All changes to the structure can be voted in or out by Juno delegators and validators. Not only does the native asset secure the network but gives onchain governance voting rights.
 
