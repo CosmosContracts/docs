@@ -20,6 +20,8 @@ JUNO, the native asset of the network carries a variety of use cases within the 
 
 ⚪️ **Core** **Development Reserve** \(Multi-sig\): 11.866.708 $JUNO \(70.83% tb. staked and inflation used to fund core development, 16.67% allocated to smart contract challenges & ecosystem growth initiatives, 12.5% vested for 12 years\)
 
+![](../../.gitbook/assets/image.png)
+
 
 
 
