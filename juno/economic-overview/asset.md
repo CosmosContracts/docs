@@ -4,7 +4,7 @@ JUNO, the native asset of the network carries a variety of use cases within the 
 
 ![](../../.gitbook/assets/genesis-supply-pie-2-%20%283%29.png)
 
-**Supply breakdown**
+**Genesis Supply Breakdown**
 
 ⚪️ Community **Stakedrop**: 30.663.193 $JUNO
 
