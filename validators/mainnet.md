@@ -2,7 +2,7 @@
 description: "It's \U0001F680 time!"
 ---
 
-# Mainnet
+# Mainnet Setup and Tooling
 
 All of the hard work of the community has paid off, and now it's time to take the network live. Preparing your validator for mainnet involves a few extra considerations. They are detailed below, but a sensible checklist is:
 

@@ -12,11 +12,12 @@
 
 ## Validators
 
-* [Getting Setup](validators/getting-setup.md)
+* [Installation and setup](validators/getting-setup.md)
+* [Mainnet Setup and Tooling](validators/mainnet.md)
 * [Joining The Testnets](validators/joining-the-testnets.md)
-* [Mainnet](validators/mainnet.md)
+* [Joining Mainnet](validators/joining-mainnet.md)
 * [Setting up Cosmovisor](validators/setting-up-cosmovisor.md)
-* [Deploy a Node on Akash](validators/deploy-a-node-on-akash.md)
+* [Deploying a Node on Akash](validators/deploy-a-node-on-akash.md)
 
 ## Command-Line Interface \(CLI\) <a id="command-line-interface"></a>
 

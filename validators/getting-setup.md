@@ -2,7 +2,7 @@
 description: 'Smart Contracts, Evolved!'
 ---
 
-# Getting Setup
+# Installation and setup
 
 Welcome To The _Wild West_ 🤠
 
