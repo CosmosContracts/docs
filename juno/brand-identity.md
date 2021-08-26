@@ -6,3 +6,9 @@
 
 {% file src="../.gitbook/assets/juno-symbol.svg" caption="Juno Symbol \(SVG\)" %}
 
+**Color Identity**
+
+Primary Color**:** f0827dff
+
+![](../.gitbook/assets/juno-primary-color.png)
+
