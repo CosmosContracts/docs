@@ -16,9 +16,17 @@ Delegator Set Size: Unlimited
 
 Governance: On-chain
 
-Available Supply at Genesis: 64.903.243 $JUNO‌
+Unbonding duration: 28 days
 
-Locked at Genesis: None
+Minimum stake amount: None
 
-Max Supply: 
+Soft slash: 0.1% slash after 5000 missed blocks
+
+Hard slash: 5% slash for double sign
+
+Available Supply at Genesis: 53.036.535 $JUNO
+
+Vested at Genesis: 11.866.708 $JUNO
+
+Max Supply: 185.562.268 $JUNO
 
