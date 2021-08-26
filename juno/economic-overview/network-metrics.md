@@ -16,5 +16,9 @@ Delegator Set Size: Unlimited
 
 Governance: On-chain
 
-Supply at Genesis: 
+Available Supply at Genesis: 64.903.243 $JUNO‌
+
+Locked at Genesis: None
+
+Max Supply: 
 
