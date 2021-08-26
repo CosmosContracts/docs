@@ -8,7 +8,7 @@ Juno originates from a **community driven initiative**, prompted by dozens of de
 
 Some of the founding principles center around:
 
-⚪️ Inception of the worlds first interoperable smart contract network
+⚪️ Inception of the worlds first designated interoperable smart contract network
 
 ⚪️ Eliminating common smart contract L1 bottlenecks \(Scalability, interoperability, high fees, easy of use, concentrated governance control\)
 
