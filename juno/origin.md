@@ -14,7 +14,7 @@ Some of the founding principles center around:
 
 ⚪️ **Sister Hub to the Cosmos Hub** \(Preserving the neutrality of the Hub by offloading smart contract usage/congestion to a designated contract zone\)
 
-⚪️ **Governance by ATOM stakers which become JUNO stakers**.. 47% of the genesis supply goes to ATOM stakers on a 1:1 basis.
+⚪️ **Governance by ATOM stakers which become JUNO stakers**. Stakedrop where 47% of the genesis supply goes to ATOM stakers on a 1:1 basis.
 
 ⚪️ Commitment to utilize **shared security from the Cosmos Hub** once available.
 
