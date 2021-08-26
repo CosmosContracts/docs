@@ -24,7 +24,7 @@ Soft slash: 0.1% slash after 5000 missed blocks
 
 Hard slash: 5% slash for double sign
 
-Available Supply at Genesis: 53.036.535 $JUNO
+Circulating Supply at Genesis: 33.036.534 $JUNO
 
 Vested at Genesis: 11.866.708 $JUNO
 
