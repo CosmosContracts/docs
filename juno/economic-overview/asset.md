@@ -18,7 +18,7 @@ JUNO, the native asset of the network carries a variety of use cases within the 
 ⚪️ **Core Team** \(Vested 12 years\): 1.483.338 $JUNO
 
   
-✅ Circulating Supply at Genesis: 33.036.535 $JUNO 
+✅ Circulating Supply at Genesis: 33.036.534 $JUNO 
 
 ✅ Vested at Genesis: 11.866.708 $JUNO 
 
