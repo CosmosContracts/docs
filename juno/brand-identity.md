@@ -4,6 +4,8 @@
 
 {% file src="../.gitbook/assets/juno-logo-half-moon-white- \(1\).svg" caption="Juno Half Moon - White \(SVG\)" %}
 
+{% file src="../.gitbook/assets/juno-logo-half-moon-white- \(1\).png" caption="Juno Half Moon - White \(PNG\)" %}
+
 {% file src="../.gitbook/assets/juno-text-logo.svg" caption="Juno Text Logo \(SVG\)" %}
 
 {% file src="../.gitbook/assets/juno-symbol.svg" caption="Juno Symbol \(SVG\)" %}
@@ -11,8 +13,6 @@
 {% file src="../.gitbook/assets/juno-logo-half-moon \(1\).png" caption="Juno Moon Logo Banner - Red \(PNG\)" %}
 
 {% file src="../.gitbook/assets/juno-logo-half-moon-white-.png" caption="Juno Moon Logo Banner - White \(PNG\)" %}
-
-{% file src="../.gitbook/assets/juno-logo-half-moon-white- \(1\).png" caption="Juno Half Moon - White \(PNG\)" %}
 
 \*\*\*\*
 
