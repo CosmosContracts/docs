@@ -12,6 +12,10 @@
 
 {% file src="../.gitbook/assets/juno-logo-half-moon-white-.png" caption="Juno Moon Logo Banner - White \(PNG\)" %}
 
+{% file src="../.gitbook/assets/juno-logo-half-moon-white- \(1\).png" caption="Juno Half Moon - White \(PNG\)" %}
+
+\*\*\*\*
+
 **Color Identity**
 
 Primary Color**:** f0827dff
