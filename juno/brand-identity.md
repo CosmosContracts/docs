@@ -2,11 +2,11 @@
 
 **Assets**
 
+{% file src="../.gitbook/assets/juno-logo-half-moon-white- \(1\).svg" caption="Juno Half Moon - White \(SVG\)" %}
+
 {% file src="../.gitbook/assets/juno-text-logo.svg" caption="Juno Text Logo \(SVG\)" %}
 
 {% file src="../.gitbook/assets/juno-symbol.svg" caption="Juno Symbol \(SVG\)" %}
-
-{% file src="../.gitbook/assets/juno-logo-half-moon-white- \(1\).svg" caption="Juno Half Moon - White \(SVG\)" %}
 
 \*\*\*\*
 
