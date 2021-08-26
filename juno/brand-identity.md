@@ -6,6 +6,10 @@
 
 {% file src="../.gitbook/assets/juno-symbol.svg" caption="Juno Symbol \(SVG\)" %}
 
+{% file src="../.gitbook/assets/juno-logo-half-moon-white- \(1\).svg" caption="Juno Half Moon - White \(SVG\)" %}
+
+\*\*\*\*
+
 **Color Identity**
 
 Primary Color**:** f0827dff
