@@ -1,5 +1,7 @@
 # Network Metrics
 
+![](../.gitbook/assets/juno-logo-half-moon.png)
+
 Ticker: JUNO
 
 Network: JUNO
