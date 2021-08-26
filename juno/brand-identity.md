@@ -8,7 +8,9 @@
 
 {% file src="../.gitbook/assets/juno-symbol.svg" caption="Juno Symbol \(SVG\)" %}
 
-\*\*\*\*
+{% file src="../.gitbook/assets/juno-logo-half-moon \(1\).png" caption="Juno Moon Logo Banner - Red \(PNG\)" %}
+
+{% file src="../.gitbook/assets/juno-logo-half-moon-white-.png" caption="Juno Moon Logo Banner - White \(PNG\)" %}
 
 **Color Identity**
 
