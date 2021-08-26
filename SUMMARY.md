@@ -9,6 +9,7 @@
 * [Economic Overview](juno/economic-overview/README.md)
   * [Asset \(JUNO\)](juno/economic-overview/asset.md)
   * [Incentive structure](juno/economic-overview/incentive-structure.md)
+* [Brand Identity](juno/brand-identity.md)
 
 ## Validators
 
