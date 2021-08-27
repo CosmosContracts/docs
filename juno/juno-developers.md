@@ -1,4 +1,4 @@
-# Juno Developers
+# Dev Ops
 
 **Core Development**
 
