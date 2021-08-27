@@ -14,7 +14,7 @@ Jack Zampolin \(Strangelove Ventures\) [https://twitter.com/jack\_zampolin](http
 
 
 
-**Dapp/Infrastructure/Tooling Developers**
+**Dapp/Infrastructure/Tooling Developers & Active Contributors**
 
 Jacob Gadikian \(Notional\) [https://twitter.com/gadikian](https://twitter.com/gadikian)
 
@@ -41,6 +41,10 @@ Zaki Manian \(Iqlusion\) [https://twitter.com/zmanian](https://twitter.com/zmani
 Wabam \(SpacePotatoe\) @spacepotayto
 
 Eliot Baker \(elgorithm\) elgorithm\#0574
+
+Nonsencecode nonsensetwice\#3475
+
+
 
 
 
