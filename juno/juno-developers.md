@@ -20,13 +20,17 @@ Jacob Gadikian \(Notional\) [https://twitter.com/gadikian](https://twitter.com/g
 
 Giansalex \(Disperze\) [https://twitter.com/giansalex](https://twitter.com/giansalex)
 
-Alex Lynham \(Confio\) @the\_frey
+The Frey \(envoys.io\) the-frey\#8626
 
 NullMames \(kingnodes\) [https://twitter.com/nullMames](https://twitter.com/nullMames)
 
 Zak \(EzStaking\) [https://twitter.com/zakarialounes](https://twitter.com/zakarialounes)
 
+Sistla Abhishek \(OmniFlix\) [https://twitter.com/svabhishek](https://twitter.com/svabhishek)
+
 Tosch \(SG-1\) [https://twitter.com/ToschDev](https://twitter.com/ToschDev)
+
+Highlander \(Highlander Nodes\) [https://twitter.com/HighlanderNodes](https://twitter.com/HighlanderNodes)
 
 Orkun \(Confio\) [https://twitter.com/zl00ba](https://twitter.com/zl00ba)
 
@@ -34,7 +38,9 @@ Ximpe \(Imperator\) [https://twitter.com/imperator\_co](https://twitter.com/impe
 
 Zaki Manian \(Iqlusion\) [https://twitter.com/zmanian](https://twitter.com/zmanian)
 
-SpacePotatoe @spacepotayto
+Wabam \(SpacePotatoe\) @spacepotayto
+
+Eliot Baker \(elgorithm\) elgorithm\#0574
 
 
 
