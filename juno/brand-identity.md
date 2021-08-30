@@ -10,6 +10,14 @@
 
 {% file src="../.gitbook/assets/juno-text-banner \(1\).png" caption="JUNO Text LOGO \(Red\) PNG" %}
 
+{% file src="../.gitbook/assets/juno-logo-white-.png" caption="JUNO LOGO banner \(White\) PNG" %}
+
+{% file src="../.gitbook/assets/juno-text-logo \(1\).svg" caption="JUNO Text LOGO Plain \(Black\) SVG" %}
+
+{% file src="../.gitbook/assets/juno-symbol \(1\).svg" caption="JUNO Symbol Plain \(Black\) SVG" %}
+
+\*\*\*\*
+
 \*\*\*\*
 
 **Color Identity**
