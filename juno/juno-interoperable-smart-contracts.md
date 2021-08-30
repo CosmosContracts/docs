@@ -4,7 +4,9 @@ description: 'The where, what and how'
 
 # Introduction
 
-![](../.gitbook/assets/juno-text-banner.png)
+![](../.gitbook/assets/.png.png)
+
+\*\*\*\*
 
 **What is Juno?**
 
