@@ -4,7 +4,9 @@ description: 'The where, what and how'
 
 # Introduction
 
-![](../.gitbook/assets/juno-logo-half-moon-white-.svg)
+![](../.gitbook/assets/juno-logo-red-%20%281%29.svg)
+
+\*\*\*\*
 
 **What is Juno?**
 
