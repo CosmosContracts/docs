@@ -6,7 +6,7 @@ description: General instructions on how to join the Juno testnets
 
 ## Current testnets
 
-Below is the list of Juno testnets and their current status. You will need to node the version tag for installation of the `junod` binary. 
+Below is the list of Juno testnets and their current status. You will need to know the version tag for installation of the `junod` binary. 
 
 | chain-id | Description | Status |
 | :--- | :--- | :---: |
@@ -66,7 +66,7 @@ To get up and running with the junod binary, please follow the instructions [her
 
 For this guide, we will be using shell variables. This will enable the use of the client commands verbatim. It is important to remember that shell commands are only valid for the current shell session, and if the shell session is closed, the shell variables will need to be re-defined. 
 
-If you want variables to persist for multiple sessions, then set them explicitly in your shell profile, as you did for the Go environment variables.
+If you want variables to persist for multiple sessions, then set them explicitly in your shell .profile, as you did for the Go environment variables.
 
 To clear a variable binding, use `unset $VARIABLE_NAME` . Shell variables should be named with ALL CAPS.
 
@@ -102,7 +102,9 @@ CHAIN_REPO="https://raw.githubusercontent.com/CosmosContracts/testnets/main/$CHA
 export PEERS="$(curl -s "$CHAIN_REPO/persistent_peers.txt")"
 ```
 
+{% hint style="info" %}
 NB: If you are unsure about this, you can ask in discord for the current peers and explicitly set them in `~/.juno/config/config.toml` instead.
+{% endhint %}
 
 ## Setting up the Node
 
