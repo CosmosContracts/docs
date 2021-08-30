@@ -16,7 +16,7 @@
 
 {% file src="../.gitbook/assets/juno-symbol \(1\).svg" caption="JUNO Symbol Plain \(Black\) SVG" %}
 
-\*\*\*\*
+{% file src="../.gitbook/assets/juno-logo-squared-.png" caption="JUNO LOGO Squared \(Red\) PNG" %}
 
 \*\*\*\*
 
