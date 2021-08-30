@@ -142,7 +142,9 @@ Environment="DAEMON_RESTART_AFTER_UPGRADE=true"
 WantedBy=multi-user.target
 ```
 
+{% hint style="info" %}
 A description of what the environment variables do can be found [here](https://docs.cosmos.network/master/run-node/cosmovisor.html). Change them depending on your setup.
+{% endhint %}
 
 ## Start Cosmovisor
 
@@ -160,7 +162,7 @@ Check it is running using:
 sudo systemctl status cosmovisor
 ```
 
-If you need to monitor it after launch, you can view the logs using:
+If you need to monitor the service after launch, you can view the logs using:
 
 ```bash
 journalctl -u cosmovisor -f

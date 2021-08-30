@@ -117,7 +117,7 @@ version: "2.0"
 
 services:
   node:
-    image: ghcr.io/nullmames/cosmos-omnibus:v0.0.5-juno-lucina
+    image: ghcr.io/ovrclk/cosmos-omnibus:v0.0.6-juno-lucina
     env:
       - MONIKER=my_juno_node
       - CHAIN_URL=https://raw.githubusercontent.com/nullMames/juno-on-akash/main/chain.json
@@ -162,12 +162,12 @@ deployment:
 
 ### Service image
 
-The `image:` for this deployment will be `v0.0.5` from the overclk/cosmos-omnibus repository, `ghcr.io/nullmames/cosmos-omnibus:v0.0.5-juno-lucina`
+The `image:` for this deployment will be `v0.0.6` from the overclk/cosmos-omnibus repository, `ghcr.io/ovrclk/cosmos-omnibus:v0.0.6-juno-lucina`
 
 ```bash
 services:
   node:
-    image: ghcr.io/nullmames/cosmos-omnibus:v0.0.5-juno-lucina
+    image: ghcr.io/ovrclk/cosmos-omnibus:v0.0.6-juno-lucina
 ```
 
 ### Setting the environment
@@ -190,7 +190,7 @@ Detailed information regarding environment variables can be found on the [ovrclk
 
 #### Restore from snapshot
 
-You can restore a publicly hosted snapshot to speed up the node deployment. A sample `env:` is as follows:
+You can optionally restore a publicly hosted snapshot to speed up the node deployment. A sample `env:` is as follows:
 
 ```javascript
 env:

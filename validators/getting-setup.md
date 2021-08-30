@@ -1,44 +1,34 @@
 ---
-description: 'Smart Contracts, Evolved!'
+description: Instruction to install the junod binary
 ---
 
-# Installation and setup
+# junod Installation and setup
 
-Welcome To The _Wild West_ 🤠
+## Choose an Operating System
 
-So you want to get your hands dirty and become a validator?
+The operating system you use for your node is entirely your personal preference. You will be able to compile the `junod` daemon on most modern linux distributions and recent versions of macOS. 
 
-The best way for you to learn the tools of the trade is to join a Juno testnet. Here you will run into real-world issues, learning how to overcome them. 
+For the tutorial, it is assumed that you are using an Ubuntu LTS release.
 
-This will prepare you for the experience of running a validator, and dealing with production dangers and bugs. Now is the time to battle harden your validator!
+If you have chosen a different operating system, you will need to modify your commands to suit your operating system.
 
-{% hint style="info" %}
-Testnets come and go, so to find out which is the latest, please go to our discord validator-lounge channel: [Discord-Validator-Lounge](https://discord.gg/QcWPfK4gJ2%20)
-{% endhint %}
-
-{% hint style="danger" %}
-## Minimum hardware requirements 🖥
-
-* 2GB RAM
-* 25GB of disk space
-* 1.4 GHz CPU
-{% endhint %}
-
-## Ubuntu 18.04 - setup
-
-### Install pre-requisites
+## Install pre-requisites
 
 ```bash
-sudo apt-get update
-sudo apt-get install make build-essential gcc git git-lfs jq -yqq 
-git lfs install --skip-repo
+# update the local package list and install any available upgrades
+sudo apt-get update && sudo apt upgrade -y
+
+# install toolchain 
+sudo apt-get install make build-essential gcc git jq -y
 ```
 
-### Install Go
+## Install Go
 
 Follow the instructions [here](https://golang.org/doc/install) to install Go.
 
-If you are in any way unsure about how to configure Go, then set these in the `.profile` in the user's home \(i.e. `~`\) folder.
+Please install Go v1.16.7 or later.
+
+If you are in any way unsure about how to configure Go, then set these in the `.profile` in the user's home \(i.e. `~/`\) folder.
 
 ```bash
 export GOROOT=/usr/local/go
@@ -47,38 +37,16 @@ export GO111MODULE=on
 export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin
 ```
 
-### Install Starport
-
-**Prerequisites:** If you want to install Starport locally, make sure to have [Golang &gt;=1.16](https://golang.org/). The latest version of Starport also requires [Protocol Buffer compiler](https://grpc.io/docs/protoc-installation/) to be installed. [Node.js &gt;=12.19.0](https://nodejs.org/) is used to build the welcome screen, block explorer and to run the web scaffold.
-
-{% hint style="info" %}
-Starport uses [Git LFS](https://git-lfs.github.com/). **Please make sure that it is installed before cloning Starport.** If you have installed Git LFS after cloning Starport, checkout to your preferred branch to trigger a pull for large files or run **`git lfs pull`**
-{% endhint %}
-
-Now build the `starport` binary into `$GOBIN` -
-
-```bash
-git clone https://github.com/tendermint/starport
-cd starport && git checkout develop
-make
-```
-
-You need to ensure your gopath configuration is correct. If the **'make'** steps for either Starport or Juno do not work then you might have to add the lines above from the 'Install Go' section to your .profile or .zshrc in the user's home \(i.e. `~` or `$HOME`\) folder.
-
-{% hint style="danger" %}
-It is up to you as a validator to secure your server, and to keep it secure. Failure to do so could have dire consequences! Testnets are an ideal place to learn the basics of securing your validator. At a minimum, you should read and understand [these](https://hub.cosmos.network/main/validators/security.html) basics. Another good article on general best practices is [here](https://www.digitalocean.com/community/tutorials/recommended-security-measures-to-protect-your-servers).
-{% endhint %}
-
 ## Build Juno from source
 
 ```bash
-git clone https://github.com/CosmosContracts/Juno.git
-cd juno
+git clone https://github.com/CosmosContracts/Juno
+cd Juno
 git fetch
-git checkout <current-testnet-tag>
+git checkout <version-tag>
 ```
 
-If you don't know what the current testnet is, then jump into the discord and ask!
+The `<version-tag>` will need to be set to either a [testnet `chain-id`](joining-the-testnets.md#current-testnets) or the latest [mainnet version tag](joining-mainnet.md).
 
 Once you're on the correct tag, you can build:
 

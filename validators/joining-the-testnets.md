@@ -1,185 +1,190 @@
 ---
-description: Time to Connect!
+description: General instructions on how to join the Juno testnets
 ---
 
-# Joining The Testnets
+# Joining a Testnet
+
+## Current testnets
+
+Below is the list of Juno testnets and their current status. You will need to node the version tag for installation of the `junod` binary. 
+
+| chain-id | Description | Status |
+| :--- | :--- | :---: |
+| lucina | This testnet has an implementation of cosmwasm and is used for the [hack-juno](https://github.com/CosmosContracts/hack-juno) competition. This testnet will be upgraded as new versions of cosmwasm are released and will be the primary testing area for smart contract development for the Juno chain after the mainnet has launched. | current |
+| hera | The final testnet before mainnet launch. This testnet is intended as a final test for the custom inflation module as well as other genesis parameters to ensure a smooth mainnet launch. | pending |
 
 {% hint style="info" %}
-**IMPORTANT: Be sure to run the following on the machine you'll use for the testnet.** 🙇
+Note that the chain-id for the testnets is used as the GitHub version tag.
 {% endhint %}
 
-If you're joining after genesis, then skip to [joining after genesis](joining-the-testnets.md#joining-after-genesis). Also note that the `lucina` testnet does not use Starport, so you should follow instructions [here](https://github.com/CosmosContracts/testnets).
+## Minimum Hardware Requirements
 
-## **Joining as a Validator**
+The minimum recommended hardware requirements for running a validator for the Juno testnets are:
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Chain-id</th>
+      <th style="text-align:left">Requirements</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">lucina</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul>
+          <li>2GB RAM</li>
+          <li>100GB of disk space</li>
+          <li>1.4 GHz CPU</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">hera</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul>
+          <li>2GB RAM</li>
+          <li>25GB of disk space</li>
+          <li>1.4 GHz CPU</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 {% hint style="info" %}
-In the following examples, `chainId`, `chain-id`, `CHAIN_ID` etc all should be the testnet name, i.e. something like `juno-testnet-1`
-
-If you're unsure what the current testnet chain ID is, ask on Discord.
+Note that the testnets accumulate data as the blockchain continues. This means that you will need to expand your storage as the blockchain database gets larger with time. 
 {% endhint %}
 
-Run the following command from a server to propose yourself as a validator:
+## junod Installation
+
+To get up and running with the junod binary, please follow the instructions [here](getting-setup.md)
+
+## Configuration of Shell Variables
+
+For this guide, we will be using shell variables. This will enable the use of the client commands verbatim. It is important to remember that shell commands are only valid for the current shell session, and if the shell session is closed, the shell variables will need to be re-defined. 
+
+If you want variables to persist for multiple sessions, then set them explicitly in your shell profile, as you did for the Go environment variables.
+
+To clear a variable binding, use `unset $VARIABLE_NAME` . Shell variables should be named with ALL CAPS.
+
+### Choose a testnet
+
+Choose the `<chain-id>` testnet you would like to join from [here](joining-the-testnets.md#current-testnets). Set the `CHAIN_ID`:
 
 ```bash
-starport network chain join [chainID] --nightly
+CHAIN_ID=<chain-id>
+
+#Example
+CHAIN_ID=lucina
 ```
 
-{% hint style="danger" %}
-You can only run this command _once_ per testnet. Each time this wizard is completed, the state in `.spn-chain-homes/<chain-name>` will be reset, meaning you could lose your validator private keys.
-{% endhint %}
+### Set your moniker name
 
-Follow the prompts to provide information about the validator. You will need to create an account on the Starport Network \(SPN\), followed by one on the testnet.
-
-Starport will download the source code of the blockchain node, build, initialize and create and send two proposals to SPN: to add an account and to add a validator with self-delegation.
-
-By running a `join` command you act as a "validator".
-
-When going through the setup, you can use the default values for tokens etc. Where a field says `(optional)` hit `ENTER` to continue if you are happy with the default.
-
-When filling out the required parameters ensure to include the **'stake'** word after the required values for the inputs to be accepted. This is because for early testnets we are using the defaults rather than juno-specific names.
-
-**Important!** if the terminal gets an error or hangs then you can also try:
+Choose your `<moniker-name>`, this can be any name of your choosing and will identify your validator in the explorer. Set the `MONIKER_NAME`:
 
 ```bash
-starport network chain join [chainID] --nightly --keyring-backend "test"`
+MONIKER_NAME=<moniker-name>
+
+#Example
+MONIKER_NAME="Validatron 9000"
 ```
 
-{% hint style="info" %}
-**IMPORTANT:** Be sure to write down your seed phrase, you'll need to add your key to junod to interact with the chain.
-{% endhint %}
+### **Set persistent peers**
 
-When you are done, you can check your proposal with:
+Persistent peers will be required to tell your node where to connect to other nodes and join the network. To retrieve the peers for the chosen testnet:
 
 ```bash
-starport network proposal list [chainID] --nightly | grep $(curl -s ifconfig.me) -B 1
+#Set the base repo URL for the testnet & retrieve peers
+CHAIN_REPO="https://raw.githubusercontent.com/CosmosContracts/testnets/main/$CHAIN_ID" && \
+export PEERS="$(curl -s "$CHAIN_REPO/persistent_peers.txt")"
 ```
 
-The output should contain your server IP address.
+NB: If you are unsure about this, you can ask in discord for the current peers and explicitly set them in `~/.juno/config/config.toml` instead.
 
-At this point, you should probably add the key you've just created to `junod`:
+## Setting up the Node
+
+These instructions will direct you on how to initialise your node, synchronise to the network and upgrade your node to a validator. 
+
+### **Initialise the chain**
 
 ```bash
-junod keys add <your-key-name> -i
+junod init $MONIKER_NAME --chain-id $CHAIN_ID
 ```
 
-`junod` will prompt you for the seed phrase you were given earlier. The key name you use here will be the one that you pass to the `--from` flag later.
+This will generate the following files in `~/.juno/config/`
 
-This will allow you to transact on the testnet. Alternatively, you can use the `--home` flag to point to Starport's `.spn-chain-homes/<chain-name>/` folder when executing commands with `junod`.
+* `genesis.json` 
+* `node_key.json` 
+* `priv_validator_key.json`
 
-## Starting your Blockchain Node
-
-{% hint style="info" %}
-Before launching your validator, make sure that the genesis has been built and released, otherwise you will need to reset your chain and restart.
-{% endhint %}
-
-Run the following command to start your blockchain node:
-
-```bash
-starport network chain start [chainID] --nightly
-```
-
-This command will use SPN to create a correct genesis file, configure and launch your blockchain node. Once the node is started and the required number of validators are online, you will see output with incrementing block height number, which means that the blockchain has been successfully started.
-
-Even if you are going to run with `systemd` as per the examples below, you will need to run this command first, as it fetches the genesis.
-
-## Running in Production
-
-Create a systemd file for your Juno service:
-
-```bash
-sudo vi /etc/systemd/system/junod.service
-```
-
-Copy and paste the following and update `<YOUR_USERNAME>`, `<GO_WORKSPACE>`, and `<CHAIN_ID>`:
+### Download the genesis file
 
 ```text
-Description=Juno daemon
-After=network-online.target
-
-[Service]
-User=root
-ExecStart=/home/<YOUR_USERNAME>/<GO_WORKSPACE>/go/bin/junod start --p2p.laddr tcp://0.0.0.0:26656 --home /home/<YOUR_USERNAME>/.spn-chain-homes/<CHAIN_ID>
-Restart=on-failure
-RestartSec=3
-LimitNOFILE=4096
-
-[Install]
-WantedBy=multi-user.target
+curl https://raw.githubusercontent.com/CosmosContracts/testnets/main/$CHAIN_ID/genesis.json > ~/.juno/config/genesis.json
 ```
 
-{% hint style="info" %}
-1. If you are joining _after_ genesis, then `--home` should be set to the location of `.juno`. This is likely to be the default of `$HOME/.juno`
-2. This assumes `$HOME/go_workspace` to be your Go workspace. Your actual workspace directory may vary.
-3. The default port here is `26656` - this should be open via the server firewall and any external security measures \(e.g. AWS security group\)
-{% endhint %}
+This will replace the genesis file created using `junod init` command with the genesis file for the testnet. ****
 
-Enable and start the new service:
+### **Set persistent peers**
+
+Using the peers variable we set earlier, we can set the `persistent_peers` in `~/.juno/config/config.toml`: 
 
 ```bash
-sudo systemctl enable junod
-sudo systemctl start junod
+sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" ~/.juno/config/config.toml
 ```
 
-Check status:
+### Configure the chain-id for junod
 
-```bash
-junod status
+Now let’s save current chain-id as in our config so we don’t need to pass the `--chain-id`flag every time we send a transaction with `junod:`
+
+```text
+junod config chain-id $CHAIN_ID
 ```
 
-Check logs:
+### **Create a local key pair**
 
-```bash
-journalctl -u junod -f
-```
-
-When the chain is coming up, you should be able to see output for this command:
-
-```bash
-curl -s localhost:26657/consensus_state | jq '.result.round_state.height_vote_set[0].prevotes_bit_array'
-```
-
-If you see output, your node is up. Note that the command requires the `jq` tool.
-
-## Joining after genesis
-
-This section applies to those who are looking to join the testnet post genesis.
-
-**1. Initialise the chain and start your node**
-
-```bash
-junod init <moniker-name> --chain-id=[chainId]
-```
-
-In early testnets, the denom will be `stake`. In later ones it will be `ujuno`
-
-**2. Get Genesis and set peers**
-
-Set seed nodes and get a valid Genesis file. The genesis can be found in the [testnets repo on Github](https://github.com/CosmosContracts/testnets).
-
-Genesis should go in:
-
-```bash
-$HOME/.juno/config/genesis.json
-```
-
-You can set peers in the config file, which should be at:
-
-```bash
-vi $HOME/.juno/config/config.toml
-```
-
-**3. Create a local key pair**
-
-Create or import your key
+Create a new key pair for your validator:
 
 ```bash
 junod keys add <key-name>
+
+# Query the keystore for your public address
 junod keys show <key-name> -a
 ```
 
-**4. Submit your create validator tx**
+Replace `<key-name>` with a key name of your choosing.
 
-This command submits using 1denom \(`stake` or `juno`\). You should be able to get this from the `#faucet` channel on Discord.
+{% hint style="danger" %}
+After creating a new key, the key information and seed phrase will be shown. It is essential to write this seed phrase down and keep it in a safe place. The seed phrase is the only way to restore your keys.
+{% endhint %}
+
+### **Get some testnet tokens**
+
+Testnet tokens can be requested from the `#faucet` channel on [Discord](https://discord.gg/HnHKpzd3Db).
+
+To request tokens type `$request <your-public-address>` in the message field and press enter.
+
+## Setup cosmovisor
+
+Follow [these](setting-up-cosmovisor.md) instructions to setup cosmovisor and start the node.
+
+## Syncing the node
+
+After starting the junod daemon, the chain will begin to sync to the network. The time to sync to the network will vary depending on your setup, but could take a very long time. To query the status of your node:
+
+```bash
+# Query via the RPC (default port: 26657)
+curl http://localhost:26657/status | jq .result.sync_info.catching_up
+```
+
+If this command returns `true` then your node is still catching up. If it returns `false` then your node has caught up to the network current block and you are safe to proceed to upgrade to a validator node.
+
+## Upgrade to a validator
+
+To upgrade the node to a validator, you will need to submit a `create-validator` transaction:
 
 ```bash
 junod tx staking create-validator \
@@ -190,8 +195,8 @@ junod tx staking create-validator \
   --min-self-delegation "1" \
   --details "validators write bios too" \
   --pubkey=$(junod tendermint show-validator) \
-  --moniker <your_moniker> \
-  --chain-id <chain-id> \
+  --moniker $MONIKER_NAME \
+  --chain-id $CHAIN_ID \
   --gas-prices 0.025denom \
   --from <key-name>
 ```

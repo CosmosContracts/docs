@@ -12,12 +12,12 @@
 * [Brand Identity](juno/brand-identity.md)
 * [Dev Ops](juno/juno-developers.md)
 
-## Validators
+## Nodes & Validators <a id="validators"></a>
 
-* [Installation and setup](validators/getting-setup.md)
+* [junod Installation and setup](validators/getting-setup.md)
 * [Mainnet Setup and Tooling](validators/mainnet.md)
-* [Joining The Testnets](validators/joining-the-testnets.md)
 * [Joining Mainnet](validators/joining-mainnet.md)
+* [Joining a Testnet](validators/joining-the-testnets.md)
 * [Setting up Cosmovisor](validators/setting-up-cosmovisor.md)
 * [Deploying a Node on Akash](validators/deploy-a-node-on-akash.md)
 
