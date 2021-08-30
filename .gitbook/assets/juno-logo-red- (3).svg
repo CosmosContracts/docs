@@ -212,28 +212,28 @@
      transform="translate(0,703)"
      id="layer1">
     <ellipse
-       ry="370.19031"
-       rx="374.72604"
-       cy="-204.94788"
-       cx="496.54874"
+       ry="253.0177"
+       rx="257.55344"
+       cy="-219.31099"
+       cx="501.84039"
        id="path1248"
-       style="opacity:1;fill:#f0827d;fill-opacity:1;stroke:none;stroke-width:0.48514199;stroke-opacity:1;paint-order:normal" />
+       style="opacity:1;fill:#f0827d;fill-opacity:1;stroke:none;stroke-width:0.33251292;stroke-opacity:1;paint-order:normal" />
     <ellipse
-       ry="310.4397"
-       rx="318.18787"
-       cy="-205.2093"
-       cx="497.71231"
+       ry="212.17935"
+       rx="218.69409"
+       cy="-219.48967"
+       cx="502.64014"
        id="path1202"
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.40441713;stroke-opacity:1;paint-order:normal" />
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.27718467;stroke-opacity:1;paint-order:normal" />
     <ellipse
-       ry="293.89038"
-       rx="300.21039"
-       cy="-203.42802"
-       cx="498.52921"
+       ry="200.86823"
+       rx="206.33797"
+       cy="-218.27219"
+       cx="503.2016"
        id="path1206"
-       style="opacity:1;fill:#f0827d;fill-opacity:1;stroke:none;stroke-width:0.32286251;stroke-opacity:1;paint-order:normal" />
+       style="opacity:1;fill:#f0827d;fill-opacity:1;stroke:none;stroke-width:0.2212877;stroke-opacity:1;paint-order:normal" />
     <g
-       transform="matrix(7.6031716,0,0,8.5413823,314.96366,-412.81963)"
+       transform="matrix(5.2257454,0,0,5.8378645,377.03493,-361.38718)"
        id="g1246"
        style="clip-rule:evenodd;fill:#ffffff;fill-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2">
       <g

@@ -6,7 +6,7 @@ description: Build Apps that Scale.
 
 The Juno docs describe the Juno open source project, a blockchain built for scale.
 
-![-](https://user-images.githubusercontent.com/79812965/129795919-4a521d03-26ea-4cfe-a153-82658cbd2923.png)
+![](.gitbook/assets/juno-logo-red-.svg)
 
 ## Validators
 
