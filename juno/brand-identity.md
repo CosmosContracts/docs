@@ -6,6 +6,10 @@
 
 {% file src="../.gitbook/assets/juno-logo-white-.svg" caption="JUNO LOGO \(White\) SVG" %}
 
+{% file src="../.gitbook/assets/juno-logo-banner-red-1.png" caption="JUNO LOGO Banner \(Red\) PNG" %}
+
+{% file src="../.gitbook/assets/juno-text-banner \(1\).png" caption="JUNO Text LOGO \(Red\) PNG" %}
+
 \*\*\*\*
 
 **Color Identity**
