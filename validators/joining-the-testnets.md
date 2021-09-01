@@ -138,14 +138,6 @@ Using the peers variable we set earlier, we can set the `persistent_peers` in `~
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" ~/.juno/config/config.toml
 ```
 
-### Configure the chain-id for junod
-
-Now let’s save current chain-id as in our config so we don’t need to pass the `--chain-id`flag every time we send a transaction with `junod:`
-
-```text
-junod config chain-id $CHAIN_ID
-```
-
 ### **Create a local key pair**
 
 Create a new key pair for your validator:
