@@ -147,6 +147,10 @@ WantedBy=multi-user.target
 A description of what the environment variables do can be found [here](https://docs.cosmos.network/master/run-node/cosmovisor.html). Change them depending on your setup.
 {% endhint %}
 
+Note also that we set buffer size explicitly because of a [live bug in Cosmovisor](https://github.com/cosmos/cosmos-sdk/pull/8590). When this issue is resolved, you may omit that line.
+
+In addition, the same issue can be fixed by reducing the log via env variable. If you are unsure, ask on Discord.
+
 ## Start Cosmovisor
 
 Finally, enable the service and start it.

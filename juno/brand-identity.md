@@ -2,7 +2,7 @@
 
 **Assets**
 
-{% file src="../.gitbook/assets/juno-logo-red- \(4\).svg" caption="JUNO LOGO \(Red\) SVG" %}
+{% file src="../.gitbook/assets/juno-logo-red- \(4\) \(3\).svg" caption="JUNO LOGO \(Red\) SVG" %}
 
 {% file src="../.gitbook/assets/juno-logo-white-.svg" caption="JUNO LOGO \(White\) SVG" %}
 
@@ -14,7 +14,7 @@
 
 {% file src="../.gitbook/assets/juno-text-logo \(1\).svg" caption="JUNO Text LOGO Plain \(Black\) SVG" %}
 
-{% file src="../.gitbook/assets/juno-symbol \(1\).svg" caption="JUNO Symbol Plain \(Black\) SVG" %}
+{% file src="../.gitbook/assets/juno-symbol \(2\).svg" caption="JUNO Symbol Plain \(Black\) SVG" %}
 
 {% file src="../.gitbook/assets/juno-logo-squared-.png" caption="JUNO LOGO Squared \(Red\) PNG" %}
 
@@ -24,7 +24,7 @@
 
 Primary Color**:** f0827dff
 
-![](../.gitbook/assets/juno-primary-color.png)
+![](../.gitbook/assets/juno-primary-color%20%281%29.png)
 
 Secondary Color: 000000ff
 
