@@ -1,4 +1,4 @@
-# Dev Ops
+# Contributors
 
 **Core Development**
 
