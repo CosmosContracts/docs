@@ -252,7 +252,7 @@ junod tx gov submit-proposal cancel-software-upgrade [flags]
 Submit a deposit for an active proposal. You can find the `proposal-id` by running `junod query gov proposals`.
 
 ```text
-iris tx gov deposit [proposal-id] [deposit] [flags]
+junod tx gov deposit [proposal-id] [deposit] [flags]
 ```
 
 ### junod tx gov vote <a id="iris-tx-gov-vote"></a>
