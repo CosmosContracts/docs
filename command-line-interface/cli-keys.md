@@ -128,7 +128,7 @@ junod keys delete MyKey
 Export the keystore of a key to stdout:
 
 ```text
-iris keys export <key-name> [flags]
+junod keys export <key-name> [flags]
 ```
 
 #### Export keystore <a id="export-keystore"></a>
@@ -136,7 +136,7 @@ iris keys export <key-name> [flags]
 The following example will export the key named `MyKey` to stdout:
 
 ```text
-iris keys export Mykey
+junod keys export Mykey
 ```
 
 ### junod keys import <a id="iris-keys-import"></a>
