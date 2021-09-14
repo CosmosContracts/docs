@@ -326,7 +326,7 @@ junod tx staking create-validator --chain-id=juno --from=<key-name> --fees=1juno
 {% hint style="info" %}
 **TIP**
 
-Refer to [mainnet](../validators/mainnet.md) instructions for detailed information.
+Refer to [mainnet](../../validators/mainnet.md) instructions for detailed information.
 {% endhint %}
 
 ### junod tx staking edit-validator <a id="iris-tx-staking-edit-validator"></a>

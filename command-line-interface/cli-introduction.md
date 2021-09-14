@@ -70,19 +70,17 @@ All POST commands have the following global flags:
 
 | **Subcommand** | **Description** |
 | :--- | :--- |
-| [bank](cli-bank.md) | Bank subcommands for querying accounts and sending coins etc. |
-| [debug](cli-debug.md) | Debug subcommands |
-| [distribution](cli-distribution.md) | Distribution subcommands for rewards management |
-| [gov](cli-gov.md) | Governance and voting subcommands |
-| [ibc]() | Manage inter blockchain communication \(IBC\) |
-| [ibc-transfer]() | IBC fungible token transfer transactions |
-| [keys](cli-keys.md) | Keys allows you to manage your local keystore for tendermint |
-| [params](cli-params.md) | Query parameters of modules |
-| [slashing](cli-slashing.md) | Slashing subcommands |
-| [staking](cli-staking.md) | Staking subcommands for validators and delegators |
-| [status](cli-status.md) | Query remote node for status |
-| [tendermint](cli-tendermint.md) | Tendermint state querying subcommands |
-| [tx](cli-tx.md) | Tx subcommands |
-| [upgrade](cli-upgrade.md) | Software Upgrade subcommands |
-| [wasm](cli-wasm.md) | Interact with smart contracts |
+| [bank](modules/cli-bank.md) | Bank subcommands for querying accounts and sending coins etc. |
+| [debug](modules/cli-debug.md) | Debug subcommands |
+| [distribution](modules/cli-distribution.md) | Distribution subcommands for rewards management |
+| [gov](modules/cli-gov.md) | Governance and voting subcommands |
+| [keys](modules/cli-keys.md) | Keys allows you to manage your local keystore for tendermint |
+| [params](modules/cli-params.md) | Query parameters of modules |
+| [slashing](modules/cli-slashing.md) | Slashing subcommands |
+| [staking](modules/cli-staking.md) | Staking subcommands for validators and delegators |
+| [status](modules/cli-status.md) | Query remote node for status |
+| [tendermint](modules/cli-tendermint.md) | Tendermint state querying subcommands |
+| [tx](modules/cli-tx.md) | Tx subcommands |
+| [upgrade](modules/cli-upgrade.md) | Software Upgrade subcommands |
+| [wasm](modules/cli-wasm.md) | Interact with smart contracts |
 
