@@ -21,24 +21,24 @@
 * [Setting up Cosmovisor](validators/setting-up-cosmovisor.md)
 * [Deploying a Node on Akash](validators/deploy-a-node-on-akash.md)
 
-## Command-Line Interface \(CLI\) <a id="command-line-interface"></a>
+## Command-Line Interface \(CLI\) <a id="cli"></a>
 
-* [Introduction](command-line-interface/cli-introduction.md)
-* [Modules](command-line-interface/modules/README.md)
-  * [bank](command-line-interface/modules/cli-bank.md)
-  * [debug](command-line-interface/modules/cli-debug.md)
-  * [distribution](command-line-interface/modules/cli-distribution.md)
-  * [gov](command-line-interface/modules/cli-gov.md)
-  * [keys](command-line-interface/modules/cli-keys.md)
-  * [params](command-line-interface/modules/cli-params.md)
-  * [slashing](command-line-interface/modules/cli-slashing.md)
-  * [staking](command-line-interface/modules/cli-staking.md)
-  * [status](command-line-interface/modules/cli-status.md)
-  * [tendermint](command-line-interface/modules/cli-tendermint.md)
-  * [tx](command-line-interface/modules/cli-tx.md)
-  * [upgrade](command-line-interface/modules/cli-upgrade.md)
-  * [wasm](command-line-interface/modules/cli-wasm.md)
-  * [Transactions](command-line-interface/modules/transactions.md)
+* [Introduction](cli/cli-introduction.md)
+* [Modules](cli/modules/README.md)
+  * [bank](cli/modules/bank.md)
+  * [debug](cli/modules/debug.md)
+  * [distribution](cli/modules/distribution.md)
+  * [gov](cli/modules/gov.md)
+  * [keys](cli/modules/keys.md)
+  * [params](cli/modules/params.md)
+  * [slashing](cli/modules/slashing.md)
+  * [staking](cli/modules/staking.md)
+  * [status](cli/modules/status.md)
+  * [tendermint](cli/modules/tendermint.md)
+  * [tx](cli/modules/tx.md)
+  * [upgrade](cli/modules/upgrade.md)
+  * [wasm](cli/modules/wasm.md)
+  * [Transactions](cli/modules/transactions.md)
 
 ## Smart Contracts
 

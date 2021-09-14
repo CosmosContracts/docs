@@ -10,19 +10,19 @@ description: >-
 
 | Name | Description |
 | :--- | :--- |
-| [proposal](cli-gov.md#iris-query-gov-proposal) | Query details of a single proposal |
-| [proposals](cli-gov.md#junod-query-gov-proposals) | Query proposals with optional filter |
-| [vote](cli-gov.md#iris-query-gov-vote) | Query details of a single vote |
-| [votes](cli-gov.md#junod-query-gov-votes) | Query votes on a proposal |
-| [deposit](cli-gov.md#iris-query-gov-deposit) | Query details of a deposit |
-| [deposits](cli-gov.md#iris-query-gov-deposits) | Query deposits on a proposal |
-| [tally](cli-gov.md#iris-query-gov-tally) | Get the tally of a proposal vote |
-| [param](cli-gov.md#iris-query-gov-param) | Query the parameters \(voting |
-| [params](cli-gov.md#junod-query-gov-params) | Query the parameters of the governance process |
-| [proposer](cli-gov.md#iris-query-gov-proposer) | Query which address proposed a proposal with a given ID. |
-| [submit-proposal](cli-gov.md#iris-tx-gov-submit-proposal) | Submit a proposal along with an initial deposit |
-| [deposit](cli-gov.md#iris-tx-gov-deposit) | Deposit tokens for an active proposal |
-| [vote](cli-gov.md#iris-tx-gov-vote) | Vote for an active proposal, options: yes/no/no\_with\_veto/abstain |
+| [proposal](gov.md#iris-query-gov-proposal) | Query details of a single proposal |
+| [proposals](gov.md#junod-query-gov-proposals) | Query proposals with optional filter |
+| [vote](gov.md#iris-query-gov-vote) | Query details of a single vote |
+| [votes](gov.md#junod-query-gov-votes) | Query votes on a proposal |
+| [deposit](gov.md#iris-query-gov-deposit) | Query details of a deposit |
+| [deposits](gov.md#iris-query-gov-deposits) | Query deposits on a proposal |
+| [tally](gov.md#iris-query-gov-tally) | Get the tally of a proposal vote |
+| [param](gov.md#iris-query-gov-param) | Query the parameters \(voting |
+| [params](gov.md#junod-query-gov-params) | Query the parameters of the governance process |
+| [proposer](gov.md#iris-query-gov-proposer) | Query which address proposed a proposal with a given ID. |
+| [submit-proposal](gov.md#iris-tx-gov-submit-proposal) | Submit a proposal along with an initial deposit |
+| [deposit](gov.md#iris-tx-gov-deposit) | Deposit tokens for an active proposal |
+| [vote](gov.md#iris-tx-gov-vote) | Vote for an active proposal, options: yes/no/no\_with\_veto/abstain |
 
 ### junod query gov proposal <a id="iris-query-gov-proposal"></a>
 

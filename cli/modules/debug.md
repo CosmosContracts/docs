@@ -8,9 +8,9 @@ description: The debug module is a tool for simple debugging.
 
 | Name | Description |
 | :--- | :--- |
-| [addr](cli-debug.md#junod-debug-addr) | Convert an address between hex and bech32 |
-| [pubkey](cli-debug.md#junod-debug-pubkey) | Decode a ED25519 pubkey from hex, base64, or bech32 |
-| [raw-bytes](cli-debug.md#junod-debug-raw-bytes) | Convert raw bytes output \(eg. \[10 21 13 127\]\) to hex |
+| [addr](debug.md#junod-debug-addr) | Convert an address between hex and bech32 |
+| [pubkey](debug.md#junod-debug-pubkey) | Decode a ED25519 pubkey from hex, base64, or bech32 |
+| [raw-bytes](debug.md#junod-debug-raw-bytes) | Convert raw bytes output \(eg. \[10 21 13 127\]\) to hex |
 
 ### junod debug addr
 

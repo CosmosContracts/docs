@@ -8,10 +8,10 @@ description: The tendermint module allows for querying of validator and node add
 
 | Name, shorthand | Description |
 | :--- | :--- |
-| [show-address](cli-tendermint.md#junod-tendermint-show-address) | Shows this node's tendermint validator consensus address |
-| [show-node-id](cli-tendermint.md#iris-tendermint-show-node-id) | Show this node's ID |
-| [show-validator](cli-tendermint.md#iris-tendermint-show-validator) | Show this node's tendermint validator info |
-| [version](cli-tendermint.md#iris-tendermint-version) | Print tendermint libraries' version |
+| [show-address](tendermint.md#junod-tendermint-show-address) | Shows this node's tendermint validator consensus address |
+| [show-node-id](tendermint.md#iris-tendermint-show-node-id) | Show this node's ID |
+| [show-validator](tendermint.md#iris-tendermint-show-validator) | Show this node's tendermint validator info |
+| [version](tendermint.md#iris-tendermint-version) | Print tendermint libraries' version |
 
 ### junod tendermint show-address
 

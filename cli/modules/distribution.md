@@ -8,16 +8,16 @@ description: The distribution module allows you to manage your staking rewards
 
 | Name | Description |
 | :--- | :--- |
-| [commission](cli-distribution.md#junod-query-distribution-commission) | Query distribution validator commission |
-| [community-pool](cli-distribution.md#iris-query-distribution-community-pool) | Query the amount of coins in the community pool |
-| [params](cli-distribution.md#iris-query-distribution-rewards) | Query distribution params |
-| [rewards](cli-distribution.md#iris-query-distribution-rewards) | Query all distribution delegator rewards or rewards from a particular validator |
-| [slashes](cli-distribution.md#iris-query-distribution-slashes) | Query distribution validator slashes. |
-| [validator-outstanding-rewards](cli-distribution.md#iris-query-distribution-validator-outstanding-rewards) | Query distribution outstanding \(un-withdrawn\) rewards for a validator and all their delegations |
-| [fund-community-pool](cli-distribution.md#iris-tx-distribution-fund-community-pool) | Funds the community pool with the specified amount |
-| [set-withdraw-addr](cli-distribution.md#iris-tx-distribution-set-withdraw-addr) | Set the withdraw address for rewards associated with a delegator address |
-| [withdraw-all-rewards](cli-distribution.md#iris-tx-distribution-withdraw-all-rewards) | Withdraw all rewards for a single delegator |
-| [withdraw-rewards](cli-distribution.md#iris-tx-distribution-withdraw-rewards) | Withdraw rewards from a given delegation address, and optionally withdraw validator commission if the delegation address given is a validator operator |
+| [commission](distribution.md#junod-query-distribution-commission) | Query distribution validator commission |
+| [community-pool](distribution.md#iris-query-distribution-community-pool) | Query the amount of coins in the community pool |
+| [params](distribution.md#iris-query-distribution-rewards) | Query distribution params |
+| [rewards](distribution.md#iris-query-distribution-rewards) | Query all distribution delegator rewards or rewards from a particular validator |
+| [slashes](distribution.md#iris-query-distribution-slashes) | Query distribution validator slashes. |
+| [validator-outstanding-rewards](distribution.md#iris-query-distribution-validator-outstanding-rewards) | Query distribution outstanding \(un-withdrawn\) rewards for a validator and all their delegations |
+| [fund-community-pool](distribution.md#iris-tx-distribution-fund-community-pool) | Funds the community pool with the specified amount |
+| [set-withdraw-addr](distribution.md#iris-tx-distribution-set-withdraw-addr) | Set the withdraw address for rewards associated with a delegator address |
+| [withdraw-all-rewards](distribution.md#iris-tx-distribution-withdraw-all-rewards) | Withdraw all rewards for a single delegator |
+| [withdraw-rewards](distribution.md#iris-tx-distribution-withdraw-rewards) | Withdraw rewards from a given delegation address, and optionally withdraw validator commission if the delegation address given is a validator operator |
 
 ### junod query distribution commission
 

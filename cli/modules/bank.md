@@ -10,9 +10,9 @@ description: >-
 
 | Name | Description |
 | :--- | :--- |
-| [balances](cli-bank.md#iris-query-bank-balances) | Query for account balances by address |
-| [total](cli-bank.md#junod-query-bank-total) | Query the total supply of coins of the chain |
-| [send](cli-bank.md#junod-tx-bank-send) | Create and/or sign and broadcast a MsgSend transaction |
+| [balances](bank.md#iris-query-bank-balances) | Query for account balances by address |
+| [total](bank.md#junod-query-bank-total) | Query the total supply of coins of the chain |
+| [send](bank.md#junod-tx-bank-send) | Create and/or sign and broadcast a MsgSend transaction |
 
 ### junod query bank balances <a id="iris-query-bank-balances"></a>
 

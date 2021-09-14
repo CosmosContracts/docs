@@ -1,6 +1,6 @@
 # params
 
-Params module allows you to query the system parameters which can be governed \(except the gov params\) by the [gov module](cli-gov.md).
+Params module allows you to query the system parameters which can be governed \(except the gov params\) by the [gov module](gov.md).
 
 ```text
 junod query params subspace [subspace] [key] [flags]

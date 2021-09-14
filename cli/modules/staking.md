@@ -10,25 +10,25 @@ description: >-
 
 | Name | Description |
 | :--- | :--- |
-| [validator](cli-staking.md#iris-query-staking-validator) | Query a validator |
-| [validators](cli-staking.md#iris-query-staking-validators) | Query for all validators |
-| [delegation](cli-staking.md#iris-query-staking-delegation) | Query a delegation based on address and validator address |
-| [delegations](cli-staking.md#iris-query-staking-delegations) | Query all delegations made from one delegator |
-| [delegations-to](cli-staking.md#iris-query-staking-delegations-to) | Query all delegations to one validator |
-| [unbonding-delegation](cli-staking.md#iris-query-staking-unbonding-delegation) | Query an unbonding-delegation record based on delegator and validator address |
-| [unbonding-delegations](cli-staking.md#iris-query-staking-unbonding-delegations) | Query all unbonding-delegations records for one delegator |
-| [unbonding-delegations-from](cli-staking.md#iris-query-staking-unbonding-delegations-from) | Query all unbonding delegatations from a validator |
-| [redelegations-from](cli-staking.md#iris-query-staking-redelegations-from) | Query all outgoing redelegatations from a validator |
-| [redelegation](cli-staking.md#iris-query-staking-redelegation) | Query a redelegation record based on delegator and a source and destination validator address |
-| [redelegations](cli-staking.md#iris-query-staking-redelegations) | Query all redelegations records for one delegator |
-| [pool](cli-staking.md#iris-query-staking-pool) | Query the current staking pool values |
-| [params](cli-staking.md#iris-query-staking-params) | Query the current staking parameters information |
-| [historical-info](cli-staking.md#iris-query-staking-historical-info) | Query historical info at given height |
-| [create-validator](cli-staking.md#iris-tx-staking-create-validator) | Create new validator initialized with a self-delegation to it |
-| [edit-validator](cli-staking.md#iris-tx-staking-edit-validator) | Edit existing validator account |
-| [delegate](cli-staking.md#iris-tx-staking-delegate) | Delegate liquid tokens to an validator |
-| [unbond](cli-staking.md#iris-tx-staking-unbond) | Unbond shares from a validator |
-| [redelegate](cli-staking.md#iris-tx-staking-redelegate) | Redelegate illiquid tokens from one validator to another |
+| [validator](staking.md#iris-query-staking-validator) | Query a validator |
+| [validators](staking.md#iris-query-staking-validators) | Query for all validators |
+| [delegation](staking.md#iris-query-staking-delegation) | Query a delegation based on address and validator address |
+| [delegations](staking.md#iris-query-staking-delegations) | Query all delegations made from one delegator |
+| [delegations-to](staking.md#iris-query-staking-delegations-to) | Query all delegations to one validator |
+| [unbonding-delegation](staking.md#iris-query-staking-unbonding-delegation) | Query an unbonding-delegation record based on delegator and validator address |
+| [unbonding-delegations](staking.md#iris-query-staking-unbonding-delegations) | Query all unbonding-delegations records for one delegator |
+| [unbonding-delegations-from](staking.md#iris-query-staking-unbonding-delegations-from) | Query all unbonding delegatations from a validator |
+| [redelegations-from](staking.md#iris-query-staking-redelegations-from) | Query all outgoing redelegatations from a validator |
+| [redelegation](staking.md#iris-query-staking-redelegation) | Query a redelegation record based on delegator and a source and destination validator address |
+| [redelegations](staking.md#iris-query-staking-redelegations) | Query all redelegations records for one delegator |
+| [pool](staking.md#iris-query-staking-pool) | Query the current staking pool values |
+| [params](staking.md#iris-query-staking-params) | Query the current staking parameters information |
+| [historical-info](staking.md#iris-query-staking-historical-info) | Query historical info at given height |
+| [create-validator](staking.md#iris-tx-staking-create-validator) | Create new validator initialized with a self-delegation to it |
+| [edit-validator](staking.md#iris-tx-staking-edit-validator) | Edit existing validator account |
+| [delegate](staking.md#iris-tx-staking-delegate) | Delegate liquid tokens to an validator |
+| [unbond](staking.md#iris-tx-staking-unbond) | Unbond shares from a validator |
+| [redelegate](staking.md#iris-tx-staking-redelegate) | Redelegate illiquid tokens from one validator to another |
 
 ### junod query staking validator <a id="iris-query-staking-validator"></a>
 
@@ -78,7 +78,7 @@ The following will return information for ALL validators:
 junod query staking validators
 ```
 
-The returned values will be similar to those from [`junod query staking validator`](cli-staking.md#iris-query-staking-validator)\`\`
+The returned values will be similar to those from [`junod query staking validator`](staking.md#iris-query-staking-validator)\`\`
 
 ### junod query staking delegation <a id="iris-query-staking-delegation"></a>
 

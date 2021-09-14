@@ -10,14 +10,14 @@ description: >-
 
 | Name | Description |
 | :--- | :--- |
-| [add](cli-keys.md#junod-keys-add) | Add an encrypted private key \(either newly generated or recovered\), encrypt it, and save to disk |
-| [delete](cli-keys.md#iris-keys-delete) | Delete the given key |
-| [export](cli-keys.md#iris-keys-export) | Export private keys |
-| [import](cli-keys.md#iris-keys-import) | Import private keys into the local keystore |
-| [list](cli-keys.md#iris-keys-list) | List all keys |
-| [mnemonic](cli-keys.md#iris-keys-mnemonic) | Compute the bip39 mnemonic for some input entropy |
-| [parse](cli-keys.md#iris-keys-parse) | Parse address from hex to bech32 and vice versa |
-| [show](cli-keys.md#iris-keys-show) | Retrieve key information by name or address |
+| [add](keys.md#junod-keys-add) | Add an encrypted private key \(either newly generated or recovered\), encrypt it, and save to disk |
+| [delete](keys.md#iris-keys-delete) | Delete the given key |
+| [export](keys.md#iris-keys-export) | Export private keys |
+| [import](keys.md#iris-keys-import) | Import private keys into the local keystore |
+| [list](keys.md#iris-keys-list) | List all keys |
+| [mnemonic](keys.md#iris-keys-mnemonic) | Compute the bip39 mnemonic for some input entropy |
+| [parse](keys.md#iris-keys-parse) | Parse address from hex to bech32 and vice versa |
+| [show](keys.md#iris-keys-show) | Retrieve key information by name or address |
 
 ### junod keys add
 

@@ -70,17 +70,17 @@ All POST commands have the following global flags:
 
 | **Subcommand** | **Description** |
 | :--- | :--- |
-| [bank](modules/cli-bank.md) | Bank subcommands for querying accounts and sending coins etc. |
-| [debug](modules/cli-debug.md) | Debug subcommands |
-| [distribution](modules/cli-distribution.md) | Distribution subcommands for rewards management |
-| [gov](modules/cli-gov.md) | Governance and voting subcommands |
-| [keys](modules/cli-keys.md) | Keys allows you to manage your local keystore for tendermint |
-| [params](modules/cli-params.md) | Query parameters of modules |
-| [slashing](modules/cli-slashing.md) | Slashing subcommands |
-| [staking](modules/cli-staking.md) | Staking subcommands for validators and delegators |
-| [status](modules/cli-status.md) | Query remote node for status |
-| [tendermint](modules/cli-tendermint.md) | Tendermint state querying subcommands |
-| [tx](modules/cli-tx.md) | Tx subcommands |
-| [upgrade](modules/cli-upgrade.md) | Software Upgrade subcommands |
-| [wasm](modules/cli-wasm.md) | Interact with smart contracts |
+| [bank](modules/bank.md) | Bank subcommands for querying accounts and sending coins etc. |
+| [debug](modules/debug.md) | Debug subcommands |
+| [distribution](modules/distribution.md) | Distribution subcommands for rewards management |
+| [gov](modules/gov.md) | Governance and voting subcommands |
+| [keys](modules/keys.md) | Keys allows you to manage your local keystore for tendermint |
+| [params](modules/params.md) | Query parameters of modules |
+| [slashing](modules/slashing.md) | Slashing subcommands |
+| [staking](modules/staking.md) | Staking subcommands for validators and delegators |
+| [status](modules/status.md) | Query remote node for status |
+| [tendermint](modules/tendermint.md) | Tendermint state querying subcommands |
+| [tx](modules/tx.md) | Tx subcommands |
+| [upgrade](modules/upgrade.md) | Software Upgrade subcommands |
+| [wasm](modules/wasm.md) | Interact with smart contracts |
 
