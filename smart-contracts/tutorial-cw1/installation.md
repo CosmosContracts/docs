@@ -10,7 +10,7 @@ If `which junod` shows you have a version of `junod` available, you're good to g
 
 If `cargo version` shows a version greater than 1.49, then ditto - you're probably all good.
 
-{% page-ref page="../smart-contract-erc20-tutorial/installation.md" %}
+{% page-ref page="../tutorial-erc-20/installation.md" %}
 
 
 

@@ -3,7 +3,7 @@ order: 1
 description: Make your own memecoin!
 ---
 
-# Introduction
+# Tutorial ERC-20
 
 This will take you through uploading your own memecoin to the juno testnet.
 

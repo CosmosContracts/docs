@@ -4,7 +4,7 @@ order: 2
 
 # Installation
 
-Follow the steps on the [installation page](../smart-contracts/installation.md).
+Follow the steps on the [installation page](../installation.md).
 
 The short version is that you will need rust and `junod` available.
 

@@ -26,11 +26,11 @@ The Juno docs describe the Juno open source project, a blockchain built for scal
 
 ### Smart Contract ERC20 Tutorial
 
-{% page-ref page="smart-contract-erc20-tutorial/introduction.md" %}
+{% page-ref page="smart-contracts/tutorial-erc-20/" %}
 
 ### Smart Contract CW1 Tutorial \(CosmWasm Plus\)
 
-{% page-ref page="smart-contract-cw1-tutorial/introduction.md" %}
+{% page-ref page="smart-contracts/tutorial-cw1/" %}
 
 ## FAQ
 
