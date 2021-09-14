@@ -89,7 +89,7 @@ junod query gov deposits [proposal-id] [flags]
 
 ### junod query gov tally <a id="iris-query-gov-tally"></a>
 
-Query tally of votes on a proposal. 
+Query tally of votes on a proposal.
 
 ```text
 junod query gov tally [proposal-id] [flags]
@@ -134,7 +134,7 @@ junod query gov proposer [proposal-id] [flags]
 
 ### junod tx gov submit-proposal <a id="iris-tx-gov-submit-proposal"></a>
 
-Submit a proposal along with an initial deposit. Proposal title, description, type and deposit can be given directly or through a proposal JSON file. Available Commands: 
+Submit a proposal along with an initial deposit. Proposal title, description, type and deposit can be given directly or through a proposal JSON file. Available Commands:
 
 | Name | Description |
 | :--- | :--- |
@@ -218,7 +218,7 @@ junod tx gov submit-proposal software-upgrade [name] (--upgrade-height [height] 
 {% hint style="info" %}
 **TIP**
 
-To enable nodes managed by [forbole/cosmovisor](https://github.com/forbole/cosmovisor) to undertake an automatic upgrade, where the operator has the required environment variable set. 
+To enable nodes managed by [forbole/cosmovisor](https://github.com/forbole/cosmovisor) to undertake an automatic upgrade, where the operator has the required environment variable set.
 
 Store an os/architecture -&gt; binary URI map in the upgrade plan `info` field as JSON under the `"binaries"` key, eg:
 
