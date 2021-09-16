@@ -9,13 +9,13 @@ JUNO, the native asset of the network carries a variety of use cases within the 
 
 ⚪️ Community **Stakedrop**: 30.663.193 $JUNO
 
-⚪️ **Community Pool**: 20.000.000 $JUNO
+⚪️ **Community Pool:** 20.000.000 $JUNO
 
 ⚪️ Smart Contract **Challenges**: 2.373.341 $JUNO
 
-⚪️ **Core** **Development Reserve** \(Vested 12 years\)**:** 10.383.370 $JUNO
+⚪️ **Core** **Development Reserve** \(Vested 12 years ie non-circulating\)**:** 10.383.370 $JUNO
 
-⚪️ **Core Team** \(Vested 12 years\): 1.483.338 $JUNO
+⚪️ **Core Team** \(Vested 12 years ie. non-circulating\): 1.483.338 $JUNO
 
   
 ✅ Circulating Supply at Genesis: 33.036.534 $JUNO 
