@@ -46,7 +46,7 @@ ec730773944fbdc6a8c4918984f571aa57c975a3
 The following command will show the validators tendermint consensus pubkey:
 
 ```text
-iris tendermint show-validator
+junod tendermint show-validator
 ```
 
 Returns something similar to:

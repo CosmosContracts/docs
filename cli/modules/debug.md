@@ -100,7 +100,7 @@ Bech32 Validator Consensus: junovalconspub1zcjduepq72h477t2zcnv3w632d0rv8ewfdn2v
 Convert raw bytes output \(eg. \[10 21 13 127\]\) to `hex`.
 
 ```text
-iris debug raw-bytes <raw-bytes>
+junod debug raw-bytes <raw-bytes>
 ```
 
 Example command:

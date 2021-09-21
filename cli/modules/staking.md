@@ -121,7 +121,7 @@ junod query staking delegations [delegator-address] [flags]
 The following command will return all delegations from a delegators address `<juno...>`:
 
 ```text
-iris query staking delegations <juno...>
+junod query staking delegations <juno...>
 ```
 
 Will return something similar to:
@@ -152,7 +152,7 @@ pagination:
 Query all delegations to one validator.
 
 ```text
-iris query staking delegations-to [validator-address] [flags]
+junod query staking delegations-to [validator-address] [flags]
 ```
 
 #### Query all delegations to one validator <a id="query-all-delegations-to-one-validator"></a>
