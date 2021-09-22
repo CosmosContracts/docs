@@ -12,6 +12,13 @@
 * [Brand Identity](juno/brand-identity.md)
 * [Contributors](juno/juno-developers.md)
 
+## TUTORIALS
+
+* [Wallets](tutorials/wallets.md)
+* [Keplr Browser Extension](tutorials/keplr-browser-extension.md)
+* [Staking](tutorials/staking.md)
+* [Omniflix Platform](tutorials/omniflix-platform.md)
+
 ## Nodes & Validators <a id="validators"></a>
 
 * [junod Installation and setup](validators/getting-setup.md)
