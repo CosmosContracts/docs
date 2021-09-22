@@ -10,3 +10,5 @@ description: Join the Community
 
 ## [Github](https://github.com/CosmosContracts) 💻
 
+## [Telegram ](https://t.me/joinchat/R7QKD0ltosphNWNk) 
+
