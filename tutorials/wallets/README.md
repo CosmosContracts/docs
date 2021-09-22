@@ -6,3 +6,7 @@ description: How to install and configure crypto wallets that are compatible wit
 
 Work in progress
 
+{% page-ref page="keplr-browser-extension.md" %}
+
+
+

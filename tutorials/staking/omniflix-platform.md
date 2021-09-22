@@ -15,6 +15,8 @@ In this tutorial we will learn how to stake Juno to a validator of the Juno netw
 
 ## Staking
 
+Work in progress
+
 
 
 

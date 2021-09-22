@@ -14,10 +14,10 @@
 
 ## TUTORIALS
 
-* [Wallets](tutorials/wallets.md)
-* [Keplr Browser Extension](tutorials/keplr-browser-extension.md)
-* [Staking](tutorials/staking.md)
-* [Omniflix Platform](tutorials/omniflix-platform.md)
+* [Wallets](tutorials/wallets/README.md)
+  * [Keplr Browser Extension](tutorials/wallets/keplr-browser-extension.md)
+* [Staking](tutorials/staking/README.md)
+  * [Omniflix Platform](tutorials/staking/omniflix-platform.md)
 
 ## Nodes & Validators <a id="validators"></a>
 
