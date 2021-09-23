@@ -5,7 +5,7 @@ JUNO, the native asset of the network carries a variety of use cases within the 
   
 **Genesis Supply Breakdown**
 
-![](../../.gitbook/assets/genesis-supply-pie-2-%20%285%29.png)
+![](../../.gitbook/assets/screenshot-2311-.png)
 
 ⚪️ Community **Stakedrop**: 30.663.193 $JUNO
 
@@ -13,9 +13,9 @@ JUNO, the native asset of the network carries a variety of use cases within the 
 
 ⚪️ Smart Contract **Challenges**: 2.373.341 $JUNO
 
-⚪️ **Core** **Development Reserve** \(Vested 12 years ie non-circulating\)**:** 10.383.370 $JUNO
+⚪️ **Core** **Development Reserve** \(Vested 12 years ie non-circulating\)**:** 10.084.396 $JUNO
 
-⚪️ **Core Team** \(Vested 12 years ie. non-circulating\): 1.483.338 $JUNO
+⚪️ **Core Team** \(Vested 12 years ie. non-circulating\): 1.782.312 $JUNO
 
   
 ✅ Circulating Supply at Genesis: 33.036.534 $JUNO 
