@@ -40,6 +40,10 @@ Learn more about the reward Schedule: [https://docs.junochain.com/juno/economic-
 
 
 
+⚪️ **Staking safely** 
+
+Staking JUNO is not risk-free. If a validator has downtime or underperforms, a percentage of JUNO delegated to them may be forfeited. To mitigate potential soft and hard slash risks we have listed some general safety guidelines below.
+
 ## Selecting a Validator
 
 There are many validator candidates to select from when it comes to delegating your Juno. The following discussion aims to provide you with some points for consideration when selecting a validator for your staked Juno. It is important that you do a little research before delegating your Juno.
