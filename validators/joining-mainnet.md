@@ -154,7 +154,7 @@ After creating a new key, the key information and seed phrase will be shown. It 
 
 ### **Get some Juno tokens**
 
-You will require some Juno tokens to bond to your validator. To be in the active set you will need to have enough tokens to be in the top 70 validators by delegation weight.
+You will require some Juno tokens to bond to your validator. To be in the active set you will need to have enough tokens to be in the top 100 validators by delegation weight.
 
 If you do not have any Juno tokens for you validator you can purchase tokens on Osmosis or Emeris.
 
