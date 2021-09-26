@@ -56,7 +56,11 @@ The following tutorials aim to provide step by instructions to stake your juno t
 
 {% page-ref page="omniflix-platform.md" %}
 
+## Command Line Reference
 
+{% page-ref page="../../cli/modules/staking.md" %}
+
+{% page-ref page="../../cli/modules/distribution.md" %}
 
 
 

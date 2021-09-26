@@ -24,13 +24,9 @@ description: CLI reference for junod modules
 
 {% page-ref page="tendermint.md" %}
 
-{% page-ref page="tx.md" %}
-
 {% page-ref page="upgrade.md" %}
 
 {% page-ref page="wasm.md" %}
-
-{% page-ref page="transactions.md" %}
 
 
 

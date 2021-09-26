@@ -18,8 +18,6 @@ The Juno docs describe the Juno open source project, a blockchain built for scal
 
 ## CLI
 
-{% page-ref page="cli/modules/transactions.md" %}
-
 ## Smart Contracts
 
 {% page-ref page="smart-contracts/installation.md" %}

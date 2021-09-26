@@ -6,9 +6,15 @@ description: How to install and configure crypto wallets that are compatible wit
 
 ## Wallet Tutorials
 
-### [Keplr Browser Extension](./#keplr-browser-extension)
+{% page-ref page="keplr-browser-extension.md" %}
 
-### [junod Command Line Wallet](../../cli/modules/keys.md)
+### Command Line Reference
+
+{% page-ref page="../../cli/modules/keys.md" %}
+
+{% page-ref page="../../cli/modules/bank.md" %}
+
+
 
 
 

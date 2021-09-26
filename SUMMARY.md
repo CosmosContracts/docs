@@ -42,10 +42,8 @@
   * [staking](cli/modules/staking.md)
   * [status](cli/modules/status.md)
   * [tendermint](cli/modules/tendermint.md)
-  * [tx](cli/modules/tx.md)
   * [upgrade](cli/modules/upgrade.md)
   * [wasm](cli/modules/wasm.md)
-  * [Transactions](cli/modules/transactions.md)
 
 ## Smart Contracts
 

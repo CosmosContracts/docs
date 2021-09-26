@@ -80,7 +80,7 @@ All POST commands have the following global flags:
 | [staking](modules/staking.md) | Staking subcommands for validators and delegators |
 | [status](modules/status.md) | Query remote node for status |
 | [tendermint](modules/tendermint.md) | Tendermint state querying subcommands |
-| [tx](modules/tx.md) | Tx subcommands |
+| [tx]() | Tx subcommands |
 | [upgrade](modules/upgrade.md) | Software Upgrade subcommands |
 | [wasm](modules/wasm.md) | Interact with smart contracts |
 
