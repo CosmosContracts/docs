@@ -110,7 +110,7 @@ NB: If you are unsure about this, you can ask in discord for the current peers a
 
 These instructions will direct you on how to initialise your node, synchronise to the network and upgrade your node to a validator. 
 
-### **Initialise the chain**
+### **Initialize the chain**
 
 ```bash
 junod init $MONIKER_NAME --chain-id $CHAIN_ID
@@ -182,7 +182,7 @@ To upgrade the node to a validator, you will need to submit a `create-validator`
 
 ```bash
 junod tx staking create-validator \
-  --amount 9000000denom \
+  --amount 9000000ujuno \
   --commission-max-change-rate "0.1" \
   --commission-max-rate "0.20" \
   --commission-rate "0.1" \
@@ -191,7 +191,7 @@ junod tx staking create-validator \
   --pubkey=$(junod tendermint show-validator) \
   --moniker $MONIKER_NAME \
   --chain-id $CHAIN_ID \
-  --gas-prices 0.025denom \
+  --gas-prices 0.025ujuno \
   --from <key-name>
 ```
 
