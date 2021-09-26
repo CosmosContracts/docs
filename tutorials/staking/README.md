@@ -4,7 +4,9 @@ description: "Securing the Juno Network \U0001F512 \U0001F511"
 
 # Staking
 
-Staking is the process of locking up a digital asset \(JUNO in the case of the Juno Network\) to provide economic security to a public blockchain.
+![](../../.gitbook/assets/juno-hub.png)
+
+Staking is the process of locking up a digital asset non custodially \(JUNO in the case of the Juno Network\) to provide economic security to a public blockchain.
 
 ⚪️ **Secure the network**
 
