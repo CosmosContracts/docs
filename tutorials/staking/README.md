@@ -34,7 +34,7 @@ Transaction fees collected on the Juno Network are distributed to staked JUNO.
 
    2. **Newly distributed JUNO**
 
-The JUNO supply is distributed to stakers over the first 12 years in 12 phases.
+The JUNO supply is distributed to stakers over the first 12 years.
 
 Learn more about the reward Schedule: [https://docs.junochain.com/juno/economic-overview/incentive-structure](https://docs.junochain.com/juno/economic-overview/incentive-structure)
 
