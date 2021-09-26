@@ -1,8 +1,44 @@
 ---
-description: "Lets secure the network  \U0001F512 \U0001F511"
+description: "Securing the Juno Network \U0001F512 \U0001F511"
 ---
 
 # Staking
+
+Staking is the process of locking up a digital asset \(JUNO in the case of the Juno Network\) to provide economic security to a public blockchain.
+
+⚪️ **Secure the network**
+
+With **JUNO**, you have the power to contribute to the security and governance of the Juno Network.
+
+⚪️ **Earn rewards**
+
+Select one or more validators of the Juno Network and start earning rewards.
+
+⚪️ **Vote for the future**
+
+Staking **JUNO** grants the right to vote on proposals and make decisions on the future of the network.
+
+
+
+✅ **Staking rewards** 
+
+When the staking \(delegation\) transaction is complete, rewards will start to be generated immediately on a block per block basis. At any time, stakers can claim their accumulated rewards, via their supported wallet.
+
+**Where do rewards come from?** 
+
+Staking rewards are distributed to staked **JUNO** in two ways:
+
+1. **Transaction fees** 
+
+Transaction fees collected on the Juno Network are distributed to staked JUNO.
+
+   2. **Newly distributed JUNO**
+
+The JUNO supply is distributed to stakers over the first 12 years in 12 phases.
+
+Learn more about the reward Schedule: [https://docs.junochain.com/juno/economic-overview/incentive-structure](https://docs.junochain.com/juno/economic-overview/incentive-structure)
+
+
 
 ## Selecting a Validator
 
