@@ -1,19 +1,19 @@
 ---
-description: How to stake your Juno with the Omniflix platform and Keplr browser extension
+description: How to stake your Juno with the Omniflix UI and Keplr browser extension
 ---
 
-# Omniflix Platform
+# Omniflix UI
 
 ## Overview
 
 In this tutorial we will learn how to stake Juno to a validator of the Juno network. This will earn you rewards and help to secure the Juno network. We will be achieving this with the following general steps:
 
 * [Install and configure the Keplr browser extension](../wallets/keplr-browser-extension.md)
-* [Open the Omniflix staking platform and login with your Keplr wallet](omniflix-platform.md#open-the-omniflix-platform-and-log-in-with-keplr-browser-extension)
+* [Open the Omniflix staking UI and login with your Keplr wallet](omniflix-platform.md#open-the-omniflix-platform-and-log-in-with-keplr-browser-extension)
 * [Select a validator and stake your Juno tokens](omniflix-platform.md#select-a-validator-and-stake-your-juno-tokens)
 * [Collect staking rewards](omniflix-platform.md#collect-staking-rewards)
 
-The Omniflix staking platform has been provided by the Omniflix team for easy staking to be available for the launch of Juno. 
+The Omniflix staking UI has been provided by the Omniflix team for easy staking to be available for the launch of Juno. 
 
 {% hint style="info" %}
 For users with a Juno stakedrop allocation, you will need to add your juno wallet associated with the stakedrop to your Keplr browser extension. You can do this by following the Keplr [guide ](../wallets/keplr-browser-extension.md#import-an-existing-account)and entering the mnemonic associated with your cosmos \(atom\) wallet address.
@@ -23,9 +23,9 @@ For users with a Juno stakedrop allocation, you will need to add your juno walle
 Delegation of your tokens to a validator will make them unusable for any other purpose. The tokens become "bonded". To "unbond" your tokens, you will need to un-delegate them. This process takes **28 days**. During this unbonding time you **will NOT receive rewards**.
 {% endhint %}
 
-## Open the Omniflix platform and log in with Keplr browser extension
+## Open the Omniflix UI and log in with Keplr browser extension
 
-Open the Chrome browser and navigate to [https://juno.omniflix.co](http://juno.omniflix.co). If this is the first time you have visited the platform, you will be shown a splash screen prompting you to connect your Keplr wallet.
+Open the Chrome browser and navigate to [https://juno.omniflix.co](http://juno.omniflix.co). If this is the first time you have visited the UI, you will be shown a splash screen prompting you to connect your Keplr wallet.
 
 ![](../../.gitbook/assets/image%20%2817%29.png)
 
@@ -41,7 +41,7 @@ Click **Approve** to continue. A popup window will appear requesting you to sign
 
 ![](../../.gitbook/assets/image%20%2812%29.png)
 
-Click **Approve** to continue. You will now be shown the Omniflix staking platform dashboard where you can see various information regarding your wallet balance and other staking information related to your wallet.
+Click **Approve** to continue. You will now be shown the Omniflix staking UI dashboard where you can see various information regarding your wallet balance and other staking information related to your wallet.
 
 ![](../../.gitbook/assets/image%20%2816%29.png)
 
