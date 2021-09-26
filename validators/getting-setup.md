@@ -26,7 +26,7 @@ sudo apt-get install make build-essential gcc git jq -y
 
 Follow the instructions [here](https://golang.org/doc/install) to install Go.
 
-Please install Go v1.16.7 or later.
+Please install Go v1.17 or later.
 
 If you are in any way unsure about how to configure Go, then set these in the `.profile` in the user's home \(i.e. `~/`\) folder.
 
@@ -40,8 +40,8 @@ export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin
 ## Build Juno from source
 
 ```bash
-git clone https://github.com/CosmosContracts/Juno
-cd Juno
+git clone https://github.com/CosmosContracts/juno
+cd juno
 git fetch
 git checkout <version-tag>
 ```
