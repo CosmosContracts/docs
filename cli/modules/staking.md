@@ -320,7 +320,7 @@ junod tx staking create-validator [flags]
 #### Create a validator <a id="create-a-validator"></a>
 
 ```text
-junod tx staking create-validator --chain-id=juno --from=<key-name> --fees=1juno --pubkey=<validator-pubKey> --commission-rate=0.1 --amount=100juno --moniker=<validator-name>
+junod tx staking create-validator --chain-id=juno --from=<key-name> --fees=0.025juno --pubkey=<validator-pubKey> --commission-rate=0.1 --amount=100000000ujuno --moniker=<validator-name>
 ```
 
 {% hint style="info" %}
@@ -364,7 +364,7 @@ junod tx staking delegate [validator-addr] [amount] [flags]
 ```
 
 ```text
-junod tx staking delegate <junovaloper...> <amount> --chain-id=juno --from=<key-name> --fees=1juno
+junod tx staking delegate <junovaloper...> <amount> --chain-id=juno --from=<key-name>
 ```
 
 ### junod tx staking unbond <a id="iris-tx-staking-unbond"></a>
@@ -378,7 +378,7 @@ junod tx staking unbond [validator-addr] [amount] [flags]
 #### Unbond some tokens from a validator <a id="unbond-some-tokens-from-a-validator"></a>
 
 ```text
-junod tx staking unbond <junovaloper...> 10juno --from=<key-name> --chain-id=juno --fees=1juno
+junod tx staking unbond <junovaloper...> 1000000ujuno --from=<key-name> --chain-id=juno 
 ```
 
 ### junod tx staking redelegate <a id="iris-tx-staking-redelegate"></a>
@@ -398,6 +398,6 @@ junod tx staking redelegate [src-validator-addr] [dst-validator-addr] [amount] [
 #### Redelegate some tokens to another validator <a id="redelegate-some-tokens-to-another-validator"></a>
 
 ```text
-junod tx staking redelegate <junovaloper...> <junovaloper...> 10iris --chain-id=juno --from=<key-name> --fees=1juno
+junod tx staking redelegate <junovaloper...> <junovaloper...> 1000000ujuno --chain-id=juno --from=<key-name>
 ```
 
