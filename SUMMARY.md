@@ -26,6 +26,9 @@
 * [Joining Mainnet](validators/joining-mainnet.md)
 * [Joining a Testnet](validators/joining-the-testnets.md)
 * [Setting up Cosmovisor](validators/setting-up-cosmovisor.md)
+* [Relayers](validators/relayers/README.md)
+  * [ibc-go](validators/relayers/ibc-go.md)
+  * [Hermes](validators/relayers/hermes.md)
 * [Deploying a Node on Akash](validators/deploy-a-node-on-akash.md)
 
 ## Command-Line Interface \(CLI\) <a id="cli"></a>
