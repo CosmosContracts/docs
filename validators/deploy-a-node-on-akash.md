@@ -14,7 +14,7 @@ This guide assumes the user is familiar with the linux command line, has Akash i
 You will require at least 5 AKT for the deployment escrow amount, this will be used to pay for the provider services, as well as, say another 1 AKT for transaction fees. 
 {% endhint %}
 
-This guide utilises the docker images built by the ovrclk/cosmos-omnibus repository. These images are built to be deployed to Akash, and manage node identity files on S3 storage. Furthermore, chain settings can be configured via environment variables set in the deploy.yml
+This guide utilises the docker images built by the ovrclk/cosmos-omnibus repository. These images are built to be deployed to Akash, and manage node identity files on S3 storage. Furthermore, chain settings can be configured via environment variables set in the `deploy.yml`
 
 ## Configuration of Shell Variables
 
@@ -188,7 +188,7 @@ env:
 Detailed information regarding environment variables can be found on the [ovrclk/cosmos-omnibus](https://github.com/ovrclk/cosmos-omnibus) github repository.
 {% endhint %}
 
-#### Restore from snapshot
+#### Restore from snapshot \(optional\)
 
 You can optionally restore a publicly hosted snapshot to speed up the node deployment. A sample `env:` is as follows:
 
@@ -711,7 +711,7 @@ We can see the node has downloaded the genesis file and is starting the node. A 
 
 ## Making Changes to Your Deployment Manifest
 
-If you find that you have made a mistake in your deploy.yml and your instance has not started up as expected, you are able to make changes to the deploy.yml update your deployment lease:
+If you find that you have made a mistake in your `deploy.yml` and your instance has not started up as expected, you are able to make changes to the `deploy.yml` update your deployment lease:
 
 ```javascript
 akash tx deployment update deploy.yml --dseq $AKASH_DSEQ --from $AKASH_KEY_NAME --chain-id $AKASH_CHAIN_ID --node $AKASH_NODE --fees=5000uakt
@@ -1138,7 +1138,7 @@ pagination:
 
 ## Further Reading
 
-If you would like further information for various environment configurations for your Juno deployment.yml please visit the [cosmos-omnibus repository](https://github.com/ovrclk/cosmos-omnibus).
+If you would like further information for various environment configurations for your Juno `deployment.yml` please visit the [cosmos-omnibus repository](https://github.com/ovrclk/cosmos-omnibus).
 
 For further information regarding Akash deployments and the Akash CLI, please refer to the [Akash documentation](https://docs.akash.network/).
 
