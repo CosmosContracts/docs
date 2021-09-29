@@ -48,11 +48,13 @@ git checkout <version-tag>
 
 The `<version-tag>` will need to be set to either a [testnet `chain-id`](joining-the-testnets.md#current-testnets) or the latest [mainnet version tag](joining-mainnet.md).
 
+{% hint style="warning" %}
 For genesis, the mainnet version tag will be `v1.0.0` - i.e:
 
 ```bash
 git checkout v1.0.0
 ```
+{% endhint %}
 
 Once you're on the correct tag, you can build:
 

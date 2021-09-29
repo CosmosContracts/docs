@@ -8,7 +8,7 @@ description: General instructions to join the Juno mainnet after network genesis
 **These instructions are not relevant until after the genesis event \(October 1st 2021, 1500 UTC\). Following genesis, the `persistent_peers.txt` and `genesis.json` files will be uploaded to the Github repository and this warning will be removed.**
 {% endhint %}
 
-## Mainnet version
+## Mainnet binary version
 
 The correct version of the binary for mainnet at genesis is `v1.0.0`. Its release page can be found [here](https://github.com/CosmosContracts/juno/releases/tag/v1.0.0).
 
@@ -19,10 +19,6 @@ Below is the list of Juno mainnet id's and their current status. You will need t
 | chain-id | Description | Status | Block Start | Block Finish |
 | :--- | :--- | :---: | :--- | :--- |
 | juno-1 | This is the first chain-id from the genesis event. | current | 0 | N/A |
-
-{% hint style="info" %}
-Note that the chain-id for the mainnet is used as the GitHub version tag.
-{% endhint %}
 
 ## Recommended Minimum Hardware
 
@@ -58,7 +54,9 @@ Note that the mainnet will accumulate data as the blockchain continues. This mea
 
 To get up and running with the junod binary, please follow the instructions [here](getting-setup.md).
 
+{% hint style="warning" %}
 Mainnet will initially use the `v1.0.0` [tag](https://github.com/CosmosContracts/juno/releases/tag/v1.0.0) on GitHub. Make sure you build [this version](https://github.com/CosmosContracts/juno/tree/v1.0.0) of the Juno binary.
+{% endhint %}
 
 ## Configuration of Shell Variables
 
