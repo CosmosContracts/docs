@@ -47,9 +47,9 @@ To enable transfers of the Juno token between various cosmos blockchains, the Ju
 
 To assist operators in setting up relayers, the Juno team have provided tutorials for the following IBC relayers:
 
-{% page-ref page="./" %}
+{% page-ref page="ibc-go.md" %}
 
-{% page-ref page="./" %}
+{% page-ref page="hermes.md" %}
 
 {% hint style="info" %}
 Network configurations for relayers are stored in the mainnet Github repository.
