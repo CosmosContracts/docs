@@ -1,4 +1,4 @@
-# Tutorial CW1
+# CW1 Tutorial
 
 This tutorial will take you through compiling, storing and interacting with the CW1 subkeys contract in the[ cosmwasm-plus](https://github.com/CosmWasm/cosmwasm-plus) repo.
 

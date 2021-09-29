@@ -51,12 +51,12 @@
 ## Smart Contracts
 
 * [Installation](smart-contracts/installation.md)
-* [Tutorial ERC-20](smart-contracts/tutorial-erc-20/README.md)
+* [ERC-20 Tutorial](smart-contracts/tutorial-erc-20/README.md)
   * [Installation](smart-contracts/tutorial-erc-20/installation.md)
   * [Download, Compile, Store](smart-contracts/tutorial-erc-20/compile.md)
   * [Initialise the Contract](smart-contracts/tutorial-erc-20/initialise.md)
   * [Query and run commands](smart-contracts/tutorial-erc-20/query.md)
-* [Tutorial CW1](smart-contracts/tutorial-cw1/README.md)
+* [CW1 Tutorial](smart-contracts/tutorial-cw1/README.md)
   * [Installation](smart-contracts/tutorial-cw1/installation.md)
   * [Download, Compile, Store](smart-contracts/tutorial-cw1/download-compile-store.md)
   * [Initialise the Contract](smart-contracts/tutorial-cw1/initialise-the-contract.md)
