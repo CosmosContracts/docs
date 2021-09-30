@@ -8,7 +8,7 @@ description: How to install and configure crypto wallets that are compatible wit
 
 {% page-ref page="keplr-browser-extension.md" %}
 
-### Command Line Reference
+## Command Line Reference
 
 {% page-ref page="../../cli/modules/keys.md" %}
 
