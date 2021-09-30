@@ -38,13 +38,29 @@ This tutorial assumes you are using the Chrome browser.
 
 ![](../../.gitbook/assets/image%20%284%29.png)
 
-4. The keplr extension can now be interacted with by clicking on the Keplr icon.
+4. The Keplr extension can now be interacted with by clicking on the Keplr icon.
 
 ![](../../.gitbook/assets/image%20%285%29.png)
 
-## Accounts
+## Add Accounts
 
-You now have 3 options to add and import accounts to the Keplr extension. After clicking on the Keplr extension icon for the first time you will be presented with a new browser tab where you can either:
+There are two ways to initiate adding an account to Keplr extension. The first method is used if you have not already added any accounts to Keplr. The second method is used when you are adding additional accounts to Keplr.
+
+**Method 1 \(no existing accounts\)**
+
+Click the Keplr extension icon. A new browser tab will appear.
+
+**Method 2 \(existing account already added\)**
+
+Click the Keplr extension icon. After the Keplr wallet window opens, click the silhouette in the top right hand corner.
+
+![](../../.gitbook/assets/image%20%2833%29.png)
+
+Another window will appear with a list of accounts. Click **+ Add Account** to add or create a new account.
+
+![](../../.gitbook/assets/image%20%2831%29.png)
+
+You now have 3 options to add and import accounts to the Keplr extension:
 
 * [Create a new account](keplr-browser-extension.md#create-new-account),
 * [Import an existing account](keplr-browser-extension.md#import-an-existing-account), or
@@ -60,7 +76,7 @@ If you do not already have the account associated with your stakedrop loaded int
 
 ### Create new account
 
-1. After clicking on the **Create new account** button you will be presented with a a "mnemonic seed" as well as fields for your "Account name", "New Password" and "Confirm password".
+1. After clicking on the **Create new account** button you will be presented with form with a field for you to enter your "mnemonic seed" as well as fields for your "Account name", "New Password" and "Confirm password".
 
 {% hint style="danger" %}
 **Before continuing:** Write down your "Mnemonic Seed" on a piece of paper. Store these words in a secure place and **NEVER** provide them to anyone. This phrase is the only way to recover your account if you lose access to the Keplr extension and it is the **ONLY** way to migrate you account to another wallet. Anyone who has this Mnemonic Seed can access and withdraw your crypto tokens.
@@ -84,25 +100,75 @@ If you do not already have the account associated with your stakedrop loaded int
 
 5. Your account is now accessible by clicking on the Keplr extension icon in the toolbar.
 
-![](../../.gitbook/assets/image%20%2821%29.png)
+![](../../.gitbook/assets/image%20%2822%29.png)
 
 ### Import an existing account
 
-1. After clicking on the **Import existing account** button, you will be presented with a screen where you can "Input your seed". Enter your see phrase, choose an account name for the wallet and create a new password. Click the **Next** button when done.
+1. After clicking on the **Import existing account** button, you will be presented with a form where you can "Input your seed" as well as fields for your "Account name", "New Password" and "Confirm password". Enter your seed phrase \(mnemonic seed\), choose an account name for the wallet and create a new password. Click the **Next** button when done.
 
-![](../../.gitbook/assets/image%20%2824%29.png)
+![](../../.gitbook/assets/image%20%2835%29.png)
 
 2. The following screen will let you know "You're all set!". Click the **Done** button to finish.
 
-![](../../.gitbook/assets/image%20%2822%29.png)
+![](../../.gitbook/assets/image%20%2824%29.png)
 
 3. Your account is now accessible by clicking on the Keplr extension icon in the toolbar.
 
-![](../../.gitbook/assets/image%20%2823%29.png)
+![](../../.gitbook/assets/image%20%2829%29.png)
 
 ### Import ledger
 
-Work in progress
+The following ledger tutorial assumes that you have followed the setup instructions for your ledger device and have installed the **cosmos app** on your ledger device. If you have not already completed this setup, please see:
+
+* [Setting up ledger device](https://support.ledger.com/hc/en-us/articles/360000613793-Set-up-your-Ledger-Nano-S?docs=true)
+* [Installing apps on a ledger device](https://support.ledger.com/hc/en-us/articles/4404382258961?docs=true)
+
+Now that your ledger device has been setup, we can continue with the tutorial.
+
+1. **Connect your ledger** device to your computer via a USB cable.
+2. **Enter your pin** number into the ledger device to log in.
+3. **Open the cosmos app** on your ledger device.
+4. Now click **Import ledger**, you will be presented with a form with fields for your "Account name", "New Password" and "Confirm password".
+
+![](../../.gitbook/assets/image%20%2827%29.png)
+
+5. Enter your chosen account name as well as a password. Click **Next** to continue.
+
+
+
+![](../../.gitbook/assets/image%20%2828%29.png)
+
+If this is the first time you have used a ledger with the browser, you may be presented with the following popup. **Follow the steps in the popup** and click **Next** to continue.
+
+![](../../.gitbook/assets/image%20%2823%29.png)
+
+You will be presented with another popup window. Select the desired device from the list and click **Connect** to continue.
+
+![](../../.gitbook/assets/image%20%2826%29.png)
+
+6.  The following screen will let you know "You're all set!". Click the **Done** button to finish.
+
+![](../../.gitbook/assets/image%20%2836%29.png)
+
+7. Your account is now accessible by clicking on the Keplr extension icon in the toolbar.
+
+![](../../.gitbook/assets/image%20%2825%29.png)
+
+## Switching Between Accounts
+
+If you have multiple accounts attached to your Keplr browser extension, you may need to switch between them from time to time.
+
+To change accounts:
+
+1. Click the Keplr extension icon, then click the silhouette in the top right hand corner. 
+
+ 
+
+![](../../.gitbook/assets/image%20%2832%29.png)
+
+2. A window will be shown with all of you accounts attached to Keplr. You can choose your desired account by clicking on it.
+
+![](../../.gitbook/assets/image%20%2834%29.png)
 
 
 
