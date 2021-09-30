@@ -20,6 +20,10 @@ Answering these questions can be daunting, so there is some advice below.
 
 In order to streamline chain upgrades and minimise downtime, you may want to set up [cosmovisor](https://docs.cosmos.network/master/run-node/cosmovisor.html) to manage your node. A [guide for this is provided](setting-up-cosmovisor.md) in the Juno docs.
 
+### Backups
+
+Backups of chain state are possible using the commands specified [here](https://hub.cosmos.network/main/gaia-tutorials/join-mainnet.html#export-state). If you are using a recent version of Cosmovisor, then the default configuration is that a state backup will be created before upgrades are applied. [This can be turned off using environment flags](https://docs.cosmos.network/master/run-node/cosmovisor.html#command-line-arguments-and-environment-variables).
+
 ### Alerting and monitoring
 
 Alerting and monitoring is desirable as well - you are encouraged to explore solutions and find one that works for your setup. Prometheus is available out-of-the box, and there are a variety of open-source tools. Recommended reading:
