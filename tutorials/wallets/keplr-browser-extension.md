@@ -52,6 +52,12 @@ You now have 3 options to add and import accounts to the Keplr extension. After 
 
 ![](../../.gitbook/assets/image%20%283%29.png)
 
+{% hint style="success" %}
+**For people who have stakedrop** \([http://stakedrop.junochain.com](http://stakedrop.junochain.com) to confirm\):
+
+If you do not already have the account associated with your stakedrop loaded into your Keplr wallet, please proceed to [Import existing account](keplr-browser-extension.md#import-an-existing-account) and use the "Mnemonic Seed" associated with your Cosmos \(ATOM\) account that is eligible for the stakedrop. Or, if your Cosmos account was secured by a ledger hardware wallet, please proceed to[ Import ledger](keplr-browser-extension.md#import-ledger).
+{% endhint %}
+
 ### Create new account
 
 1. After clicking on the **Create new account** button you will be presented with a a "mnemonic seed" as well as fields for your "Account name", "New Password" and "Confirm password".
@@ -76,9 +82,23 @@ You now have 3 options to add and import accounts to the Keplr extension. After 
 
 ![](../../.gitbook/assets/image.png)
 
+5. Your account is now accessible by clicking on the Keplr extension icon in the toolbar.
+
+![](../../.gitbook/assets/image%20%2821%29.png)
+
 ### Import an existing account
 
-Work in progress
+1. After clicking on the **Import existing account** button, you will be presented with a screen where you can "Input your seed". Enter your see phrase, choose an account name for the wallet and create a new password. Click the **Next** button when done.
+
+![](../../.gitbook/assets/image%20%2824%29.png)
+
+2. The following screen will let you know "You're all set!". Click the **Done** button to finish.
+
+![](../../.gitbook/assets/image%20%2822%29.png)
+
+3. Your account is now accessible by clicking on the Keplr extension icon in the toolbar.
+
+![](../../.gitbook/assets/image%20%2823%29.png)
 
 ### Import ledger
 
