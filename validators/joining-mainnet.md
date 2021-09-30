@@ -144,7 +144,7 @@ junod keys add <key-name>
 
 # Restore existing juno wallet with mnemonic seed phrase.
 # You will be prompted to enter mnemonic seed.
-junod keys add <key-name> --restore
+junod keys add <key-name> --recover
 
 # Query the keystore for your public address
 junod keys show <key-name> -a
