@@ -4,10 +4,6 @@ description: General instructions to join the Juno mainnet after network genesis
 
 # Joining Mainnet
 
-{% hint style="danger" %}
-**These instructions are not relevant until after the genesis event \(October 1st 2021, 1500 UTC\). Following genesis, the `persistent_peers.txt` and `genesis.json` files will be uploaded to the Github repository and this warning will be removed.**
-{% endhint %}
-
 ## Mainnet binary version
 
 The correct version of the binary for mainnet at genesis is `v1.0.0`. Its release page can be found [here](https://github.com/CosmosContracts/juno/releases/tag/v1.0.0).
