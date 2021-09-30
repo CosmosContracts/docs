@@ -179,6 +179,10 @@ If this command returns `true` then your node is still catching up. If it return
 
 ## Upgrade to a validator
 
+{% hint style="danger" %}
+**DO NOT PROCEED TO UPGRADE TO VALIDATOR UNTIL AFTER JUNO-1 NETWORKS HAS STARTED!!**
+{% endhint %}
+
 To upgrade the node to a validator, you will need to submit a `create-validator` transaction:
 
 ```bash
