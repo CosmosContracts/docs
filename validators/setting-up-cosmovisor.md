@@ -19,7 +19,18 @@ First, go and get cosmovisor \(recommended approach\):
 
 ```bash
 go get github.com/cosmos/cosmos-sdk/cosmovisor/cmd/cosmovisor
+
+# or, with go >= 1.15 you can do
+go install github.com/cosmos/cosmos-sdk/cosmovisor/cmd/cosmovisor@latest
 ```
+
+{% hint style="danger" %}
+Note that the [latest version of Cosmovisor](https://github.com/cosmos/cosmos-sdk/releases/tag/cosmovisor%2Fv1.0.0) \(`v1.0.0` as of 2021-09-30\) has not been used in a Juno testnet. It contains important security fixes but is likely not compatible with using Cosmovisor's`DAEMON_ALLOW_DOWNLOAD_BINARIES`option. In any case, the Juno team do not recommend running with auto downloads turned on, so this should not be an issue.
+
+To build a specific version, you can use the instructions below, or use the previous release tag for Cosmovisor [here](https://github.com/cosmos/cosmos-sdk/releases/tag/cosmovisor%2Fv0.1.0).
+
+Once this has been deployed in production and tested, the Juno team will update this warning message.
+{% endhint %}
 
 Your installation can be confirmed with:
 
@@ -33,7 +44,11 @@ This will return something like:
 /home/<your-user>/go/bin/cosmovisor
 ```
 
-You can also build from source; cosmovisor is in the main `cosmos-sdk` repo on Github, so you can use Git tags to target a specific version:
+{% hint style="info" %}
+Building from source allows you to target a specific version of Cosmovisor, in case you do not want to run 1.0.0 yet.
+{% endhint %}
+
+You can also build from source; cosmovisor is in the main `cosmos-sdk` repo on Github, so you can use Git tags to target a specific version. This example uses a tag, `v0.42.7` that refers to the Cosmos SDK, as Cosmovisor-specific tags did not exist before August 2021. The first of these was `cosmovisor/v0.1.0`, and the second is the current release, `cosmovisor/v1.0.0`.
 
 ```bash
 git clone https://github.com/cosmos/cosmos-sdk
