@@ -26,9 +26,16 @@ sudo apt-get install make build-essential gcc git jq -y
 
 Follow the instructions [here](https://golang.org/doc/install) to install Go.
 
+For an Ubuntu LTS, you can probably use:
+
+```bash
+wget https://golang.org/dl/go1.17.1.linux-amd64.tar.gz
+sudo tar -C /usr/local -xzf go1.17.1.linux-amd64.tar.gz
+```
+
 Please install Go v1.17 or later.
 
-If you are in any way unsure about how to configure Go, then set these in the `.profile` in the user's home \(i.e. `~/`\) folder.
+Unless you want to configure in a non standard way, then set these in the `.profile` in the user's home \(i.e. `~/`\) folder.
 
 ```bash
 export GOROOT=/usr/local/go
