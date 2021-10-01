@@ -118,7 +118,7 @@ which junod
 Then use the path returned to copy it to the directory Cosmovisor expects. Let's assume the previous command returned `/home/your-user/go/bin/junod`:
 
 ```bash
-cp /home/<your-user>/bin/junod $DAEMON_HOME/cosmovisor/genesis/bin
+cp /home/<your-user>/go/bin/junod $DAEMON_HOME/cosmovisor/genesis/bin
 ```
 
 Once you're done, check the folder structure looks correct using a tool like `tree`.
