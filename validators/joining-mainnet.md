@@ -79,6 +79,12 @@ You can also set this in your `.profile` file:
 export CHAIN_ID=juno-1
 ```
 
+Then source it:
+
+```bash
+source .profile
+```
+
 ### Set your moniker name
 
 Choose your `<moniker-name>`, this can be any name of your choosing and will identify your validator in the explorer. Set the `MONIKER_NAME`:
