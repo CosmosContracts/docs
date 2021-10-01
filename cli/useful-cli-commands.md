@@ -41,3 +41,15 @@ Export a private key \(warning: don't do this unless you know what you're doing!
 junod keys export <your-key-name> --unsafe --unarmored-hex
 ```
 
+Withdraw rewards \(including validator commission\), where `junovaloper1...` is the validator address:
+
+```bash
+junod tx distribution withdraw-rewards <junovaloper1...> --from <your-key>  --commission
+```
+
+Stake:
+
+```bash
+junod tx staking delegate <junovaloper1...> <AMOUNT>ujuno --from <your-key>
+```
+
