@@ -23,6 +23,8 @@ junod tendermint show-node-id
 Your peer address will be the result of this plus host and port, i.e. `<id>@<host>:26656` if you are using the default port.
 {% endhint %}
 
+If you don't know the IP of the box, use `ip r | grep default`. You're probably looking for the value to the right of `src` if you're using cloud hosting.
+
 See keys on the current box:
 
 ```bash
