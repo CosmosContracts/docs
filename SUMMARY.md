@@ -34,6 +34,7 @@
 ## Command-Line Interface \(CLI\) <a id="cli"></a>
 
 * [Introduction](cli/cli-introduction.md)
+* [Useful CLI Commands](cli/useful-cli-commands.md)
 * [Modules](cli/modules/README.md)
   * [bank](cli/modules/bank.md)
   * [debug](cli/modules/debug.md)
