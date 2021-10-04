@@ -30,15 +30,15 @@ To enable transfers of the Juno token between various cosmos blockchains, the Ju
   <tbody>
     <tr>
       <td style="text-align:left">osmosis-1</td>
-      <td style="text-align:left">TBA</td>
+      <td style="text-align:left">channel-42</td>
       <td style="text-align:left">channel-1</td>
-      <td style="text-align:left">TBA</td>
+      <td style="text-align:left">ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2</td>
     </tr>
     <tr>
       <td style="text-align:left">cosmoshub-4</td>
       <td style="text-align:left">TBA</td>
       <td style="text-align:left">channel-0</td>
-      <td style="text-align:left">TBA</td>
+      <td style="text-align:left">ibc/13B770F3AA627CCD99D3275DEF01D74199472BDCAEE01E4C2646059143B47309</td>
     </tr>
   </tbody>
 </table>

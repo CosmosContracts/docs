@@ -12,8 +12,6 @@ Jake Hartnell \(Stargaze.Zone\) [https://twitter.com/JakeHartnell](https://twitt
 
 Jack Zampolin \(Strangelove Ventures\) [https://twitter.com/jack\_zampolin](https://twitter.com/jack_zampolin)
 
-
-
 **Dapp/Infrastructure/Tooling Developers & Active Contributors**
 
 Jacob Gadikian \(Notional\) [https://twitter.com/gadikian](https://twitter.com/gadikian)
@@ -32,7 +30,7 @@ Tosch \(SG-1\) [https://twitter.com/ToschDev](https://twitter.com/ToschDev)
 
 Highlander \(Highlander Nodes\) [https://twitter.com/HighlanderNodes](https://twitter.com/HighlanderNodes)
 
-Ben  \(Ben 2x4\) [https://twitter.com/ben2x4](https://twitter.com/ben2x4)
+Ben \(Ben 2x4\) [https://twitter.com/ben2x4](https://twitter.com/ben2x4)
 
 Orkun \(Confio\) [https://twitter.com/zl00ba](https://twitter.com/zl00ba)
 
@@ -50,19 +48,5 @@ Eliot Baker \(elgorithm\) elgorithm\#0574
 
 Nonsencecode nonsensetwice\#3475
 
-
-
 The list is constantly expanding. If your name is not mentioned and your actively contributing please reach out to the core team.
-
-
-
-
-
-
-
-
-
-
-
-
 

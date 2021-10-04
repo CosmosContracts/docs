@@ -2,7 +2,7 @@
 description: General instructions on how to join the Juno testnets
 ---
 
-# Joining a Testnet
+# Joining Testnets
 
 ## Current testnets
 
