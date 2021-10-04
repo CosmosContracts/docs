@@ -24,7 +24,7 @@ The Frey \(envoys.io\) the-frey\#8626
 
 NullMames \(kingnodes\) [https://twitter.com/nullMames](https://twitter.com/nullMames)
 
-Zak \(EzStaking\) [https://twitter.com/zakarialounes](https://twitter.com/zakarialounes)
+Zak \(EZStaking\) [https://twitter.com/EZStaking](https://twitter.com/EZStaking)
 
 Sistla Abhishek \(OmniFlix\) [https://twitter.com/svabhishek](https://twitter.com/svabhishek)
 
