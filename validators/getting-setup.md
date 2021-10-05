@@ -44,6 +44,12 @@ export GO111MODULE=on
 export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin
 ```
 
+After updating your `~/.profile` you will need to source it:
+
+```bash
+source ~/.profile
+```
+
 ## Build Juno from source
 
 ```bash
