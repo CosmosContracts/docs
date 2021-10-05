@@ -11,7 +11,8 @@ Below is the list of Juno testnets and their current status. You will need to kn
 | chain-id | Description | Status |
 | :--- | :--- | :---: |
 | lucina | This testnet has an implementation of cosmwasm and is used for the [hack-juno](https://github.com/CosmosContracts/hack-juno) competition. This testnet will be upgraded as new versions of cosmwasm are released and will be the primary testing area for smart contract development for the Juno chain after the mainnet has launched. | current |
-| hera | The final testnet before mainnet launch. This testnet is intended as a final test for the custom inflation module as well as other genesis parameters to ensure a smooth mainnet launch. | pending |
+| hera | The final testnet before mainnet launch. This testnet is intended as a final test for the custom inflation module as well as other genesis parameters to ensure a smooth mainnet launch. | ended |
+| moneta | This post-mainnet launch testnet is designed to test the Cosmwasm 1.0.0 API and allow smart contract developers time to test and update their contracts before CosmWasm is included in Juno. | pending |
 
 {% hint style="info" %}
 Note that the chain-id for the testnets is used as the GitHub version tag.
@@ -42,6 +43,17 @@ The minimum recommended hardware requirements for running a validator for the Ju
     </tr>
     <tr>
       <td style="text-align:left">hera</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul>
+          <li>2GB RAM</li>
+          <li>25GB of disk space</li>
+          <li>1.4 GHz CPU</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">moneta</td>
       <td style="text-align:left">
         <p></p>
         <ul>
@@ -121,6 +133,10 @@ This will generate the following files in `~/.juno/config/`
 * `genesis.json` 
 * `node_key.json` 
 * `priv_validator_key.json`
+
+{% hint style="info" %}
+Note that this means if you jumped ahead and already downloaded the genesis file, this command will replace it and you will get an error when you attempt to start the chain.
+{% endhint %}
 
 ### Download the genesis file
 
