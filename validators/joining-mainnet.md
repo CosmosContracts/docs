@@ -191,6 +191,10 @@ If this command returns `true` then your node is still catching up. If it return
 
 ## Upgrade to a validator
 
+{% hint style="danger" %}
+**Do not attempt to upgrade your node to a validator until the node is fully in sync as per the previous step.**
+{% endhint %}
+
 To upgrade the node to a validator, you will need to submit a `create-validator` transaction:
 
 ```bash
