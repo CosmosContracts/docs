@@ -35,6 +35,8 @@ Alerting and monitoring is desirable as well - you are encouraged to explore sol
 
 #### Simple setup using Grafana Cloud
 
+Using only the raw metrics endpoint provided by `junod` you can get a working dashboard and alerting setup using Grafana Cloud. This means you don't have to run Grafana on the instance.
+
 1. First, in `config.toml` enable Prometheus. The default metrics port will be `26660`
 2. Download Prometheus - this is needed to ship logs to Grafana Cloud.
 3. Create a `prometheus.yml` file with your [Grafana Cloud credentials](https://grafana.com/docs/grafana-cloud/reference/create-api-key/) in the Prometheus folder. You can get these via the Grafana UI. Click 'details' on the Prometheus card: 
