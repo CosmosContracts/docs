@@ -1,6 +1,6 @@
 # Economic Overview
 
-Juno´s economic system is designed to foster a self-sustaining economy were incentives are aligned to drive security and decentralization of the Juno Network. 
+Juno´s economic system is designed to foster a self-sustaining economy where incentives are aligned to drive security and decentralization of the Juno Network. 
 
 Participants in this economy include validators, developers and delegators.
 
