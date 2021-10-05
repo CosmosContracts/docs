@@ -36,6 +36,9 @@ Use go 1.16.3 for compiling`junod`executable if you are building from source. If
 # clone juno repo
 git clone https://github.com/CosmosContracts/juno.git && cd juno
 
+git fetch --tags
+git checkout lucina
+
 # build juno executable
 make install
 ```

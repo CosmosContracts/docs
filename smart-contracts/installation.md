@@ -70,6 +70,10 @@ Use go 1.16.3 for compiling the `junod`executable if you are building from sourc
 # clone juno repo
 git clone https://github.com/CosmosContracts/juno.git && cd juno
 
+# get current testnet tag
+git fetch --tags
+git checkout lucina
+
 # build juno executable
 make install
 
@@ -79,4 +83,56 @@ which juno
 {% hint style="info" %}
 If you have any problems here, check your `PATH`. `make install` will copy `junod` to `$HOME/go/bin` by default, please make sure that is set up in your `PATH` as well, which should be the case in general for building Go code from source.
 {% endhint %}
+
+## Running locally
+
+Running locally is harder. Like on the testnet, you will need to make sure that your chosen tag for the `junod` binary and version of CosmWasm line up.
+
+As of 2021-10-05, the correct tag to use is the same as the testnet tag above.
+
+You will then need to set up your local chain to develop against. You can do this with Starport, if you're comfortable with that, or alternatively use the following script adapted from the CosmWasm team.
+
+```bash
+#!/bin/bash
+
+set -e
+
+# lightly adapted from the cool cats at Confio / cosmwasm
+# as always, thanks and mega props
+
+APP_HOME="~/.juno"
+RPC="http://localhost:26657"
+CHAIN_ID="lucina"
+# initialize junod configuration files
+junod init testmoniker --chain-id ${CHAIN_ID} --home ${APP_HOME}
+
+# add minimum gas prices config to app configuration file
+sed -i -r 's/minimum-gas-prices = ""/minimum-gas-prices = "0.025ujuno"/' ${APP_HOME}/config/app.toml
+
+# Create main address
+# --keyring-backend test is for testing purposes
+# Change it to --keyring-backend file for secure usage.
+export KEYRING="--keyring-backend test --keyring-dir $HOME/.juno_keys"
+junod keys add main $KEYRING
+
+# create validator address
+junod keys add validator $KEYRING
+
+# add your wallet addresses to genesis
+junod add-genesis-account $(junod keys show -a main $KEYRING) 10000000000ujuno --home ${APP_HOME}
+junod add-genesis-account $(junod keys show -a validator $KEYRING) 10000000000ujuno --home ${APP_HOME}
+
+# add second address as validator's address
+# validator is the key name
+junod gentx validator 1000000000ujuno --home ${APP_HOME} --chain-id ${CHAIN_ID} $KEYRING
+
+# collect gentxs & add to genesis
+junod collect-gentxs --home ${APP_HOME}
+
+# validate the genesis file
+junod validate-genesis --home ${APP_HOME}
+
+# run the node
+junod start --home ${APP_HOME}
+```
 
