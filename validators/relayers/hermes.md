@@ -6,44 +6,34 @@ description: 'Instructions for setting up the rust based relayer, Hermes'
 
 ## Assumptions
 
-We assume that you already have access to Juno, Osmosis and Cosmos
-nodes. These can be either local nodes, or you can access them over the
-network. However, for networked version, you will need to adjust the
-systemd configuration not to depend on the chains that are run on other
-servers.
+We assume that you already have access to Juno, Osmosis and Cosmos nodes. These can be either local nodes, or you can access them over the network. However, for networked version, you will need to adjust the systemd configuration not to depend on the chains that are run on other servers.
 
-In these instructions, Hermes is installed under /srv/hermes, adjust the
-paths according to your setup.
+In these instructions, Hermes is installed under /srv/hermes, adjust the paths according to your setup.
 
-These instructions are based on installation on Debian 10, but should
-work the same on Debian 11 or recent Ubuntu.
+These instructions are based on installation on Debian 10, but should work the same on Debian 11 or recent Ubuntu.
 
-You will need **rust**, **build-essential** and **git** installed to
-follow these instructions.
+You will need **rust**, **build-essential** and **git** installed to follow these instructions.
 
 ## Building Hermes
 
-For preparation, we will create a dedicated user to run Hermes.
-Following command will also create home directory for the new user.
+For preparation, we will create a dedicated user to run Hermes. Following command will also create home directory for the new user.
 
-```
+```text
 sudo useradd -m -d /srv/hermes hermes
 ```
 
-We will next switch to the hermes user and create a directory where we
-will compile the relayer software.
+We will next switch to the hermes user and create a directory where we will compile the relayer software.
 
-```
+```text
 sudo sudo -u hermes -s
 mkdir /srv/hermes/source
 mkdir /srv/hermes/bin
 cd /srv/hermes/source
 ```
 
-Now is time to clone the source repository and build it. Note that we
-need to checkout the latest release.
+Now is time to clone the source repository and build it. Note that we need to checkout the latest release.
 
-```
+```text
 git clone https://github.com/informalsystems/ibc-rs.git hermes
 cd hermes
 git checkout v0.7.2
@@ -52,10 +42,9 @@ cp target/release/hermes ~/bin
 cd
 ```
 
-Next we will check that the newly built hermes version is the correct
-one:
+Next we will check that the newly built hermes version is the correct one:
 
-```
+```text
 hermes@demo:~$ bin/hermes version
 Oct 04 15:52:48.299  INFO ThreadId(01) using default configuration from '/srv/hermes/.hermes/config.toml'
 hermes 0.7.2
@@ -63,12 +52,9 @@ hermes 0.7.2
 
 ## Configuring Hermes
 
-Choose your favourite editor and edit the following configuration
-template to mach your setup. There are features like telemetry and rest
-API that you can enable, but they are not necessary, so they are left
-out from this tutorial.
+Choose your favourite editor and edit the following configuration template to mach your setup. There are features like telemetry and rest API that you can enable, but they are not necessary, so they are left out from this tutorial.
 
-```
+```text
 [global]
 strategy = 'packets'
 filter = true
@@ -160,22 +146,20 @@ policy = 'allow'
 list = [
   ['transfer', 'channel-207'],
 ]
-
 ```
 
 You can validate the configuration with following:
 
-```
+```text
 hermes@Demo:~$ bin/hermes -c .hermes/config.toml  config validate
 Success: "validation passed successfully"
 ```
 
 ## Setting up wallets
 
-We do this by creating key configuration files that are imported to
-hermes. Here we go trhough Juno key setting, other chains are similar.
+We do this by creating key configuration files that are imported to hermes. Here we go trhough Juno key setting, other chains are similar.
 
-```
+```text
 {
   "name":"juno-relayer",
   "type":"local",
@@ -185,18 +169,16 @@ hermes. Here we go trhough Juno key setting, other chains are similar.
 }
 ```
 
-Next we will import this key configuration to hermes and shred the used
-json file. (Using chain\_id **juno-1**.)
+Next we will import this key configuration to hermes and shred the used json file. \(Using chain\_id **juno-1**.\)
 
-```
+```text
 bin/hermes keys add juno-1 -f ./seed-juno.json
 shred -u ./seed-juno.json
 ```
 
-If you want to make sure the keys got imported, you can check them with
-following command (smart thing to run it before shredding the json file):
+If you want to make sure the keys got imported, you can check them with following command \(smart thing to run it before shredding the json file\):
 
-```
+```text
 bin/hermes keys list juno-1
 ```
 
@@ -204,22 +186,19 @@ bin/hermes keys list juno-1
 
 Let's do a quick test to see things work properly.
 
-```
+```text
 bin/hermes start
 ```
 
-Once we see things load up correctly and there are no fatal errors, we
-can break out of hermes with **ctrl-c**.
-
+Once we see things load up correctly and there are no fatal errors, we can break out of hermes with **ctrl-c**.
 
 ## Configuring systemd
 
-Now we will setup hermes to be run by systemd, and to start
-automatically on reboots.
+Now we will setup hermes to be run by systemd, and to start automatically on reboots.
 
 Create the following configuration to **/etc/systemd/system/hermes.service**
 
-```
+```text
 [Unit]
 Description=Hermes IBC relayer
 ConditionPathExists=/srv/hermes/hermes
@@ -235,14 +214,12 @@ RestartSec=2
 
 [Install]
 WantedBy=multi-user.target
-
 ```
 
-Then we well start hermes with the newly created service and enable it.
-Note that this step is done from your normal user account that has sudo
-privileges, so no longer as hermes.
+Then we well start hermes with the newly created service and enable it. Note that this step is done from your normal user account that has sudo privileges, so no longer as hermes.
 
-```
+```text
 sudo systemctl start hermes.service
 sudo systemctl enable hermes.service
 ```
+

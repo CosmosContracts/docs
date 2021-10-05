@@ -31,6 +31,68 @@ Alerting and monitoring is desirable as well - you are encouraged to explore sol
 * [https://medium.com/solar-labs-team/cosmos-how-to-monitoring-your-validator-892a46298722](https://medium.com/solar-labs-team/cosmos-how-to-monitoring-your-validator-892a46298722)
 * [https://medium.com/simply-vc/cosmos-monitoring-and-alerting-for-validators-8e3f016c9567](https://medium.com/simply-vc/cosmos-monitoring-and-alerting-for-validators-8e3f016c9567)
 * [https://chainflow.io/cosmos-validator-mission-control/](https://chainflow.io/cosmos-validator-mission-control/)
+* [https://medium.com/cypher-core/cosmos-how-to-set-up-your-own-network-monitoring-dashboard-fe49c63a8271](https://medium.com/cypher-core/cosmos-how-to-set-up-your-own-network-monitoring-dashboard-fe49c63a8271)
+
+#### Simple setup using Grafana Cloud
+
+1. First, in `config.toml` enable Prometheus. The default metrics port will be `26660`
+2. Download Prometheus - this is needed to ship logs to Grafana Cloud.
+3. Create a `prometheus.yml` file with your [Grafana Cloud credentials](https://grafana.com/docs/grafana-cloud/reference/create-api-key/) in the Prometheus folder. You can get these via the Grafana UI. Click 'details' on the Prometheus card: 
+
+```text
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: cosmops
+    static_configs:
+    - targets: ['localhost:26660']
+      labels:
+        group: 'cosmops'
+
+remote_write:
+  - url: https://your-grafana-cloud-endpoint/api/prom/push
+    basic_auth:
+      username: ID_HERE
+      password: "API KEY HERE"
+
+```
+
+3. Set up a service file, with `sudo nano /etc/systemd/system/prometheus.service`, replacing `<your-user>` and `<prometheus-folder>` with the location of Prometheus. This sets the Prometheus port to `6666`
+
+```text
+[Unit]
+Description=prometheus
+After=network-online.target
+
+[Service]
+User=<your-user>
+ExecStart=/home/<your-user>/<prometheus-folder>/prometheus --config.file=/home/<your-user>/<prometheus-folder>/prometheus.yml --web.listen-address=:6666 --storage.tsdb.path=/home/<your-user>/<prometheus-folder>/data
+Restart=always
+RestartSec=3
+LimitNOFILE=4096
+
+[Install]
+WantedBy=multi-user.target
+/etc/systemd/system/prometheus.service
+```
+
+4. Enable and start the service.
+
+```text
+sudo -S systemctl daemon-reload
+sudo -S systemctl enable prometheus
+sudo systemctl start prometheus
+```
+
+5. Import a dashboard to your Grafana. Search for 'Cosmos Validator' to find several options. You should see logs arriving in the dashboard after a couple of minutes.
+
+![A simple node dashboard example](../.gitbook/assets/screenshot-2021-10-05-at-09.29.48.png)
+
+For more info:
+
+* [https://grafana.com/docs/grafana-cloud/quickstart/noagent\_linuxnode/](https://grafana.com/docs/grafana-cloud/quickstart/noagent_linuxnode/)
+* [https://forum.cosmos.network/t/monitoring-alerting-for-your-validator/446/28](https://forum.cosmos.network/t/monitoring-alerting-for-your-validator/446/28)
 
 ### Avoiding DDOS attacks
 

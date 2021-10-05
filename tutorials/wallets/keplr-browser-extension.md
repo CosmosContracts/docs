@@ -100,7 +100,7 @@ If you do not already have the account associated with your stakedrop loaded int
 
 5. Your account is now accessible by clicking on the Keplr extension icon in the toolbar.
 
-![](../../.gitbook/assets/image%20%2829%29.png)
+![](../../.gitbook/assets/image%20%2829%29%20%281%29.png)
 
 ### Import an existing account
 
@@ -114,7 +114,7 @@ If you do not already have the account associated with your stakedrop loaded int
 
 3. Your account is now accessible by clicking on the Keplr extension icon in the toolbar.
 
-![](../../.gitbook/assets/image%20%2829%29%20%281%29.png)
+![](../../.gitbook/assets/image%20%2829%29%20%281%29%20%281%29.png)
 
 ### Import ledger
 
