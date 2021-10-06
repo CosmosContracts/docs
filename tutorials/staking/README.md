@@ -77,11 +77,11 @@ You may want to ask about particular validators in the Juno discord channels. If
 
 ### Reachability of the validator
 
-Apart from some validators running a telegram, discord ect. consider how reachable a validator is. For instance when you want to know certain specifics mentioned in this chapter or an active governance proposal, his of her validator setup (hardware used or security measures taken ect.). Try getting in touch with the validators you like to stake to.
+Apart from some validators running a telegram, discord ect. consider how reachable a validator is. For instance when you want to know certain specifics mentioned in this chapter or an active governance proposal, his or her validator setup (hardware used or security measures taken ect.). Try getting in touch with the validators you like to stake to.
 
 ### The Validator setup
 
-When you delegate to a validator nobody wants that validator to be comprimised in some way in order to prevent any form of slashing. A validator can take many precautions to mitigate this. For example: they can make a difference by upholding a good hardware standard for there validator, implementing a sentry, setting up good monitoring and making sure they have a good security setup configured.
+When you delegate to a validator nobody wants that validator to be comprimised in some way in order to prevent any form of slashing. A validator can take many precautions to mitigate this. For example: they can make a difference by upholding a good hardware standard for their validator, implementing a sentry, setting up good monitoring and making sure they have a good security setup configured.
 
 ### Project and Community involvement
 
