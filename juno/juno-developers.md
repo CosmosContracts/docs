@@ -1,8 +1,7 @@
 # Contributors
 
 **Core Development**
-
-Dimi Andre \(stakefish\) [https://twitter.com/dimiandre](https://twitter.com/dimiandre)
+Andrea Di Michele - Dimi \(stakefish\) [https://twitter.com/dimiandre](https://twitter.com/dimiandre)
 
 Wolfcontract \(SG-1\) [https://twitter.com/wolfcontract](https://twitter.com/wolfcontract)
 
