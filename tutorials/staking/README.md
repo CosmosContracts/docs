@@ -54,6 +54,9 @@ Some points to consider when selecting a validator:
 
 * [Decentralization of the network](./#decentralization-of-the-network)
 * [Reputation of the validator](./#reputation-of-the-validator)
+* [Reachability of the validator](./#reachability-of-the-validator)
+* [The validator setup](./#The-validator-setup)
+* [Project and Community involvement](./#project-and-community-involvement)
 * [Value added by the validator](./#value-added-by-the-validator)
 * [Commission taken by the validator](./#commission-taken-by-the-validator)
 * [Slashing history and validator uptime](./#slashing-history-and-validator-uptime)
@@ -71,6 +74,18 @@ You may want to investigate validators you are planning on delegating to. Most v
 Some validators run telegram, discord, or twitter channels where you can directly contact the operators and receive updates so that you are informed about the validators operations and maintenance activities. 
 
 You may want to ask about particular validators in the Juno discord channels. If the validator does not have their own social channels they may be available here.
+
+### Reachability of the validator
+
+Apart from some validators running a telegram, discord ect. consider how reachable a validator is. For instance when you want to know certain specifics mentioned in this chapter or an active governance proposal, his of her validator setup (hardware used or security measures taken ect.). Try getting in touch with the validators you like to stake to.
+
+### The Validator setup
+
+When you delegate to a validator nobody wants that validator to be comprimised in some way in order to prevent any form of slashing. A validator can take many precautions to mitigate this. For example: they can make a difference by upholding a good hardware standard for there validator, implementing a sentry, setting up good monitoring and making sure they have a good security setup configured.
+
+### Project and Community involvement
+
+Everyone can start a validator if technically capable. A difference apart from the technical aspects can be made by their involvement in the project and the community. Some are very actively trying to help the community in different ways. Helping the community will help the community grow and keep the community happy. Validators that are involved with the project means that they are up-to-date on the progress of the project, what is happening and they can use that to help educate the community and the rest of the world. As well as know when they have to upgrade their validator when new upgrades are being released. Not doing this in time will also lead a validator to be slashed if action is not taken in time.
 
 ### Value added by the validator
 
