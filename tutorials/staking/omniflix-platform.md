@@ -27,7 +27,7 @@ Delegation of your tokens to a validator will make them unusable for any other p
 
 Open the Chrome browser and navigate to [https://juno.omniflix.co](http://juno.omniflix.co). If this is the first time you have visited the UI, you will be shown a splash screen prompting you to connect your Keplr wallet.
 
-![](../../.gitbook/assets/image%20%2817%29%20%281%29%20%281%29.png)
+![](../../.gitbook/assets/image%20%2817%29%20%281%29%20%281%29%20%281%29.png)
 
 {% hint style="info" %}
 Be sure that you have the wallet you wish to use selected by clicking the Keplr icon in your Chrome toolbar, selecting the silhouette in the top right of the Keplr window and then selecting the account you wish to use.

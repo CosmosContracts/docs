@@ -20,13 +20,11 @@ Select one or more validators of the Juno Network and start earning rewards.
 
 Staking **JUNO** grants the right to vote on proposals and make decisions on the future of the network.
 
-
-
-✅ **Staking rewards** 
+✅ **Staking rewards**
 
 When the staking \(delegation\) transaction is complete, rewards will start to be generated immediately on a block per block basis. At any time, stakers can claim their accumulated rewards, via their supported wallet.
 
-**Where do rewards come from?** 
+**Where do rewards come from?**
 
 Staking rewards are distributed to staked **JUNO** in two ways:
 
@@ -34,15 +32,13 @@ Staking rewards are distributed to staked **JUNO** in two ways:
 
 Transaction fees collected on the Juno Network are distributed to staked JUNO.
 
-   2. **Newly distributed JUNO**
+1. **Newly distributed JUNO**
 
 The JUNO supply is distributed to stakers over the first 12 years.
 
 Learn more about the reward Schedule: [https://docs.junochain.com/juno/economic-overview/incentive-structure](https://docs.junochain.com/juno/economic-overview/incentive-structure)
 
-
-
-⚪️ **Staking safely** 
+⚪️ **Staking safely**
 
 Staking JUNO is not risk-free. If a validator has downtime or underperforms, a percentage of JUNO delegated to them may be forfeited. To mitigate potential soft and hard slash risks we have listed some general safety guidelines below.
 
@@ -63,7 +59,7 @@ Some points to consider when selecting a validator:
 
 ### Decentralization of the network
 
-There are a limited number of validators in the active set for the network. Each validator will vote on consensus for proposed each block. The more tokens a validator has staked to them increases the power of the validators vote. It is therefore important that no one validator gains too much power over the network. To help with decentralization of voting power, you may consider delegating to validators lower on the list of total delegation. 
+There are a limited number of validators in the active set for the network. Each validator will vote on consensus for proposed each block. The more tokens a validator has staked to them increases the power of the validators vote. It is therefore important that no one validator gains too much power over the network. To help with decentralization of voting power, you may consider delegating to validators lower on the list of total delegation.
 
 ### Reputation of the validator
 
@@ -71,13 +67,13 @@ Each validator is responsible to provide as much information as possible to pote
 
 You may want to investigate validators you are planning on delegating to. Most validators will provide some extra information such as a bio and website that will be available by clicking on the validator name in the [http://junoscan.com](http://junoscan.com) interface.
 
-Some validators run telegram, discord, or twitter channels where you can directly contact the operators and receive updates so that you are informed about the validators operations and maintenance activities. 
+Some validators run telegram, discord, or twitter channels where you can directly contact the operators and receive updates so that you are informed about the validators operations and maintenance activities.
 
 You may want to ask about particular validators in the Juno discord channels. If the validator does not have their own social channels they may be available here.
 
 ### Reachability of the validator
 
-Apart from some validators running a telegram, discord ect. consider how reachable a validator is. For instance when you want to know certain specifics mentioned in this chapter or an active governance proposal, his or her validator setup (hardware used or security measures taken ect.). Try getting in touch with the validators you like to stake to.
+Apart from some validators running a telegram, discord ect. consider how reachable a validator is. For instance when you want to know certain specifics mentioned in this chapter or an active governance proposal, his or her validator setup \(hardware used or security measures taken ect.\). Try getting in touch with the validators you like to stake to.
 
 ### The Validator setup
 
@@ -118,6 +114,4 @@ The following tutorials aim to provide step by instructions to stake your juno t
 {% page-ref page="../../cli/modules/staking.md" %}
 
 {% page-ref page="../../cli/modules/distribution.md" %}
-
-
 

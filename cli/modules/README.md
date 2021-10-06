@@ -2,7 +2,7 @@
 description: CLI reference for junod modules
 ---
 
-# Modules
+# Module Reference
 
 {% page-ref page="bank.md" %}
 

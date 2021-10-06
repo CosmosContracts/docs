@@ -35,7 +35,7 @@
 
 * [Introduction](cli/cli-introduction.md)
 * [Useful CLI Commands](cli/useful-cli-commands.md)
-* [Modules](cli/modules/README.md)
+* [Module Reference](cli/modules/README.md)
   * [bank](cli/modules/bank.md)
   * [debug](cli/modules/debug.md)
   * [distribution](cli/modules/distribution.md)
