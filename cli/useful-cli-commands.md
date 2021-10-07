@@ -23,6 +23,12 @@ junod tendermint show-node-id
 Your peer address will be the result of this plus host and port, i.e. `<id>@<host>:26656` if you are using the default port.
 {% endhint %}
 
+Get your `valoper` address:
+
+```bash
+junod keys show <key-name> -a --bech val
+```
+
 See keys on the current box:
 
 ```bash
