@@ -26,7 +26,7 @@ Your peer address will be the result of this plus host and port, i.e. `<id>@<hos
 Get your `valoper` address:
 
 ```bash
-junod keys show <key-name> -a --bech val
+junod keys show <your-key-name> -a --bech val
 ```
 
 See keys on the current box:
