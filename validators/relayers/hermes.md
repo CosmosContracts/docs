@@ -6,7 +6,13 @@ description: 'Instructions for setting up the rust based relayer, Hermes'
 
 ## Assumptions
 
-We assume that you already have access to Juno, Osmosis and Cosmos nodes. These can be either local nodes, or you can access them over the network. However, for networked version, you will need to adjust the systemd configuration not to depend on the chains that are run on other servers.
+We assume that you already have access to Juno, Osmosis and Cosmos nodes. These can be either local nodes, or you can access them over the network. However, for networked version, you will need to adjust the systemd configuration not to depend on the chains that are run on other servers. And naturally the hermes configuration needs to adjust the addressing of each chain as well.
+
+The given example has all relayed chains run locally, Juno is on standard ports, other chains are configured as follows:
+
+* Osmosis: 36657 and 39090
+* Cosmos: 46657 and 49090
+* Sifchain: 56657 and 59090
 
 In these instructions, Hermes is installed under /srv/hermes, adjust the paths according to your setup.
 
