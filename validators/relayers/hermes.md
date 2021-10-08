@@ -6,7 +6,13 @@ description: 'Instructions for setting up the rust based relayer, Hermes'
 
 ## Assumptions
 
-We assume that you already have access to Juno, Osmosis and Cosmos nodes. These can be either local nodes, or you can access them over the network. However, for networked version, you will need to adjust the systemd configuration not to depend on the chains that are run on other servers.
+We assume that you already have access to Juno, Osmosis and Cosmos nodes. These can be either local nodes, or you can access them over the network. However, for networked version, you will need to adjust the systemd configuration not to depend on the chains that are run on other servers. And naturally the hermes configuration needs to adjust the addressing of each chain as well.
+
+The given example has all relayed chains run locally, Juno is on standard ports, other chains are configured as follows:
+
+* Osmosis: 36657 and 39090
+* Cosmos: 46657 and 49090
+* Sifchain: 56657 and 59090
 
 In these instructions, Hermes is installed under /srv/hermes, adjust the paths according to your setup.
 
@@ -87,6 +93,7 @@ policy = 'allow'
 list = [
   ['transfer', 'channel-0'],
   ['transfer', 'channel-1'],
+  ['transfer', 'channel-5'],
 ]
 
 
@@ -128,7 +135,7 @@ id = 'cosmoshub-4'
 # API access to Cosmos node with indexing
 rpc_addr = 'http://127.0.0.1:46657'
 grpc_addr = 'http://127.0.0.1:49090'
-websocket_addr = 'ws://10.8.0.15:46657/websocket'
+websocket_addr = 'ws://127.0.0.1:46657/websocket'
 
 rpc_timeout = '20s'
 account_prefix = 'cosmos'
@@ -146,6 +153,36 @@ policy = 'allow'
 list = [
   ['transfer', 'channel-207'],
 ]
+
+#
+# Chain configuration Sifchain
+#
+
+[[chains]]
+id = 'sifchain-1'
+
+# API access to Cosmos node with indexing
+rpc_addr = 'http://127.0.0.1:56657'
+grpc_addr = 'http://127.0.0.1:59090'
+websocket_addr = 'ws://127.0.0.1:56657/websocket'
+
+rpc_timeout = '20s'
+account_prefix = 'sif'
+key_name = 'sif-relayer'
+store_prefix = 'ibc'
+max_msg_num=15
+max_gas = 10000000
+gas_price = { price = 0.001, denom = 'rowan' }
+clock_drift = '5s'
+trusting_period = '14days'
+trust_threshold = { numerator = '1', denominator = '3' }
+
+[chains.packet_filter]
+policy = 'allow'
+list = [
+  ['transfer', 'channel-14'],
+]
+
 ```
 
 You can validate the configuration with following:
