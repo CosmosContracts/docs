@@ -87,6 +87,7 @@ policy = 'allow'
 list = [
   ['transfer', 'channel-0'],
   ['transfer', 'channel-1'],
+  ['transfer', 'channel-5'],
 ]
 
 
@@ -128,7 +129,7 @@ id = 'cosmoshub-4'
 # API access to Cosmos node with indexing
 rpc_addr = 'http://127.0.0.1:46657'
 grpc_addr = 'http://127.0.0.1:49090'
-websocket_addr = 'ws://10.8.0.15:46657/websocket'
+websocket_addr = 'ws://127.0.0.1:46657/websocket'
 
 rpc_timeout = '20s'
 account_prefix = 'cosmos'
@@ -146,6 +147,36 @@ policy = 'allow'
 list = [
   ['transfer', 'channel-207'],
 ]
+
+#
+# Chain configuration Sifchain
+#
+
+[[chains]]
+id = 'sifchain-1'
+
+# API access to Cosmos node with indexing
+rpc_addr = 'http://127.0.0.1:56657'
+grpc_addr = 'http://127.0.0.1:59090'
+websocket_addr = 'ws://127.0.0.1:56657/websocket'
+
+rpc_timeout = '20s'
+account_prefix = 'sif'
+key_name = 'sif-relayer'
+store_prefix = 'ibc'
+max_msg_num=15
+max_gas = 10000000
+gas_price = { price = 0.001, denom = 'rowan' }
+clock_drift = '5s'
+trusting_period = '14days'
+trust_threshold = { numerator = '1', denominator = '3' }
+
+[chains.packet_filter]
+policy = 'allow'
+list = [
+  ['transfer', 'channel-14'],
+]
+
 ```
 
 You can validate the configuration with following:
