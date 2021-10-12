@@ -8,63 +8,19 @@ description: General instructions on how to join the Juno testnets
 
 Below is the list of Juno testnets and their current status. You will need to know the version tag for installation of the `junod` binary. 
 
-| chain-id | Description | Status |
-| :--- | :--- | :---: |
-| lucina | This testnet has an implementation of cosmwasm and is used for the [hack-juno](https://github.com/CosmosContracts/hack-juno) competition. This testnet will be upgraded as new versions of cosmwasm are released and will be the primary testing area for smart contract development for the Juno chain after the mainnet has launched. | current |
-| hera | The final testnet before mainnet launch. This testnet is intended as a final test for the custom inflation module as well as other genesis parameters to ensure a smooth mainnet launch. | ended |
-| moneta | This post-mainnet launch testnet is designed to test the Cosmwasm 1.0.0 API and allow smart contract developers time to test and update their contracts before CosmWasm is included in Juno. | pending |
-
-{% hint style="info" %}
-Note that the chain-id for the testnets is used as the GitHub version tag.
-{% endhint %}
+| chain-id | Github version tag |                                                                                                                                                               Description                                                                                                                                                               | Status                      |
+| -------- | ------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | --------------------------- |
+| lucina   | lucina             | This testnet has an implementation of cosmwasm and is used for the [hack-juno](https://github.com/CosmosContracts/hack-juno) competition. This testnet will be upgraded as new versions of cosmwasm are released and will be the primary testing area for smart contract development for the Juno chain after the mainnet has launched. | current                     |
+| hera     | hera               |                                                                         The final testnet before mainnet launch. This testnet is intended as a final test for the custom inflation module as well as other genesis parameters to ensure a smooth mainnet launch.                                                                        | ended                       |
+| uni      | v1.0.0             |                                                                       This post-mainnet launch testnet is designed to test the Cosmwasm 1.0.0 API and allow smart contract developers time to test and update their contracts before CosmWasm is included in Juno.                                                                      | launch October 14 18:00 UTC |
 
 ## Minimum Hardware Requirements
 
 The minimum recommended hardware requirements for running a validator for the Juno testnets are:
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Chain-id</th>
-      <th style="text-align:left">Requirements</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">lucina</td>
-      <td style="text-align:left">
-        <p></p>
-        <ul>
-          <li>2GB RAM</li>
-          <li>100GB of disk space</li>
-          <li>1.4 GHz CPU</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">hera</td>
-      <td style="text-align:left">
-        <p></p>
-        <ul>
-          <li>2GB RAM</li>
-          <li>25GB of disk space</li>
-          <li>1.4 GHz CPU</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">moneta</td>
-      <td style="text-align:left">
-        <p></p>
-        <ul>
-          <li>2GB RAM</li>
-          <li>25GB of disk space</li>
-          <li>1.4 GHz CPU</li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
+| Chain-id | Requirements                                                                    |
+| -------- | ------------------------------------------------------------------------------- |
+| uni      | <p></p><ul><li>2GB RAM</li><li>25GB of disk space</li><li>1.4 GHz CPU</li></ul> |
 
 {% hint style="info" %}
 Note that the testnets accumulate data as the blockchain continues. This means that you will need to expand your storage as the blockchain database gets larger with time. 
@@ -90,7 +46,7 @@ Choose the `<chain-id>` testnet you would like to join from [here](joining-the-t
 CHAIN_ID=<chain-id>
 
 #Example
-CHAIN_ID=lucina
+CHAIN_ID=uni
 ```
 
 ### Set your moniker name
@@ -140,11 +96,11 @@ Note that this means if you jumped ahead and already downloaded the genesis file
 
 ### Download the genesis file
 
-```text
+```
 curl https://raw.githubusercontent.com/CosmosContracts/testnets/main/$CHAIN_ID/genesis.json > ~/.juno/config/genesis.json
 ```
 
-This will replace the genesis file created using `junod init` command with the genesis file for the testnet. ****
+This will replace the genesis file created using `junod init` command with the genesis file for the testnet.** **
 
 ### **Set persistent peers**
 
@@ -210,4 +166,3 @@ junod tx staking create-validator \
   --gas-prices 0.025ujuno \
   --from <key-name>
 ```
-

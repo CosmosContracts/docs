@@ -4,29 +4,59 @@ description: CLI reference for junod modules
 
 # Module Reference
 
-{% page-ref page="bank.md" %}
+{% content-ref url="bank.md" %}
+[bank.md](bank.md)
+{% endcontent-ref %}
 
-{% page-ref page="debug.md" %}
+{% content-ref url="debug.md" %}
+[debug.md](debug.md)
+{% endcontent-ref %}
 
-{% page-ref page="distribution.md" %}
+{% content-ref url="distribution.md" %}
+[distribution.md](distribution.md)
+{% endcontent-ref %}
 
-{% page-ref page="gov.md" %}
+{% content-ref url="gov.md" %}
+[gov.md](gov.md)
+{% endcontent-ref %}
 
-{% page-ref page="keys.md" %}
+{% content-ref url="keys.md" %}
+[keys.md](keys.md)
+{% endcontent-ref %}
 
-{% page-ref page="params.md" %}
+{% content-ref url="params.md" %}
+[params.md](params.md)
+{% endcontent-ref %}
 
-{% page-ref page="slashing.md" %}
+{% content-ref url="slashing.md" %}
+[slashing.md](slashing.md)
+{% endcontent-ref %}
 
-{% page-ref page="staking.md" %}
+{% content-ref url="staking.md" %}
+[staking.md](staking.md)
+{% endcontent-ref %}
 
-{% page-ref page="status.md" %}
+{% content-ref url="status.md" %}
+[status.md](status.md)
+{% endcontent-ref %}
 
-{% page-ref page="tendermint.md" %}
+{% content-ref url="tendermint.md" %}
+[tendermint.md](tendermint.md)
+{% endcontent-ref %}
 
-{% page-ref page="upgrade.md" %}
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
 
-{% page-ref page="wasm.md" %}
+{% content-ref url="upgrade.md" %}
+[upgrade.md](upgrade.md)
+{% endcontent-ref %}
 
+{% content-ref url="wasm.md" %}
+[wasm.md](wasm.md)
+{% endcontent-ref %}
 
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
 

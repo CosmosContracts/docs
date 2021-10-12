@@ -1,5 +1,5 @@
 ---
-description: "It's \U0001F680 time!"
+description: It's 🚀 time!
 ---
 
 # Mainnet Setup and Tooling
@@ -41,7 +41,7 @@ Using only the raw metrics endpoint provided by `junod` you can get a working da
 2. Download Prometheus - this is needed to ship logs to Grafana Cloud.
 3. Create a `prometheus.yml` file with your [Grafana Cloud credentials](https://grafana.com/docs/grafana-cloud/reference/create-api-key/) in the Prometheus folder. You can get these via the Grafana UI. Click 'details' on the Prometheus card: 
 
-```text
+```
 global:
   scrape_interval: 15s
 
@@ -60,9 +60,9 @@ remote_write:
 
 ```
 
-3. Set up a service file, with `sudo nano /etc/systemd/system/prometheus.service`, replacing `<your-user>` and `<prometheus-folder>` with the location of Prometheus. This sets the Prometheus port to `6666`
+3\. Set up a service file, with `sudo nano /etc/systemd/system/prometheus.service`, replacing `<your-user>` and `<prometheus-folder>` with the location of Prometheus. This sets the Prometheus port to `6666`
 
-```text
+```
 [Unit]
 Description=prometheus
 After=network-online.target
@@ -79,21 +79,21 @@ WantedBy=multi-user.target
 /etc/systemd/system/prometheus.service
 ```
 
-4. Enable and start the service.
+4\. Enable and start the service.
 
-```text
+```
 sudo -S systemctl daemon-reload
 sudo -S systemctl enable prometheus
 sudo systemctl start prometheus
 ```
 
-5. Import a dashboard to your Grafana. Search for 'Cosmos Validator' to find several options. You should see logs arriving in the dashboard after a couple of minutes.
+5\. Import a dashboard to your Grafana. Search for 'Cosmos Validator' to find several options. You should see logs arriving in the dashboard after a couple of minutes.
 
 ![A simple node dashboard example](../.gitbook/assets/screenshot-2021-10-05-at-09.29.48.png)
 
 For more info:
 
-* [https://grafana.com/docs/grafana-cloud/quickstart/noagent\_linuxnode/](https://grafana.com/docs/grafana-cloud/quickstart/noagent_linuxnode/)
+* [https://grafana.com/docs/grafana-cloud/quickstart/noagent_linuxnode/](https://grafana.com/docs/grafana-cloud/quickstart/noagent_linuxnode/)
 * [https://forum.cosmos.network/t/monitoring-alerting-for-your-validator/446/28](https://forum.cosmos.network/t/monitoring-alerting-for-your-validator/446/28)
 
 ### Avoiding DDOS attacks
@@ -119,11 +119,10 @@ If you are running sentry nodes:
 * 1TB storage for the full node will give you a lot of runway
 * 200GB for the sentries with pruning should be sufficient
 
-To give you an idea of cost, on AWS EBS \(other cloud providers are available, or you can run your own hardware\), with two backups a day, this runs to roughly:
+To give you an idea of cost, on AWS EBS (other cloud providers are available, or you can run your own hardware), with two backups a day, this runs to roughly:
 
 * $150 for 1TB
 * $35 for 200GB
 * Total cost: $220
 
 What approach you take for this will depend on whether you are running on physical hardware co-located with you, running in a data centre, or running on virtualised hardware.
-

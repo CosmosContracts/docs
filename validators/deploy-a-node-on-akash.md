@@ -8,7 +8,7 @@ description: A detailed guide to deploy a Juno node on Akash decentralised cloud
 
 This guide is intended to provide the steps required to deploy a Juno chain node onto the Akash network. The setup is intended for education and testing purposes. Due to current limitations of the Akash network, it is not recommended to use this setup for any mission critical purpose. Potential uses are personal RPC nodes or non critical sentry nodes. 
 
-This guide assumes the user is familiar with the linux command line, has Akash installed on the workstation \([install Akash](https://docs.akash.network/guides/install)\), and has funded an Akash wallet. 
+This guide assumes the user is familiar with the linux command line, has Akash installed on the workstation ([install Akash](https://docs.akash.network/guides/install)), and has funded an Akash wallet. 
 
 {% hint style="info" %}
 You will require at least 5 AKT for the deployment escrow amount, this will be used to pay for the provider services, as well as, say another 1 AKT for transaction fees. 
@@ -18,7 +18,7 @@ This guide utilises the docker images built by the ovrclk/cosmos-omnibus reposit
 
 ## Configuration of Shell Variables
 
-For this guide, we will be using shell variables. This will enable the use of the client commands verbatim. It is important to remember that shell commands are only valid for the current shell session, and if the shell session is closed, the shell variables will need to be re-defined.   
+For this guide, we will be using shell variables. This will enable the use of the client commands verbatim. It is important to remember that shell commands are only valid for the current shell session, and if the shell session is closed, the shell variables will need to be re-defined. \
 If you make a mistake and set a shell variable to the wrong value, or just need to change the value of a shell variable, you will need to first clear the shell variable `unset $VARIABLE_NAME` . Shell variables should be named with ALL CAPS.
 
 ### Define Akash network
@@ -92,7 +92,7 @@ pagination:
   total: "0"
 ```
 
-Note the balance indicated is denominated in uAKT \(AKT x 10^-6\), in the above example, the account has a balance of approximately 55 AKT.
+Note the balance indicated is denominated in uAKT (AKT x 10^-6), in the above example, the account has a balance of approximately 55 AKT.
 
 ## Configure your deploy.yml
 
@@ -188,7 +188,7 @@ env:
 Detailed information regarding environment variables can be found on the [ovrclk/cosmos-omnibus](https://github.com/ovrclk/cosmos-omnibus) github repository.
 {% endhint %}
 
-#### Restore from snapshot \(optional\)
+#### Restore from snapshot (optional)
 
 You can optionally restore a publicly hosted snapshot to speed up the node deployment. A sample `env:` is as follows:
 
@@ -206,7 +206,7 @@ This configuration will restore a compressed tar archive `lucina_2021--7-28.tar.
 
 Before you can create a deployment, a [certificate](https://docs.akash.network/decentralized-cloud/mtls) must first be created. **Your certificate needs to be created only once per account** and can be used across all deployments.To do this, run:
 
-```text
+```
 akash tx cert create client --chain-id $AKASH_CHAIN_ID --keyring-backend $AKASH_KEYRING_BACKEND --from $AKASH_KEY_NAME --node $AKASH_NODE --fees 5000uakt
 ```
 
@@ -711,7 +711,7 @@ We can see the node has downloaded the genesis file and is starting the node. A 
 
 ## Making Changes to Your Deployment Manifest
 
-If you find that you have made a mistake in your `deploy.yml` and your instance has not started up as expected, you are able to make changes to the `deploy.yml` update your deployment lease:
+If you find that you have made a mistake in your `deploy.yml` and your instance has not started up as expected, you are able to make changes to the `deploy.yml `update your deployment lease:
 
 ```javascript
 akash tx deployment update deploy.yml --dseq $AKASH_DSEQ --from $AKASH_KEY_NAME --chain-id $AKASH_CHAIN_ID --node $AKASH_NODE --fees=5000uakt
@@ -1140,7 +1140,5 @@ pagination:
 
 If you would like further information for various environment configurations for your Juno `deployment.yml` please visit the [cosmos-omnibus repository](https://github.com/ovrclk/cosmos-omnibus).
 
-For further information regarding Akash deployments and the Akash CLI, please refer to the [Akash documentation](https://docs.akash.network/).
-
-
+For further information regarding Akash deployments and the Akash CLI, please refer to the [Akash documentation](https://docs.akash.network).
 

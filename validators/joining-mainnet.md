@@ -12,35 +12,17 @@ The correct version of the binary for mainnet at genesis is `v1.0.0`. Its releas
 
 Below is the list of Juno mainnet id's and their current status. You will need to know the version tag for installation of the `junod` binary. 
 
-| chain-id | Description | Status | Block Start | Block Finish |
-| :--- | :--- | :---: | :--- | :--- |
-| juno-1 | This is the first chain-id from the genesis event. | current | 0 | N/A |
+| chain-id | Description                                        |  Status | Block Start | Block Finish |
+| -------- | -------------------------------------------------- | :-----: | ----------- | ------------ |
+| juno-1   | This is the first chain-id from the genesis event. | current | 0           | N/A          |
 
 ## Recommended Minimum Hardware
 
 The minimum recommended hardware requirements for running a validator for the Juno mainnet are:
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Chain-id</th>
-      <th style="text-align:left">Requirements</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">juno-1</td>
-      <td style="text-align:left">
-        <p></p>
-        <ul>
-          <li>4 Cores (1.4Ghz minimum)</li>
-          <li>4GB RAM</li>
-          <li>150GB of storage (SSD or NVME)</li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
+| Chain-id | Requirements                                                                                             |
+| -------- | -------------------------------------------------------------------------------------------------------- |
+| juno-1   | <p></p><ul><li>4 Cores (1.4Ghz minimum)</li><li>4GB RAM</li><li>150GB of storage (SSD or NVME)</li></ul> |
 
 {% hint style="warning" %}
 Note that the mainnet will accumulate data as the blockchain continues. This means that you will need to expand your storage as the blockchain database gets larger with time.
@@ -128,11 +110,11 @@ This will generate the following files in `~/.juno/config/`
 
 ### Download the genesis file
 
-```text
+```
 curl https://raw.githubusercontent.com/CosmosContracts/mainnet/main/$CHAIN_ID/genesis.json > ~/.juno/config/genesis.json
 ```
 
-This will replace the genesis file created using `junod init` command with the mainnet `genesis.json`. ****
+This will replace the genesis file created using `junod init` command with the mainnet `genesis.json`.** **
 
 ### **Set persistent peers**
 
@@ -142,7 +124,7 @@ Using the peers variable we set earlier, we can set the `persistent_peers` in `~
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" ~/.juno/config/config.toml
 ```
 
-### **Create \(or restore\) a local key pair**
+### **Create (or restore) a local key pair**
 
 Either create a new key pair, or restore an existing wallet for your validator:
 
@@ -228,4 +210,3 @@ There are certain files that you need to backup to be able to restore your valid
 * `node_key.json`
 
 It is recommended that you encrypt the backup of these files.
-

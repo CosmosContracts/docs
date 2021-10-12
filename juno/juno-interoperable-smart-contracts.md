@@ -1,12 +1,8 @@
----
-description: 'The where, what and how'
----
-
 # Introduction
 
 ![](../.gitbook/assets/.png.png)
 
-\*\*\*\*
+****
 
 **What is Juno?**
 
@@ -16,11 +12,11 @@ Junø is an open source platform for **interoperable smart contracts** which aut
 
 Juno as a **sovereign public blockchain** in the Cosmos ecosystem, aims to provide an environment for the deployment of interoperable smart contracts. The network serves as a **decentralized, permissionless & censorship resistant** avenue for developers to efficiently and securely launch smart contracts using proven frameworks and compile them in various languages **Rust & Go.**
 
-Battle tested contract modules such as **CosmWasm**, allow for **decentralized applications** \(dapps\) to be compiled on robust and secure multi-chain smart contracts. Additional specialized modules may be be introduced after genesis and are subject to onchain governance.
+Battle tested contract modules such as **CosmWasm**, allow for **decentralized applications** (dapps) to be compiled on robust and secure multi-chain smart contracts. Additional specialized modules may be be introduced after genesis and are subject to onchain governance.
 
 **IBC**
 
-At the heart of Cosmos ecosystem is the Inter Blockchain Communication Protocol \(IBC\), which sets the table for an interoperable base layer 0 to now be used to transfer data packets across thousands of independent networks supporting IBC. Naturally, the next evolutionary milestone is to enable cross-network smart contracts.
+At the heart of Cosmos ecosystem is the Inter Blockchain Communication Protocol (IBC), which sets the table for an interoperable base layer 0 to now be used to transfer data packets across thousands of independent networks supporting IBC. Naturally, the next evolutionary milestone is to enable cross-network smart contracts.
 
 **Cosmos SDK**
 
@@ -32,5 +28,4 @@ Agreement on the network is reached via **Tendermint BFT consensus**.
 
 Tendermint BFT is a solution that packages the networking and consensus layers of a blockchain into a generic engine, allowing developers to focus on application development as opposed to the complex underlying protocol. As a result, Tendermint saves hundreds of hours of development time.
 
-\*\*\*\*
-
+****

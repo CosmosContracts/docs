@@ -6,41 +6,66 @@ description: Build Apps that Scale.
 
 The Juno docs describe the Juno open source project, a blockchain built for scale.
 
-![](.gitbook/assets/juno-logo-red-%20%284%29%20%283%29%20%283%29%20%283%29%20%283%29.svg)
+![](<.gitbook/assets/juno-logo-red- (4) (3) (3) (3) (3) (3) (2).svg>)
 
 ## Validators
 
-{% page-ref page="validators/getting-setup.md" %}
+{% content-ref url="validators/getting-setup.md" %}
+[getting-setup.md](validators/getting-setup.md)
+{% endcontent-ref %}
 
-{% page-ref page="validators/joining-the-testnets.md" %}
+{% content-ref url="validators/joining-the-testnets.md" %}
+[joining-the-testnets.md](validators/joining-the-testnets.md)
+{% endcontent-ref %}
 
-{% page-ref page="validators/mainnet.md" %}
+{% content-ref url="validators/mainnet.md" %}
+[mainnet.md](validators/mainnet.md)
+{% endcontent-ref %}
 
 ## CLI
 
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
+
 ## Smart Contracts
 
-{% page-ref page="smart-contracts/installation.md" %}
+{% content-ref url="smart-contracts/installation.md" %}
+[installation.md](smart-contracts/installation.md)
+{% endcontent-ref %}
 
 ### Smart Contract ERC20 Tutorial
 
-{% page-ref page="smart-contracts/tutorial-erc-20/" %}
+{% content-ref url="smart-contracts/tutorial-erc-20/" %}
+[tutorial-erc-20](smart-contracts/tutorial-erc-20/)
+{% endcontent-ref %}
 
-### Smart Contract CW1 Tutorial \(CosmWasm Plus\)
+### Smart Contract CW1 Tutorial (CosmWasm Plus)
 
-{% page-ref page="smart-contracts/tutorial-cw1/" %}
+{% content-ref url="smart-contracts/tutorial-cw1/" %}
+[tutorial-cw1](smart-contracts/tutorial-cw1/)
+{% endcontent-ref %}
 
 ## FAQ
 
-{% page-ref page="faqs/validator-faq.md" %}
+{% content-ref url="faqs/validator-faq.md" %}
+[validator-faq.md](faqs/validator-faq.md)
+{% endcontent-ref %}
 
-{% page-ref page="faqs/developer-faq.md" %}
+{% content-ref url="faqs/developer-faq.md" %}
+[developer-faq.md](faqs/developer-faq.md)
+{% endcontent-ref %}
 
-{% page-ref page="faqs/delegator-faq.md" %}
+{% content-ref url="faqs/delegator-faq.md" %}
+[delegator-faq.md](faqs/delegator-faq.md)
+{% endcontent-ref %}
 
 ## Misc
 
-{% page-ref page="miscellaneous/community-channels.md" %}
+{% content-ref url="miscellaneous/community-channels.md" %}
+[community-channels.md](miscellaneous/community-channels.md)
+{% endcontent-ref %}
 
-{% page-ref page="miscellaneous/more-info.md" %}
-
+{% content-ref url="miscellaneous/more-info.md" %}
+[more-info.md](miscellaneous/more-info.md)
+{% endcontent-ref %}
