@@ -23,6 +23,12 @@ junod tendermint show-node-id
 Your peer address will be the result of this plus host and port, i.e. `<id>@<host>:26656` if you are using the default port.
 {% endhint %}
 
+Set the default chain for commands to use:\\
+
+```bash
+junod config chain-id juno-1
+```
+
 Get your `valoper` address:
 
 ```bash
@@ -41,13 +47,13 @@ Import a key from a mnemonic:
 junod keys add <new-key-name> --recover
 ```
 
-Export a private key \(warning: don't do this unless you know what you're doing!\)
+Export a private key (warning: don't do this unless you know what you're doing!)
 
 ```bash
 junod keys export <your-key-name> --unsafe --unarmored-hex
 ```
 
-Withdraw rewards \(including validator commission\), where `junovaloper1...` is the validator address:
+Withdraw rewards (including validator commission), where `junovaloper1...` is the validator address:
 
 ```bash
 junod tx distribution withdraw-rewards <junovaloper1...> --from <your-key>  --commission
@@ -58,4 +64,3 @@ Stake:
 ```bash
 junod tx staking delegate <junovaloper1...> <AMOUNT>ujuno --from <your-key>
 ```
-
