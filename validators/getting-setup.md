@@ -18,11 +18,8 @@ If you have chosen a different operating system, you will need to modify your co
 # update the local package list and install any available upgrades
 sudo apt-get update && sudo apt upgrade -y
 
-# install toolchain 
-sudo apt-get install make build-essential gcc git jq -y
-
-# ensure accurate time synchronization for node
-sudo apt-get install chrony -y
+# install toolchain and ensure accurate time synchronization
+sudo apt-get install make build-essential gcc git jq chrony -y
 ```
 
 ## Install Go
