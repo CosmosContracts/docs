@@ -6,6 +6,10 @@ description: >-
 
 # Installation
 
+{% hint style="info" %}
+For developing complex smart contracts, you will likely want to run a full node on a testnet. See the validators section under [Joining Testnets](../validators/joining-the-testnets.md) for more information.
+{% endhint %}
+
 ## Go
 
 You can setup golang by following the [official documentation](https://github.com/golang/go/wiki#working-with-go). The latest versions of `junod` require go version `v1.16`.
@@ -16,7 +20,7 @@ Assuming you have never worked with rust, you will first need to install some to
 
 ## Installing Rust in Linux and Mac
 
-First, [install rustup](https://rustup.rs/). Once installed, make sure you have the wasm32 target:
+First, [install rustup](https://rustup.rs). Once installed, make sure you have the wasm32 target:
 
 ```bash
 rustup default stable
@@ -34,7 +38,7 @@ rustup target add wasm32-unknown-unknown
 If working on a validator or a server, you should use Linux if possible. You will have a much better time...
 {% endhint %}
 
-First, download and execute `rustup-init.exe` from [rustup.rs](https://rustup.rs/) or [rust-lang.org](https://www.rust-lang.org/tools/install).
+First, download and execute `rustup-init.exe` from [rustup.rs](https://rustup.rs) or [rust-lang.org](https://www.rust-lang.org/tools/install).
 
 If requested, manually download and install Visual C++ Build Tools 2019, from [here](https://visualstudio.microsoft.com/visual-cpp-build-tools). Make sure "Windows 10 SDK" and "English language pack" are selected.
 
@@ -42,9 +46,9 @@ Continue running `rustup-init.exe`, and proceed with the installation.
 
 Optionally:
 
-* Download and install [gvim](https://www.vim.org/download.php#pc), and modify the Env vars to add &lt;gvim folder&gt; to the PATH.
-* Download and install [git for windows](https://git-scm.com/download/win). Modify the Env vars to add &lt;git folder&gt;\bin to PATH.
-* Turn on Developer Mode \(Settings -&gt; Update and Security: For Developers\) and enable Device Discovery, to be able to [access the Windows 10 server through ssh](https://www.ctrl.blog/entry/how-to-win10-ssh-service.html#section-mssshserv-enable).
+* Download and install [gvim](https://www.vim.org/download.php#pc), and modify the Env vars to add \<gvim folder> to the PATH.
+* Download and install [git for windows](https://git-scm.com/download/win). Modify the Env vars to add \<git folder>\bin to PATH.
+* Turn on Developer Mode (Settings -> Update and Security: For Developers) and enable Device Discovery, to be able to [access the Windows 10 server through ssh](https://www.ctrl.blog/entry/how-to-win10-ssh-service.html#section-mssshserv-enable).
 
 Install the wasm32 target:Copy
 
@@ -137,4 +141,3 @@ junod validate-genesis --home ${APP_HOME}
 # run the node
 junod start --home ${APP_HOME}
 ```
-

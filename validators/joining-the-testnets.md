@@ -76,6 +76,10 @@ NB: If you are unsure about this, you can ask in discord for the current peers a
 
 ## Setting up the Node
 
+{% hint style="info" %}
+Running a node is different from running a Validator. In order to run a Validator, you must create and sync a node, and then upgrade it to a Validator.
+{% endhint %}
+
 These instructions will direct you on how to initialise your node, synchronise to the network and upgrade your node to a validator. 
 
 ### **Initialize the chain**

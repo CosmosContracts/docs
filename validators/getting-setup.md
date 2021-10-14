@@ -8,9 +8,11 @@ description: Instruction to install the junod binary
 
 The operating system you use for your node is entirely your personal preference. You will be able to compile the `junod` daemon on most modern linux distributions and recent versions of macOS.
 
+{% hint style="info" %}
 For the tutorial, it is assumed that you are using an Ubuntu LTS release.
 
 If you have chosen a different operating system, you will need to modify your commands to suit your operating system.
+{% endhint %}
 
 ## Install pre-requisites
 
@@ -35,7 +37,7 @@ sudo tar -C /usr/local -xzf go1.17.1.linux-amd64.tar.gz
 
 Please install Go v1.17 or later.
 
-Unless you want to configure in a non standard way, then set these in the `.profile` in the user's home \(i.e. `~/`\) folder.
+Unless you want to configure in a non standard way, then set these in the `.profile` in the user's home (i.e. `~/`) folder.
 
 ```bash
 export GOROOT=/usr/local/go
