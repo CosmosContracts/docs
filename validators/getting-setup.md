@@ -6,7 +6,7 @@ description: Instruction to install the junod binary
 
 ## Choose an Operating System
 
-The operating system you use for your node is entirely your personal preference. You will be able to compile the `junod` daemon on most modern linux distributions and recent versions of macOS. 
+The operating system you use for your node is entirely your personal preference. You will be able to compile the `junod` daemon on most modern linux distributions and recent versions of macOS.
 
 For the tutorial, it is assumed that you are using an Ubuntu LTS release.
 
@@ -18,8 +18,8 @@ If you have chosen a different operating system, you will need to modify your co
 # update the local package list and install any available upgrades
 sudo apt-get update && sudo apt upgrade -y
 
-# install toolchain 
-sudo apt-get install make build-essential gcc git jq -y
+# install toolchain and ensure accurate time synchronization
+sudo apt-get install make build-essential gcc git jq chrony -y
 ```
 
 ## Install Go
@@ -81,4 +81,3 @@ To confirm that the installation has succeeded, you can run:
 ```bash
 junod version
 ```
-
