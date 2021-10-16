@@ -8,11 +8,11 @@ description: General instructions on how to join the Juno testnets
 
 Below is the list of Juno testnets and their current status. You will need to know the version tag for installation of the `junod` binary. 
 
-| chain-id | Github version tag |                                                                                                                                                               Description                                                                                                                                                               | Status                      |
-| -------- | ------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | --------------------------- |
-| lucina   | lucina             | This testnet has an implementation of cosmwasm and is used for the [hack-juno](https://github.com/CosmosContracts/hack-juno) competition. This testnet will be upgraded as new versions of cosmwasm are released and will be the primary testing area for smart contract development for the Juno chain after the mainnet has launched. | current                     |
-| hera     | hera               |                                                                         The final testnet before mainnet launch. This testnet is intended as a final test for the custom inflation module as well as other genesis parameters to ensure a smooth mainnet launch.                                                                        | ended                       |
-| uni      | v1.0.0             |                                                                       This post-mainnet launch testnet is designed to test the Cosmwasm 1.0.0 API and allow smart contract developers time to test and update their contracts before CosmWasm is included in Juno.                                                                      | launch October 14 18:00 UTC |
+| chain-id | Github version tag |                                                                                                                                                               Description                                                                                                                                                               | Status  |
+| -------- | ------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | ------- |
+| lucina   | lucina             | This testnet has an implementation of cosmwasm and is used for the [hack-juno](https://github.com/CosmosContracts/hack-juno) competition. This testnet will be upgraded as new versions of cosmwasm are released and will be the primary testing area for smart contract development for the Juno chain after the mainnet has launched. | ending  |
+| hera     | hera               |                                                                         The final testnet before mainnet launch. This testnet is intended as a final test for the custom inflation module as well as other genesis parameters to ensure a smooth mainnet launch.                                                                        | ended   |
+| uni      | v1.0.0             |                                                                       This post-mainnet launch testnet is designed to test the Cosmwasm 1.0.0 API and allow smart contract developers time to test and update their contracts before CosmWasm is included in Juno.                                                                      | current |
 
 ## Minimum Hardware Requirements
 
@@ -68,10 +68,13 @@ Persistent peers will be required to tell your node where to connect to other no
 #Set the base repo URL for the testnet & retrieve peers
 CHAIN_REPO="https://raw.githubusercontent.com/CosmosContracts/testnets/main/$CHAIN_ID" && \
 export PEERS="$(curl -s "$CHAIN_REPO/persistent_peers.txt")"
+
+# check it worked
+echo $PEERS
 ```
 
 {% hint style="info" %}
-NB: If you are unsure about this, you can ask in discord for the current peers and explicitly set them in `~/.juno/config/config.toml` instead.
+NB: If you are unsure about this, you can ask in discord for the current peers and explicitly set them in `~/.juno/config/config.toml` instead. 
 {% endhint %}
 
 ## Setting up the Node
@@ -126,6 +129,12 @@ junod keys show <key-name> -a
 ```
 
 Replace `<key-name>` with a key name of your choosing.
+
+If you already have a key from a previous testnet, you can recover it using the mnemonic:
+
+```bash
+junod keys add <key-name> --recover
+```
 
 {% hint style="danger" %}
 After creating a new key, the key information and seed phrase will be shown. It is essential to write this seed phrase down and keep it in a safe place. The seed phrase is the only way to restore your keys.
