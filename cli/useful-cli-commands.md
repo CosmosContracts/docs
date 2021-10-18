@@ -64,3 +64,9 @@ Stake:
 ```bash
 junod tx staking delegate <junovaloper1...> <AMOUNT>ujuno --from <your-key>
 ```
+
+Find out what the JSON for a command would be using `--generate-only`:
+
+```bash
+junod tx bank send $(junod keys show <your-key-name> -a) <recipient addr> <AMOUNT>ujuno --generate-only
+```
