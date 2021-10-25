@@ -9,23 +9,26 @@ description: >-
 
 Setting up Cosmovisor is relatively straightforward. However, it does expect certain environment variables and folder structure to be set.
 
-Cosmovisor allows you to download binaries ahead of time for chain upgrades, meaning that you can do zero \(or close to zero\) downtime chain upgrades. It's also useful if your local timezone means that a chain upgrade will fall at a bad time.
+Cosmovisor allows you to download binaries ahead of time for chain upgrades, meaning that you can do zero (or close to zero) downtime chain upgrades. It's also useful if your local timezone means that a chain upgrade will fall at a bad time.
 
 Rather than having to do stressful ops tasks late at night, it's always better if you can automate them away, and that's what Cosmovisor tries to do.
 
 ## Install
 
-First, go and get cosmovisor \(recommended approach\):
+First, go and get cosmovisor (recommended approach):
 
 ```bash
 go get github.com/cosmos/cosmos-sdk/cosmovisor/cmd/cosmovisor
 
 # or, with go >= 1.15 you can do
 go install github.com/cosmos/cosmos-sdk/cosmovisor/cmd/cosmovisor@latest
+
+# to target a specific version:
+go install github.com/cosmos/cosmos-sdk/cosmovisor/cmd/cosmovisor@v1.0.0
 ```
 
 {% hint style="danger" %}
-Note that the [latest version of Cosmovisor](https://github.com/cosmos/cosmos-sdk/releases/tag/cosmovisor%2Fv1.0.0) \(`v1.0.0` as of 2021-09-30\) has not been used in a Juno testnet. It contains important security fixes but is likely not compatible with using Cosmovisor's`DAEMON_ALLOW_DOWNLOAD_BINARIES`option. In any case, the Juno team do not recommend running with auto downloads turned on, so this should not be an issue.
+Note that the [latest version of Cosmovisor](https://github.com/cosmos/cosmos-sdk/releases/tag/cosmovisor%2Fv1.0.0) (`v1.0.0` as of 2021-09-30) has not been used in a Juno testnet. It contains important security fixes but is likely not compatible with using Cosmovisor's`DAEMON_ALLOW_DOWNLOAD_BINARIES`option. In any case, the Juno team do not recommend running with auto downloads turned on, so this should not be an issue.
 
 To build a specific version, you can use the instructions below, or use the previous release tag for Cosmovisor [here](https://github.com/cosmos/cosmos-sdk/releases/tag/cosmovisor%2Fv0.1.0).
 
@@ -76,7 +79,7 @@ source ~/.profile
 
 You can confirm success like so:
 
-```text
+```
 echo $DAEMON_NAME
 ```
 
@@ -137,7 +140,7 @@ sudo nano /etc/systemd/system/cosmovisor.service
 
 Change the contents of the below to match your setup - `cosmovisor` is likely at `~/go/bin/cosmovisor` regardless of which installation path you took above, but it's worth checking.
 
-```text
+```
 [Unit]
 Description=cosmovisor
 After=network-online.target
@@ -178,7 +181,7 @@ sudo systemctl start cosmovisor
 
 Check it is running using:
 
-```text
+```
 sudo systemctl status cosmovisor
 ```
 
@@ -187,4 +190,3 @@ If you need to monitor the service after launch, you can view the logs using:
 ```bash
 journalctl -u cosmovisor -f
 ```
-
