@@ -6,7 +6,7 @@ description: General instructions on how to join the Juno testnets
 
 ## Current testnets
 
-Below is the list of Juno testnets and their current status. You will need to know the version tag for installation of the `junod` binary. 
+Below is the list of Juno testnets and their current status. You will need to know the version tag for installation of the `junod` binary.&#x20;
 
 | chain-id | Github version tag |                                                                                                                                                               Description                                                                                                                                                               | Status  |
 | -------- | ------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | ------- |
@@ -23,7 +23,7 @@ The minimum recommended hardware requirements for running a validator for the Ju
 | uni      | <p></p><ul><li>2GB RAM</li><li>25GB of disk space</li><li>1.4 GHz CPU</li></ul> |
 
 {% hint style="info" %}
-Note that the testnets accumulate data as the blockchain continues. This means that you will need to expand your storage as the blockchain database gets larger with time. 
+Note that the testnets accumulate data as the blockchain continues. This means that you will need to expand your storage as the blockchain database gets larger with time.&#x20;
 {% endhint %}
 
 ## junod Installation
@@ -32,7 +32,7 @@ To get up and running with the junod binary, please follow the instructions [her
 
 ## Configuration of Shell Variables
 
-For this guide, we will be using shell variables. This will enable the use of the client commands verbatim. It is important to remember that shell commands are only valid for the current shell session, and if the shell session is closed, the shell variables will need to be re-defined. 
+For this guide, we will be using shell variables. This will enable the use of the client commands verbatim. It is important to remember that shell commands are only valid for the current shell session, and if the shell session is closed, the shell variables will need to be re-defined.&#x20;
 
 If you want variables to persist for multiple sessions, then set them explicitly in your shell .profile, as you did for the Go environment variables.
 
@@ -74,8 +74,17 @@ echo $PEERS
 ```
 
 {% hint style="info" %}
-NB: If you are unsure about this, you can ask in discord for the current peers and explicitly set them in `~/.juno/config/config.toml` instead. 
+NB: If you are unsure about this, you can ask in discord for the current peers and explicitly set them in `~/.juno/config/config.toml` instead.&#x20;
 {% endhint %}
+
+### Set minimum gas prices
+
+In `$HOME/.juno/config/app.toml`, set gas prices:
+
+```
+# note testnet denom
+minimum-gas-prices = "0.025ujunox"
+```
 
 ## Setting up the Node
 
@@ -83,7 +92,7 @@ NB: If you are unsure about this, you can ask in discord for the current peers a
 Running a node is different from running a Validator. In order to run a Validator, you must create and sync a node, and then upgrade it to a Validator.
 {% endhint %}
 
-These instructions will direct you on how to initialise your node, synchronise to the network and upgrade your node to a validator. 
+These instructions will direct you on how to initialise your node, synchronise to the network and upgrade your node to a validator.&#x20;
 
 ### **Initialize the chain**
 
@@ -93,8 +102,8 @@ junod init $MONIKER_NAME --chain-id $CHAIN_ID
 
 This will generate the following files in `~/.juno/config/`
 
-* `genesis.json` 
-* `node_key.json` 
+* `genesis.json`&#x20;
+* `node_key.json`&#x20;
 * `priv_validator_key.json`
 
 {% hint style="info" %}
@@ -111,7 +120,7 @@ This will replace the genesis file created using `junod init` command with the g
 
 ### **Set persistent peers**
 
-Using the peers variable we set earlier, we can set the `persistent_peers` in `~/.juno/config/config.toml`: 
+Using the peers variable we set earlier, we can set the `persistent_peers` in `~/.juno/config/config.toml`:&#x20;
 
 ```bash
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" ~/.juno/config/config.toml
@@ -167,7 +176,7 @@ To upgrade the node to a validator, you will need to submit a `create-validator`
 
 ```bash
 junod tx staking create-validator \
-  --amount 9000000ujuno \
+  --amount 9000000ujunox \
   --commission-max-change-rate "0.1" \
   --commission-max-rate "0.20" \
   --commission-rate "0.1" \
@@ -176,6 +185,6 @@ junod tx staking create-validator \
   --pubkey=$(junod tendermint show-validator) \
   --moniker $MONIKER_NAME \
   --chain-id $CHAIN_ID \
-  --gas-prices 0.025ujuno \
+  --gas-prices 0.025ujunox \
   --from <key-name>
 ```

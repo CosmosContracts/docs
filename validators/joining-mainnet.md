@@ -10,7 +10,7 @@ The correct version of the binary for mainnet at genesis is `v1.0.0`. Its releas
 
 ## Mainnet chain-id
 
-Below is the list of Juno mainnet id's and their current status. You will need to know the version tag for installation of the `junod` binary. 
+Below is the list of Juno mainnet id's and their current status. You will need to know the version tag for installation of the `junod` binary.&#x20;
 
 | chain-id | Description                                        |  Status | Block Start | Block Finish |
 | -------- | -------------------------------------------------- | :-----: | ----------- | ------------ |
@@ -38,7 +38,7 @@ Mainnet will initially use the `v1.0.0` [tag](https://github.com/CosmosContracts
 
 ## Configuration of Shell Variables
 
-For this guide, we will be using shell variables. This will enable the use of the client commands verbatim. It is important to remember that shell commands are only valid for the current shell session, and if the shell session is closed, the shell variables will need to be re-defined. 
+For this guide, we will be using shell variables. This will enable the use of the client commands verbatim. It is important to remember that shell commands are only valid for the current shell session, and if the shell session is closed, the shell variables will need to be re-defined.&#x20;
 
 If you want variables to persist for multiple sessions, then set them explicitly in your shell .profile, as you did for the Go environment variables.
 
@@ -92,9 +92,17 @@ export PEERS="$(curl -s "$CHAIN_REPO/persistent_peers.txt")"
 NB: If you are unsure about this, you can ask in discord for the current peers and explicitly set them in `~/.juno/config/config.toml` instead.
 {% endhint %}
 
+### Set minimum gas prices
+
+In `$HOME/.juno/config/app.toml`, set minimum gas prices:
+
+```
+minimum-gas-prices = "0.025ujuno"
+```
+
 ## Setting up the Node
 
-These instructions will direct you on how to initialize your node, synchronize to the network and upgrade your node to a validator. 
+These instructions will direct you on how to initialize your node, synchronize to the network and upgrade your node to a validator.&#x20;
 
 ### **Initialize the chain**
 
@@ -104,8 +112,8 @@ junod init $MONIKER_NAME --chain-id $CHAIN_ID
 
 This will generate the following files in `~/.juno/config/`
 
-* `genesis.json` 
-* `node_key.json` 
+* `genesis.json`&#x20;
+* `node_key.json`&#x20;
 * `priv_validator_key.json`
 
 ### Download the genesis file
@@ -118,7 +126,7 @@ This will replace the genesis file created using `junod init` command with the m
 
 ### **Set persistent peers**
 
-Using the peers variable we set earlier, we can set the `persistent_peers` in `~/.juno/config/config.toml`: 
+Using the peers variable we set earlier, we can set the `persistent_peers` in `~/.juno/config/config.toml`:&#x20;
 
 ```bash
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" ~/.juno/config/config.toml
