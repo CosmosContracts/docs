@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/wallpaperflare.com_wallpaper (29) (2).jpg
+coverY: 0
+---
+
 # Brand Identity
 
 **Assets**
