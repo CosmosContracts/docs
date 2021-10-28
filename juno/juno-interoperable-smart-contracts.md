@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/wallpaperflare.com_wallpaper (29).jpg
+coverY: 0
+---
+
 # Introduction
 
 ![](../.gitbook/assets/.png.png)
