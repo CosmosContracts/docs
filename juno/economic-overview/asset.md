@@ -1,6 +1,6 @@
 ---
 cover: ../../.gitbook/assets/wallpaperflare.com_wallpaper (42) (2).jpg
-coverY: 0
+coverY: 118.92107892107893
 ---
 
 # Asset (JUNO)
