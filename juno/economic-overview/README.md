@@ -1,6 +1,6 @@
 ---
 cover: ../../.gitbook/assets/wallpaperflare.com_wallpaper (42).jpg
-coverY: 0
+coverY: 109.97002997002997
 ---
 
 # Economic Overview
