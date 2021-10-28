@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/wallpaperflare.com_wallpaper (29) (2).jpg
+cover: ../.gitbook/assets/JUNO Primary Color.png
 coverY: 0
 ---
 
