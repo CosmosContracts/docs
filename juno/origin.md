@@ -1,7 +1,7 @@
 ---
 description: Grassroots Initiative
 cover: ../.gitbook/assets/wallpaperflare.com_wallpaper (29) (1).jpg
-coverY: 0
+coverY: 942.4175824175825
 ---
 
 # Origin
