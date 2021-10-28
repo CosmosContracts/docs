@@ -7,7 +7,7 @@
 * [Introduction](juno/juno-interoperable-smart-contracts.md)
 * [Origin](juno/origin.md)
 * [Economic Overview](juno/economic-overview/README.md)
-  * [Asset \(JUNO\)](juno/economic-overview/asset.md)
+  * [Asset (JUNO)](juno/economic-overview/asset.md)
   * [Incentive structure](juno/economic-overview/incentive-structure.md)
 * [Brand Identity](juno/brand-identity.md)
 * [Contributors](juno/juno-developers.md)
@@ -19,7 +19,7 @@
 * [Staking](tutorials/staking/README.md)
   * [Omniflix UI](tutorials/staking/omniflix-platform.md)
 
-## Nodes & Validators <a id="validators"></a>
+## Nodes & Validators <a href="validators" id="validators"></a>
 
 * [junod Installation and setup](validators/getting-setup.md)
 * [Mainnet Setup and Tooling](validators/mainnet.md)
@@ -30,8 +30,9 @@
   * [ibc-go](validators/relayers/ibc-go.md)
   * [Hermes](validators/relayers/hermes.md)
 * [Deploying a Node on Akash](validators/deploy-a-node-on-akash.md)
+* [Official Delegations Handbook](validators/official-delegations-handbook.md)
 
-## Command-Line Interface \(CLI\) <a id="cli"></a>
+## Command-Line Interface (CLI) <a href="cli" id="cli"></a>
 
 * [Introduction](cli/cli-introduction.md)
 * [Useful CLI Commands](cli/useful-cli-commands.md)
@@ -74,4 +75,3 @@
 
 * [Community Channels](miscellaneous/community-channels.md)
 * [More Info](miscellaneous/more-info.md)
-
