@@ -18,7 +18,7 @@ A Juno network validator may qualify for official delegations to be assigned by 
 7. A validator may curate/manage a regional community chat with at least 100 members (Medium Priority)
 8. Relayer operations for the full duration of a delegation round. (Medium Priority)
 9. A validator that gets soft-slashed more than 3 times during a delegation round loses his/her official delegation.
-10. A validator that gets hard-slashed 1 times during a delegation round loses his/her official delegation.
+10. A validator that gets hard-slashed 1 time during a delegation round loses his/her official delegation.
 11. Core development work on the main code base (High Priority)
 
 
