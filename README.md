@@ -1,7 +1,7 @@
 ---
 description: Build Apps that Scale.
-cover: .gitbook/assets/wallpaperflare.com_wallpaper (29) (3).jpg
-coverY: 2.557442557442556
+cover: .gitbook/assets/JUNO Primary Color.png
+coverY: 0
 ---
 
 # Junø - Documentation
