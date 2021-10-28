@@ -1,6 +1,6 @@
 ---
 cover: ../.gitbook/assets/wallpaperflare.com_wallpaper (29).jpg
-coverY: 0
+coverY: 428.3716283716284
 ---
 
 # Introduction
