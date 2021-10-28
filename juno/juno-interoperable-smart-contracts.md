@@ -1,6 +1,7 @@
 ---
-cover: ../.gitbook/assets/wallpaperflare.com_wallpaper (29).jpg
-coverY: 428.3716283716284
+description: Juno - Interoperable Smart Contract Network
+cover: ../.gitbook/assets/JUNO Primary Color (1).png
+coverY: 0
 ---
 
 # Introduction
