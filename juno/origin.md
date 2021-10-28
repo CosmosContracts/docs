@@ -1,7 +1,7 @@
 ---
 description: Grassroots Initiative
-cover: ../.gitbook/assets/wallpaperflare.com_wallpaper (29) (1).jpg
-coverY: 942.4175824175825
+cover: ../.gitbook/assets/JUNO Primary Color (1).png
+coverY: 0
 ---
 
 # Origin
