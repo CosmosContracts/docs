@@ -34,4 +34,8 @@ Agreement on the network is reached via **Tendermint BFT consensus**.
 
 Tendermint BFT is a solution that packages the networking and consensus layers of a blockchain into a generic engine, allowing developers to focus on application development as opposed to the complex underlying protocol. As a result, Tendermint saves hundreds of hours of development time.
 
+**CosmWasm**
+
+Juno is the neutral home of CosmWasm smart contracts and the InterWasm DAO. The ecosystem is pioneering CosmWasm development and adoption.
+
 ****
