@@ -6,7 +6,7 @@ coverY: 0
 
 # Junø - Documentation
 
-The Juno docs describe the Juno open source project, a blockchain built for scale.
+The Juno docs describe the Juno open source project, a permission-less blockchain network built for scale.
 
 ![](<.gitbook/assets/juno-logo-red- (4) (3) (3) (3) (3) (3) (2).svg>)
 
