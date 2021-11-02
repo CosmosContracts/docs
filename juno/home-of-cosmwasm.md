@@ -1,6 +1,6 @@
 ---
-cover: ../.gitbook/assets/wallpaperflare.com_wallpaper (24).jpg
-coverY: 6.393606393606394
+cover: ../.gitbook/assets/wallpaperflare.com_wallpaper (19).jpg
+coverY: 115.0849150849151
 ---
 
 # Home of CosmWasm

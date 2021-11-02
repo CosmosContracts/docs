@@ -1,6 +1,6 @@
 ---
-cover: ../../.gitbook/assets/wallpaperflare.com_wallpaper (42) (1).jpg
-coverY: 102.2977022977023
+cover: ../../.gitbook/assets/wallpaperflare.com_wallpaper (21).jpg
+coverY: -272.3676323676324
 ---
 
 # Incentive structure

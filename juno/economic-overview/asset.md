@@ -1,5 +1,5 @@
 ---
-cover: ../../.gitbook/assets/wallpaperflare.com_wallpaper (21) (1).jpg
+cover: ../../.gitbook/assets/wallpaperflare.com_wallpaper (21) (2).jpg
 coverY: -272.3676323676324
 ---
 
