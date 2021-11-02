@@ -1,5 +1,7 @@
 ---
 description: Join the Community
+cover: ../.gitbook/assets/JUNO Primary Color (4).png
+coverY: 0
 ---
 
 # Community Channels
@@ -11,4 +13,3 @@ description: Join the Community
 ## [Github](https://github.com/CosmosContracts) 💻
 
 ## [Telegram](https://t.me/joinchat/R7QKD0ltosphNWNk) 💬
-
