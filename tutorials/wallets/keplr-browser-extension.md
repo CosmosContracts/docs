@@ -2,6 +2,8 @@
 description: >-
   In this tutorial we will explore the steps required to install and configure
   the Keplr browser extension.
+cover: ../../.gitbook/assets/Keplr docs 2.png
+coverY: 25.678321678321677
 ---
 
 # Keplr Browser Extension
@@ -160,9 +162,9 @@ If you have multiple accounts attached to your Keplr browser extension, you may 
 
 To change accounts:
 
-1. Click the Keplr extension icon, then click the silhouette in the top right hand corner. 
+1. Click the Keplr extension icon, then click the silhouette in the top right hand corner.&#x20;
 
- 
+&#x20;
 
 ![](<../../.gitbook/assets/image (32).png>)
 
