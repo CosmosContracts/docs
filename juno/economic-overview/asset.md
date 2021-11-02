@@ -1,9 +1,9 @@
 ---
-cover: ../../.gitbook/assets/wallpaperflare.com_wallpaper (42) (2).jpg
-coverY: 118.92107892107893
+cover: ../../.gitbook/assets/wallpaperflare.com_wallpaper (21) (1).jpg
+coverY: -272.3676323676324
 ---
 
-# Asset (JUNO)
+# Native Asset (JUNO)
 
 JUNO, the native asset of the network carries a variety of use cases within the ecosystem, including **securing the proof of stake network**, **key to on-chain governance**, act as** transport fuel for all interoperable smart contracts** deployed in the ecosystem, **collateral** in various smart contract usecases and** work token** to capture value from dapps built on top of JUNO.
 
