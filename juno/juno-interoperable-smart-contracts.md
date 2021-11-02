@@ -6,9 +6,7 @@ coverY: 0
 
 # Introduction
 
-![](../.gitbook/assets/.png.png)
-
-****
+![](<../.gitbook/assets/JunoHack banner (1).png>)
 
 **What is Juno?**
 
