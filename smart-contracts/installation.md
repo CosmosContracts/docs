@@ -76,7 +76,7 @@ git clone https://github.com/CosmosContracts/juno.git && cd juno
 
 # get current testnet tag
 git fetch --tags
-git checkout lucina
+git checkout v2.0.0-alpha.3
 
 # build juno executable
 make install
@@ -108,12 +108,12 @@ set -e
 
 APP_HOME="~/.juno"
 RPC="http://localhost:26657"
-CHAIN_ID="lucina"
+CHAIN_ID="uni"
 # initialize junod configuration files
 junod init testmoniker --chain-id ${CHAIN_ID} --home ${APP_HOME}
 
 # add minimum gas prices config to app configuration file
-sed -i -r 's/minimum-gas-prices = ""/minimum-gas-prices = "0.025ujuno"/' ${APP_HOME}/config/app.toml
+sed -i -r 's/minimum-gas-prices = ""/minimum-gas-prices = "0.025ujunox"/' ${APP_HOME}/config/app.toml
 
 # Create main address
 # --keyring-backend test is for testing purposes
@@ -125,12 +125,12 @@ junod keys add main $KEYRING
 junod keys add validator $KEYRING
 
 # add your wallet addresses to genesis
-junod add-genesis-account $(junod keys show -a main $KEYRING) 10000000000ujuno --home ${APP_HOME}
-junod add-genesis-account $(junod keys show -a validator $KEYRING) 10000000000ujuno --home ${APP_HOME}
+junod add-genesis-account $(junod keys show -a main $KEYRING) 10000000000ujunox --home ${APP_HOME}
+junod add-genesis-account $(junod keys show -a validator $KEYRING) 10000000000ujunox --home ${APP_HOME}
 
 # add second address as validator's address
 # validator is the key name
-junod gentx validator 1000000000ujuno --home ${APP_HOME} --chain-id ${CHAIN_ID} $KEYRING
+junod gentx validator 1000000000ujunox --home ${APP_HOME} --chain-id ${CHAIN_ID} $KEYRING
 
 # collect gentxs & add to genesis
 junod collect-gentxs --home ${APP_HOME}

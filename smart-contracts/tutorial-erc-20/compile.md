@@ -1,5 +1,4 @@
 ---
-order: 3
 description: >-
   Now we're going to download a contract, compile it, and upload it to the Juno
   chain.
@@ -16,7 +15,7 @@ We're going to grab the `cosmwasm-examples` repo and compile our chosen contract
 git clone https://github.com/CosmWasm/cosmwasm-examples
 cd cosmwasm-examples
 git fetch
-git checkout v0.10.0 # current at time of writing
+git checkout 44d6a256cd99e66849e550185c98671d4109d78b # current at time of writing, should be cw 1.0.0-beta
 cd contracts/erc20
 ```
 
@@ -24,7 +23,7 @@ cd contracts/erc20
 
 We can compile our contract like so:
 
-```text
+```
 # compile the wasm contract with stable toolchain
 rustup default stable
 cargo wasm
@@ -67,4 +66,3 @@ You can now see this value with:
 ```bash
 echo $CODE_ID
 ```
-

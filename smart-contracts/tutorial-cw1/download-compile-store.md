@@ -11,13 +11,13 @@ First, we need to download the code from [cosmwasm-plus](https://github.com/Cosm
 Run the following to download the `v0.6.2` tag and extract it. `ls` should show you the folder is present once it's unpacked. You can also use `git` instead of `wget` if you prefer.
 
 ```bash
-wget https://github.com/CosmWasm/cosmwasm-plus/archive/refs/tags/v0.6.2.tar.gz
+git clone https://github.com/CosmWasm/cw-plus.git
 
-tar -xvf v0.6.2.tar.gz
+git fetch --tags
 
-ls
+git checkout v0.10.1
 
-cd cosmwasm-plus-0.6.2
+cd contracts/cw1-subkeys
 ```
 
 ### Compile
@@ -33,7 +33,7 @@ sudo docker run --rm -v "$(pwd)":/code \
 
 ### Store
 
-When compiling is complete \(it will take a while\) `cd` into the `artifacts` directory. `ls` should show you binaries for each of the contracts have been created. The one we care about is `cw1_subkeys.wasm`.
+When compiling is complete (it will take a while) `cd` into the `artifacts` directory. `ls` should show you binaries for each of the contracts have been created. The one we care about is `cw1_subkeys.wasm`.
 
 To store this on-chain, we use a similar command to last time:
 
@@ -48,4 +48,3 @@ cd artifacts
 RES=$(junod tx wasm store cw1_subkeys.wasm  --from <your-key> --chain-id=<chain-id> --gas auto -y)
 CODE_ID=$(echo $RES | jq -r '.logs[0].events[0].attributes[-1].value')
 ```
-

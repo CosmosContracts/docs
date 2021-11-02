@@ -69,6 +69,12 @@ For genesis, the mainnet version tag will be `v1.0.0` - i.e:
 ```bash
 git checkout v1.0.0
 ```
+
+For current uni testnet, the version tag will be `v2.0.0-alpha.3` i.e:
+
+```
+git checkout v2.0.0-alpha.3
+```
 {% endhint %}
 
 Once you're on the correct tag, you can build:

@@ -1,7 +1,3 @@
----
-order: 2
----
-
 # Installation
 
 Follow the steps on the [installation page](../installation.md).
@@ -14,9 +10,9 @@ Assuming you have never worked with rust, you will first need to install some to
 
 ### Installing Rust in Linux and Mac
 
-First, [install rustup \(opens new window\)](https://rustup.rs/). Once installed, make sure you have the wasm32 target:
+First, [install rustup (opens new window)](https://rustup.rs). Once installed, make sure you have the wasm32 target:
 
-```text
+```
 rustup default stable
 cargo version
 # If this is lower than 1.49.0+, update
@@ -37,11 +33,10 @@ Use go 1.16.3 for compiling`junod`executable if you are building from source. If
 git clone https://github.com/CosmosContracts/juno.git && cd juno
 
 git fetch --tags
-git checkout lucina
+git checkout v2.0.0-alpha.3 # moneta-alpha
 
 # build juno executable
 make install
 ```
 
 You will probably also want to ensure you have `jq` installed.
-
