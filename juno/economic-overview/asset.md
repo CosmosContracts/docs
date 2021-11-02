@@ -1,6 +1,6 @@
 ---
-cover: ../../.gitbook/assets/wallpaperflare.com_wallpaper (21) (2).jpg
-coverY: -272.3676323676324
+cover: ../../.gitbook/assets/JUNO Primary Color (1).png
+coverY: 0
 ---
 
 # Native Asset (JUNO)

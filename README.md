@@ -1,6 +1,6 @@
 ---
 description: Build Apps that Scale.
-cover: .gitbook/assets/JUNO Primary Color (1).png
+cover: .gitbook/assets/JUNO Primary Color (1) (1).png
 coverY: 0
 ---
 
