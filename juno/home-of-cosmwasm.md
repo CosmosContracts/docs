@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/wallpaperflare.com_wallpaper (24).jpg
+coverY: 6.393606393606394
+---
+
 # Home of CosmWasm
 
 Juno is the neutral home of CosmWasm smart contracts and the InterWasm DAO. The ecosystem is pioneering CosmWasm development and adoption.
