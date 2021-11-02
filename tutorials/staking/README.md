@@ -1,12 +1,14 @@
 ---
-description: "Securing the Juno Network \U0001F512 \U0001F511"
+description: Securing the Juno Network 🔒 🔑
+cover: ../../.gitbook/assets/JUNO Primary Color.png
+coverY: 0
 ---
 
 # Staking
 
 ![](../../.gitbook/assets/juno-hub.png)
 
-Staking is the process of locking up a digital asset non custodially \(JUNO in the case of the Juno Network\) to provide economic security to a public blockchain.
+Staking is the process of locking up a digital asset non custodially (JUNO in the case of the Juno Network) to provide economic security to a public blockchain.
 
 ⚪️ **Secure the network**
 
@@ -22,13 +24,13 @@ Staking **JUNO** grants the right to vote on proposals and make decisions on the
 
 ✅ **Staking rewards**
 
-When the staking \(delegation\) transaction is complete, rewards will start to be generated immediately on a block per block basis. At any time, stakers can claim their accumulated rewards, via their supported wallet.
+When the staking (delegation) transaction is complete, rewards will start to be generated immediately on a block per block basis. At any time, stakers can claim their accumulated rewards, via their supported wallet.
 
 **Where do rewards come from?**
 
 Staking rewards are distributed to staked **JUNO** in two ways:
 
-1. **Transaction fees** 
+1. **Transaction fees**&#x20;
 
 Transaction fees collected on the Juno Network are distributed to staked JUNO.
 
@@ -73,7 +75,7 @@ You may want to ask about particular validators in the Juno discord channels. If
 
 ### Reachability of the validator
 
-Apart from some validators running a telegram, discord ect. consider how reachable a validator is. For instance when you want to know certain specifics mentioned in this chapter or an active governance proposal, his or her validator setup \(hardware used or security measures taken ect.\). Try getting in touch with the validators you like to stake to.
+Apart from some validators running a telegram, discord ect. consider how reachable a validator is. For instance when you want to know certain specifics mentioned in this chapter or an active governance proposal, his or her validator setup (hardware used or security measures taken ect.). Try getting in touch with the validators you like to stake to.
 
 ### The Validator setup
 
@@ -97,7 +99,7 @@ You may consider that some validators will provide the bare minimum infrastructu
 
 ### Slashing history and validator uptime
 
-Each validator must strive to provide the highest uptime possible. From time to time, a validator may be jailed for too much downtime of double signing a block. If a validator is jailed, they and their delegators are penalized by losing a portion of their staked tokens \(known as "slashing"\).
+Each validator must strive to provide the highest uptime possible. From time to time, a validator may be jailed for too much downtime of double signing a block. If a validator is jailed, they and their delegators are penalized by losing a portion of their staked tokens (known as "slashing").
 
 You will be able to see a validators jail history by browsing their transaction history in the block explorer. Look out for "unjail" transactions.
 
@@ -107,11 +109,16 @@ Under certain circumstances, a validator may be permanently jailed. This means t
 
 The following tutorials aim to provide step by instructions to stake your juno to a validator of your choice.
 
-{% page-ref page="omniflix-platform.md" %}
+{% content-ref url="omniflix-platform.md" %}
+[omniflix-platform.md](omniflix-platform.md)
+{% endcontent-ref %}
 
 ## Command Line Reference
 
-{% page-ref page="../../cli/modules/staking.md" %}
+{% content-ref url="../../cli/modules/staking.md" %}
+[staking.md](../../cli/modules/staking.md)
+{% endcontent-ref %}
 
-{% page-ref page="../../cli/modules/distribution.md" %}
-
+{% content-ref url="../../cli/modules/distribution.md" %}
+[distribution.md](../../cli/modules/distribution.md)
+{% endcontent-ref %}
