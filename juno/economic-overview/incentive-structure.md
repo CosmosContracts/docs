@@ -1,6 +1,6 @@
 ---
-cover: ../../.gitbook/assets/wallpaperflare.com_wallpaper (21).jpg
-coverY: -272.3676323676324
+cover: ../../.gitbook/assets/JUNO Primary Color (2).png
+coverY: 0
 ---
 
 # Incentive structure
