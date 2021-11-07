@@ -68,7 +68,7 @@ For those new to rust, the `stable` channel comes out every 6 weeks with a stabl
 
 A testnet running [the Juno chain](https://github.com/CosmosContracts/Juno) has been launched to save you of the hassle of running a local network and speed up your development.
 
-Use go 1.16.3 for compiling the `junod`executable if you are building from source. If you already are running a validator node, it's likely `junod` is already accessible. If `which junod` shows output, then you're probably good to go.
+Use go 1.17.x for compiling the `junod`executable if you are building from source. If you already are running a validator node, it's likely `junod` is already accessible. If `which junod` shows output, then you're probably good to go.
 
 ```bash
 # clone juno repo
@@ -87,6 +87,10 @@ which juno
 {% hint style="info" %}
 If you have any problems here, check your `PATH`. `make install` will copy `junod` to `$HOME/go/bin` by default, please make sure that is set up in your `PATH` as well, which should be the case in general for building Go code from source.
 {% endhint %}
+
+## Getting started with writing contracts
+
+There are two tutorials provided here in the docs, which will give you an overview of working with smart contracts and their basic functions. However if you are an experienced programmer wanting to immediately start writing CosmWasm contracts, then we recommend [working through their excellent tutorial](https://docs.cosmwasm.com/dev-academy/develop-smart-contract/intro).
 
 ## Running locally
 
