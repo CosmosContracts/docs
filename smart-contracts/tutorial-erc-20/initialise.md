@@ -37,6 +37,10 @@ This example uses the `node` REPL. If you have `node` installed, just type `node
 
 ## Instantiate the contract
 
+{% hint style="info" %}
+Note that if you use rich types like CosmWasm's `Uint128` then they will be strings from the point of view of JSONSchema. If you have an int, you do not need quotes, e.g. `1` - but for a `Uint128` you will need them, e.g. "`1"`.
+{% endhint %}
+
 Note also that the `--amount` is used to initialise the new account associated with the contract.
 
 In the example below, `6` is the value of `$CODE_ID`.
@@ -66,4 +70,3 @@ This will allow you to query using the value of `$CONTRACT_ADDR`
 ```bash
 junod query wasm contract $CONTRACT_ADDR
 ```
-
