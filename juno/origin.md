@@ -4,13 +4,15 @@ cover: ../.gitbook/assets/JUNO Primary Color (1) (1) (1).png
 coverY: 0
 ---
 
-# Origin
+# Origin ⚵
 
-Juno originates from a **community driven initiative**, prompted by dozens of developers, validators & delegators in the Cosmos ecosystem. The shared vision is to **preserve the neutrality, performance & reliability** of the Cosmos Hub and offload smart contract deployment to a dedicated sister Hub.
+Juno originates & evolves from a **community driven initiative**, prompted by dozens of developers, validators & delegators in the Cosmos ecosystem. The shared vision is to **preserve the neutrality, performance & reliability** of the Cosmos Hub and offload smart contract deployment to a dedicated sister Hub.
 
 Some of the founding principles center around:
 
-⚪️ Inception of the **worlds first designated interoperable smart contract network**
+⚪️ Inception of the **worlds first permission-less, designated interoperable smart contract network**
+
+⚪️ Pioneering CosmWasm adoption & development&#x20;
 
 ⚪️ Eliminating common smart contract **L1 bottlenecks** (Scalability, interoperability, high fees, easy of use, concentrated governance control)
 
