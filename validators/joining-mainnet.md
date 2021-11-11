@@ -20,9 +20,13 @@ Below is the list of Juno mainnet id's and their current status. You will need t
 
 The minimum recommended hardware requirements for running a validator for the Juno mainnet are:
 
-| Chain-id | Requirements                                                                                             |
-| -------- | -------------------------------------------------------------------------------------------------------- |
-| juno-1   | <p></p><ul><li>4 Cores (1.4Ghz minimum)</li><li>4GB RAM</li><li>150GB of storage (SSD or NVME)</li></ul> |
+| Chain-id | Requirements                                                                                          |
+| -------- | ----------------------------------------------------------------------------------------------------- |
+| juno-1   | <p></p><ul><li>4 Cores (modern CPU's)</li><li>16GB RAM</li><li>1TB of storage (SSD or NVME)</li></ul> |
+
+{% hint style="danger" %}
+These specifications are the minimum recommended. As Juno Network is a smart contract platform, it can at times be very demanding on hardware. Low spec validators WILL get stuck on difficult to process blocks.
+{% endhint %}
 
 {% hint style="warning" %}
 Note that the mainnet will accumulate data as the blockchain continues. This means that you will need to expand your storage as the blockchain database gets larger with time.

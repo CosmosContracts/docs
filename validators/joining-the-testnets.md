@@ -8,19 +8,21 @@ description: General instructions on how to join the Juno testnets
 
 Below is the list of Juno testnets and their current status. You will need to know the version tag for installation of the `junod` binary.&#x20;
 
-| chain-id | Github version tag |                                                                                                                                                               Description                                                                                                                                                               | Status  |
-| -------- | ------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | ------- |
-| lucina   | lucina             | This testnet has an implementation of cosmwasm and is used for the [hack-juno](https://github.com/CosmosContracts/hack-juno) competition. This testnet will be upgraded as new versions of cosmwasm are released and will be the primary testing area for smart contract development for the Juno chain after the mainnet has launched. | ending  |
-| hera     | hera               |                                                                         The final testnet before mainnet launch. This testnet is intended as a final test for the custom inflation module as well as other genesis parameters to ensure a smooth mainnet launch.                                                                        | ended   |
-| uni      | v2.0.0-alpha.3     |                                                                       This post-mainnet launch testnet is designed to test the Cosmwasm 1.0.0 API and allow smart contract developers time to test and update their contracts before CosmWasm is included in Juno.                                                                      | current |
+| chain-id | Github version tag |                                                                                          Description                                                                                         | Status  |
+| -------- | ------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | ------- |
+| uni      | v2.0.0-alpha.3     | This post-mainnet launch testnet is designed to test the Cosmwasm 1.0.0 API and allow smart contract developers time to test and update their contracts before CosmWasm is included in Juno. | current |
 
 ## Minimum Hardware Requirements
 
 The minimum recommended hardware requirements for running a validator for the Juno testnets are:
 
-| Chain-id | Requirements                                                                    |
-| -------- | ------------------------------------------------------------------------------- |
-| uni      | <p></p><ul><li>2GB RAM</li><li>25GB of disk space</li><li>1.4 GHz CPU</li></ul> |
+| Chain-id | Requirements                                                                               |
+| -------- | ------------------------------------------------------------------------------------------ |
+| uni      | <p></p><ul><li>16GB RAM</li><li>1TB of disk space</li><li>4 Cores (modern CPU's)</li></ul> |
+
+{% hint style="warning" %}
+These specifications are the minimum recommended. As Juno Network is a smart contract platform, it can at times be very demanding on hardware. Low spec validators WILL get stuck on difficult to process blocks.
+{% endhint %}
 
 {% hint style="info" %}
 Note that the testnets accumulate data as the blockchain continues. This means that you will need to expand your storage as the blockchain database gets larger with time.&#x20;
