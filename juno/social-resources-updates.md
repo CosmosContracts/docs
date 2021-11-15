@@ -24,7 +24,7 @@
 
 * Price Discussions
 
-⚪️ Price Discussions: T.me/Juno\_Price
+⚪️ Price Discussions: https://T.me/Juno\_Price
 
 * Developer & Validator Resources
 
