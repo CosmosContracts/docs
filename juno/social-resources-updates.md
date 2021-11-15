@@ -4,7 +4,9 @@
 
 * Homepage
 
-⚪️ Web: https://www.junonetwork.io/
+⚪️ Web:
+
+&#x20;https://www.junonetwork.io/
 
 * Updates
 
