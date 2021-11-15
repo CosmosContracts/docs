@@ -2,34 +2,13 @@
 
 
 
-* Homepage
+* <mark style="color:purple;"></mark>[<mark style="color:red;">⚵ Homepage</mark>](https://www.junonetwork.io)<mark style="color:red;"></mark>
+* <mark style="color:purple;"></mark>[<mark style="color:red;">⚵ Updates</mark>](https://t.me/Juno\_Updates)<mark style="color:red;"></mark>
+* <mark style="color:red;"></mark>[<mark style="color:red;">⚵ Blog</mark>](https://medium.com/@JunoNetwork)<mark style="color:red;"></mark>
+* <mark style="color:red;"></mark>[<mark style="color:red;">⚵ Docs</mark>](https://docs.junochain.com)<mark style="color:red;"></mark>
+* [<mark style="color:red;">⚵ Github</mark>](https://github.com/CosmosContracts)<mark style="color:red;"></mark>
+* <mark style="color:red;"></mark>[<mark style="color:red;">⚵ Discord</mark>](https://discord.gg/juno)<mark style="color:red;"></mark>
+* [<mark style="color:red;">⚵ Telegram</mark>](https://t.me/JunoNetwork)<mark style="color:red;"></mark>
+* [<mark style="color:red;">⚵ Twitter</mark>](https://twitter.com/JunoNetwork)<mark style="color:red;"></mark>
+* [<mark style="color:red;">⚵ Price Discussions</mark>](https://t.me/Juno\_Price)<mark style="color:red;"></mark>
 
-⚪️ Web:
-
-&#x20;https://www.junonetwork.io/
-
-* Updates
-
-⚪️ Telegram Updates: https://t.me/Juno\_Updates
-
-* Blog
-
-⚪️ Medium: https://medium.com/@JunoNetwork
-
-* Social
-
-⚪️ Discord: https://discord.gg/juno&#x20;
-
-⚪️ Telegram: https://t.me/JunoNetwork&#x20;
-
-⚪️ Twitter: https://twitter.com/JunoNetwork
-
-* Price Discussions
-
-⚪️ Price Discussions: https://T.me/Juno\_Price
-
-* Developer & Validator Resources
-
-⚪️ Docs: https://docs.junochain.com/&#x20;
-
-⚪️ Github: https://github.com/CosmosContracts
