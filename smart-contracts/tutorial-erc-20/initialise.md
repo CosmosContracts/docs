@@ -62,7 +62,7 @@ junod tx wasm instantiate $CODE_ID \
 If this succeeds, look in the output and get contract address from output e.g `juno1a2b....` or run:
 
 ```bash
-CONTRACT_ADDR=$(junod query wasm list-contract-by-code $CODE_ID | jq -r '.[0].address')
+CONTRACT_ADDR=$(junod query wasm list-contract-by-code $CODE_ID --output json | jq -r '.contracts[0]')
 ```
 
 This will allow you to query using the value of `$CONTRACT_ADDR`

@@ -45,6 +45,6 @@ Also like last time, look in the JSON output for the `code_id` value. If you wou
 
 ```bash
 cd artifacts
-RES=$(junod tx wasm store cw1_subkeys.wasm  --from <your-key> --chain-id=<chain-id> --gas auto -y)
-CODE_ID=$(echo $RES | jq -r '.logs[0].events[0].attributes[-1].value')
+TX=$(junod tx wasm store cw1_subkeys.wasm  --from <your-key> --chain-id=<chain-id> --gas auto --output json -y | jq -r '.txhash')
+CODE_ID=$(junod query tx $TX --output json | jq -r '.logs[0].events[-1].attributes[0].value')
 ```

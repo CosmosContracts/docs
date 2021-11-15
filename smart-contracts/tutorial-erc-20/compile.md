@@ -57,8 +57,8 @@ Alternatively, you can capture the output of the command run above, by doing the
 
 ```bash
 cd artifacts
-RES=$(junod tx wasm store cw_erc20.wasm  --from <your-key> --chain-id=<chain-id> --gas auto -y)
-CODE_ID=$(echo $RES | jq -r '.logs[0].events[0].attributes[-1].value')
+TX=$(junod tx wasm store cw_erc20.wasm  --from <your-key> --chain-id=<chain-id> --gas auto --output json -y | jq -r '.txhash')
+CODE_ID=$(junod query tx $TX --output json | jq -r '.logs[0].events[-1].attributes[0].value')
 ```
 
 You can now see this value with:
