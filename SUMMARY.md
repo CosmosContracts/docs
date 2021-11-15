@@ -12,6 +12,7 @@
   * [Incentive structure](juno/economic-overview/incentive-structure.md)
 * [Brand Identity ⚵](juno/brand-identity.md)
 * [Contributors ⚵](juno/juno-developers.md)
+* [Social/Resources/Updates](juno/social-resources-updates.md)
 
 ## TUTORIALS
 
