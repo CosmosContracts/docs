@@ -5,7 +5,7 @@ coverY: 0
 
 # Contributors ⚵
 
-**Core - 1 (Core Development/Reserve)**
+#### **Core - 1 (Core Development/Reserve)**
 
 Andrea Di Michele - Dimi (stakefish) [https://twitter.com/dimiandre](https://twitter.com/dimiandre)
 
@@ -17,11 +17,7 @@ Jake Hartnell (Stargaze.Zone) [https://twitter.com/JakeHartnell](https://twitter
 
 Jack Zampolin (Strangelove Ventures) [https://twitter.com/jack\_zampolin](https://twitter.com/jack\_zampolin)
 
-****
-
-****
-
-**Core-2 (Core Development/Dapps/Tooling)**
+#### **Core-2 (Core Development/Dapps/Tooling)**
 
 Jacob Gadikian (Notional) [https://twitter.com/gadikian](https://twitter.com/gadikian)
 
@@ -29,7 +25,7 @@ Giansalex (Disperze) [https://twitter.com/giansalex](https://twitter.com/giansal
 
 The Frey (envoys.io) the-frey#8626
 
-NullMames (kingnodes) [https://twitter.com/nullMames](https://twitter.com/nullMames)
+mullmames (kingnodes) [https://twitter.com/nullmames](https://twitter.com/nullMames)
 
 Zak (EZStaking) [https://twitter.com/EZStaking](https://twitter.com/EZStaking)
 
@@ -41,11 +37,7 @@ Tosch (SG-1) [https://twitter.com/ToschDev](https://twitter.com/ToschDev)
 
 Ximpe (Imperator) [https://twitter.com/imperator\_co](https://twitter.com/imperator\_co)
 
-
-
-Active development on Juno (Core/Contracts)
-
-
+#### Active development on Juno (Core/Contracts)
 
 Sistla Abhishek (OmniFlix) [https://twitter.com/svabhishek](https://twitter.com/svabhishek)
 
