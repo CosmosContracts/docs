@@ -25,7 +25,7 @@ Giansalex (Disperze) [https://twitter.com/giansalex](https://twitter.com/giansal
 
 The Frey (envoys.io) the-frey#8626
 
-mullmames (kingnodes) [https://twitter.com/nullmames](https://twitter.com/nullMames)
+nullmames (kingnodes) [https://twitter.com/nullmames](https://twitter.com/nullMames)
 
 Zak (EZStaking) [https://twitter.com/EZStaking](https://twitter.com/EZStaking)
 

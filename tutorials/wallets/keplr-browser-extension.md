@@ -16,7 +16,6 @@ Please note the following important announcements:
 **Keplr extension is only officially supported by the Google Chrome browser.**
 
 There is a Brave extension available but may lack some features of the Chrome version. \
-There is no mobile version available at the time of writing but there is one in development. \
 There is no official Keplr extension for Firefox. Be aware of scammers.
 {% endhint %}
 
