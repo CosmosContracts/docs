@@ -4,7 +4,7 @@
 
 ## Juno
 
-* [Introduction ⚵](juno/juno-interoperable-smart-contracts.md)
+* [Introduction](juno/juno-interoperable-smart-contracts.md)
 * [Origin](juno/origin.md)
 * [Home of CosmWasm ⚵](juno/home-of-cosmwasm.md)
 * [Economic Overview ⚵](juno/economic-overview/README.md)
