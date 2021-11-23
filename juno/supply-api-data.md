@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/Gitbook Banner large 6 (6).png
+coverY: 0
+---
+
 # Supply API - Data
 
 [<mark style="color:red;">Circulating Supply</mark>](https://supply-api.junonetwork.io/circulating-supply)<mark style="color:red;"></mark>
