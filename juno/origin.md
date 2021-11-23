@@ -1,10 +1,10 @@
 ---
 description: Grassroots Initiative
-cover: ../.gitbook/assets/JUNO Primary Color (1) (1) (1).png
+cover: ../.gitbook/assets/Gitbook Banner large 6.png
 coverY: 0
 ---
 
-# Origin ⚵
+# Origin
 
 Juno originates & evolves from a **community driven initiative**, prompted by dozens of developers, validators & delegators in the Cosmos ecosystem. The shared vision is to **preserve the neutrality, performance & reliability** of the Cosmos Hub and offload smart contract deployment to a dedicated sister Hub.
 
