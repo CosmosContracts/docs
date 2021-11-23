@@ -8,53 +8,39 @@ coverY: 0
 **Assets**
 
 {% file src="../.gitbook/assets/juno-logo-red- (4) (3) (3) (3) (3) (3) (3).svg" %}
-JUNO LOGO (Red) SVG
-{% endfile %}
 
 {% file src="../.gitbook/assets/juno-logo-white-.svg" %}
-JUNO LOGO (White) SVG
-{% endfile %}
+
+{% file src="../.gitbook/assets/JUNO Logo (Black).svg" %}
 
 {% file src="../.gitbook/assets/juno-logo-banner-red-1.png" %}
-JUNO LOGO Banner (Red) PNG
-{% endfile %}
 
 {% file src="../.gitbook/assets/juno-text-banner (1) (1).png" %}
-JUNO Text LOGO (Red) PNG
-{% endfile %}
 
 {% file src="../.gitbook/assets/juno-logo-white-.png" %}
-JUNO LOGO banner (White) PNG
-{% endfile %}
 
 {% file src="../.gitbook/assets/juno-text-logo (1).svg" %}
-JUNO Text LOGO Plain (Black) SVG
-{% endfile %}
 
 {% file src="../.gitbook/assets/juno-symbol (2) (2) (2) (2) (2) (2).svg" %}
-JUNO Symbol Plain (Black) SVG
-{% endfile %}
 
 {% file src="../.gitbook/assets/juno-logo-squared-.png" %}
-JUNO LOGO Squared (Red) PNG
-{% endfile %}
 
 ****
 
 **Color Identity**
 
-Primary Color**: **f0827dff
+Primary Color**: **f0827d
 
 ![](<../.gitbook/assets/juno-primary-color (1) (1) (1) (1) (1) (1) (1).png>)
 
-Secondary Color: 000000ff
+Secondary Color: 000000
 
 ![](../.gitbook/assets/juno-secondary-color-black-.png)
 
-Secondary Color: 9f9f9fff
+Secondary Color: 9f9f9f
 
 ![](../.gitbook/assets/juno-secondary-color-grey-.png)
 
-Secondary Color: ffffffff
+Secondary Color: ffffff
 
 ![](../.gitbook/assets/juno-secondary-color-white-.png)
