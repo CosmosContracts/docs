@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/keystone-fancy-callout-web_tcm19-24524.webp
+cover: ../.gitbook/assets/Gitbook Banner large 6 (9).png
 coverY: 0
 ---
 

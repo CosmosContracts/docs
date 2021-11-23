@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/Gitbook Banner large 6 (2).png
+coverY: 0
+---
+
 # Social/Resources/Updates
 
 
