@@ -7,7 +7,7 @@
 * [Introduction](juno/juno-interoperable-smart-contracts.md)
 * [Origin](juno/origin.md)
 * [Home of CosmWasm](juno/home-of-cosmwasm.md)
-* [Economic Overview ⚵](juno/economic-overview/README.md)
+* [Economic Overview](juno/economic-overview/README.md)
   * [Native Asset (JUNO)](juno/economic-overview/asset.md)
   * [Incentive structure](juno/economic-overview/incentive-structure.md)
 * [Supply API - Data](juno/supply-api-data.md)
