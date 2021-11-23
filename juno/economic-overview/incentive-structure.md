@@ -1,5 +1,5 @@
 ---
-cover: ../../.gitbook/assets/JUNO Primary Color (2).png
+cover: ../../.gitbook/assets/Gitbook Banner large 6 (4).png
 coverY: 0
 ---
 
