@@ -11,7 +11,7 @@
   * [Native Asset (JUNO)](juno/economic-overview/asset.md)
   * [Incentive structure](juno/economic-overview/incentive-structure.md)
 * [Supply API - Data](juno/supply-api-data.md)
-* [Brand Identity ⚵](juno/brand-identity.md)
+* [Brand Identity](juno/brand-identity.md)
 * [Contributors ⚵](juno/juno-developers.md)
 * [Social/Resources/Updates](juno/social-resources-updates.md)
 
