@@ -1,6 +1,6 @@
 ---
 description: Build Apps that Scale.
-cover: .gitbook/assets/Gitbook Banner large 2.png
+cover: .gitbook/assets/Gitbook Banner large 5.png
 coverY: 0
 ---
 
