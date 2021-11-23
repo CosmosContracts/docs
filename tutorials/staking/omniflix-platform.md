@@ -9,11 +9,11 @@ description: How to stake your Juno with the Omniflix UI and Keplr browser exten
 In this tutorial we will learn how to stake Juno to a validator of the Juno network. This will earn you rewards and help to secure the Juno network. We will be achieving this with the following general steps:
 
 * [Install and configure the Keplr browser extension](../wallets/keplr-browser-extension.md)
-* [Open the Omniflix staking UI and login with your Keplr wallet](omniflix-platform.md#open-the-omniflix-platform-and-log-in-with-keplr-browser-extension)
+* [Open the Omniflix staking UI and login with your Keplr wallet](https://docs.junonetwork.io/tutorials/staking/omniflix-platform#open-the-omniflix-ui-and-log-in-with-keplr-browser-extension)
 * [Select a validator and stake your Juno tokens](omniflix-platform.md#select-a-validator-and-stake-your-juno-tokens)
 * [Collect staking rewards](omniflix-platform.md#collect-staking-rewards)
 
-The Omniflix staking UI has been provided by the Omniflix team for easy staking to be available for the launch of Juno. 
+The Omniflix staking UI has been provided by the Omniflix team for easy staking to be available for the launch of Juno.&#x20;
 
 {% hint style="info" %}
 For users with a Juno stakedrop allocation, you will need to add your juno wallet associated with the stakedrop to your Keplr browser extension. You can do this by following the Keplr [guide ](../wallets/keplr-browser-extension.md#import-an-existing-account)and entering the mnemonic associated with your cosmos (atom) wallet address.
