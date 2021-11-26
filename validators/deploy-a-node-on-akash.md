@@ -1,17 +1,19 @@
 ---
 description: A detailed guide to deploy a Juno node on Akash decentralised cloud
+cover: ../.gitbook/assets/Gitbook Banner large 6 (4).png
+coverY: 0
 ---
 
 # Deploying a Node on Akash
 
 ## Introduction
 
-This guide is intended to provide the steps required to deploy a Juno chain node onto the Akash network. The setup is intended for education and testing purposes. Due to current limitations of the Akash network, it is not recommended to use this setup for any mission critical purpose. Potential uses are personal RPC nodes or non critical sentry nodes. 
+This guide is intended to provide the steps required to deploy a Juno chain node onto the Akash network. The setup is intended for education and testing purposes. Due to current limitations of the Akash network, it is not recommended to use this setup for any mission critical purpose. Potential uses are personal RPC nodes or non critical sentry nodes.&#x20;
 
-This guide assumes the user is familiar with the linux command line, has Akash installed on the workstation ([install Akash](https://docs.akash.network/guides/install)), and has funded an Akash wallet. 
+This guide assumes the user is familiar with the linux command line, has Akash installed on the workstation ([install Akash](https://docs.akash.network/guides/install)), and has funded an Akash wallet.&#x20;
 
 {% hint style="info" %}
-You will require at least 5 AKT for the deployment escrow amount, this will be used to pay for the provider services, as well as, say another 1 AKT for transaction fees. 
+You will require at least 5 AKT for the deployment escrow amount, this will be used to pay for the provider services, as well as, say another 1 AKT for transaction fees.&#x20;
 {% endhint %}
 
 This guide utilises the docker images built by the ovrclk/cosmos-omnibus repository. These images are built to be deployed to Akash, and manage node identity files on S3 storage. Furthermore, chain settings can be configured via environment variables set in the `deploy.yml`
