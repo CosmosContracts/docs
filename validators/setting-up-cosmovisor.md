@@ -3,6 +3,8 @@ description: >-
   For mainnet, it's recommended to use Cosmovisor to run your node. If you've
   not used it before, then run it during a testnet to check you can get it set
   up correctly.
+cover: ../.gitbook/assets/Gitbook Banner large 6 (8).png
+coverY: 0
 ---
 
 # Setting up Cosmovisor
