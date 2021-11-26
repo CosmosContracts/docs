@@ -1,6 +1,6 @@
 ---
 description: Securing the Juno Network 🔒 🔑
-cover: ../../.gitbook/assets/JUNO Primary Color.png
+cover: ../../.gitbook/assets/Gitbook Banner large 6 (2).png
 coverY: 0
 ---
 
