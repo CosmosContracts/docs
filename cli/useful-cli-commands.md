@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/Gitbook Banner large 6 (11).png
+coverY: 0
+---
+
 # Useful CLI Commands
 
 Get standard debug info from the `juno` daemon:
