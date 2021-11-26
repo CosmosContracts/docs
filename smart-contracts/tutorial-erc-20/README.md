@@ -1,6 +1,8 @@
 ---
 order: 1
 description: Make your own memecoin!
+cover: ../../.gitbook/assets/Gitbook Banner large 6 (11).png
+coverY: 0
 ---
 
 # ERC-20 Tutorial
@@ -11,9 +13,9 @@ It uses the examples in the `contracts/erc20` folder of the [cosmwasm-examples](
 
 There are four steps involved in working with a smart contract.
 
-1. Write the smart contract \(already done here!\)
+1. Write the smart contract (already done here!)
 2. Store the smart contract on chain
-3. Instantiate the smart contract \(configure and initialise it\)
+3. Instantiate the smart contract (configure and initialise it)
 4. Execute commands provided by the smart contract
 
 We will go through all of these in this tutorial.
@@ -21,6 +23,4 @@ We will go through all of these in this tutorial.
 There is a video version available as well:
 
 {% embed url="https://www.youtube.com/embed/c3DDHobH3Ow" %}
-
-
 
