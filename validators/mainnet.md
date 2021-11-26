@@ -1,5 +1,7 @@
 ---
 description: It's 🚀 time!
+cover: ../.gitbook/assets/Gitbook Banner large 6 (1).png
+coverY: 0
 ---
 
 # Mainnet Setup and Tooling
@@ -39,7 +41,7 @@ Using only the raw metrics endpoint provided by `junod` you can get a working da
 
 1. First, in `config.toml` enable Prometheus. The default metrics port will be `26660`
 2. Download Prometheus - this is needed to ship logs to Grafana Cloud.
-3. Create a `prometheus.yml` file with your [Grafana Cloud credentials](https://grafana.com/docs/grafana-cloud/reference/create-api-key/) in the Prometheus folder. You can get these via the Grafana UI. Click 'details' on the Prometheus card: 
+3. Create a `prometheus.yml` file with your [Grafana Cloud credentials](https://grafana.com/docs/grafana-cloud/reference/create-api-key/) in the Prometheus folder. You can get these via the Grafana UI. Click 'details' on the Prometheus card:&#x20;
 
 ```
 global:
@@ -93,7 +95,7 @@ sudo systemctl start prometheus
 
 For more info:
 
-* [https://grafana.com/docs/grafana-cloud/quickstart/noagent_linuxnode/](https://grafana.com/docs/grafana-cloud/quickstart/noagent_linuxnode/)
+* [https://grafana.com/docs/grafana-cloud/quickstart/noagent\_linuxnode/](https://grafana.com/docs/grafana-cloud/quickstart/noagent\_linuxnode/)
 * [https://forum.cosmos.network/t/monitoring-alerting-for-your-validator/446/28](https://forum.cosmos.network/t/monitoring-alerting-for-your-validator/446/28)
 
 ### Avoiding DDOS attacks
