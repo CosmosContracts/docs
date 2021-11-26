@@ -1,3 +1,8 @@
+---
+cover: ../../.gitbook/assets/Gitbook Banner large 6 (11).png
+coverY: 0
+---
+
 # Installation
 
 Follow the steps on the [installation page](../installation.md).
