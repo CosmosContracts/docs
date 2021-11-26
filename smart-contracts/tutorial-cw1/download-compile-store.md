@@ -1,5 +1,7 @@
 ---
 description: Walking before we can run...
+cover: ../../.gitbook/assets/Gitbook Banner large 6 (11).png
+coverY: 0
 ---
 
 # Download, Compile, Store
