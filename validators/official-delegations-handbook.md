@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/Gitbook Banner large 6 (9).png
+cover: ../.gitbook/assets/Gitbook Banner large 6 (9) (1).png
 coverY: 0
 ---
 

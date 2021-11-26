@@ -1,5 +1,7 @@
 ---
-description: 'Instructions for setting up the rust based relayer, Hermes'
+description: Instructions for setting up the rust based relayer, Hermes
+cover: ../../.gitbook/assets/Gitbook Banner large 6 (9).png
+coverY: 0
 ---
 
 # Hermes
@@ -24,13 +26,13 @@ You will need **rust**, **build-essential** and **git** installed to follow thes
 
 For preparation, we will create a dedicated user to run Hermes. Following command will also create home directory for the new user.
 
-```text
+```
 sudo useradd -m -d /srv/hermes hermes
 ```
 
 We will next switch to the hermes user and create a directory where we will compile the relayer software.
 
-```text
+```
 sudo sudo -u hermes -s
 mkdir /srv/hermes/source
 mkdir /srv/hermes/bin
@@ -39,7 +41,7 @@ cd /srv/hermes/source
 
 Now is time to clone the source repository and build it. Note that we need to checkout the latest release.
 
-```text
+```
 git clone https://github.com/informalsystems/ibc-rs.git hermes
 cd hermes
 git checkout v0.7.2
@@ -50,7 +52,7 @@ cd
 
 Next we will check that the newly built hermes version is the correct one:
 
-```text
+```
 hermes@demo:~$ bin/hermes version
 Oct 04 15:52:48.299  INFO ThreadId(01) using default configuration from '/srv/hermes/.hermes/config.toml'
 hermes 0.7.2
@@ -60,7 +62,7 @@ hermes 0.7.2
 
 Choose your favourite editor and edit the following configuration template to mach your setup. There are features like telemetry and rest API that you can enable, but they are not necessary, so they are left out from this tutorial.
 
-```text
+```
 [global]
 strategy = 'packets'
 filter = true
@@ -182,12 +184,11 @@ policy = 'allow'
 list = [
   ['transfer', 'channel-14'],
 ]
-
 ```
 
 You can validate the configuration with following:
 
-```text
+```
 hermes@Demo:~$ bin/hermes -c .hermes/config.toml  config validate
 Success: "validation passed successfully"
 ```
@@ -196,7 +197,7 @@ Success: "validation passed successfully"
 
 We do this by creating key configuration files that are imported to hermes. Here we go trhough Juno key setting, other chains are similar.
 
-```text
+```
 {
   "name":"juno-relayer",
   "type":"local",
@@ -206,16 +207,16 @@ We do this by creating key configuration files that are imported to hermes. Here
 }
 ```
 
-Next we will import this key configuration to hermes and shred the used json file. \(Using chain\_id **juno-1**.\)
+Next we will import this key configuration to hermes and shred the used json file. (Using chain\_id **juno-1**.)
 
-```text
+```
 bin/hermes keys add juno-1 -f ./seed-juno.json
 shred -u ./seed-juno.json
 ```
 
-If you want to make sure the keys got imported, you can check them with following command \(smart thing to run it before shredding the json file\):
+If you want to make sure the keys got imported, you can check them with following command (smart thing to run it before shredding the json file):
 
-```text
+```
 bin/hermes keys list juno-1
 ```
 
@@ -223,7 +224,7 @@ bin/hermes keys list juno-1
 
 Let's do a quick test to see things work properly.
 
-```text
+```
 bin/hermes start
 ```
 
@@ -235,7 +236,7 @@ Now we will setup hermes to be run by systemd, and to start automatically on reb
 
 Create the following configuration to **/etc/systemd/system/hermes.service**
 
-```text
+```
 [Unit]
 Description=Hermes IBC relayer
 ConditionPathExists=/srv/hermes/hermes
@@ -255,8 +256,7 @@ WantedBy=multi-user.target
 
 Then we well start hermes with the newly created service and enable it. Note that this step is done from your normal user account that has sudo privileges, so no longer as hermes.
 
-```text
+```
 sudo systemctl start hermes.service
 sudo systemctl enable hermes.service
 ```
-
