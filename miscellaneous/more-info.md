@@ -1,5 +1,7 @@
 ---
 description: But I Don't Understand?
+cover: ../.gitbook/assets/Gitbook Banner large 6 (4).png
+coverY: 0
 ---
 
 # More Info
@@ -14,9 +16,8 @@ The amount of information is endless. Here are some links that might help you on
 
 ## [Juno Network Discord](https://t.me/JunoNetwork/6344) 💬
 
-## [Cosmos Network](https://cosmos.network/) ⚛
+## [Cosmos Network](https://cosmos.network) ⚛
 
 ## [Cosmos Network Discord](https://discord.com/invite/W8trcGV) 💬
 
 ## [Cosmos SDK Github](https://github.com/cosmos/cosmos-sdk)👨 💻
-
