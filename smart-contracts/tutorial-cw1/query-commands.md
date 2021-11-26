@@ -1,5 +1,7 @@
 ---
 description: Some useful commands for querying contract state
+cover: ../../.gitbook/assets/Gitbook Banner large 6 (4).png
+coverY: 0
 ---
 
 # Query commands
@@ -25,6 +27,4 @@ Or query to see all allowances:
 ```bash
 junod query wasm contract-state smart <contract-addr> '{"all_allowances":{}}' --chain-id <chain-id>
 ```
-
-
 
