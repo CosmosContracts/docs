@@ -1,5 +1,7 @@
 ---
 description: CLI reference for junod modules
+cover: ../../.gitbook/assets/Gitbook Banner large 6 (11).png
+coverY: 0
 ---
 
 # Module Reference
