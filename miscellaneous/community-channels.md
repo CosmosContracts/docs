@@ -1,6 +1,6 @@
 ---
 description: Join the Community
-cover: ../.gitbook/assets/JUNO Primary Color (4).png
+cover: ../.gitbook/assets/Gitbook Banner large 6 (4).png
 coverY: 0
 ---
 
@@ -8,7 +8,7 @@ coverY: 0
 
 ## [Twitter](https://twitter.com/JunoNetwork) 🐦
 
-## [Discord](https://discord.gg/QcWPfK4gJ2) 💬
+## [Discord](community-channels.md#discord) 💬
 
 ## [Github](https://github.com/CosmosContracts) 💻
 
