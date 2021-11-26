@@ -2,6 +2,8 @@
 description: >-
   A general introduction Juno cli along with a brief description of commands and
   flags
+cover: ../.gitbook/assets/Gitbook Banner large 6 (11).png
+coverY: 0
 ---
 
 # Introduction
@@ -16,7 +18,7 @@ See [here](../validators/getting-setup.md) for instructions on installing `junod
 
 ### Working Directory <a href="working-directory" id="working-directory"></a>
 
-The default working directory for the `junod` is `$HOME/.juno`, which is mainly used to store configuration files and blockchain data. The Juno `key` data is saved in the working directory of `junod`. You can also specify the `junod` working directory by using the `--home` flag when executing `junod`. 
+The default working directory for the `junod` is `$HOME/.juno`, which is mainly used to store configuration files and blockchain data. The Juno `key` data is saved in the working directory of `junod`. You can also specify the `junod` working directory by using the `--home` flag when executing `junod`.&#x20;
 
 ### Connecting to a Full-Node
 
@@ -35,7 +37,7 @@ All GET commands have the following global flags:
 | --chain-id      | string |          |               | The network Chain ID                 |
 | --home          | string |          | $HOME/.juno   | Directory for config and data        |
 | --trace         | string |          |               | Print out full stack trace on errors |
-| --log_format    | string |          | plain         | Logging format (json \| plain)       |
+| --log\_format   | string |          | plain         | Logging format (json \| plain)       |
 
 #### POST Commands <a href="post-commands" id="post-commands"></a>
 

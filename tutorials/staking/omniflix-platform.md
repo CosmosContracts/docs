@@ -1,6 +1,6 @@
 ---
 description: How to stake your Juno with the Omniflix UI and Keplr browser extension
-cover: ../../.gitbook/assets/Gitbook Banner large 6 (11).png
+cover: ../../.gitbook/assets/Gitbook Banner large 6 (11) (1).png
 coverY: 0
 ---
 
