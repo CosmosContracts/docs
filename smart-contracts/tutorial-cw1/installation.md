@@ -1,5 +1,7 @@
 ---
 description: The basics.
+cover: ../../.gitbook/assets/Gitbook Banner large 6 (11).png
+coverY: 0
 ---
 
 # Installation
@@ -10,7 +12,7 @@ If `which junod` shows you have a version of `junod` available, you're good to g
 
 If `cargo version` shows a version greater than 1.49, then ditto - you're probably all good.
 
-{% page-ref page="../tutorial-erc-20/installation.md" %}
-
-
+{% content-ref url="../tutorial-erc-20/installation.md" %}
+[installation.md](../tutorial-erc-20/installation.md)
+{% endcontent-ref %}
 
