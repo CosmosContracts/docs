@@ -2,6 +2,8 @@
 description: >-
   Now we complete the task - sending some tokens that have been delegated to a
   key
+cover: ../../.gitbook/assets/Gitbook Banner large 6 (11).png
+coverY: 0
 ---
 
 # Execute commands
@@ -10,10 +12,10 @@ description: >-
 
 As mentioned in the introduction, now we want to:
 
-1. As the admin key \(**A**\)†, set an allowance for a key \(**B**\)
-2. As the key with an allowance, send tokens from key \(**B**\) to key \(**C**\)
-3. See tokens arrive at key \(**C**\)
-4. See allowance decrease for key \(**B**\)
+1. As the admin key (**A**)†, set an allowance for a key (**B**)
+2. As the key with an allowance, send tokens from key (**B**) to key (**C**)
+3. See tokens arrive at key (**C**)
+4. See allowance decrease for key (**B**)
 
 † this is the key that you used to instantiate, and set as an admin. If you are running a validator in the testnet, then it is probably your self-delegate key.
 
@@ -33,7 +35,7 @@ Using `node`, you can again encode the following arguments:
 }
 ```
 
-Then, as the admin key \(**A**\), increase key \(**B**\)'s allowance:
+Then, as the admin key (**A**), increase key (**B**)'s allowance:
 
 ```bash
 junod tx wasm execute <contract-addr> \
@@ -61,7 +63,7 @@ data:
 
 ### 2. Send tokens from key B to key C
 
-First, query the balance of another key, that we did not allocate any tokens to \(**C**\):
+First, query the balance of another key, that we did not allocate any tokens to (**C**):
 
 ```bash
 junod q bank balances <key-C>
@@ -107,7 +109,7 @@ junod tx wasm execute <contract-addr> \
   --chain-id <chain-id>
 ```
 
-Note that the `--from` flag is now signing this from the key \(**B**\) that the admin key \(**A**\) gave a token balance to. This CW1 Subkeys contract will only work with the native token of the chain, in this case `ujuno`.
+Note that the `--from` flag is now signing this from the key (**B**) that the admin key (**A**) gave a token balance to. This CW1 Subkeys contract will only work with the native token of the chain, in this case `ujuno`.
 
 ### 3. Check balance of key C
 
@@ -148,4 +150,3 @@ data:
 We're done!
 
 Play around some more with increasing and decreasing allowances, or even adding expiries to allowances, to get a better feel for how this works.
-
