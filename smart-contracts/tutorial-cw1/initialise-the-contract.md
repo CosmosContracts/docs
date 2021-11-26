@@ -1,5 +1,7 @@
 ---
 description: It's go time!
+cover: ../../.gitbook/assets/Gitbook Banner large 6 (4).png
+coverY: 0
 ---
 
 # Initialise the Contract
@@ -38,4 +40,3 @@ junod query wasm list-contract-by-code <code-id>
 ```
 
 You will need this to interact with the contract.
-
