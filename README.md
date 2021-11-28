@@ -32,20 +32,20 @@ The Juno docs describe the Juno open source project, a permission-less blockchai
 
 ## Smart Contracts
 
-{% content-ref url="smart-contracts/installation.md" %}
-[installation.md](smart-contracts/installation.md)
+{% content-ref url="smart-contracts-and-junod-development/installation.md" %}
+[installation.md](smart-contracts-and-junod-development/installation.md)
 {% endcontent-ref %}
 
 ### Smart Contract ERC20 Tutorial
 
-{% content-ref url="smart-contracts/tutorial-erc-20/" %}
-[tutorial-erc-20](smart-contracts/tutorial-erc-20/)
+{% content-ref url="smart-contracts-and-junod-development/tutorial-erc-20/" %}
+[tutorial-erc-20](smart-contracts-and-junod-development/tutorial-erc-20/)
 {% endcontent-ref %}
 
 ### Smart Contract CW1 Tutorial (CosmWasm Plus)
 
-{% content-ref url="smart-contracts/tutorial-cw1/" %}
-[tutorial-cw1](smart-contracts/tutorial-cw1/)
+{% content-ref url="smart-contracts-and-junod-development/tutorial-cw1/" %}
+[tutorial-cw1](smart-contracts-and-junod-development/tutorial-cw1/)
 {% endcontent-ref %}
 
 ## FAQ

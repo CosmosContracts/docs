@@ -18,9 +18,9 @@ Below is the list of Juno testnets and their current status. You will need to kn
 
 The minimum recommended hardware requirements for running a validator for the Juno testnets are:
 
-| Chain-id | Requirements                                                                               |
-| -------- | ------------------------------------------------------------------------------------------ |
-| uni      | <p></p><ul><li>16GB RAM</li><li>1TB of disk space</li><li>4 Cores (modern CPU's)</li></ul> |
+| Chain-id | Requirements                                                                                 |
+| -------- | -------------------------------------------------------------------------------------------- |
+| uni      | <p></p><ul><li>16GB RAM</li><li>200GB of disk space</li><li>2 Cores (modern CPU's)</li></ul> |
 
 {% hint style="warning" %}
 These specifications are the minimum recommended. As Juno Network is a smart contract platform, it can at times be very demanding on hardware. Low spec validators WILL get stuck on difficult to process blocks.

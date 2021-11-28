@@ -24,7 +24,7 @@
 
 ## Nodes & Validators <a href="validators" id="validators"></a>
 
-* [junod Installation and setup](validators/getting-setup.md)
+* [Junod Installation and setup](validators/getting-setup.md)
 * [Mainnet Setup and Tooling](validators/mainnet.md)
 * [Joining Mainnet](validators/joining-mainnet.md)
 * [Joining Testnets](validators/joining-the-testnets.md)
@@ -53,20 +53,21 @@
   * [upgrade](cli/modules/upgrade.md)
   * [wasm](cli/modules/wasm.md)
 
-## Smart Contracts
+## Smart Contracts & Junod Development
 
-* [Installation](smart-contracts/installation.md)
-* [ERC-20 Tutorial](smart-contracts/tutorial-erc-20/README.md)
-  * [Installation](smart-contracts/tutorial-erc-20/installation.md)
-  * [Download, Compile, Store](smart-contracts/tutorial-erc-20/compile.md)
-  * [Initialise the Contract](smart-contracts/tutorial-erc-20/initialise.md)
-  * [Query and run commands](smart-contracts/tutorial-erc-20/query.md)
-* [CW1 Tutorial](smart-contracts/tutorial-cw1/README.md)
-  * [Installation](smart-contracts/tutorial-cw1/installation.md)
-  * [Download, Compile, Store](smart-contracts/tutorial-cw1/download-compile-store.md)
-  * [Initialise the Contract](smart-contracts/tutorial-cw1/initialise-the-contract.md)
-  * [Query commands](smart-contracts/tutorial-cw1/query-commands.md)
-  * [Execute commands](smart-contracts/tutorial-cw1/execute-commands.md)
+* [Junod Local Dev Setup](smart-contracts-and-junod-development/junod-local-dev-setup.md)
+* [Smart Contracts Installation](smart-contracts-and-junod-development/installation.md)
+* [ERC-20 Tutorial](smart-contracts-and-junod-development/tutorial-erc-20/README.md)
+  * [Installation](smart-contracts-and-junod-development/tutorial-erc-20/installation.md)
+  * [Download, Compile, Store](smart-contracts-and-junod-development/tutorial-erc-20/compile.md)
+  * [Initialise the Contract](smart-contracts-and-junod-development/tutorial-erc-20/initialise.md)
+  * [Query and run commands](smart-contracts-and-junod-development/tutorial-erc-20/query.md)
+* [CW1 Tutorial](smart-contracts-and-junod-development/tutorial-cw1/README.md)
+  * [Installation](smart-contracts-and-junod-development/tutorial-cw1/installation.md)
+  * [Download, Compile, Store](smart-contracts-and-junod-development/tutorial-cw1/download-compile-store.md)
+  * [Initialise the Contract](smart-contracts-and-junod-development/tutorial-cw1/initialise-the-contract.md)
+  * [Query commands](smart-contracts-and-junod-development/tutorial-cw1/query-commands.md)
+  * [Execute commands](smart-contracts-and-junod-development/tutorial-cw1/execute-commands.md)
 
 ## FAQs
 

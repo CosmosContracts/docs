@@ -4,7 +4,7 @@ cover: ../.gitbook/assets/Gitbook Banner large 6 (7).png
 coverY: 0
 ---
 
-# junod Installation and setup
+# Junod Installation and setup
 
 ## Choose an Operating System
 
@@ -98,14 +98,3 @@ To connect to the Juno network you can either run your own node or connect to a 
 
 If you choose to run your own node see either [Joining Mainet](joining-mainnet.md) or [Joining Testnets](joining-the-testnets.md) depending on what chain you would like to work on.
 
-## Quickstart on the testnet with a public node
-
-If you don't want to go through the process of setting up a node and just want to experiment with the Juno uni testnet:
-
-1. Get a public node's RPC address.
-2. In `~/.juno/config/client.toml` set `node="<public node RCP address>"` and `chain-id="uni"`.
-3. Create a key to use by running `junod keys add <key-name>`.
-4. Get that key's public address by running `junod keys show <key-name> -a`.
-5. Get some test Juno by sending `$request <key-address>` in the #faucet Discord channel.
-
-You can then verify that you have funds by running `junod query bank balances <key-address>`. Happy hacking!
