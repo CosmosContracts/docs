@@ -35,6 +35,11 @@
 * [Deploying a Node on Akash](validators/deploy-a-node-on-akash.md)
 * [Official Delegations Handbook](validators/official-delegations-handbook.md)
 
+## Governance
+
+* [Before submitting a proposal](governance/before-submitting-a-proposal.md)
+* [Submitting a Proposal (CLI)](governance/submitting-a-proposal-cli.md)
+
 ## Command-Line Interface (CLI) <a href="cli" id="cli"></a>
 
 * [Introduction](cli/cli-introduction.md)
