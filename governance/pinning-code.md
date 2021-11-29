@@ -25,7 +25,8 @@ Frequently-used contracts can be pinned in the mainnet by governance proposal. T
 The `content` of the proposal looks like this:
 
 ```json
-{"@type":"/cosmwasm.wasm.v1.PinCodesProposal",
+{
+ "@type":"/cosmwasm.wasm.v1.PinCodesProposal",
  "title":"Pin Wasm Codes",
  "description":"Pin cw20, cw721 wasm codes",
  "code_ids": [1, 5]
