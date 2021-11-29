@@ -1,32 +1,48 @@
 # Submitting a Proposal (CLI)
 
-First, you need to find out what param you are targeting. Go to the [list of modules](https://docs.cosmos.network/master/modules/), and go to the 'parameters' tab for the module you are interested in.
+[Governance proposals](https://hub.cosmos.network/main/resources/gaiad.html) target the parameters of specific modules. Go to the [list of modules](https://docs.cosmos.network/master/modules/), and go to the 'parameters' tab for the module you are interested in. 
 
-To query the current setting for params, query by subspace, e.g.:
+You can query the current setting for that parameter with `junod query params subspace [module] [parameter]`. For example, to query [the `communitytax` param in `distribution`](https://docs.cosmos.network/master/modules/distribution/07_params.html), you would do:
+
+```bash
+junod query params subspace distribution communitytax
+```
+
+> NB: if you have not set it in config, you will need to add chain-id: `--chain-id uni`.
+
+This will return:
+
+```bash
+key: communitytax
+subspace: distribution
+value: '"0.020000000000000000"'
+```
+
+You can query [`BaseApp`](https://docs.cosmos.network/master/core/baseapp.html) parameters as well:
 
 ```bash
 junod query params subspace baseapp BlockParams
 ```
 
-NB: if you have not set it in config, you will need to add chain id, like `--chain-id uni`.
-
 This will return:
 
-```json
+```bash
 key: BlockParams
 subspace: baseapp
 value: '{"max_bytes":"22020096","max_gas":"80000000"}'
 ```
 
-To increase this, encode a parameter change as JSON:
+Let's take this BlockParams parameter as an example. Say we want to create a proposal that increases this value.
+
+We can encode the parameter change in a JSON proposal like so:
 
 ```json
 {
   "title": "Governance Proposal to add maximum per block gas",
   "description": "To stop potential attacks against the network via the use of malicious smart contracts, we need to set a max per block gas limit. From testing on the Uni testnet, the core team feel this value is a good starting point, and it can be increased in future if necessary.",
   "changes": [{
-    "subspace": "baseapp",
     "key": "BlockParams",
+    "subspace": "baseapp",
     "value": {
       "max_gas": "100000000"
     }
@@ -35,10 +51,12 @@ To increase this, encode a parameter change as JSON:
 }
 ```
 
-And then submit it:
+We can then submit it:
 
 ```bash
 junod tx gov submit-proposal param-change ./max_block_gas_proposal.json --from needlecast --fees 5000ujuno --gas auto
 ```
 
-You will notice that this is [Juno Mainnet Proposal 6](https://www.mintscan.io/juno/proposals/6).
+(Note: this example is [Juno Mainnet Proposal 6](https://www.mintscan.io/juno/proposals/6)).
+
+Other types of proposals include [`community-pool-spend`](https://hub.cosmos.network/main/governance/community-pool-spend/best_practices.html) and `software-upgrade`/`cancel-software-upgrade`.
