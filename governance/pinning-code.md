@@ -1,4 +1,4 @@
-Pinning a code ID adds it to validators' cache, thus all contract using it. In effect, this removes startup fees associated with invoking contracts that use that code ID.
+Pinning a code ID adds it to validators' cach. In effect, this removes startup fees associated with invoking contracts that use that code ID.
 
 Frequently-used contracts can be pinned in the mainnet by governance proposal.
 
