@@ -85,7 +85,7 @@ key_name = 'juno-relayer'
 store_prefix = 'ibc'
 max_msg_num=15
 max_gas = 1000000
-gas_price = { price = 0.025, denom = 'ujuno' }
+gas_price = { price = 0.001, denom = 'ujuno' }
 clock_drift = '5s'
 trusting_period = '14days'
 trust_threshold = { numerator = '1', denominator = '3'}
