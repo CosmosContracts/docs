@@ -83,7 +83,7 @@ git checkout v2.0.0-alpha.3
 # build juno executable
 make install
 
-which juno
+which junod
 ```
 
 {% hint style="info" %}
