@@ -50,7 +50,7 @@ In the example below, `6` is the value of `$CODE_ID`.
 ```bash
 junod tx wasm instantiate 6 \
     '{"name":"Poodle Coin","symbol":"POOD","decimals":6,"initial_balances":[{"address":"<validator-self-delegate-address>","amount":"12345678000"}]}' \
-    --amount 50000ujuno  --label "Poodlecoin erc20" --from <your-key> --chain-id <chain-id> --gas auto -y
+    --amount 50000ujunox  --label "Poodlecoin erc20" --from <your-key> --chain-id <chain-id> --gas auto -y
 ```
 
 If you have set `$CODE_ID` in your shell, you can instead run:
@@ -58,7 +58,7 @@ If you have set `$CODE_ID` in your shell, you can instead run:
 ```bash
 junod tx wasm instantiate $CODE_ID \
     '{"name":"Poodle Coin","symbol":"POOD","decimals":6,"initial_balances":[{"address":"<validator-self-delegate-address>","amount":"12345678000"}]}' \
-    --amount 50000ujuno  --label "Poodlecoin erc20" --from <your-key> --chain-id <chain-id> --gas auto -y
+    --amount 50000ujunox  --label "Poodlecoin erc20" --from <your-key> --chain-id <chain-id> --gas auto -y
 ```
 
 If this succeeds, look in the output and get contract address from output e.g `juno1a2b....` or run:

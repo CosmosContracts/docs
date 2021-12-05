@@ -28,7 +28,13 @@ junod tendermint show-node-id
 Your peer address will be the result of this plus host and port, i.e. `<id>@<host>:26656` if you are using the default port.
 {% endhint %}
 
-Set the default chain for commands to use:\\
+Check if you are jailed or tombstoned:
+
+```bash
+junod query slashing signing-info $(junod tendermint show-validator)
+```
+
+Set the default chain for commands to use:
 
 ```bash
 junod config chain-id juno-1

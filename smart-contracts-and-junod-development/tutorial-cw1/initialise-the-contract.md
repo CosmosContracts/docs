@@ -30,7 +30,7 @@ JSON.stringify(initobj);
 With these encoded arguments, you can now instantiate the contract, using the `code_id` from the previous step.
 
 ```bash
-junod tx wasm instantiate <code-id> '{"admins":["<your-validator-self-delegate-key>"],"mutable":false}' --amount 50000ujuno --label "CW1 example contract" --from <your-key> --chain-id <chain-id> --gas auto -y
+junod tx wasm instantiate <code-id> '{"admins":["<your-validator-self-delegate-key>"],"mutable":false}' --amount 50000ujunox --label "CW1 example contract" --from <your-key> --chain-id <chain-id> --gas auto -y
 ```
 
 Once the contract is instantiated, you can find out its contract address:
