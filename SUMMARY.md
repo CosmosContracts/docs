@@ -3,14 +3,13 @@
 ## Juno
 
 * [Introduction](README.md)
-* [Origin](juno/origin.md)
 * [Home of CosmWasm](juno/home-of-cosmwasm.md)
 * [Economic Overview](juno/economic-overview/README.md)
   * [Native Asset (JUNO)](juno/economic-overview/asset.md)
   * [Incentive structure](juno/economic-overview/incentive-structure.md)
   * [Supply API - Data](juno/economic-overview/supply-api-data.md)
-* [Brand Identity](juno/brand-identity.md)
 * [Contributors](juno/juno-developers.md)
+* [Brand Identity](juno/brand-identity.md)
 * [Social/Resources/Updates](juno/social-resources-updates.md)
 
 ## TUTORIALS
@@ -19,19 +18,6 @@
   * [Keplr Browser Extension](tutorials/wallets/keplr-browser-extension.md)
 * [Staking](tutorials/staking/README.md)
   * [Omniflix UI](tutorials/staking/omniflix-platform.md)
-
-## Nodes & Validators <a href="#validators" id="validators"></a>
-
-* [Junod Installation and setup](validators/getting-setup.md)
-* [Mainnet Setup and Tooling](validators/mainnet.md)
-* [Joining Mainnet](validators/joining-mainnet.md)
-* [Joining Testnets](validators/joining-the-testnets.md)
-* [Setting up Cosmovisor](validators/setting-up-cosmovisor.md)
-* [Relayers](validators/relayers/README.md)
-  * [ibc-go](validators/relayers/ibc-go.md)
-  * [Hermes](validators/relayers/hermes.md)
-* [Deploying a Node on Akash](validators/deploy-a-node-on-akash.md)
-* [Official Delegations Handbook](validators/official-delegations-handbook.md)
 
 ## Governance
 
@@ -72,13 +58,14 @@
   * [Query commands](smart-contracts-and-junod-development/tutorial-cw1/query-commands.md)
   * [Execute commands](smart-contracts-and-junod-development/tutorial-cw1/execute-commands.md)
 
-## FAQs
+## Nodes & Validators <a href="#validators" id="validators"></a>
 
-* [Validator FAQ](faqs/validator-faq.md)
-* [Developer FAQ](faqs/developer-faq.md)
-* [Delegator FAQ](faqs/delegator-faq.md)
-
-## Miscellaneous
-
-* [Community Channels](miscellaneous/community-channels.md)
-* [More Info](miscellaneous/more-info.md)
+* [Junod Installation and setup](validators/getting-setup.md)
+* [Mainnet Setup and Tooling](validators/mainnet.md)
+* [Joining Mainnet](validators/joining-mainnet.md)
+* [Joining Testnets](validators/joining-the-testnets.md)
+* [Setting up Cosmovisor](validators/setting-up-cosmovisor.md)
+* [Relayers](validators/relayers/README.md)
+  * [ibc-go](validators/relayers/ibc-go.md)
+  * [Hermes](validators/relayers/hermes.md)
+* [Official Delegations Handbook](validators/official-delegations-handbook.md)
