@@ -10,9 +10,9 @@ coverY: 0
 
 Below is the list of Juno testnets and their current status. You will need to know the version tag for installation of the `junod` binary.&#x20;
 
-| chain-id | Github version tag |                                                                                          Description                                                                                         | Status  |
-| -------- | ------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | ------- |
-| uni      | v2.0.0-alpha.3     | This post-mainnet launch testnet is designed to test the Cosmwasm 1.0.0 API and allow smart contract developers time to test and update their contracts before CosmWasm is included in Juno. | current |
+| chain-id | Current Github version tag |                                                                                          Description                                                                                         | Status  |
+| -------- | -------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | ------- |
+| uni      | v2.0.0-beta.3              | This post-mainnet launch testnet is designed to test the Cosmwasm 1.0.0 API and allow smart contract developers time to test and update their contracts before CosmWasm is included in Juno. | current |
 
 ## Minimum Hardware Requirements
 
