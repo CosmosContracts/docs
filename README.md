@@ -1,73 +1,39 @@
 ---
-description: Build Apps that Scale.
-cover: .gitbook/assets/Gitbook Banner large 6 (7) (1).png
+description: Juno - Interoperable Smart Contract Network
+cover: ../.gitbook/assets/Gitbook Banner large 6 (4) (1).png
 coverY: 0
 ---
 
-# Junø - Documentation
+# Introduction
 
-The Juno docs describe the Juno open source project, a permission-less blockchain network built for scale.
+![](<../.gitbook/assets/JunoHack banner (1).png>)
 
-![](<.gitbook/assets/juno-logo-red- (4) (3) (3) (3) (3) (3) (2).svg>)
+**What is Juno?**
 
-## Validators
+Junø is an open source platform for **interoperable smart contracts** which automatically executes, controls or documents a procedure of relevant events and actions according to the terms of such contract or agreement to be valid & usable across multiple sovereign networks.
 
-{% content-ref url="validators/getting-setup.md" %}
-[getting-setup.md](validators/getting-setup.md)
-{% endcontent-ref %}
+**Why Juno?**
 
-{% content-ref url="validators/joining-the-testnets.md" %}
-[joining-the-testnets.md](validators/joining-the-testnets.md)
-{% endcontent-ref %}
+Juno as a **sovereign public blockchain** in the Cosmos ecosystem, aims to provide an environment for the deployment of interoperable smart contracts. The network serves as a **decentralized, permissionless & censorship resistant** avenue for developers to efficiently and securely launch smart contracts using proven frameworks and compile them in various languages **Rust & Go.**
 
-{% content-ref url="validators/mainnet.md" %}
-[mainnet.md](validators/mainnet.md)
-{% endcontent-ref %}
+Battle tested contract modules such as **CosmWasm**, allow for **decentralized applications** (dapps) to be compiled on robust and secure multi-chain smart contracts. Additional specialized modules may be introduced at any time via on-chain governance.
 
-## CLI
+**IBC**
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
+At the heart of Cosmos ecosystem is the Inter Blockchain Communication Protocol (IBC), which sets the table for an interoperable base layer 0 to now be used to transfer data packets across thousands of independent networks supporting IBC. Naturally, the next evolutionary milestone is to enable cross-network smart contracts. This enables Juno smart contracts to interoperate with all IBC enabled networks, regardless of wasm support on external networks.
 
-## Smart Contracts
+**Cosmos SDK**
 
-{% content-ref url="smart-contracts-and-junod-development/installation.md" %}
-[installation.md](smart-contracts-and-junod-development/installation.md)
-{% endcontent-ref %}
+The Juno blockchain is built using the **Cosmos SDK framework**. A generalized framework that simplifies the process of building secure blockchain applications on top of Tendermint BFT. It is based on two major principles: Modularity & capabilities-based security.
 
-### Smart Contract ERC20 Tutorial
+**Tendermint**
 
-{% content-ref url="smart-contracts-and-junod-development/tutorial-erc-20/" %}
-[tutorial-erc-20](smart-contracts-and-junod-development/tutorial-erc-20/)
-{% endcontent-ref %}
+Agreement on the network is reached via **Tendermint BFT consensus**.
 
-### Smart Contract CW1 Tutorial (CosmWasm Plus)
+Tendermint BFT is a solution that packages the networking and consensus layers of a blockchain into a generic engine, allowing developers to focus on application development as opposed to the complex underlying protocol. As a result, Tendermint saves hundreds of hours of development time.
 
-{% content-ref url="smart-contracts-and-junod-development/tutorial-cw1/" %}
-[tutorial-cw1](smart-contracts-and-junod-development/tutorial-cw1/)
-{% endcontent-ref %}
+**CosmWasm**
 
-## FAQ
+Juno is the neutral home of CosmWasm smart contracts and the InterWasm DAO. The ecosystem is pioneering CosmWasm development and adoption.
 
-{% content-ref url="faqs/validator-faq.md" %}
-[validator-faq.md](faqs/validator-faq.md)
-{% endcontent-ref %}
-
-{% content-ref url="faqs/developer-faq.md" %}
-[developer-faq.md](faqs/developer-faq.md)
-{% endcontent-ref %}
-
-{% content-ref url="faqs/delegator-faq.md" %}
-[delegator-faq.md](faqs/delegator-faq.md)
-{% endcontent-ref %}
-
-## Misc
-
-{% content-ref url="miscellaneous/community-channels.md" %}
-[community-channels.md](miscellaneous/community-channels.md)
-{% endcontent-ref %}
-
-{% content-ref url="miscellaneous/more-info.md" %}
-[more-info.md](miscellaneous/more-info.md)
-{% endcontent-ref %}
+****

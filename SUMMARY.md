@@ -1,16 +1,14 @@
 # Table of contents
 
-* [Junø - Documentation](README.md)
-
 ## Juno
 
-* [Introduction](juno/juno-interoperable-smart-contracts.md)
+* [Introduction](README.md)
 * [Origin](juno/origin.md)
 * [Home of CosmWasm](juno/home-of-cosmwasm.md)
 * [Economic Overview](juno/economic-overview/README.md)
   * [Native Asset (JUNO)](juno/economic-overview/asset.md)
   * [Incentive structure](juno/economic-overview/incentive-structure.md)
-* [Supply API - Data](juno/supply-api-data.md)
+  * [Supply API - Data](juno/economic-overview/supply-api-data.md)
 * [Brand Identity](juno/brand-identity.md)
 * [Contributors](juno/juno-developers.md)
 * [Social/Resources/Updates](juno/social-resources-updates.md)
@@ -22,7 +20,7 @@
 * [Staking](tutorials/staking/README.md)
   * [Omniflix UI](tutorials/staking/omniflix-platform.md)
 
-## Nodes & Validators <a href="validators" id="validators"></a>
+## Nodes & Validators <a href="#validators" id="validators"></a>
 
 * [Junod Installation and setup](validators/getting-setup.md)
 * [Mainnet Setup and Tooling](validators/mainnet.md)
@@ -40,7 +38,7 @@
 * [Before submitting a proposal](governance/before-submitting-a-proposal.md)
 * [Submitting a Proposal (CLI)](governance/submitting-a-proposal-cli.md)
 
-## Command-Line Interface (CLI) <a href="cli" id="cli"></a>
+## Command-Line Interface (CLI) <a href="#cli" id="cli"></a>
 
 * [Introduction](cli/cli-introduction.md)
 * [Useful CLI Commands](cli/useful-cli-commands.md)

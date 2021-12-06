@@ -128,7 +128,7 @@ This will generate the following files in `~/.juno/config/`
 curl https://raw.githubusercontent.com/CosmosContracts/mainnet/main/$CHAIN_ID/genesis.json > ~/.juno/config/genesis.json
 ```
 
-This will replace the genesis file created using `junod init` command with the mainnet `genesis.json`.** **
+This will replace the genesis file created using `junod init` command with the mainnet `genesis.json`. ****&#x20;
 
 ### **Set persistent peers**
 

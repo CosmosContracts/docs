@@ -33,7 +33,7 @@ coverY: 0
 
 **Color Identity**
 
-Primary Color**: **f0827d
+Primary Color**:** f0827d
 
 ![](<../.gitbook/assets/juno-primary-color (1) (1) (1) (1) (1) (1) (1).png>)
 

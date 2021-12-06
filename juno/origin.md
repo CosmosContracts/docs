@@ -20,7 +20,7 @@ Some of the founding principles center around:
 
 ⚪️ **Governance by ATOM stakers which become JUNO stakers**. Stakedrop where 47% of the genesis supply goes to ATOM stakers on a 1:1 basis.
 
-⚪️ Commitment to utilize** shared security from the Cosmos Hub** once available.
+⚪️ Commitment to utilize **shared security from the Cosmos Hub** once available.
 
 ⚪️ **Eliminating potential legal limitations** (Juno has not/will not conduct any form of seed sale, private sale or public sale. All $Juno enter circulation via the decentralized network launch on October 1st 2021)
 

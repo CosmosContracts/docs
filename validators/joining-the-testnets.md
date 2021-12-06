@@ -120,7 +120,7 @@ Note that this means if you jumped ahead and already downloaded the genesis file
 curl https://raw.githubusercontent.com/CosmosContracts/testnets/main/$CHAIN_ID/genesis.json > ~/.juno/config/genesis.json
 ```
 
-This will replace the genesis file created using `junod init` command with the genesis file for the testnet.** **
+This will replace the genesis file created using `junod init` command with the genesis file for the testnet. ****&#x20;
 
 ### **Set persistent peers**
 

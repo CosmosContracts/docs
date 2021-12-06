@@ -70,7 +70,7 @@ You now have 3 options to add and import accounts to the Keplr extension:
 ![](<../../.gitbook/assets/image (3).png>)
 
 {% hint style="success" %}
-**For people who have stakedrop **([http://stakedrop.junochain.com](http://stakedrop.junochain.com) to confirm):
+**For people who have stakedrop** ([http://stakedrop.junochain.com](http://stakedrop.junochain.com) to confirm):
 
 If you do not already have the account associated with your stakedrop loaded into your Keplr wallet, please proceed to [Import existing account](keplr-browser-extension.md#import-an-existing-account) and use the "Mnemonic Seed" associated with your Cosmos (ATOM) account that is eligible for the stakedrop. Or, if your Cosmos account was secured by a ledger hardware wallet, please proceed to[ Import ledger](keplr-browser-extension.md#import-ledger).
 {% endhint %}
@@ -80,22 +80,22 @@ If you do not already have the account associated with your stakedrop loaded int
 1. After clicking on the **Create new account** button you will be presented with form with a field for you to enter your "mnemonic seed" as well as fields for your "Account name", "New Password" and "Confirm password".
 
 {% hint style="danger" %}
-**Before continuing: **Write down your "Mnemonic Seed" on a piece of paper. Store these words in a secure place and **NEVER **provide them to anyone. This phrase is the only way to recover your account if you lose access to the Keplr extension and it is the **ONLY **way to migrate you account to another wallet. Anyone who has this Mnemonic Seed can access and withdraw your crypto tokens.
+**Before continuing:** Write down your "Mnemonic Seed" on a piece of paper. Store these words in a secure place and **NEVER** provide them to anyone. This phrase is the only way to recover your account if you lose access to the Keplr extension and it is the **ONLY** way to migrate you account to another wallet. Anyone who has this Mnemonic Seed can access and withdraw your crypto tokens.
 
-**DO NOT: **Take screenshots or store these words digitally.
+**DO NOT:** Take screenshots or store these words digitally.
 {% endhint %}
 
 ![](<../../.gitbook/assets/image (6).png>)
 
-2\. Enter your chosen account name and password for the account, and then click the **Next **button.
+2\. Enter your chosen account name and password for the account, and then click the **Next** button.
 
 ![](<../../.gitbook/assets/image (9).png>)
 
-3\. You will be prompted to enter your mnemonic seed by clicking the words in the correct order from the previous screen. Select the words in order and click the **Register **button when it is unlocked by successfully selecting the words in order.
+3\. You will be prompted to enter your mnemonic seed by clicking the words in the correct order from the previous screen. Select the words in order and click the **Register** button when it is unlocked by successfully selecting the words in order.
 
 ![](<../../.gitbook/assets/image (8).png>)
 
-4\. The following screen will let you know "You're all set!". Click the **Done **button to finish.
+4\. The following screen will let you know "You're all set!". Click the **Done** button to finish.
 
 ![](../../.gitbook/assets/image.png)
 
@@ -105,7 +105,7 @@ If you do not already have the account associated with your stakedrop loaded int
 
 ### Import an existing account
 
-1. After clicking on the **Import existing account **button, you will be presented with a form where you can "Input your seed" as well as fields for your "Account name", "New Password" and "Confirm password". Enter your seed phrase (mnemonic seed), choose an account name for the wallet and create a new password. Click the **Next** button when done.
+1. After clicking on the **Import existing account** button, you will be presented with a form where you can "Input your seed" as well as fields for your "Account name", "New Password" and "Confirm password". Enter your seed phrase (mnemonic seed), choose an account name for the wallet and create a new password. Click the **Next** button when done.
 
 ![](<../../.gitbook/assets/image (35).png>)
 
@@ -119,7 +119,7 @@ If you do not already have the account associated with your stakedrop loaded int
 
 ### Import ledger
 
-The following ledger tutorial assumes that you have followed the setup instructions for your ledger device and have installed the **cosmos app **on your ledger device. If you have not already completed this setup, please see:
+The following ledger tutorial assumes that you have followed the setup instructions for your ledger device and have installed the **cosmos app** on your ledger device. If you have not already completed this setup, please see:
 
 * [Setting up ledger device](https://support.ledger.com/hc/en-us/articles/360000613793-Set-up-your-Ledger-Nano-S?docs=true)
 * [Installing apps on a ledger device](https://support.ledger.com/hc/en-us/articles/4404382258961?docs=true)
@@ -127,23 +127,23 @@ The following ledger tutorial assumes that you have followed the setup instructi
 Now that your ledger device has been setup, we can continue with the tutorial.
 
 1. **Connect your ledger** device to your computer via a USB cable.
-2. **Enter your pin **number into the ledger device to log in.
+2. **Enter your pin** number into the ledger device to log in.
 3. **Open the cosmos app** on your ledger device.
 4. Now click **Import ledger**, you will be presented with a form with fields for your "Account name", "New Password" and "Confirm password".
 
 ![](<../../.gitbook/assets/image (27).png>)
 
-5\. Enter your chosen account name as well as a password. Click **Next **to continue.
+5\. Enter your chosen account name as well as a password. Click **Next** to continue.
 
 
 
 ![](<../../.gitbook/assets/image (28).png>)
 
-If this is the first time you have used a ledger with the browser, you may be presented with the following popup.** Follow the steps in the popup** and click **Next **to continue.
+If this is the first time you have used a ledger with the browser, you may be presented with the following popup. **Follow the steps in the popup** and click **Next** to continue.
 
 ![](<../../.gitbook/assets/image (23).png>)
 
-You will be presented with another popup window. Select the desired device from the list and click **Connect **to continue.
+You will be presented with another popup window. Select the desired device from the list and click **Connect** to continue.
 
 ![](<../../.gitbook/assets/image (26).png>)
 
