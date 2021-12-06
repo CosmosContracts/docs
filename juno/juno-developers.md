@@ -3,7 +3,7 @@ cover: ../.gitbook/assets/wallpaperflare.com_wallpaper (61).jpg
 coverY: 0
 ---
 
-# Contributors ⚵
+# Contributors
 
 #### **Core - 1 (Core Development/Reserve)**
 
@@ -23,7 +23,7 @@ Jacob Gadikian (Notional) [https://twitter.com/gadikian](https://twitter.com/gad
 
 Giansalex (Disperze) [https://twitter.com/giansalex](https://twitter.com/giansalex)
 
-The Frey (envoys.io) the-frey#8626
+The Frey (envoys.io)(needlecast) the-frey#8626
 
 nullmames (kingnodes) [https://twitter.com/nullmames](https://twitter.com/nullMames)
 
@@ -65,6 +65,18 @@ Eliot Baker (elgorithm) elgorithm#0574
 
 Nonsencecode nonsensetwice#3475
 
+### Relayers (The unsung heros of the Cosmos)
 
+Cros-nest [https://twitter.com/crosnest\_com ](https://twitter.com/crosnest\_com)
+
+CryptoCrew Validators [https://twitter.com/crypto\_crew](https://twitter.com/crypto\_crew)&#x20;
+
+Cephalopod Equipment Corp [https://twitter.com/CephalopodEquip](https://twitter.com/CephalopodEquip)&#x20;
+
+Notional [https://twitter.com/gadikian](https://twitter.com/gadikian)&#x20;
+
+SpacePotato @spacepotayto&#x20;
+
+Imperator.co [https://twitter.com/imperator\_co](https://twitter.com/imperator\_co)
 
 The list is constantly expanding. If your name is not mentioned and your actively contributing please reach out to the core team.
