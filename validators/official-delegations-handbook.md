@@ -28,8 +28,6 @@ Note: A new 6 month delegation round is announced in the official channels on Di
 
 The next delegation round will be assigned on January 1st 2022. The evaluation period starts 2 weeks prior.
 
-*
-
 
 
 
