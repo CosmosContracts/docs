@@ -13,13 +13,14 @@ A Juno network validator may qualify for official delegations to be assigned by 
 2. Continuous active participation in the Juno ecosystem chats (Medium Priority)
 3. A validator node must be live on main-net for at least 1 month to qualify.
 4. Validators inside the top 10 do not qualify for official delegations.
-5. A validators commission should not exceed 9%
+5. A validators commission should not exceed 10%
 6. Active participation in on-chain governance (High Priority)
 7. A validator may curate/manage a regional community chat with at least 100 members (Medium Priority)
 8. Relayer operations for the full duration of a delegation round. (Medium Priority)
 9. A validator that gets soft-slashed more than 1 time during a delegation round loses his/her official delegation.
 10. A validator that gets hard-slashed 1 time during a delegation round loses his/her official delegation.
 11. Core development work on the main code base (High Priority)
+12. Validator min gas price must be set above 0.025ujuno
 
 
 
