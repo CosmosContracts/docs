@@ -20,7 +20,7 @@ A Juno network validator may qualify for official delegations to be assigned by 
 9. A validator that gets soft-slashed more than 1 time during a delegation round loses his/her official delegation.
 10. A validator that gets hard-slashed 1 time during a delegation round loses his/her official delegation.
 11. Core development work on the main code base (High Priority)
-12. Validator min gas price must be set above 0.025ujuno
+12. Validator min gas price must be set equal to or greater than 0.025ujuno
 
 Note: A new 6 month delegation round is announced in the official channels on Discord & Telegram many weeks prior to kickoff.
 
