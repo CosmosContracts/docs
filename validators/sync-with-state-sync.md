@@ -4,6 +4,10 @@ description: Instructions for joining Juno networks with statesync
 
 # Sync with state-sync
 
+{% hint style="danger" %}
+**THIS CONFIGURATION IS NOT CURRENTLY WORKING. SUPPORT IS IN DEVELOPMENT.**
+{% endhint %}
+
 ## Introduction
 
 State-sync is a module built into the Cosmos SDK to allow validators to rapidly join the network by syncing your node with a snapshot enabled RPC from a trusted block height.&#x20;
