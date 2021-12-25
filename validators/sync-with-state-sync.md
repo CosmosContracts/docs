@@ -60,14 +60,14 @@ echo $LATEST_HEIGHT $BLOCK_HEIGHT $TRUST_HASH
 
 If you have not already, [set some persistent peers](joining-the-testnets.md#set-persistent-peers-1).
 
-Set the required variables in `~/.junod/config/config.toml`
+Set the required variables in `~/.juno/config/config.toml`
 
 ```bash
 sed -i.bak -E "s|^(enable[[:space:]]+=[[:space:]]+).*$|\1true| ; \
 s|^(rpc_servers[[:space:]]+=[[:space:]]+).*$|\1\"$SNAP_RPC,$SNAP_RPC\"| ; \
 s|^(trust_height[[:space:]]+=[[:space:]]+).*$|\1$BLOCK_HEIGHT| ; \
 s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"| ; \
-s|^(seeds[[:space:]]+=[[:space:]]+).*$|\1\"\"|" $HOME/.junod/config/config.toml
+s|^(seeds[[:space:]]+=[[:space:]]+).*$|\1\"\"|" $HOME/.juno/config/config.toml
 ```
 
 Stop the node and reset the node database
