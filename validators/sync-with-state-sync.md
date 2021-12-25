@@ -73,7 +73,9 @@ s|^(seeds[[:space:]]+=[[:space:]]+).*$|\1\"\"|" $HOME/.junod/config/config.toml
 Stop the node and reset the node database
 
 {% hint style="danger" %}
-WARNING: This will erase your node database. If you are already running validator, be sure you backed up your `priv_validator_key.json` and `node_key.json` prior to running `unsafe-reset-all`.
+WARNING: This will erase your node database. If you are already running validator, be sure you backed up your `config/priv_validator_key.json` and `config/node_key.json` prior to running `unsafe-reset-all`.
+
+It is recommended to copy `data/priv_validator_state.json` to a backup and restore it after `unsafe-reset-all` to avoid potential double signing.
 {% endhint %}
 
 ```bash
