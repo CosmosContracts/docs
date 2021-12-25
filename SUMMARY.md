@@ -61,10 +61,11 @@
 ## Nodes & Validators <a href="#validators" id="validators"></a>
 
 * [Junod Installation and setup](validators/getting-setup.md)
+* [Setting up Cosmovisor](validators/setting-up-cosmovisor.md)
 * [Mainnet Setup and Tooling](validators/mainnet.md)
 * [Joining Mainnet](validators/joining-mainnet.md)
 * [Joining Testnets](validators/joining-the-testnets.md)
-* [Setting up Cosmovisor](validators/setting-up-cosmovisor.md)
+* [Sync with state-sync](validators/sync-with-state-sync.md)
 * [Relayers](validators/relayers/README.md)
   * [ibc-go](validators/relayers/ibc-go.md)
   * [Hermes](validators/relayers/hermes.md)

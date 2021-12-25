@@ -124,7 +124,7 @@ This will replace the genesis file created using `junod init` command with the g
 
 ### **Set persistent peers**
 
-Using the peers variable we set earlier, we can set the `persistent_peers` in `~/.juno/config/config.toml`:&#x20;
+Using the peers variable we[ set earlier](joining-the-testnets.md#set-persistent-peers), we can set the `persistent_peers` in `~/.juno/config/config.toml`:&#x20;
 
 ```bash
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" ~/.juno/config/config.toml
@@ -173,6 +173,10 @@ curl http://localhost:26657/status | jq .result.sync_info.catching_up
 ```
 
 If this command returns `true` then your node is still catching up. If it returns `false` then your node has caught up to the network current block and you are safe to proceed to upgrade to a validator node.
+
+{% hint style="info" %}
+Validators and sentries can rapidly join the network with state-sync. See instructions for using state-sync [here](joining-the-testnets.md#undefined).
+{% endhint %}
 
 ## Upgrade to a validator
 
