@@ -18,7 +18,13 @@ For nodes that are intended to serve data for dapps, explorers or any other RPC 
 
 ## Uni testnet state-sync
 
-Kingnodes operate and maintain a snapshot RPC for the `uni` testnet network. The state-sync configuration is as follows:
+Kingnodes operate and maintain a snapshot RPC for the `uni` testnet network.&#x20;
+
+{% hint style="info" %}
+This documentation assumes you have followed the instructions for [Joining Testnets](joining-the-testnets.md) and [Setting up Cosmovisor](setting-up-cosmovisor.md).
+{% endhint %}
+
+The state-sync configuration is as follows:
 
 ```bash
 # snapshot-interval specifies the block interval at which local state sync snapshots are
@@ -71,7 +77,11 @@ WARNING: This will erase your node database. If you are already running validato
 {% endhint %}
 
 ```bash
-sudo systemctl stop junod && junodd unsafe-reset-all
+sudo systemctl stop cosmovisor && cosmovisor unsafe-reset-all
 ```
 
-Restart&#x20;
+Restart node and check logs
+
+```bash
+sudo systemctl restart junod && journalctl -u cosmovisor -f
+```
