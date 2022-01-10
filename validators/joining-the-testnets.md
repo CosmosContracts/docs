@@ -10,9 +10,9 @@ coverY: 0
 
 Below is the list of Juno testnets and their current status. You will need to know the version tag for installation of the `junod` binary.&#x20;
 
-| chain-id | Current Github version tag |                                                                                          Description                                                                                         | Status  |
-| -------- | -------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | ------- |
-| uni      | v2.0.0-beta.3              | This post-mainnet launch testnet is designed to test the Cosmwasm 1.0.0 API and allow smart contract developers time to test and update their contracts before CosmWasm is included in Juno. | current |
+| chain-id | Current Github version tag |             Description            | Status  |
+| -------- | -------------------------- | :--------------------------------: | ------- |
+| uni-1    | v2.1.0 (patched)           | Testing ground for wasm contracts. | current |
 
 ## Minimum Hardware Requirements
 
@@ -20,7 +20,7 @@ The minimum recommended hardware requirements for running a validator for the Ju
 
 | Chain-id | Requirements                                                                                 |
 | -------- | -------------------------------------------------------------------------------------------- |
-| uni      | <p></p><ul><li>16GB RAM</li><li>200GB of disk space</li><li>2 Cores (modern CPU's)</li></ul> |
+| uni-1    | <p></p><ul><li>16GB RAM</li><li>200GB of disk space</li><li>2 Cores (modern CPU's)</li></ul> |
 
 {% hint style="warning" %}
 These specifications are the minimum recommended. As Juno Network is a smart contract platform, it can at times be very demanding on hardware. Low spec validators WILL get stuck on difficult to process blocks.
@@ -50,7 +50,7 @@ Choose the `<chain-id>` testnet you would like to join from [here](joining-the-t
 CHAIN_ID=<chain-id>
 
 #Example
-CHAIN_ID=uni
+CHAIN_ID=uni-1
 ```
 
 ### Set your moniker name
