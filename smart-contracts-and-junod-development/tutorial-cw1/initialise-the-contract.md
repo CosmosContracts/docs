@@ -6,6 +6,10 @@ coverY: 0
 
 # Initialise the Contract
 
+{% hint style="danger" %}
+We don't specify it here, but in almost all cases you should provide an `--admin` address when instantiating a contract. If you do not, you will not be able to migrate the contract later.
+{% endhint %}
+
 CosmWasm Smart Contracts take their arguments as serialised JSON. This can be created a number of ways, but as we showed in the previous examples, it may well be easiest to use the `node` command line, if that is available to you.
 
 {% hint style="info" %}

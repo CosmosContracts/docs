@@ -72,3 +72,7 @@ This will allow you to query using the value of `$CONTRACT_ADDR`
 ```bash
 junod query wasm contract $CONTRACT_ADDR
 ```
+
+{% hint style="danger" %}
+Note that although we omit `--admin` when instantitating, in almost all production situations you will want to specify an admin address for the contract. if you do not do this, you will not be able to migrate the contract in future.
+{% endhint %}
