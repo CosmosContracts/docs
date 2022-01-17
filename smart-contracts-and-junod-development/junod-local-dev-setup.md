@@ -6,6 +6,22 @@ description: 🖥🛠
 
 Want to use `junod` locally for development, or to work with smart contracts? You're in the right place.
 
+## Using the Seed User
+
+Juno ships with an unsafe seed user in dev mode when you run the prebuilt docker container below, or one of the options that uses `docker-compose`. You can import this user into the CLI by using the mnemonic from the Juno repo, i.e.:
+
+```bash
+junod keys add <unsafe-test-key-name> --recover
+```
+
+When prompted, add the mnemonic:
+
+```
+clip hire initial neck maid actor venue client foam budget lock catalog sweet steak waste crater broccoli pipe steak sister coyote moment obvious choose
+```
+
+You will then be returned an address to use: `juno16g2rahf5846rxzp3fwlswy08fz8ccuwk03k57y`
+
 ## Run Juno
 
 There is a prebuilt docker image [for you to use](https://github.com/CosmosContracts/juno/pkgs/container/juno). This will start a container with a seeded user. The address and mnemonic used here can be found in the `docker/` directory of the repo. When you're done, you can use `ctrl+c` to stop the container running.
