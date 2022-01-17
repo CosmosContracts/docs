@@ -30,11 +30,7 @@ go install github.com/cosmos/cosmos-sdk/cosmovisor/cmd/cosmovisor@v1.0.0
 ```
 
 {% hint style="danger" %}
-Note that the [latest version of Cosmovisor](https://github.com/cosmos/cosmos-sdk/releases/tag/cosmovisor%2Fv1.0.0) (`v1.0.0` as of 2021-09-30) has not been used in a Juno testnet. It contains important security fixes but is likely not compatible with using Cosmovisor's`DAEMON_ALLOW_DOWNLOAD_BINARIES`option. In any case, the Juno team do not recommend running with auto downloads turned on, so this should not be an issue.
-
-To build a specific version, you can use the instructions below, or use the previous release tag for Cosmovisor [here](https://github.com/cosmos/cosmos-sdk/releases/tag/cosmovisor%2Fv0.1.0).
-
-Once this has been deployed in production and tested, the Juno team will update this warning message.
+When using cosmovisor, make sure that you do not have auto download of binaries on.
 {% endhint %}
 
 Your installation can be confirmed with:
