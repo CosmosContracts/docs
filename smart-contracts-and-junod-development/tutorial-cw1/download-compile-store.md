@@ -10,7 +10,7 @@ First, we need to download the code from [cosmwasm-plus](https://github.com/Cosm
 
 ### Download
 
-Run the following to download the `v0.6.2` tag and extract it. `ls` should show you the folder is present once it's unpacked. You can also use `git` instead of `wget` if you prefer.
+Run the following to download the correct tag and extract it. `ls` should show you the folder is present once it's unpacked. You can also use `git` instead of `wget` if you prefer.
 
 ```bash
 git clone https://github.com/CosmWasm/cw-plus.git
