@@ -87,3 +87,9 @@ Query the results of a gov vote that has ended, from a remote RPC (NB - you have
 ```bash
  junod q gov votes 1 --height <height-before-vote-ended> --node https://rpc-archive.junonetwork.io:443
 ```
+
+Query the validator set (and jailed status) via CLI:
+
+```bash
+junod query staking validators --limit 1000 -o json | jq -r '.validators[] | [.operator_address, (.tokens|tonumber / pow(10; 6)), .description.moniker, .jail, .status] | @csv' | column -t -s"," | sort -k2 -n -r | nl
+```
