@@ -50,7 +50,7 @@ In the example below, `6` is the value of `$CODE_ID`.
 ```bash
 junod tx wasm instantiate 6 \
     '{"name":"Poodle Coin","symbol":"POOD","decimals":6,"initial_balances":[{"address":"<validator-self-delegate-address>","amount":"12345678000"}]}' \
-    --amount 50000ujuno  --label "Poodlecoin erc20" --from <your-key> --chain-id <chain-id> --gas auto -y
+    --amount 50000ujunox  --label "Poodlecoin erc20" --from <your-key> --chain-id <chain-id> --gas auto -y
 ```
 
 If you have set `$CODE_ID` in your shell, you can instead run:
@@ -58,7 +58,7 @@ If you have set `$CODE_ID` in your shell, you can instead run:
 ```bash
 junod tx wasm instantiate $CODE_ID \
     '{"name":"Poodle Coin","symbol":"POOD","decimals":6,"initial_balances":[{"address":"<validator-self-delegate-address>","amount":"12345678000"}]}' \
-    --amount 50000ujuno  --label "Poodlecoin erc20" --from <your-key> --chain-id <chain-id> --gas auto -y
+    --amount 50000ujunox  --label "Poodlecoin erc20" --from <your-key> --chain-id <chain-id> --gas auto -y
 ```
 
 If this succeeds, look in the output and get contract address from output e.g `juno1a2b....` or run:
@@ -72,3 +72,7 @@ This will allow you to query using the value of `$CONTRACT_ADDR`
 ```bash
 junod query wasm contract $CONTRACT_ADDR
 ```
+
+{% hint style="danger" %}
+Note that although we omit `--admin` when instantitating, in almost all production situations you will want to specify an admin address for the contract. if you do not do this, you will not be able to migrate the contract in future.
+{% endhint %}

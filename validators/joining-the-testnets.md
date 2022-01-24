@@ -10,9 +10,9 @@ coverY: 0
 
 Below is the list of Juno testnets and their current status. You will need to know the version tag for installation of the `junod` binary.&#x20;
 
-| chain-id | Github version tag |                                                                                          Description                                                                                         | Status  |
-| -------- | ------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | ------- |
-| uni      | v2.0.0-alpha.3     | This post-mainnet launch testnet is designed to test the Cosmwasm 1.0.0 API and allow smart contract developers time to test and update their contracts before CosmWasm is included in Juno. | current |
+| chain-id | Current Github version tag |             Description            | Status  |
+| -------- | -------------------------- | :--------------------------------: | ------- |
+| uni-1    | v2.1.0 (patched)           | Testing ground for wasm contracts. | current |
 
 ## Minimum Hardware Requirements
 
@@ -20,7 +20,7 @@ The minimum recommended hardware requirements for running a validator for the Ju
 
 | Chain-id | Requirements                                                                                 |
 | -------- | -------------------------------------------------------------------------------------------- |
-| uni      | <p></p><ul><li>16GB RAM</li><li>200GB of disk space</li><li>2 Cores (modern CPU's)</li></ul> |
+| uni-1    | <p></p><ul><li>16GB RAM</li><li>200GB of disk space</li><li>2 Cores (modern CPU's)</li></ul> |
 
 {% hint style="warning" %}
 These specifications are the minimum recommended. As Juno Network is a smart contract platform, it can at times be very demanding on hardware. Low spec validators WILL get stuck on difficult to process blocks.
@@ -50,7 +50,7 @@ Choose the `<chain-id>` testnet you would like to join from [here](joining-the-t
 CHAIN_ID=<chain-id>
 
 #Example
-CHAIN_ID=uni
+CHAIN_ID=uni-1
 ```
 
 ### Set your moniker name
@@ -87,7 +87,7 @@ In `$HOME/.juno/config/app.toml`, set gas prices:
 
 ```
 # note testnet denom
-minimum-gas-prices = "0.025ujunox"
+sed -i.bak -e "s/^minimum-gas-prices *=.*/minimum-gas-prices = \"0.0025ujunox\"/" ~/.juno/config/app.toml
 ```
 
 ## Setting up the Node
@@ -120,11 +120,11 @@ Note that this means if you jumped ahead and already downloaded the genesis file
 curl https://raw.githubusercontent.com/CosmosContracts/testnets/main/$CHAIN_ID/genesis.json > ~/.juno/config/genesis.json
 ```
 
-This will replace the genesis file created using `junod init` command with the genesis file for the testnet.** **
+This will replace the genesis file created using `junod init` command with the genesis file for the testnet. ****&#x20;
 
 ### **Set persistent peers**
 
-Using the peers variable we set earlier, we can set the `persistent_peers` in `~/.juno/config/config.toml`:&#x20;
+Using the peers variable we[ set earlier](joining-the-testnets.md#set-persistent-peers), we can set the `persistent_peers` in `~/.juno/config/config.toml`:&#x20;
 
 ```bash
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" ~/.juno/config/config.toml
@@ -173,6 +173,10 @@ curl http://localhost:26657/status | jq .result.sync_info.catching_up
 ```
 
 If this command returns `true` then your node is still catching up. If it returns `false` then your node has caught up to the network current block and you are safe to proceed to upgrade to a validator node.
+
+{% hint style="info" %}
+Validators and sentries can rapidly join the network with state-sync. See instructions for using state-sync [here](joining-the-testnets.md#undefined).
+{% endhint %}
 
 ## Upgrade to a validator
 

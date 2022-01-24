@@ -6,6 +6,10 @@ coverY: 0
 
 # Initialise the Contract
 
+{% hint style="danger" %}
+We don't specify it here, but in almost all cases you should provide an `--admin` address when instantiating a contract. If you do not, you will not be able to migrate the contract later.
+{% endhint %}
+
 CosmWasm Smart Contracts take their arguments as serialised JSON. This can be created a number of ways, but as we showed in the previous examples, it may well be easiest to use the `node` command line, if that is available to you.
 
 {% hint style="info" %}
@@ -30,7 +34,7 @@ JSON.stringify(initobj);
 With these encoded arguments, you can now instantiate the contract, using the `code_id` from the previous step.
 
 ```bash
-junod tx wasm instantiate <code-id> '{"admins":["<your-validator-self-delegate-key>"],"mutable":false}' --amount 50000ujuno --label "CW1 example contract" --from <your-key> --chain-id <chain-id> --gas auto -y
+junod tx wasm instantiate <code-id> '{"admins":["<your-validator-self-delegate-key>"],"mutable":false}' --amount 50000ujunox --label "CW1 example contract" --from <your-key> --chain-id <chain-id> --gas auto -y
 ```
 
 Once the contract is instantiated, you can find out its contract address:

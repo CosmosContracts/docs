@@ -6,7 +6,7 @@ cover: ../.gitbook/assets/Gitbook Banner large 6 (11).png
 coverY: 0
 ---
 
-# Installation
+# Smart Contracts Installation
 
 {% hint style="info" %}
 For developing complex smart contracts, you will likely want to run a full node on a testnet. See the validators section under [Joining Testnets](../validators/joining-the-testnets.md) for more information.
@@ -81,7 +81,7 @@ git fetch --tags
 git checkout v2.0.0-alpha.3
 
 # build juno executable
-make install
+make build && make install
 
 which junod
 ```

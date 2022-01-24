@@ -39,7 +39,7 @@ Then, as the admin key (**A**), increase key (**B**)'s allowance:
 
 ```bash
 junod tx wasm execute <contract-addr> \
-  '{"increase_allowance":{"spender":"<key-B>","amount":{"denom":"ujuno","amount":"2000000"}}}' \
+  '{"increase_allowance":{"spender":"<key-B>","amount":{"denom":"ujunox","amount":"2000000"}}}' \
   --from <admin-key-A> \
   --chain-id <chain-id>
 ```
@@ -56,7 +56,7 @@ Should return:
 data:
   balance:
   - amount: "2000000"
-    denom: ujuno
+    denom: ujunox
   expires:
     never: {}
 ```
@@ -74,7 +74,7 @@ Let's say it already has a balance of `500ujuno` - the command will return:
 ```bash
 balances:
 - amount: "500"
-  denom: ujuno
+  denom: ujunox
 pagination:
   next_key: null
   total: "0"
@@ -90,7 +90,7 @@ Then, we again need to encode some arguments to JSON for the send:
         send: {
           to_address: "<key-C>",
           amount: [{
-            denom: "ujuno",
+            denom: "ujunox",
             amount: "500"
           }]
         }
@@ -104,7 +104,7 @@ Once we have the JSON, we can shape an `execute` command:
 
 ```bash
 junod tx wasm execute <contract-addr> \
-  '{"execute":{"msgs":[{"bank":{"send":{"to_address":"<key-C>","amount":[{"denom":"ujuno","amount":"500"}]}}}]}}' \
+  '{"execute":{"msgs":[{"bank":{"send":{"to_address":"<key-C>","amount":[{"denom":"ujunox","amount":"500"}]}}}]}}' \
   --from <key-B> \
   --chain-id <chain-id>
 ```
@@ -124,7 +124,7 @@ We expect to see the balance incremented by `500ujuno`:
 ```bash
 balances:
 - amount: "1000"
-  denom: ujuno
+  denom: ujunox
 pagination:
   next_key: null
   total: "0"
@@ -142,7 +142,7 @@ junod query wasm contract-state smart <contract-addr> '{"allowance":{"spender":"
 data:
   balance:
   - amount: "1999500"
-    denom: ujuno
+    denom: ujunox
   expires:
     never: {}
 ```

@@ -5,22 +5,27 @@ coverY: 0
 
 # Native Asset (JUNO)
 
-JUNO, the native asset of the network carries a variety of use cases within the ecosystem, including **securing the proof of stake network**, **key to on-chain governance**, act as** transport fuel for all interoperable smart contracts** deployed in the ecosystem, **collateral** in various smart contract usecases and** work token** to capture value from dapps built on top of JUNO.
+JUNO, the native asset of the network carries a variety of use cases within the ecosystem, including:
 
-![](<../../.gitbook/assets/Juno Genesis Supply 1.png>)
+* **securing the proof of stake network,**
+* **key to on-chain governance,**
+* act as **transport fuel (gas) for all interoperable smart contracts** deployed in the ecosystem,
+* **collateral** in various smart contract use-cases,
+* and **work token** to capture value from dapps built on top of the Juno Network.
 
-****\
-**Tokenomics**
+## **Token Economics (Tokenomics)**
 
-**Summary:**
+### **Summary**
 
-✅ Circulating Supply: 33.036.534 $JUNO
+Juno Network is a completely community owned and operated smart contract platform. Therefore, the majority of the initial supply was stakedroped to atom holders, committed to the community pool, or committed to the development reserve for ongoing development of the Juno Network features.
 
-✅ Total Supply: 64.903.242 $JUNO‌
+✅ Initial Circulating Supply: 33.036.534 $JUNO
 
-✅ Maximum Supply (Reached in 12 years/year 2033): 185.562.268 $JUNO
+✅ Initial Total Supply: 64.903.242 $JUNO‌
 
-**Breakdown:**
+✅ Maximum Supply (Reached after 12 years (2033): 185.562.268 $JUNO
+
+### **Token Distribution Breakdown**
 
 ⚪️ Community **Stakedrop**: 30.663.193 $JUNO
 
@@ -28,17 +33,10 @@ JUNO, the native asset of the network carries a variety of use cases within the 
 
 ⚪️ Smart Contract **Challenges**: 2.373.341 $JUNO
 
-⚪️ **Core** **Development Reserve** (Vested 12 years ie non-circulating)**:** 10.084.396 $JUNO
+⚪️ **Core** **Development Reserve** (Vested over 12 years, i.e. non-circulating)**:** 10.084.396 $JUNO
 
-⚪️ **Core Team** (Vested 12 years ie. non-circulating): 1.782.312 $JUNO
+⚪️ **Core Team** (Vested over 12 years, i.e. non-circulating): 1.782.312 $JUNO
 
 &#x20;
 
-
-
-
-
-
-
-
-
+![](<../../.gitbook/assets/image (17).png>)

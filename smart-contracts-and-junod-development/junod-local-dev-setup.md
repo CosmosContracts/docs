@@ -6,6 +6,22 @@ description: 🖥🛠
 
 Want to use `junod` locally for development, or to work with smart contracts? You're in the right place.
 
+## Using the Seed User
+
+Juno ships with an unsafe seed user in dev mode when you run the prebuilt docker container below, or one of the options that uses `docker-compose`. You can import this user into the CLI by using the mnemonic from the Juno repo, i.e.:
+
+```bash
+junod keys add <unsafe-test-key-name> --recover
+```
+
+When prompted, add the mnemonic:
+
+```
+clip hire initial neck maid actor venue client foam budget lock catalog sweet steak waste crater broccoli pipe steak sister coyote moment obvious choose
+```
+
+You will then be returned an address to use: `juno16g2rahf5846rxzp3fwlswy08fz8ccuwk03k57y`
+
 ## Run Juno
 
 There is a prebuilt docker image [for you to use](https://github.com/CosmosContracts/juno/pkgs/container/juno). This will start a container with a seeded user. The address and mnemonic used here can be found in the `docker/` directory of the repo. When you're done, you can use `ctrl+c` to stop the container running.
@@ -67,7 +83,7 @@ Protip: running one of these scripts is also a decent sense-check that:
 If you don't want to go through the process of setting up a node and just want to experiment with the Juno uni testnet:
 
 1. Get a public node's RPC address.
-2. In `~/.juno/config/client.toml` set `node="<public node RCP address>"` and `chain-id="uni"`.
+2. In `~/.juno/config/client.toml` set `node="<public node RCP address>"` and `chain-id="uni-1"`.
 3. Create a key to use by running `junod keys add <key-name>`.
 4. Get that key's public address by running `junod keys show <key-name> -a`.
 5. Get some test Juno by sending `$request <key-address>` in the #faucet Discord channel.

@@ -103,7 +103,7 @@ NB: If you are unsure about this, you can ask in discord for the current peers a
 In `$HOME/.juno/config/app.toml`, set minimum gas prices:
 
 ```
-minimum-gas-prices = "0.025ujuno"
+sed -i.bak -e "s/^minimum-gas-prices *=.*/minimum-gas-prices = \"0.0025ujuno\"/" ~/.juno/config/app.toml
 ```
 
 ## Setting up the Node
@@ -128,7 +128,7 @@ This will generate the following files in `~/.juno/config/`
 curl https://raw.githubusercontent.com/CosmosContracts/mainnet/main/$CHAIN_ID/genesis.json > ~/.juno/config/genesis.json
 ```
 
-This will replace the genesis file created using `junod init` command with the mainnet `genesis.json`.** **
+This will replace the genesis file created using `junod init` command with the mainnet `genesis.json`. ****&#x20;
 
 ### **Set persistent peers**
 
