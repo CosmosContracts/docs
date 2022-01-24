@@ -87,7 +87,7 @@ In `$HOME/.juno/config/app.toml`, set gas prices:
 
 ```
 # note testnet denom
-minimum-gas-prices = "0.025ujunox"
+sed -i.bak -e "s/^minimum-gas-prices *=.*/minimum-gas-prices = \"0.0025ujunox\"/" ~/.juno/config/app.toml
 ```
 
 ## Setting up the Node
