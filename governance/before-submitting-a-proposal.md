@@ -30,13 +30,15 @@ Check via the block explorer that there is not already a past or present proposa
 
 ### Seek feedback on commonwealth.im
 
-Once you have a clearly defined proposal idea. Fully draft your proposal text and submit to the juno commonwealth.im project page [here](https://commonwealth.im/juno).&#x20;
+Once you have a clearly defined proposal idea. Fully draft your proposal text and submit to the Juno commonwealth.im project page [here](https://commonwealth.im/juno).&#x20;
 
 To make your proposal easily identifiable, please use the following format for the discussion title:
 
 **PROPOSAL: \<name-of-proposal>**
 
 Please avoid using numbering in your proposal discussion. Should the proposal not go ahead, the numbering of the discussion can become confusing.
+
+It is recommended to keep your proposal discussion open for at least seven days prior to formalizing the proposal on-chain.
 
 Make appropriate changes to your proposal based on feedback from the discussion.
 
