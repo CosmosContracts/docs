@@ -8,18 +8,18 @@ description: 🛠 This page is a work in progress, and should not be considered 
 
 Governance exists for the community of token holders to decide on key issues involving the blockchain and its development. This is achieved by proposing items of business to be voted on my the token holders.
 
-There are three forms of governance proposal:
+There are four forms of governance proposal:
 
 * Text proposal - this type of proposal is text only. The outcome is not automatically implemented and may require actions by third parties to implement.
 * Community spend - the outcome of this type of proposal will be the transfer of funds from the community pool to the address and for the amount nominated in the proposal.
 * Parameter change - the outcome of this proposal will be modified blockchain parameters in accordance with the proposal submission.
 * Software upgrade - the outcome of this proposal will be validators and node operators undertaking a coordinated software upgrade at the block height specified in the proposal.&#x20;
 
-Please refer to the following best practice for developing and submitting governance proposals. This procedure is intended to enable discussion and gaging support for the proposal prior to submitting on-chain.&#x20;
+Please refer to the following best practice for developing and submitting governance proposals. This procedure is intended to enable discussion and gauging support for the proposal prior to submitting on-chain.&#x20;
 
 Please note the following special circumstances before proceeding:
 
-* If the proposal is a parameter change with implications for development or smart contract usage, consider speaking to your friendly neighbourhood core dev.
+* If the proposal is a parameter change with implications for development or smart contract usage, consider speaking to your friendly neighborhood core dev.
 * If the proposal will result in significant engineering effort to implement, definitely ask a member of the core team about what would happen if the proposal passes.
 
 ### Begin the conversation
@@ -48,7 +48,7 @@ Consider making appropriate changes to your proposal based on feedback from the 
 
 Once you are confident about your proposal, you can submit on-chain for voting. You can find guidance on submitting your proposal [here](submitting-a-proposal-cli.md).
 
-Please note that the fee ti fully fund a governance deposit is 500 JUNO. These funds will be returned to the depositor following completion of the voting period. If there are sufficient \`NO WITH VETO\` votes, the depositors will lose their funds indefinitely.
+Please note that the fee to fully fund a governance deposit is 500 JUNO. These funds will be returned to the depositor following completion of the voting period. If there are sufficient \`NO WITH VETO\` votes, the depositors will lose their funds indefinitely.
 
 
 
