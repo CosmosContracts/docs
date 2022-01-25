@@ -40,7 +40,9 @@ Please avoid using numbering in your proposal discussion. Should the proposal no
 
 It is recommended to keep your proposal discussion open for at least seven days prior to formalizing the proposal on-chain.
 
-Make appropriate changes to your proposal based on feedback from the discussion.
+To get the most exposure for your conversation, advertise the link in the Telegram and Discord. Consider contacting the core devs to advertise the discussion on the official @JunoNetwork Twitter account.
+
+Consider making appropriate changes to your proposal based on feedback from the discussion.
 
 ### Submit your proposal on-chain
 
