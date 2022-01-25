@@ -119,7 +119,13 @@ Disk space is likely to fill up, so having a plan for managing storage is key.
 If you are running sentry nodes:
 
 * 1TB storage for the full node will give you a lot of runway
-* 200GB for the sentries with pruning should be sufficient
+* 200GB _each_ for the sentries with pruning should be sufficient
+
+Managing backups is outside the scope of this documentation, but several validators keep public snapshots and backups.
+
+It is anticipated that state-sync will soon work for wasm chains, although it does not currettly.
+
+### Ballpark costs
 
 To give you an idea of cost, on AWS EBS (other cloud providers are available, or you can run your own hardware), with two backups a day, this runs to roughly:
 
