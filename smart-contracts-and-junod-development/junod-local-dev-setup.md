@@ -26,11 +26,14 @@ You will then be returned an address to use: `juno16g2rahf5846rxzp3fwlswy08fz8cc
 
 There is a prebuilt docker image [for you to use](https://github.com/CosmosContracts/juno/pkgs/container/juno). This will start a container with a seeded user. The address and mnemonic used here can be found in the `docker/` directory of the repo. When you're done, you can use `ctrl+c` to stop the container running.
 
+Always pick a tagged version to run, ideally one that matches mainnet. In the example below, it is `v2.1.0` - you should check the [Juno GitHub repository](https://github.com/CosmosContracts/juno/releases) to see which is current for you.
+
 ```
 docker run -it \
   -p 26656:26656 \
   -p 26657:26657 \
-  ghcr.io/cosmoscontracts/juno:latest \
+  -e STAKE_TOKEN=ujunox \
+  ghcr.io/cosmoscontracts/juno:v2.1.0 \
   ./setup_and_run.sh juno16g2rahf5846rxzp3fwlswy08fz8ccuwk03k57y
 ```
 
