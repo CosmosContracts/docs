@@ -1,9 +1,11 @@
 # Sync a Mainnet Node
 
+In order to run a validator on mainnet, you will have to sync it from genesis, up to the present block. This means replaying all of the chain's history, as well as navigating the upgrades that have happened.
+
 The [mainnet repo](https://github.com/CosmosContracts/mainnet) contains a history of everything that has happened on mainnet.
 
-{% hint style="info" %}
-Make sure that you set minimum gas fees are set to at least `0.0025ujuno` in `app.toml`
+{% hint style="danger" %}
+When configuring your node, make sure that your validator's commission is set to at least 5%, and make sure that minimum gas fees are set to at least `0.0025ujuno` in `app.toml`
 {% endhint %}
 
 First, configure fees:
