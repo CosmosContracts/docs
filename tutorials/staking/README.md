@@ -64,7 +64,7 @@ You may want to ask about particular validators in the Juno Discord channels and
 
 ### Reachability of the validator
 
-Apart from some validators running a telegram, discord etc. consider how reachable a validator is. For instance when you want to know certain specifics mentioned in this chapter or an active governance proposal, his or her validator setup (hardware used or security measures taken ect.). Try getting in touch with the validators you like to stake to.
+Apart from some validators running a telegram, discord etc. consider how reachable a validator is. For instance when you want to know certain specifics mentioned in this chapter or an active governance proposal, his or her validator setup (hardware used or security measures taken etc.). Try getting in touch with the validators you like to stake to.
 
 ### The Validator setup
 
