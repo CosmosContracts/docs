@@ -10,21 +10,21 @@ description: >-
 
 | Name | Description |
 | :--- | :--- |
-| [proposal](gov.md#iris-query-gov-proposal) | Query details of a single proposal |
-| [proposals](gov.md#junod-query-gov-proposals) | Query proposals with optional filter |
-| [vote](gov.md#iris-query-gov-vote) | Query details of a single vote |
-| [votes](gov.md#junod-query-gov-votes) | Query votes on a proposal |
-| [deposit](gov.md#iris-query-gov-deposit) | Query details of a deposit |
-| [deposits](gov.md#iris-query-gov-deposits) | Query deposits on a proposal |
-| [tally](gov.md#iris-query-gov-tally) | Get the tally of a proposal vote |
-| [param](gov.md#iris-query-gov-param) | Query the parameters \(voting |
-| [params](gov.md#junod-query-gov-params) | Query the parameters of the governance process |
-| [proposer](gov.md#iris-query-gov-proposer) | Query which address proposed a proposal with a given ID. |
-| [submit-proposal](gov.md#iris-tx-gov-submit-proposal) | Submit a proposal along with an initial deposit |
-| [deposit](gov.md#iris-tx-gov-deposit) | Deposit tokens for an active proposal |
-| [vote](gov.md#iris-tx-gov-vote) | Vote for an active proposal, options: yes/no/no\_with\_veto/abstain |
+| [proposal](gov.md#juno-query-gov-proposal) | Query details of a single proposal |
+| [proposals](gov.md#juno-query-gov-proposals) | Query proposals with optional filter |
+| [vote](gov.md#juno-query-gov-vote) | Query details of a single vote |
+| [votes](gov.md#juno-query-gov-votes) | Query votes on a proposal |
+| [deposit](gov.md#juno-query-gov-deposit) | Query details of a deposit |
+| [deposits](gov.md#juno-query-gov-deposits) | Query deposits on a proposal |
+| [tally](gov.md#juno-query-gov-tally) | Get the tally of a proposal vote |
+| [param](gov.md#juno-query-gov-param) | Query the parameters \(voting |
+| [params](gov.md#juno-query-gov-params) | Query the parameters of the governance process |
+| [proposer](gov.md#juno-query-gov-proposer) | Query which address proposed a proposal with a given ID. |
+| [submit-proposal](gov.md#juno-tx-gov-submit-proposal) | Submit a proposal along with an initial deposit |
+| [deposit](gov.md#juno-tx-gov-deposit) | Deposit tokens for an active proposal |
+| [vote](gov.md#juno-tx-gov-vote) | Vote for an active proposal, options: yes/no/no\_with\_veto/abstain |
 
-### junod query gov proposal <a id="iris-query-gov-proposal"></a>
+### junod query gov proposal <a id="juno-query-gov-proposal"></a>
 
 Query details of a single governance proposal:
 
@@ -41,7 +41,7 @@ junod query gov proposal [proposal-id] [flags]
 | --status | string |  |  | Filter proposals by status |
 | --voter | Address |  |  | Filter proposals by voter address |
 
-### junod query gov proposals
+### junod query gov proposals <a id="juno-query-gov-proposals"></a>
 
 Query all proposals:
 
@@ -55,7 +55,7 @@ Query proposals with conditions filters:
 junod query gov proposals --limit=3 --status=Passed --depositor=<juno...>
 ```
 
-### junod query gov vote <a id="iris-query-gov-vote"></a>
+### junod query gov vote <a id="juno-query-gov-vote"></a>
 
 Query details of a single vote.
 
@@ -63,7 +63,7 @@ Query details of a single vote.
 junod query gov vote [proposal-id] [voter-addr] [flags]
 ```
 
-### junod query gov votes
+### junod query gov votes <a id="juno-query-gov-votes"></a>
 
 Query votes on a proposal.
 
@@ -71,7 +71,7 @@ Query votes on a proposal.
 junod query gov votes [proposal-id] [flags]
 ```
 
-### junod query gov deposit <a id="iris-query-gov-deposit"></a>
+### junod query gov deposit <a id="juno-query-gov-deposit"></a>
 
 Query details for a single proposal deposit on a proposal by its identifier.
 
@@ -79,7 +79,7 @@ Query details for a single proposal deposit on a proposal by its identifier.
 junod query gov deposit [proposal-id] [depositer-addr] [flags]
 ```
 
-### junod query gov deposits <a id="iris-query-gov-deposits"></a>
+### junod query gov deposits <a id="juno-query-gov-deposits"></a>
 
 Query details for all deposits on a proposal.
 
@@ -87,7 +87,7 @@ Query details for all deposits on a proposal.
 junod query gov deposits [proposal-id] [flags]
 ```
 
-### junod query gov tally <a id="iris-query-gov-tally"></a>
+### junod query gov tally <a id="juno-query-gov-tally"></a>
 
 Query tally of votes on a proposal.
 
@@ -95,7 +95,7 @@ Query tally of votes on a proposal.
 junod query gov tally [proposal-id] [flags]
 ```
 
-### junod query gov param <a id="iris-query-gov-param"></a>
+### junod query gov param <a id="juno-query-gov-param"></a>
 
 Query the parameters \(voting \| tallying \| deposit\) of the governance process.
 
@@ -116,7 +116,7 @@ junod query gov param tallying
 junod query gov param deposit
 ```
 
-### junod query gov params
+### junod query gov params <a id="juno-query-gov-params"></a>
 
 Query the all the parameters for the governance process.
 
@@ -124,7 +124,7 @@ Query the all the parameters for the governance process.
 junod query gov params [flags]
 ```
 
-### junod query gov proposer <a id="iris-query-gov-proposer"></a>
+### junod query gov proposer <a id="juno-query-gov-proposer"></a>
 
 Query which address proposed a proposal with a given ID.
 
@@ -132,7 +132,7 @@ Query which address proposed a proposal with a given ID.
 junod query gov proposer [proposal-id] [flags]
 ```
 
-### junod tx gov submit-proposal <a id="iris-tx-gov-submit-proposal"></a>
+### junod tx gov submit-proposal <a id="juno-tx-gov-submit-proposal"></a>
 
 Submit a proposal along with an initial deposit. Proposal title, description, type and deposit can be given directly or through a proposal JSON file. Available Commands:
 
@@ -143,7 +143,7 @@ Submit a proposal along with an initial deposit. Proposal title, description, ty
 | param-change | Submit a parameter change proposal |
 | software-upgrade | Submit a software upgrade proposal |
 
-#### junod tx gov submit-proposal community-pool-spend <a id="iris-tx-gov-submit-proposal-community-pool-spend"></a>
+#### junod tx gov submit-proposal community-pool-spend <a id="juno-tx-gov-submit-proposal-community-pool-spend"></a>
 
 Submit a community pool spend proposal along with an initial deposit. The proposal details must be supplied via a JSON file.
 
@@ -163,7 +163,7 @@ Where proposal.json contains, for example:
 }
 ```
 
-#### junod tx gov submit-proposal param-change <a id="iris-tx-gov-submit-proposal-param-change"></a>
+#### junod tx gov submit-proposal param-change <a id="juno-tx-gov-submit-proposal-param-change"></a>
 
 Submit a parameter proposal along with an initial deposit. The proposal details must be supplied via a JSON file. For values that contains objects, only non-empty fields will be updated.
 
@@ -196,7 +196,7 @@ Where proposal.json contains, for example:
 }
 ```
 
-#### junod tx gov submit-proposal software-upgrade <a id="iris-tx-gov-submit-proposal-software-upgrade"></a>
+#### junod tx gov submit-proposal software-upgrade <a id="juno-tx-gov-submit-proposal-software-upgrade"></a>
 
 Submit a software upgrade along with an initial deposit. Please specify a unique name and height OR time for the upgrade to take effect.
 
@@ -231,7 +231,7 @@ Store an os/architecture -&gt; binary URI map in the upgrade plan `info` field a
 ```
 {% endhint %}
 
-#### junod tx gov submit-proposal cancel-software-upgrade <a id="iris-tx-gov-submit-proposal-cancel-software-upgrade"></a>
+#### junod tx gov submit-proposal cancel-software-upgrade <a id="juno-tx-gov-submit-proposal-cancel-software-upgrade"></a>
 
 Cancel a software upgrade along with an initial deposit.
 
@@ -247,7 +247,7 @@ junod tx gov submit-proposal cancel-software-upgrade [flags]
 | --title | string | Yes |  | Title of proposal |
 | --description | string | Yes |  | Description of proposal |
 
-### junod tx gov deposit <a id="iris-tx-gov-deposit"></a>
+### junod tx gov deposit <a id="juno-tx-gov-deposit"></a>
 
 Submit a deposit for an active proposal. You can find the `proposal-id` by running `junod query gov proposals`.
 
@@ -255,7 +255,7 @@ Submit a deposit for an active proposal. You can find the `proposal-id` by runni
 junod tx gov deposit [proposal-id] [deposit] [flags]
 ```
 
-### junod tx gov vote <a id="iris-tx-gov-vote"></a>
+### junod tx gov vote <a id="juno-tx-gov-vote"></a>
 
 Submit a vote for an active proposal. You can find the `proposal-id` by running `junod query gov proposals`. Vote for an active proposal, options: \(yes \| no \| no\_with\_veto \| abstain\).
 
@@ -268,4 +268,3 @@ Example vote, voting `yes` on proposal number `1`:
 ```text
 junod tx gov vote 1 yes --from=<key_or_address> --fees=1juno
 ```
-
