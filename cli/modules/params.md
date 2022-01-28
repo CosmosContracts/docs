@@ -43,6 +43,7 @@ Among them, the parameters available for query for each subspace are as follows:
 | :--- | :--- | :--- |
 | `Inflation` | Token issuance frequency | ?? |
 | `MintDenom` | Denom of the token mintable | ujuno |
+| `BlocksPerYear` | Blocks produced per year | 6311520 |
 
 ### distribution <a id="distribution"></a>
 
