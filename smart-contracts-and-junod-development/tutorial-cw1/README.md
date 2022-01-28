@@ -7,7 +7,7 @@ coverY: 0
 
 This tutorial will take you through compiling, storing and interacting with the CW1 subkeys contract in the[ cosmwasm-plus](https://github.com/CosmWasm/cosmwasm-plus) repo.
 
-`cosmwasm-plus` contains prodction-grade contracts, whereas `cosmwasm-examples`, which we used in the previous tutorial, is optimised for readability and for those new to CosmWasm and/or smart contracts in general.
+`cosmwasm-plus` contains production-grade contracts, whereas `cosmwasm-examples`, which we used in the previous tutorial, is optimised for readability and for those new to CosmWasm and/or smart contracts in general.
 
 As before, this will take four steps. Unlike before, we have more options for executing commands once instantiated:
 
