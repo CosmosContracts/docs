@@ -65,6 +65,7 @@
 * [Mainnet Setup and Tooling](validators/mainnet.md)
 * [Joining Mainnet](validators/joining-mainnet.md)
 * [Joining Testnets](validators/joining-the-testnets.md)
+* [Sync a Mainnet Node](validators/sync-a-mainnet-node.md)
 * [Sync with state-sync](validators/sync-with-state-sync.md)
 * [Relayers](validators/relayers/README.md)
   * [ibc-go](validators/relayers/ibc-go.md)

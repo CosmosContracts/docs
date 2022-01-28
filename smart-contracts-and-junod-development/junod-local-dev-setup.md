@@ -39,7 +39,11 @@ docker run -it \
 
 ## Quick(est) start dev build
 
-The quickest way to get up-and-running for development purposes, as is documented in the main repo, is to run `docker-compose up`.
+The quickest way to get up-and-running for development purposes, as is documented in the main repo, is to run:
+
+```bash
+STAKE_TOKEN=ujunox docker-compose up
+```
 
 This builds and runs the node and:
 
