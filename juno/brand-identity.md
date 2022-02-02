@@ -7,21 +7,9 @@ coverY: 0
 
 **Assets**
 
-{% file src="../.gitbook/assets/juno-logo-red- (4) (3) (3) (3) (3) (3) (3).svg" %}
-
-{% file src="../.gitbook/assets/juno-logo-white-.svg" %}
-
 {% file src="../.gitbook/assets/JUNO Logo (Black).svg" %}
 
-{% file src="../.gitbook/assets/JUNO Logo (White) (1).png" %}
-
-{% file src="../.gitbook/assets/JUNO Logo (Black).png" %}
-
-{% file src="../.gitbook/assets/juno-logo-banner-red-1.png" %}
-
-{% file src="../.gitbook/assets/juno-text-banner (1) (1).png" %}
-
-{% file src="../.gitbook/assets/juno-logo-white-.png" %}
+![](<../.gitbook/assets/Juno Banner Wide (Black).png>)
 
 {% file src="../.gitbook/assets/juno-text-logo (1).svg" %}
 
@@ -33,7 +21,7 @@ coverY: 0
 
 **Color Identity**
 
-Primary Color**: **f0827d
+Primary Color**:** f0827d
 
 ![](<../.gitbook/assets/juno-primary-color (1) (1) (1) (1) (1) (1) (1).png>)
 

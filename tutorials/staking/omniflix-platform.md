@@ -39,17 +39,17 @@ Click the **Connect with Keplr button** to continue. A popup window will appear 
 
 ![](<../../.gitbook/assets/image (10).png>)
 
-Click **Approve **to continue. A popup window will appear requesting you to sign a message.
+Click **Approve** to continue. A popup window will appear requesting you to sign a message.
 
 ![](<../../.gitbook/assets/image (12).png>)
 
-Click **Approve **to continue. You will now be shown the Omniflix staking UI dashboard where you can see various information regarding your wallet balance and other staking information related to your wallet.
+Click **Approve** to continue. You will now be shown the Omniflix staking UI dashboard where you can see various information regarding your wallet balance and other staking information related to your wallet.
 
 ![](<../../.gitbook/assets/image (16).png>)
 
 ## Select a validator and stake your Juno tokens
 
-To see all the available validators, click the **Stake **link at the top of the page. A list of active validators will be shown, to see more validators you can click the pagination arrows at the bottom of the page. To delegate tokens to your desired validator, click the **DELEGATE **button to the right hand side of the row for the validator you wish to delegate too.
+To see all the available validators, click the **Stake** link at the top of the page. A list of active validators will be shown, to see more validators you can click the pagination arrows at the bottom of the page. To delegate tokens to your desired validator, click the **DELEGATE** button to the right hand side of the row for the validator you wish to delegate too.
 
 ![](<../../.gitbook/assets/image (20).png>)
 
@@ -57,11 +57,11 @@ A form will appear, showing the validator and a field to enter the amount of tok
 
 ![](<../../.gitbook/assets/image (15).png>)
 
-A Keplr wallet popup will appear asking for approval for the transaction. Click **Approve **to finalize the delegation.
+A Keplr wallet popup will appear asking for approval for the transaction. Click **Approve** to finalize the delegation.
 
 ![](<../../.gitbook/assets/image (11).png>)
 
-After the transaction is completed, a popup will indicate that the tokens were successfully delegated. Click **DONE **to continue.
+After the transaction is completed, a popup will indicate that the tokens were successfully delegated. Click **DONE** to continue.
 
 ![](<../../.gitbook/assets/image (19).png>)
 
