@@ -8,7 +8,7 @@ description: >-
 
 # Contributors
 
-### **Core - 1**
+### ****[**Core - 1**](https://www.discord.gg/Juno)****
 
 ### **Collective for Core Web3 infrastructure development on Juno.**
 
@@ -24,7 +24,7 @@ Jake Hartnell (Stargaze.Zone) [https://twitter.com/JakeHartnell](https://twitter
 
 Jack Zampolin (Strangelove Ventures) [https://twitter.com/jack\_zampolin](https://twitter.com/jack\_zampolin)
 
-### **Core - 2**
+### ****[**Core - 2**](https://www.discord.gg/Juno)****
 
 ### **Collective for Core Web3 infrastructure development on Juno.**
 
