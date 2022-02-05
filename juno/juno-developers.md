@@ -10,8 +10,6 @@ description: >-
 
 ### **Core - 1**
 
-****
-
 ### **Collective for Core Web3 infrastructure development on Juno.**
 
 
