@@ -1,11 +1,20 @@
 ---
 cover: ../.gitbook/assets/wallpaperflare.com_wallpaper (61).jpg
 coverY: 0
+description: >-
+  Hundreds of independent Cosmos ecosystem contributors are working on the Juno
+  core network, independent dapps, tooling and more.
 ---
 
 # Contributors
 
-### **Core - 1 (Core Development/Reserve)**
+### **Core - 1**
+
+****
+
+### **Collective for Core Web3 infrastructure development on Juno.**
+
+
 
 Andrea Di Michele - Dimi (stakefish) [https://twitter.com/dimiandre](https://twitter.com/dimiandre)
 
@@ -17,13 +26,17 @@ Jake Hartnell (Stargaze.Zone) [https://twitter.com/JakeHartnell](https://twitter
 
 Jack Zampolin (Strangelove Ventures) [https://twitter.com/jack\_zampolin](https://twitter.com/jack\_zampolin)
 
-### **Core-2 (Core Development/Dapps/Tooling)**
+### **Core - 2**
+
+### **Collective for Core Web3 infrastructure development on Juno.**
+
+****
 
 Jacob Gadikian (Notional) [https://twitter.com/gadikian](https://twitter.com/gadikian)
 
 Giansalex (Disperze) [https://twitter.com/giansalex](https://twitter.com/giansalex)
 
-The Frey (envoys.io)(needlecast) the-frey#8626
+The Frey (**N**eedlecast) the-frey#8626
 
 nullmames (kingnodes) [https://twitter.com/nullmames](https://twitter.com/nullMames)
 
@@ -37,7 +50,9 @@ Tosch (SG-1) [https://twitter.com/ToschDev](https://twitter.com/ToschDev)
 
 Ximpe (Imperator) [https://twitter.com/imperator\_co](https://twitter.com/imperator\_co)
 
-### Active development on Juno (Core/Contracts)
+### **Independent development contributors on key tooling, dapps, contracts & network security**
+
+****
 
 Sistla Abhishek (OmniFlix) [https://twitter.com/svabhishek](https://twitter.com/svabhishek)
 
