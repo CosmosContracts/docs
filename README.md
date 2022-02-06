@@ -14,7 +14,7 @@ Some of the founding principles centre around:
 
 ⚪️ Inception of the **worlds first permission-less, designated interoperable smart contract network.**
 
-⚪️ Pioneering **CosmWasm development** and adoption.
+⚪️ Pioneering **CosmWasm development** **and adoption**.
 
 ⚪️ Eliminating common smart contract **L1 bottlenecks** (poor scalability, non-interoperability, high fees, concentrated governance control).
 
