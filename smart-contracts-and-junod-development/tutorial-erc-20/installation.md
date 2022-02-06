@@ -31,14 +31,14 @@ rustup target add wasm32-unknown-unknown
 
 A Juno testnet [https://github.com/CosmosContracts/Juno](https://github.com/CosmosContracts/Juno) has been launched to save you of the hassle of running a local network and speed up your development.
 
-Use go 1.16.3 for compiling`junod`executable if you are building from source. If you already are running a validator node, it's likely `junod` is already accessible. If `which junod` shows output, then you're probably good to go.
+Use go 1.16.3+ for compiling`junod`executable if you are building from source. If you already are running a validator node, it's likely `junod` is already accessible. If `which junod` shows output, then you're probably good to go.
 
 ```bash
 # clone juno repo
 git clone https://github.com/CosmosContracts/juno.git && cd juno
 
 git fetch --tags
-git checkout v2.0.0-alpha.3 # moneta-alpha
+git checkout v2.1.0 # moneta
 
 # build juno executable
 make install

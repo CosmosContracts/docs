@@ -98,11 +98,9 @@ There are two tutorials provided here in the docs, which will give you an overvi
 
 Running locally is harder. Like on the testnet, you will need to make sure that your chosen tag for the `junod` binary and version of CosmWasm line up.
 
-As of 2021-10-05, the correct tag to use is the same as the testnet tag above.
-
 You will then need to set up your local chain to develop against. You can do this with Starport, if you're comfortable with that, or alternatively use the following script adapted from the CosmWasm team.
 
-Note that on line 10 the `CHAIN_ID` is hardcoded. Currently this is `uni-1`.
+Note that on line 10 the `CHAIN_ID` is hardcoded. Currently this is `uni-2`.
 
 ```bash
 #!/bin/bash
@@ -114,7 +112,7 @@ set -e
 
 APP_HOME="~/.juno"
 RPC="http://localhost:26657"
-CHAIN_ID="uni-1"
+CHAIN_ID="uni-2"
 # initialize junod configuration files
 junod init testmoniker --chain-id ${CHAIN_ID} --home ${APP_HOME}
 
