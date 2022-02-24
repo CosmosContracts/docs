@@ -32,7 +32,7 @@ Among them, the parameters available for query for each subspace are as follows:
 | key | description | default |
 | :--- | :--- | :--- |
 | `UnbondingTime` | Mortgage redemption time | ?? |
-| `MaxValidators` | Maximum number of validators | 100 |
+| `MaxValidators` | Maximum number of validators | 125 |
 | `MaxEntries` | The maximum number of unbinding/redelegation orders in progress | 7 |
 | `BondDenom` | Bond denom | ujuno |
 | `HistoricalEntries` | The number of historical entries | 10000 |
