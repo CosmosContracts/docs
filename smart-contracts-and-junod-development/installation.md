@@ -68,7 +68,7 @@ For those new to rust, the `stable` channel comes out every 6 weeks with a stabl
 
 ## Building Juno for testnet use
 
-A testnet running [the Juno chain](https://github.com/CosmosContracts/Juno) has been launched to save you of the hassle of running a local network and speed up your development.
+A testnet running [the Juno chain](https://github.com/CosmosContracts/Juno) is usually in operation for you to test contracts on. Generally speaking though, it's quicker to work locally. See the local development setup instructions below.
 
 Use go 1.17.x for compiling the `junod`executable if you are building from source. If you already are running a validator node, it's likely `junod` is already accessible. If `which junod` shows output, then you're probably good to go.
 
@@ -78,7 +78,7 @@ git clone https://github.com/CosmosContracts/juno.git && cd juno
 
 # get current testnet tag
 git fetch --tags
-git checkout v2.1.0
+git checkout v2.3.0-beta
 
 # build juno executable
 make build && make install
@@ -96,52 +96,6 @@ There are two tutorials provided here in the docs, which will give you an overvi
 
 ## Running locally
 
-Running locally is harder. Like on the testnet, you will need to make sure that your chosen tag for the `junod` binary and version of CosmWasm line up.
+Read this page for more information on running locally.
 
-You will then need to set up your local chain to develop against. You can do this with Starport, if you're comfortable with that, or alternatively use the following script adapted from the CosmWasm team.
-
-Note that on line 10 the `CHAIN_ID` is hardcoded. Currently this is `uni-2`.
-
-```bash
-#!/bin/bash
-
-set -e
-
-# lightly adapted from the cool cats at Confio / cosmwasm
-# as always, thanks and mega props
-
-APP_HOME="~/.juno"
-RPC="http://localhost:26657"
-CHAIN_ID="uni-2"
-# initialize junod configuration files
-junod init testmoniker --chain-id ${CHAIN_ID} --home ${APP_HOME}
-
-# add minimum gas prices config to app configuration file
-sed -i -r 's/minimum-gas-prices = ""/minimum-gas-prices = "0.025ujunox"/' ${APP_HOME}/config/app.toml
-
-# Create main address
-# --keyring-backend test is for testing purposes
-# Change it to --keyring-backend file for secure usage.
-export KEYRING="--keyring-backend test --keyring-dir $HOME/.juno_keys"
-junod keys add main $KEYRING
-
-# create validator address
-junod keys add validator $KEYRING
-
-# add your wallet addresses to genesis
-junod add-genesis-account $(junod keys show -a main $KEYRING) 10000000000ujunox --home ${APP_HOME}
-junod add-genesis-account $(junod keys show -a validator $KEYRING) 10000000000ujunox --home ${APP_HOME}
-
-# add second address as validator's address
-# validator is the key name
-junod gentx validator 1000000000ujunox --home ${APP_HOME} --chain-id ${CHAIN_ID} $KEYRING
-
-# collect gentxs & add to genesis
-junod collect-gentxs --home ${APP_HOME}
-
-# validate the genesis file
-junod validate-genesis --home ${APP_HOME}
-
-# run the node
-junod start --home ${APP_HOME}
-```
+{% embed url="https://docs.junonetwork.io/smart-contracts-and-junod-development/junod-local-dev-setup" %}

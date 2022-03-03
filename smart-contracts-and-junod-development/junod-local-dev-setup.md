@@ -4,7 +4,7 @@ description: 🖥🛠
 
 # Junod Local Dev Setup
 
-Want to use `junod` locally for development, or to work with smart contracts? You're in the right place.
+Want to use `junod` locally for development, or to work with smart contracts? You're in the right place. Running locally is a much easier solution than interacting with a testnet.
 
 ## Using the Seed User
 
