@@ -6,6 +6,12 @@ description: 🖥🛠
 
 Want to use `junod` locally for development, or to work with smart contracts? You're in the right place. Running locally is a much easier solution than interacting with a testnet.
 
+This guide focusses on running the chain. If you want to build the binary or develop in go, then check out:
+
+{% content-ref url="../validators/getting-setup.md" %}
+[getting-setup.md](../validators/getting-setup.md)
+{% endcontent-ref %}
+
 ## Using the Seed User
 
 Juno ships with an unsafe seed user in dev mode when you run the prebuilt docker container below, or one of the options that uses `docker-compose`. You can import this user into the CLI by using the mnemonic from the Juno repo, i.e.:
