@@ -93,3 +93,9 @@ Query the validator set (and jailed status) via CLI:
 ```bash
 junod query staking validators --limit 1000 -o json | jq -r '.validators[] | [.operator_address, (.tokens|tonumber / pow(10; 6)), .description.moniker, .jail, .status] | @csv' | column -t -s"," | sort -k2 -n -r | nl
 ```
+
+Get contract state:
+
+```bash
+junod q wasm contract-state all <contract-address>
+```
