@@ -278,7 +278,7 @@ Returns something similar to:
 bond_denom: ujuno
 historical_entries: 10000
 max_entries: 7
-max_validators: 100
+max_validators: 125
 unbonding_time: 1814400s
 ```
 
