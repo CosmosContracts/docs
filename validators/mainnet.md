@@ -30,7 +30,14 @@ Backups of chain state are possible using the commands specified [here](https://
 
 Alerting and monitoring is desirable as well - you are encouraged to explore solutions and find one that works for your setup. Prometheus is available out-of-the box, and there are a variety of open-source tools. Recommended reading:
 
-* [https://medium.com/solar-labs-team/cosmos-how-to-monitoring-your-validator-892a46298722](https://medium.com/solar-labs-team/cosmos-how-to-monitoring-your-validator-892a46298722)
+**Alerting:**
+
+* Tenderduty: [https://github.com/blockpane/tenderduty](https://github.com/blockpane/tenderduty)
+* PANIC: [https://github.com/SimplyVC/panic\_cosmos](https://github.com/SimplyVC/panic\_cosmos)
+
+**Monitoring:**
+
+* ****[https://medium.com/solar-labs-team/cosmos-how-to-monitoring-your-validator-892a46298722](https://medium.com/solar-labs-team/cosmos-how-to-monitoring-your-validator-892a46298722)
 * [https://medium.com/simply-vc/cosmos-monitoring-and-alerting-for-validators-8e3f016c9567](https://medium.com/simply-vc/cosmos-monitoring-and-alerting-for-validators-8e3f016c9567)
 * [https://chainflow.io/cosmos-validator-mission-control/](https://chainflow.io/cosmos-validator-mission-control/)
 * [https://medium.com/cypher-core/cosmos-how-to-set-up-your-own-network-monitoring-dashboard-fe49c63a8271](https://medium.com/cypher-core/cosmos-how-to-set-up-your-own-network-monitoring-dashboard-fe49c63a8271)
@@ -41,7 +48,7 @@ Using only the raw metrics endpoint provided by `junod` you can get a working da
 
 1. First, in `config.toml` enable Prometheus. The default metrics port will be `26660`
 2. Download Prometheus - this is needed to ship logs to Grafana Cloud.
-3. Create a `prometheus.yml` file with your [Grafana Cloud credentials](https://grafana.com/docs/grafana-cloud/reference/create-api-key/) in the Prometheus folder. You can get these via the Grafana UI. Click 'details' on the Prometheus card:&#x20;
+3. Create a `prometheus.yml` file with your [Grafana Cloud credentials](https://grafana.com/docs/grafana-cloud/reference/create-api-key/) in the Prometheus folder. You can get these via the Grafana UI. Click 'details' on the Prometheus card:
 
 ```
 global:
@@ -59,7 +66,6 @@ remote_write:
     basic_auth:
       username: ID_HERE
       password: "API KEY HERE"
-
 ```
 
 3\. Set up a service file, with `sudo nano /etc/systemd/system/prometheus.service`, replacing `<your-user>` and `<prometheus-folder>` with the location of Prometheus. This sets the Prometheus port to `6666`
