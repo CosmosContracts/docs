@@ -38,7 +38,7 @@ The Frey (**N**eedlecast) the-frey#8626
 
 nullmames (kingnodes) [https://twitter.com/nullmames](https://twitter.com/nullMames)
 
-Zak (EZStaking) [https://twitter.com/EZStaking](https://twitter.com/EZStaking)
+EZStaking.io [https://twitter.com/EZStaking](https://twitter.com/EZStaking)
 
 Ibrar (Imperator) #6519
 
@@ -91,5 +91,7 @@ Notional [https://twitter.com/gadikian](https://twitter.com/gadikian)&#x20;
 SpacePotato @spacepotayto&#x20;
 
 Imperator.co [https://twitter.com/imperator\_co](https://twitter.com/imperator\_co)
+
+EZStaking.io https://twitter.com/EZStaking
 
 The list is constantly expanding. If your name is not mentioned and your actively contributing please reach out to the core team.
