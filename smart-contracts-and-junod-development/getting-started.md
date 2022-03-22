@@ -3,7 +3,7 @@
 To get started with smart contract development, we recommend running on a laptop until you are ready to deploy to a public testnet.
 
 {% hint style="info" %}
-The default local test user address is \```juno16g2rahf5846rxzp3fwlswy08fz8ccuwk03k57y` and the default local `chain-id` is `testing`.``
+The default local test user address is `juno16g2rahf5846rxzp3fwlswy08fz8ccuwk03k57y` and the default local `chain-id` is `testing`.
 {% endhint %}
 
 To get up-and-running, the steps are:
