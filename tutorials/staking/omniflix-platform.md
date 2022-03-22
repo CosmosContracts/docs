@@ -1,6 +1,6 @@
 ---
 description: How to stake your Juno with the Omniflix UI and Keplr browser extension
-cover: ../../.gitbook/assets/Gitbook Banner large 6 (11) (1).png
+cover: ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (20).png
 coverY: 0
 ---
 
@@ -29,7 +29,7 @@ Delegation of your tokens to a validator will make them unusable for any other p
 
 Open the Chrome browser and navigate to [https://juno.omniflix.co](http://juno.omniflix.co). If this is the first time you have visited the UI, you will be shown a splash screen prompting you to connect your Keplr wallet.
 
-![](<../../.gitbook/assets/image (17) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (17) (1) (1).png>)
 
 {% hint style="info" %}
 Be sure that you have the wallet you wish to use selected by clicking the Keplr icon in your Chrome toolbar, selecting the silhouette in the top right of the Keplr window and then selecting the account you wish to use.

@@ -1,5 +1,5 @@
 ---
-cover: ../../.gitbook/assets/Gitbook Banner large 6 (11).png
+cover: ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (19).png
 coverY: 0
 ---
 
@@ -23,4 +23,3 @@ As before, this will take four steps. Unlike before, we have more options for ex
 There is a video available that walks through the steps in this tutorial:
 
 {% embed url="https://youtu.be/9yDaCklWlU0" %}
-

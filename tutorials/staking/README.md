@@ -1,6 +1,6 @@
 ---
 description: Securing the Juno Network by staking JUNO🔒 🔑
-cover: ../../.gitbook/assets/Gitbook Banner large 6 (3).png
+cover: ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (3).png
 coverY: 0
 ---
 
@@ -52,7 +52,7 @@ There are a limited number of validators in the active set for the network. Each
 
 ### Reputation of the validator
 
-Each validator is responsible to provide as much information as possible to potential delegators.&#x20;
+Each validator is responsible to provide as much information as possible to potential delegators.
 
 You may want to investigate validators you are planning on delegating to. Most validators will provide some extra information such as a bio and website that will be available by clicking on the validator's name in the [https://junoscan.com](https://junoscan.com), or [https://mintscan.io/juno](https://mintscan.io/juno) blockchain explorer interface.
 
@@ -74,7 +74,7 @@ When you delegate to a validator nobody wants that validator to be compromised i
 
 Anyone can start a validator if technically capable. A difference apart from the technical aspects can be made by their involvement in the project and the community. Some are very actively trying to help the community in many different ways. Helping the community will help provide an excellent end user experience to Juno network users and will in turn help the Juno network grow. This in turn will help drive adoption of the Juno network.
 
-Validators that are involved with the project means that they are up-to-date on the progress of the project, what is happening and they can use that knowledge to help educate the community and the rest of the world.&#x20;
+Validators that are involved with the project means that they are up-to-date on the progress of the project, what is happening and they can use that knowledge to help educate the community and the rest of the world.
 
 Active validators are also more likely to be well informed of network upgrades. If validators were to miss software upgrades, they would be unable to reach consensus with the rest of the network. It is most likely that the validator would end up being jailed and thus slashed for downtime.
 

@@ -1,11 +1,9 @@
 ---
-cover: ../.gitbook/assets/Gitbook Banner large 6 (2) (1).png
+cover: ../.gitbook/assets/Gitbook Banner large 6 (1) (1) (4).png
 coverY: 0
 ---
 
 # Social/Resources/Updates
-
-
 
 * <mark style="color:purple;"></mark>[<mark style="color:red;">⚵ Homepage</mark>](https://www.junonetwork.io)<mark style="color:red;"></mark>
 * <mark style="color:purple;"></mark>[<mark style="color:red;">⚵ Updates</mark>](https://t.me/Juno\_Updates)<mark style="color:red;"></mark>

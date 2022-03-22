@@ -44,7 +44,9 @@
 
 ## Smart Contracts & Junod Development
 
+* [Getting started](smart-contracts-and-junod-development/getting-started.md)
 * [Junod Local Dev Setup](smart-contracts-and-junod-development/junod-local-dev-setup.md)
+* [Interacting with Smart Contracts](smart-contracts-and-junod-development/interacting-with-smart-contracts.md)
 * [Smart Contracts Installation](smart-contracts-and-junod-development/installation.md)
 * [ERC-20 Tutorial](smart-contracts-and-junod-development/tutorial-erc-20/README.md)
   * [Installation](smart-contracts-and-junod-development/tutorial-erc-20/installation.md)

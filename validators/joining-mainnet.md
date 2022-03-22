@@ -1,6 +1,6 @@
 ---
 description: General instructions to join the Juno mainnet after network genesis.
-cover: ../.gitbook/assets/Gitbook Banner large 6 (6).png
+cover: ../.gitbook/assets/Gitbook Banner large 6 (1) (2).png
 coverY: 0
 ---
 
@@ -12,7 +12,7 @@ The correct version of the binary for mainnet at genesis is `v1.0.0`. Its releas
 
 ## Mainnet chain-id
 
-Below is the list of Juno mainnet id's and their current status. You will need to know the version tag for installation of the `junod` binary.&#x20;
+Below is the list of Juno mainnet id's and their current status. You will need to know the version tag for installation of the `junod` binary.
 
 | chain-id | Description                                        |  Status | Block Start | Block Finish |
 | -------- | -------------------------------------------------- | :-----: | ----------- | ------------ |
@@ -22,9 +22,9 @@ Below is the list of Juno mainnet id's and their current status. You will need t
 
 The minimum recommended hardware requirements for running a validator for the Juno mainnet are:
 
-| Chain-id | Requirements                                                                                          |
-| -------- | ----------------------------------------------------------------------------------------------------- |
-| juno-1   | <p></p><ul><li>4 Cores (modern CPU's)</li><li>16GB RAM</li><li>1TB of storage (SSD or NVME)</li></ul> |
+| Chain-id | Requirements                                                                                   |
+| -------- | ---------------------------------------------------------------------------------------------- |
+| juno-1   | <ul><li>4 Cores (modern CPU's)</li><li>16GB RAM</li><li>1TB of storage (SSD or NVME)</li></ul> |
 
 {% hint style="danger" %}
 These specifications are the minimum recommended. As Juno Network is a smart contract platform, it can at times be very demanding on hardware. Low spec validators WILL get stuck on difficult to process blocks.
@@ -44,7 +44,7 @@ Mainnet will initially use the `v1.0.0` [tag](https://github.com/CosmosContracts
 
 ## Configuration of Shell Variables
 
-For this guide, we will be using shell variables. This will enable the use of the client commands verbatim. It is important to remember that shell commands are only valid for the current shell session, and if the shell session is closed, the shell variables will need to be re-defined.&#x20;
+For this guide, we will be using shell variables. This will enable the use of the client commands verbatim. It is important to remember that shell commands are only valid for the current shell session, and if the shell session is closed, the shell variables will need to be re-defined.
 
 If you want variables to persist for multiple sessions, then set them explicitly in your shell .profile, as you did for the Go environment variables.
 
@@ -108,7 +108,7 @@ sed -i.bak -e "s/^minimum-gas-prices *=.*/minimum-gas-prices = \"0.0025ujuno\"/"
 
 ## Setting up the Node
 
-These instructions will direct you on how to initialize your node, synchronize to the network and upgrade your node to a validator.&#x20;
+These instructions will direct you on how to initialize your node, synchronize to the network and upgrade your node to a validator.
 
 ### **Initialize the chain**
 
@@ -118,8 +118,8 @@ junod init $MONIKER_NAME --chain-id $CHAIN_ID
 
 This will generate the following files in `~/.juno/config/`
 
-* `genesis.json`&#x20;
-* `node_key.json`&#x20;
+* `genesis.json`
+* `node_key.json`
 * `priv_validator_key.json`
 
 ### Download the genesis file
@@ -128,11 +128,11 @@ This will generate the following files in `~/.juno/config/`
 curl https://raw.githubusercontent.com/CosmosContracts/mainnet/main/$CHAIN_ID/genesis.json > ~/.juno/config/genesis.json
 ```
 
-This will replace the genesis file created using `junod init` command with the mainnet `genesis.json`. ****&#x20;
+This will replace the genesis file created using `junod init` command with the mainnet `genesis.json`. \*\*\*\*
 
 ### **Set persistent peers**
 
-Using the peers variable we set earlier, we can set the `persistent_peers` in `~/.juno/config/config.toml`:&#x20;
+Using the peers variable we set earlier, we can set the `persistent_peers` in `~/.juno/config/config.toml`:
 
 ```bash
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" ~/.juno/config/config.toml
