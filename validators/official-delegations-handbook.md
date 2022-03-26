@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/Gitbook Banner large 6 (9) (1).png
+cover: ../.gitbook/assets/Gitbook Banner large 6 (1) (1) (17).png
 coverY: 0
 ---
 
@@ -24,4 +24,4 @@ A Juno network validator may qualify for official delegations to be assigned by 
 
 Note: A new 6 month delegation round is announced in the official channels on Discord & Telegram many weeks prior to kickoff.
 
-The next delegation round will be assigned on January 1st 2022. The evaluation period starts 2 weeks prior.
+The next delegation round will be assigned on July 1st 2022. The evaluation period starts 2 weeks prior.
