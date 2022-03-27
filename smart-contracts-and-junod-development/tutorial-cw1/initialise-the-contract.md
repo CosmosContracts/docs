@@ -1,6 +1,6 @@
 ---
 description: It's go time!
-cover: ../../.gitbook/assets/Gitbook Banner large 6 (4).png
+cover: ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (5).png
 coverY: 0
 ---
 
@@ -34,7 +34,8 @@ JSON.stringify(initobj);
 With these encoded arguments, you can now instantiate the contract, using the `code_id` from the previous step.
 
 ```bash
-junod tx wasm instantiate <code-id> '{"admins":["<your-validator-self-delegate-key>"],"mutable":false}' --amount 50000ujunox --label "CW1 example contract" --from <your-key> --chain-id <chain-id> --gas auto -y
+junod tx wasm instantiate <code-id> '{"admins":["<your-validator-self-delegate-key>"],"mutable":false}' --amount 50000ujunox --label "CW1 example contract" --from <your-key> --chain-id <chain-id> \
+  --gas-prices 0.1ujunox --gas auto --gas-adjustment 1.3 -b block -y
 ```
 
 Once the contract is instantiated, you can find out its contract address:

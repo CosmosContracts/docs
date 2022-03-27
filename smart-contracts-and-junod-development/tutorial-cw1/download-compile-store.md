@@ -1,6 +1,6 @@
 ---
 description: Walking before we can run...
-cover: ../../.gitbook/assets/Gitbook Banner large 6 (11).png
+cover: ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (19).png
 coverY: 0
 ---
 
@@ -40,7 +40,8 @@ When compiling is complete (it will take a while) `cd` into the `artifacts` dire
 To store this on-chain, we use a similar command to last time:
 
 ```bash
-junod tx wasm store cw1_subkeys.wasm  --from <your-key> --chain-id <chain-id> --gas auto
+junod tx wasm store cw1_subkeys.wasm  --from <your-key> --chain-id <chain-id> \
+  --gas-prices 0.1ujunox --gas auto --gas-adjustment 1.3 -b block -y
 ```
 
 Also like last time, look in the JSON output for the `code_id` value. If you would prefer to capture this as a shell variable, for the previous step you can instead do:

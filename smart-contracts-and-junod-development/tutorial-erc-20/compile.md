@@ -2,7 +2,7 @@
 description: >-
   Now we're going to download a contract, compile it, and upload it to the Juno
   chain.
-cover: ../../.gitbook/assets/Gitbook Banner large 6 (11).png
+cover: ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (19).png
 coverY: 0
 ---
 
@@ -48,7 +48,8 @@ You can now upload, or 'store' this to the chain via your local node.
 
 ```bash
 cd artifacts
-junod tx wasm store cw_erc20.wasm  --from <your-key> --chain-id=<chain-id> --gas auto
+junod tx wasm store cw_erc20.wasm  --from <your-key> --chain-id=<chain-id> \
+  --gas-prices 0.1ujunox --gas auto --gas-adjustment 1.3 -b block -y
 ```
 
 {% hint style="info" %}
