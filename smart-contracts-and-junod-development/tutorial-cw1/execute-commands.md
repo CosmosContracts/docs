@@ -2,7 +2,7 @@
 description: >-
   Now we complete the task - sending some tokens that have been delegated to a
   key
-cover: ../../.gitbook/assets/Gitbook Banner large 6 (11).png
+cover: ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (19).png
 coverY: 0
 ---
 
@@ -41,7 +41,8 @@ Then, as the admin key (**A**), increase key (**B**)'s allowance:
 junod tx wasm execute <contract-addr> \
   '{"increase_allowance":{"spender":"<key-B>","amount":{"denom":"ujunox","amount":"2000000"}}}' \
   --from <admin-key-A> \
-  --chain-id <chain-id>
+  --chain-id <chain-id> \
+  --gas-prices 0.1ujunox --gas auto --gas-adjustment 1.3 -b block
 ```
 
 If you query its allowance, you should see a value of `2000000`:
@@ -106,7 +107,8 @@ Once we have the JSON, we can shape an `execute` command:
 junod tx wasm execute <contract-addr> \
   '{"execute":{"msgs":[{"bank":{"send":{"to_address":"<key-C>","amount":[{"denom":"ujunox","amount":"500"}]}}}]}}' \
   --from <key-B> \
-  --chain-id <chain-id>
+  --chain-id <chain-id> \
+  --gas-prices 0.1ujunox --gas auto --gas-adjustment 1.3 -b block
 ```
 
 Note that the `--from` flag is now signing this from the key (**B**) that the admin key (**A**) gave a token balance to. This CW1 Subkeys contract will only work with the native token of the chain, in this case `ujuno`.
