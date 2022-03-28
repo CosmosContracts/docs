@@ -1,7 +1,7 @@
 ---
 order: 5
 description: How to query and execute commands on your shiny new contract
-cover: ../../.gitbook/assets/Gitbook Banner large 6 (11).png
+cover: ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (19).png
 coverY: 0
 ---
 
@@ -10,7 +10,7 @@ coverY: 0
 Now you can check that the contract has assigned the right amount to the self-delegate address:
 
 ```bash
-junod query wasm contract-state smart <contract-address> '{"balance":{"address":"<validator-self-delegate-address>"}}'
+junod query wasm contract-state smart <contract-address> '{"balance":{"address":"<validator-self-delegate-address>"}}' -b block 
 ```
 
 From the example above, it will return:
@@ -27,6 +27,10 @@ junod tx wasm execute [contract_addr_bech32] [json_encoded_send_args] --amount [
 ```
 
 You can omit `--amount` if not needed for `execute` calls.
+
+{% hint style="info" %}
+You will likely need to add additional flags depending on your local node's gas settings. If in doubt, `--gas-prices 0.1ujunox --gas auto --gas-adjustment 1.3` will work. If you also add `-b block`, then the tx will block until complete or failed, rather than executing asynchronously.
+{% endhint %}
 
 In this case, your command will look something like:
 
