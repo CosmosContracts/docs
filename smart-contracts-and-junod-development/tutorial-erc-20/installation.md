@@ -1,5 +1,5 @@
 ---
-cover: ../../.gitbook/assets/Gitbook Banner large 6 (11).png
+cover: ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (19).png
 coverY: 0
 ---
 
@@ -38,7 +38,7 @@ Use go 1.16.3+ for compiling`junod`executable if you are building from source. I
 git clone https://github.com/CosmosContracts/juno.git && cd juno
 
 git fetch --tags
-git checkout v2.1.0 # moneta
+git checkout v2.3.1 # lupercalia
 
 # build juno executable
 make install

@@ -2,7 +2,7 @@
 description: >-
   In this section, we will gear up your workspace for developing, deploying and
   enjoying smart contracts on Cosmos SDK.
-cover: ../.gitbook/assets/Gitbook Banner large 6 (11).png
+cover: ../.gitbook/assets/Gitbook Banner large 6 (1) (1) (19).png
 coverY: 0
 ---
 
@@ -78,7 +78,7 @@ git clone https://github.com/CosmosContracts/juno.git && cd juno
 
 # get current testnet tag
 git fetch --tags
-git checkout v2.3.0-beta
+git checkout v2.3.1
 
 # build juno executable
 make build && make install

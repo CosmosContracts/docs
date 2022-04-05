@@ -39,7 +39,8 @@ docker run -it \
   -p 26656:26656 \
   -p 26657:26657 \
   -e STAKE_TOKEN=ujunox \
-  ghcr.io/cosmoscontracts/juno:v2.1.0 \
+  -e UNSAFE_CORS=true \
+  ghcr.io/cosmoscontracts/juno:v2.3.1 \
   ./setup_and_run.sh juno16g2rahf5846rxzp3fwlswy08fz8ccuwk03k57y
 ```
 
@@ -48,7 +49,7 @@ docker run -it \
 The quickest way to get up-and-running for development purposes, as is documented in the main repo, is to run:
 
 ```bash
-STAKE_TOKEN=ujunox docker-compose up
+STAKE_TOKEN=ujunox UNSAFE_CORS=true docker-compose up
 ```
 
 This builds and runs the node and:
@@ -56,40 +57,7 @@ This builds and runs the node and:
 * Creates and initialises a validator
 * Adds a default user with a known address (`juno16g2rahf5846rxzp3fwlswy08fz8ccuwk03k57y`)
 
-## Quick(ish) start dev build
-
-Okay, so you want more control, or you want more info. Maybe both!
-
-#### Option 1: Using Docker
-
-This uses`docker exec`, which eliminates the need to install the binary.
-
-1. Open two terminal tabs at the root of this repo.
-2. In tab one, build and run Juno: `docker-compose up`
-3. Switch to tab two and exec into the container: `docker exec -it juno_node_1 /bin/sh`
-4. Run `junod status`. You should see JSON status for the Juno node running in Docker.
-
-NB:
-
-* to force rebuild the container, use: `docker-compose up --build`
-* to run in daemon mode, use: `docker-compose up -d`
-
-#### Option 2: Using junod (advanced/dev use)
-
-This assumes you will connect to it via `junod` from outside the container.
-
-1. Open two terminal tabs at the root of the `junod` repo.
-2. In tab one, build and run Juno in blocking mode: `./scripts/build_and_run_blocking.sh`. Once it has compiled, you should see blocks appearing.
-3. Switch to tab two and build juno outside the container if you haven't already: `make build && make install`.
-4. Run `junod status`. You should see JSON status for the Juno node running in Docker.
-
-The RPC port for Juno is forwarded to your host, so as long as Docker is correctly set up, you can send it commands via the Juno binary, `junod` on your host.
-
-Protip: running one of these scripts is also a decent sense-check that:
-
-1. The build is still working
-2. The Docker build is still working
-3. The code is in a runnable state
+To use a specific version of Juno, check out a tag before running docker compose.
 
 ## Quickstart on the testnet with a public node
 
