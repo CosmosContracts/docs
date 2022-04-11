@@ -29,7 +29,13 @@ rustup target add wasm32-unknown-unknown
 
 ## Using Juno Testnets
 
-A Juno testnet [https://github.com/CosmosContracts/Juno](https://github.com/CosmosContracts/Juno) has been launched to save you of the hassle of running a local network and speed up your development.
+A Juno testnet [https://github.com/CosmosContracts/Juno](https://github.com/CosmosContracts/Juno) has been launched to save you the hassle of running a local network and speed up your development.
+
+That said, many users will want to run a local node. Check out this guide to get set up with a single command:
+
+{% content-ref url="../junod-local-dev-setup.md" %}
+[junod-local-dev-setup.md](../junod-local-dev-setup.md)
+{% endcontent-ref %}
 
 Use go 1.16.3+ for compiling`junod`executable if you are building from source. If you already are running a validator node, it's likely `junod` is already accessible. If `which junod` shows output, then you're probably good to go.
 
@@ -38,7 +44,7 @@ Use go 1.16.3+ for compiling`junod`executable if you are building from source. I
 git clone https://github.com/CosmosContracts/juno.git && cd juno
 
 git fetch --tags
-git checkout v2.3.1 # lupercalia
+git checkout v3.1.0 # lupercalia
 
 # build juno executable
 make install

@@ -27,7 +27,7 @@ First, [install rustup](https://rustup.rs). Once installed, make sure you have t
 ```bash
 rustup default stable
 cargo version
-# If this is lower than 1.49.0+, update
+# If this is lower than 1.59.0+, update
 rustup update stable
 
 rustup target list --installed
@@ -57,7 +57,7 @@ Install the wasm32 target:Copy
 ```bash
 rustup default stable
 cargo version
-# If this is lower than 1.49.0, update
+# If this is lower than 1.59.0, update
 rustup update stable
 
 rustup target list --installed
@@ -78,7 +78,7 @@ git clone https://github.com/CosmosContracts/juno.git && cd juno
 
 # get current testnet tag
 git fetch --tags
-git checkout v2.3.1
+git checkout v3.1.0
 
 # build juno executable
 make build && make install
