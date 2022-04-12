@@ -10,6 +10,10 @@ coverY: 0
 
 Below is the list of Juno testnets and their current status. You will need to know the version tag for installation of the `junod` binary.
 
+For details of upgrades on the current testnet, as well as syncing, you can [check out the testnets repo, which is the definitive source of truth](https://github.com/CosmosContracts/testnets).
+
+If you get stuck, then please ask on Discord.
+
 | chain-id | Current Github version tag |             Description            | Status  |
 | -------- | -------------------------- | :--------------------------------: | ------- |
 | uni-2    | v2.3.0-beta.2              | Testing ground for wasm contracts. | current |
