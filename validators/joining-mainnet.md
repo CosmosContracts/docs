@@ -117,7 +117,7 @@ These instructions will direct you on how to initialize your node, synchronize t
 ### **Initialize the chain**
 
 ```bash
-junod init $MONIKER_NAME --chain-id $CHAIN_ID
+junod init "$MONIKER_NAME" --chain-id $CHAIN_ID
 ```
 
 This will generate the following files in `~/.juno/config/`
@@ -206,7 +206,7 @@ junod tx staking create-validator \
   --min-self-delegation "1" \
   --details "validators write bios too" \
   --pubkey=$(junod tendermint show-validator) \
-  --moniker $MONIKER_NAME \
+  --moniker "$MONIKER_NAME" \
   --chain-id $CHAIN_ID \
   --gas-prices 0.025ujuno \
   --from <key-name>
