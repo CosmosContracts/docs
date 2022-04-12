@@ -1,6 +1,6 @@
 ---
 description: General instructions on how to join the Juno testnets
-cover: ../.gitbook/assets/Gitbook Banner large 6 (10).png
+cover: ../.gitbook/assets/Gitbook Banner large 6 (1) (1) (18).png
 coverY: 0
 ---
 
@@ -12,7 +12,7 @@ Below is the list of Juno testnets and their current status. You will need to kn
 
 | chain-id | Current Github version tag |             Description            | Status  |
 | -------- | -------------------------- | :--------------------------------: | ------- |
-| uni-2    | v2.1.0 (patched)           | Testing ground for wasm contracts. | current |
+| uni-2    | v2.3.0-beta.2              | Testing ground for wasm contracts. | current |
 
 ## Minimum Hardware Requirements
 
