@@ -233,6 +233,8 @@ It is recommended that you encrypt the backup of these files.
 
 🏗🚧 Under construction​ 🏗🚧
 
+### Syncing from a backup
+
 After creating your validator private key, you will want to sync using a backup to after the Lupercalia chain restart, and the security patch that followed. You can do this using a snapshot.
 
 The example instructions here should work, although the heights of the snapshots will change. You can check out instructions and current versions from Pokachu [here](https://polkachu.com/tendermint\_snapshots/juno).
@@ -247,3 +249,7 @@ sudo journalctl -u cosmovisor -f
 ```
 
 Make sure that you back up your validator's private key before doing `junod unsafe-reset-all`.
+
+### Full sync without a backup
+
+To do a full sync without a backup, and avoid trusting a single backup provider, you can sync from the Lupercalia genesis. The best guide out there has been provided by [Simon from Confio](https://gist.github.com/webmaster128/af65a1d499bf246e08dac99d445dd26a).
