@@ -79,7 +79,11 @@ docker run --rm -v "$(pwd)":/code \
 docker cp artifacts/your_compiled.wasm juno_node_1:/your_compiled.wasm
 
 # store wasm
-docker exec -i juno_node_1 junod tx wasm store "/your_compiled.wasm" --from validator --output json 
+docker exec -i juno_node_1 \
+  junod tx wasm store "/your_compiled.wasm" \
+  --gas-prices 0.1ujunox --gas auto --gas-adjustment 1.3 \
+  -y -b block --chain-id testing \
+  --from validator --output json 
 ```
 
 ## Quickstart on the testnet with a public node
