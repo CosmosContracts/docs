@@ -4,6 +4,10 @@ description: 🖥🛠
 
 # Junod Local Dev Setup
 
+{% hint style="info" %}
+These settings are only for development use of Juno on a local machine.
+{% endhint %}
+
 Want to use `junod` locally for development, or to work with smart contracts? You're in the right place. Running locally is a much easier solution than interacting with a testnet.
 
 This guide focusses on running the chain. If you want to build the binary or develop in go, then check out:
@@ -36,6 +40,7 @@ Always pick a tagged version to run, ideally one that matches mainnet. In the ex
 
 ```
 docker run -it \
+  --name juno_node_1 \
   -p 26656:26656 \
   -p 26657:26657 \
   -e STAKE_TOKEN=ujunox \
@@ -58,6 +63,14 @@ This builds and runs the node and:
 * Adds a default user with a known address (`juno16g2rahf5846rxzp3fwlswy08fz8ccuwk03k57y`)
 
 To use a specific version of Juno, check out a tag before running docker compose.
+
+## Interacting with Juno in Docker
+
+To call Juno inside a container, use `docker exec` like so:
+
+```
+docker exec -i juno_node_1 junod tx wasm store "/cw_unity_prop.wasm" --from validator --output json 
+```
 
 ## Quickstart on the testnet with a public node
 
