@@ -240,7 +240,7 @@ wget -O juno_2616376.tar.lz4 https://snapshots2.polkachu.com/snapshots/juno/juno
 junod unsafe-reset-all
 lz4 -c -d juno_2616376.tar.lz4  | tar -x -C ~/.juno
 sudo systemctl start cosmovisor
-rm juno-1.pruned.2616300.tar.lz4
+rm juno_2616376.tar.lz4
 sudo journalctl -u cosmovisor -f
 ```
 
