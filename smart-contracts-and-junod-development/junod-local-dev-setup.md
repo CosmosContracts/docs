@@ -69,7 +69,7 @@ To use a specific version of Juno, check out a tag before running docker compose
 To call Juno inside a container, use `docker exec` like so:
 
 ```
-docker exec -i juno_node_1 junod tx wasm store "/cw_unity_prop.wasm" --from validator --output json 
+docker exec -i juno_node_1 junod tx wasm store "/your_compiled.wasm" --from validator --output json 
 ```
 
 ## Quickstart on the testnet with a public node
