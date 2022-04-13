@@ -68,7 +68,17 @@ To use a specific version of Juno, check out a tag before running docker compose
 
 To call Juno inside a container, use `docker exec` like so:
 
-```
+```bash
+# compile wasm - run this in your smart contract folder
+docker run --rm -v "$(pwd)":/code \
+  --mount type=volume,source="$(basename "$(pwd)")_cache",target=/code/target \
+  --mount type=volume,source=registry_cache,target=/usr/local/cargo/registry \
+  cosmwasm/rust-optimizer:0.12.5
+
+# copy wasm to container
+docker cp artifacts/your_compiled.wasm juno_node_1:/your_compiled.wasm
+
+# store wasm
 docker exec -i juno_node_1 junod tx wasm store "/your_compiled.wasm" --from validator --output json 
 ```
 
