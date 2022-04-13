@@ -235,6 +235,8 @@ It is recommended that you encrypt the backup of these files.
 
 After creating your validator private key, you will want to sync using a backup to after the Lupercalia chain restart, and the security patch that followed. You can do this using a snapshot.
 
+The example instructions here should work, although the heights of the snapshots will change. You can check out instructions and current versions from Pokachu [here](https://polkachu.com/tendermint\_snapshots/juno).
+
 ```bash
 wget -O juno_2616376.tar.lz4 https://snapshots2.polkachu.com/snapshots/juno/juno_2616376.tar.lz4
 junod unsafe-reset-all
