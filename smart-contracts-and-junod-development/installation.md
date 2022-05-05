@@ -78,7 +78,7 @@ git clone https://github.com/CosmosContracts/juno.git && cd juno
 
 # get current testnet tag
 git fetch --tags
-git checkout v3.1.0
+git checkout v4.0.0
 
 # build juno executable
 make build && make install

@@ -16,7 +16,7 @@ If you get stuck, then please ask on Discord.
 
 | chain-id | Current Github version tag |             Description            | Status  |
 | -------- | -------------------------- | :--------------------------------: | ------- |
-| uni-2    | v2.3.0-beta.2              | Testing ground for wasm contracts. | current |
+| uni-2    | v4.0.0-beta                | Testing ground for wasm contracts. | current |
 
 ## Minimum Hardware Requirements
 
