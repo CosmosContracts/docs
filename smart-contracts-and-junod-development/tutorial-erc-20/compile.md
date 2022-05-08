@@ -37,7 +37,7 @@ However, we want to create an optimised version to limit gas usage, so we're goi
 sudo docker run --rm -v "$(pwd)":/code \
     --mount type=volume,source="$(basename "$(pwd)")_cache",target=/code/target \
     --mount type=volume,source=registry_cache,target=/usr/local/cargo/registry \
-    cosmwasm/rust-optimizer:0.11.4
+    cosmwasm/rust-optimizer:0.12.6
 ```
 
 This will result in an artifact called `cw_erc20.wasm` being created in the `artifacts` directory.

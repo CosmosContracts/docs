@@ -17,7 +17,7 @@ git clone https://github.com/CosmWasm/cw-plus.git
 
 git fetch --tags
 
-git checkout v0.10.1
+git checkout v0.9.2
 
 cd contracts/cw1-subkeys
 ```
@@ -30,7 +30,7 @@ Unlike before, where we compiled just the one contract, we'll compile all of the
 sudo docker run --rm -v "$(pwd)":/code \
   --mount type=volume,source="$(basename "$(pwd)")_cache",target=/code/target \
   --mount type=volume,source=registry_cache,target=/usr/local/cargo/registry \
-  cosmwasm/workspace-optimizer:0.11.3
+  cosmwasm/workspace-optimizer:0.12.6
 ```
 
 ### Store

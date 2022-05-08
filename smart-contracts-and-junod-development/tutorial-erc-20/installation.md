@@ -44,7 +44,7 @@ Use go 1.16.3+ for compiling`junod`executable if you are building from source. I
 git clone https://github.com/CosmosContracts/juno.git && cd juno
 
 git fetch --tags
-git checkout v4.0.0
+git checkout v5.0.1
 
 # build juno executable
 make install
