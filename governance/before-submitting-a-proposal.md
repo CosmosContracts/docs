@@ -6,7 +6,7 @@ description: 🛠 This page is a work in progress, and should not be considered 
 
 ### Introduction
 
-Governance exists for the community of token holders to decide on key issues involving the blockchain and its development. This is achieved by proposing items of business to be voted on my the token holders.
+Governance exists for the community of token holders to decide on key issues involving the blockchain and its development. This is achieved by proposing items of business to be voted on by the token holders.
 
 There are four forms of governance proposal:
 
@@ -24,7 +24,7 @@ Please note the following special circumstances before proceeding:
 
 ### Begin the conversation
 
-Raise your proposal in the [Telegram ](https://t.me/JunoNetwork)chat or the #⚖︱governance discord channel. This will give you the opportunity to discuss with other network users and developers and further develop your ideas. Other participants may have some interest in the proposal and offer to further improve your proposal, or you may find that this idea has no support or maybe has already been satisfied in some other way.
+Raise your proposal in the [Telegram](https://t.me/JunoNetwork) chat or the #⚖︱governance discord channel. This will give you the opportunity to discuss with other network users and developers and further develop your ideas. Other participants may have some interest in the proposal and offer to further improve your proposal, or you may find that this idea has no support or maybe has already been satisfied in some other way.
 
 Check via the block explorer that there is not already a past or present proposal that already directly deals with your issue.
 
