@@ -2,7 +2,7 @@
 description: >-
   In this section, we will gear up your workspace for developing, deploying and
   enjoying smart contracts on Cosmos SDK.
-cover: ../.gitbook/assets/Gitbook Banner large 6 (1) (1) (19).png
+cover: ../.gitbook/assets/Gitbook Banner large 6 (1) (1) (10) (20).png
 coverY: 0
 ---
 
@@ -22,7 +22,7 @@ Assuming you have never worked with rust, you will first need to install some to
 
 ## Installing Rust in Linux and Mac
 
-First, [install rustup](https://rustup.rs). Once installed, make sure you have the wasm32 target:
+First, [install rustup](https://rustup.rs/). Once installed, make sure you have the wasm32 target:
 
 ```bash
 rustup default stable
@@ -40,7 +40,7 @@ rustup target add wasm32-unknown-unknown
 If working on a validator or a server, you should use Linux if possible. You will have a much better time...
 {% endhint %}
 
-First, download and execute `rustup-init.exe` from [rustup.rs](https://rustup.rs) or [rust-lang.org](https://www.rust-lang.org/tools/install).
+First, download and execute `rustup-init.exe` from [rustup.rs](https://rustup.rs/) or [rust-lang.org](https://www.rust-lang.org/tools/install).
 
 If requested, manually download and install Visual C++ Build Tools 2019, from [here](https://visualstudio.microsoft.com/visual-cpp-build-tools). Make sure "Windows 10 SDK" and "English language pack" are selected.
 

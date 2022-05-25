@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/Gitbook Banner large 6 (10) (1).png
+cover: ../.gitbook/assets/Gitbook Banner large 6 (1) (1) (10) (22).png
 coverY: 0
 ---
 
@@ -15,11 +15,11 @@ The entrance of a new programming language to the Cosmos Network has several ben
 
 _**The time is now**_**.**
 
-With the [v1.0.0-beta release](https://github.com/CosmWasm/cosmwasm/tree/v1.0.0-beta), we are establishing to build the future of all [Cosmos chains](https://cosmos.network). Wasm [promises backwards compatibility](https://medium.com/cosmwasm/wen-cosmwasm-1-0-f83c3528187c) and easy upgrade paths from v1.0.0-beta to all future 1.x versions. With stable, polished APIs, and [huge performance improvements](https://medium.com/cosmwasm/wasmer-1-0-integrated-into-cosmwasm-2fa87437458c), we are providing fertile ground for a growing ecosystem of DeFi, NFTs, Governance, and more.
+With the [v1.0.0-beta release](https://github.com/CosmWasm/cosmwasm/tree/v1.0.0-beta), we are establishing to build the future of all [Cosmos chains](https://cosmos.network/). Wasm [promises backwards compatibility](https://medium.com/cosmwasm/wen-cosmwasm-1-0-f83c3528187c) and easy upgrade paths from v1.0.0-beta to all future 1.x versions. With stable, polished APIs, and [huge performance improvements](https://medium.com/cosmwasm/wasmer-1-0-integrated-into-cosmwasm-2fa87437458c), we are providing fertile ground for a growing ecosystem of DeFi, NFTs, Governance, and more.
 
 Don’t be too worried about the _beta_ label. The APIs are stable and have been tested heavily in various testnets and even a mainnet or two. Confio is awaiting the result of a formal audit, that will start late October. Once the audit results arrive and any issues reported are fixed, Confio will make the official v1.0.0 tag, with _no other changes_.
 
-## Why CosmWasm? <a href="ea4f" id="ea4f"></a>
+## Why CosmWasm? <a href="#ea4f" id="ea4f"></a>
 
 CosmWasm runs Web Assembly (Wasm) bytecode, with very mature bindings to develop in the Rust programming language. We are looking to add support for smart contracts in Golang by Q2 next year. This provides a safe, highly performant runtime for your contracts, and the ease of using mature tooling and test frameworks in well-established languages with large developer communities.
 
@@ -28,10 +28,3 @@ The APIs have been designed both for ease of development, as well as preventing 
 Besides exploits like reentrancy attacks, faulty implementations of the business logic are a [huge cause of DeFi hacks](https://defirate.com/opyn-hack/). Years of computer engineering have shown that testing (whether unit testing, BDD tests, fuzz tests or TDD) are the best way to avoid such errors in your programs. CosmWasm makes it easy to test your contracts at many level of complexity — from [unit testing a contract in isolation](https://github.com/CosmWasm/cw-plus/blob/main/contracts/cw20-base/src/contract.rs#L786-L831) with mocked input, to native Rust tests [simulating complex cross-contract interactions](https://github.com/CosmWasm/cw-plus/blob/main/contracts/cw3-flex-multisig/src/contract.rs#L528-L572), to integration tests of a [contract inside a running blockchain](https://github.com/CosmWasm/wasmd/blob/master/x/wasm/keeper/staking\_test.go#L225-L271). You can even write tests in TypeScript [to test cross-chain contract calls](https://github.com/confio/ts-relayer/blob/main/src/lib/cosmwasm.spec.ts#L152-L298) with local blockchain nodes.
 
 In short, CosmWasm allows you to use familiar, powerful, and safe languages to write highly performant and secure smart contracts. These smart contracts can be deployed to a number of different blockchains and even communicate across blockchains via IBC.
-
-
-
-
-
-
-

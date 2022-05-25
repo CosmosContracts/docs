@@ -1,5 +1,5 @@
 ---
-cover: ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (19).png
+cover: ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (10) (20).png
 coverY: 0
 ---
 
@@ -15,7 +15,7 @@ Assuming you have never worked with rust, you will first need to install some to
 
 ### Installing Rust in Linux and Mac
 
-First, [install rustup (opens new window)](https://rustup.rs). Once installed, make sure you have the wasm32 target:
+First, [install rustup (opens new window)](https://rustup.rs/). Once installed, make sure you have the wasm32 target:
 
 ```
 rustup default stable

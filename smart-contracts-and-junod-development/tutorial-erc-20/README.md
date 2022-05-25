@@ -1,7 +1,7 @@
 ---
 order: 1
 description: Make your own memecoin!
-cover: ../../.gitbook/assets/Gitbook Banner large 6 (11).png
+cover: ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (10) (20).png
 coverY: 0
 ---
 

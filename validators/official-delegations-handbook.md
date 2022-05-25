@@ -1,11 +1,23 @@
 ---
-cover: ../.gitbook/assets/Gitbook Banner large 6 (1) (1) (17).png
+cover: ../.gitbook/assets/Gitbook Banner large 6 (1) (1) (10) (18).png
 coverY: 0
 ---
 
 # Official Delegations Handbook
 
-A Juno network validator may qualify for official delegations to be assigned by the core development reserve. New delegation rounds happen every 6 months and are assigned/ re-assigned based on the criteria listed below. A validator does not need to request delegations. Instead the core-1 team will screen the entire set 2 weeks prior to a new delegation round. Criteria are ranked either High, Medium or Low which indicates how each category is weighted. A validator may fulfill several of the criteria and therefore get a higher official delegation. Once a 6 month delegation round ends, the delegations are removed and reassigned based on the core criteria. The highest weight is allocated to dapp/contract development, core network development contributions & on-chain governance participation. The vision is for Juno validators to be active participants especially on the smart contract front as that is the core specialization of the Juno Hub.
+A Juno network validator may qualify for official delegations to be assigned by the core development reserve.&#x20;
+
+New delegation rounds happen every 6 months and are assigned/ re-assigned based on the criteria listed below.&#x20;
+
+A validator does not need to request delegations. Instead the core-1 team will screen the entire set 2 weeks prior to a new delegation round.&#x20;
+
+Criteria are ranked either High, Medium or Low which indicates how each category is weighted. A validator may fulfill several of the criteria and therefore get a higher official delegation.&#x20;
+
+Once a 6 month delegation round ends, the delegations are removed and reassigned based on the core criteria.&#x20;
+
+The highest weight is allocated to dapp/contract development, core network development contributions & on-chain governance participation.&#x20;
+
+The vision is for Juno validators to be active participants especially on the smart contract front as that is the core specialization of the Juno Hub.
 
 ## Official delegation criteria
 
@@ -21,6 +33,7 @@ A Juno network validator may qualify for official delegations to be assigned by 
 10. A validator that gets hard-slashed 1 time during a delegation round loses his/her official delegation.
 11. Core development work on the main code base (High Priority)
 12. Validator min gas price must be set equal to or greater than 0.0025ujuno
+13. A validator that is white-labelled, operates a revenue split, or is not run wholly by the team applying for the delegation is ineligible for a delegation
 
 Note: A new 6 month delegation round is announced in the official channels on Discord & Telegram many weeks prior to kickoff.
 
