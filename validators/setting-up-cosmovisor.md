@@ -169,6 +169,10 @@ In addition, the same issue can be fixed by reducing the log via env variable. I
 
 ## Start Cosmovisor
 
+{% hint style="warning" %}
+If syncing from a snapshot, do not start Cosmovisor yet.
+{% endhint %}
+
 Finally, enable the service and start it.
 
 ```bash
