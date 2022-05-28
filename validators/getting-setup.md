@@ -37,7 +37,7 @@ wget https://golang.org/dl/go1.18.2.linux-amd64.tar.gz
 sudo tar -C /usr/local -xzf go1.18.2.linux-amd64.tar.gz
 ```
 
-Please install Go v1.17 or later.
+Please install Go v1.18 or later.
 
 Unless you want to configure in a non standard way, then set these in the `.profile` in the user's home (i.e. `~/`) folder.
 
@@ -85,11 +85,7 @@ To confirm that the installation has succeeded, you can run:
 
 ```bash
 junod version
+
+# v3.0.0
 ```
-
-## Connecting to the network
-
-To connect to the Juno network you can either run your own node or connect to a public node's RPC endpoint. To find a public node to connect to consider looking in the Juno [Discord](https://discord.gg/QcWPfK4gJ2). Connecting to a public node requires the least configuration but you should be sure that you trust whatever node that you choose.
-
-If you choose to run your own node see either [Joining Mainet](joining-mainnet.md) or [Joining Testnets](joining-the-testnets.md) depending on what chain you would like to work on.
 
