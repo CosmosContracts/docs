@@ -97,7 +97,7 @@ This will generate the following files in `~/.juno/config/`
 * `node_key.json`
 * `priv_validator_key.json`
 
-### Download the genesis file[#junod-installation](joining-mainnet.md#junod-installation "mention")[#junod-installation](joining-mainnet.md#junod-installation "mention")[#junod-installation](joining-mainnet.md#junod-installation "mention")[#junod-installation](joining-mainnet.md#junod-installation "mention")[#junod-installation](joining-mainnet.md#junod-installation "mention")[#junod-installation](joining-mainnet.md#junod-installation "mention")[#junod-installation](joining-mainnet.md#junod-installation "mention")[#junod-installation](joining-mainnet.md#junod-installation "mention")
+### Download the genesis file
 
 Download the the "Phoenix" geneis file. The following instructions download the genesis file hosted by blockpane.&#x20;
 
