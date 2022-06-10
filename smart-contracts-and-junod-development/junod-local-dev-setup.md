@@ -41,6 +41,7 @@ Always pick a tagged version to run, ideally one that matches mainnet. The examp
 ```
 docker run -it \
   --name juno_node_1 \
+  -p 1317:1317 \
   -p 26656:26656 \
   -p 26657:26657 \
   -e STAKE_TOKEN=ujunox \
