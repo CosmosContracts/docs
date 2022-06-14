@@ -20,7 +20,11 @@ There are four steps involved in working with a smart contract.
 
 We will go through all of these in this tutorial.
 
-There is a video version available as well:
+There is a video version available as well. The versions have changed since the video, but the main difference is that you should run Juno in Docker on your laptop rather than building youself:
+
+{% content-ref url="../junod-local-dev-setup.md" %}
+[junod-local-dev-setup.md](../junod-local-dev-setup.md)
+{% endcontent-ref %}
 
 {% embed url="https://www.youtube.com/embed/c3DDHobH3Ow" %}
 

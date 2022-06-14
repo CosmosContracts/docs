@@ -20,6 +20,10 @@ As before, this will take four steps. Unlike before, we have more options for ex
    3. See tokens arrive at key (C)
    4. See allowance decrease for key (B)
 
-There is a video available that walks through the steps in this tutorial:
+There is a video available that walks through the steps in this tutorial. The versions have changed since the video, but the main difference is that you should run Juno in Docker on your laptop rather than building youself:
+
+{% content-ref url="../junod-local-dev-setup.md" %}
+[junod-local-dev-setup.md](../junod-local-dev-setup.md)
+{% endcontent-ref %}
 
 {% embed url="https://youtu.be/9yDaCklWlU0" %}
