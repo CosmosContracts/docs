@@ -58,6 +58,8 @@ The quickest way to get up-and-running for development purposes, as is documente
 STAKE_TOKEN=ujunox UNSAFE_CORS=true docker-compose up
 ```
 
+{% hint style="warning" %} If you're on the latest version of Docker, you may need to do `docker compose up` rather than `docker-compose up` {% endhint %}
+
 This builds and runs the node and:
 
 * Creates and initialises a validator
