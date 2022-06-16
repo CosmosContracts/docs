@@ -11,6 +11,7 @@
 * [Contributors](juno/juno-developers.md)
 * [Brand Identity](juno/brand-identity.md)
 * [Social/Resources/Updates](juno/social-resources-updates.md)
+* [Security Disclosures](juno/security-disclosures.md)
 
 ## TUTORIALS
 

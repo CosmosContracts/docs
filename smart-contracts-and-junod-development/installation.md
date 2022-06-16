@@ -2,7 +2,7 @@
 description: >-
   In this section, we will gear up your workspace for developing, deploying and
   enjoying smart contracts on Cosmos SDK.
-cover: ../.gitbook/assets/Gitbook Banner large 6 (1) (1) (10) (20).png
+cover: ../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (21).png
 coverY: 0
 ---
 
