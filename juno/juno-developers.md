@@ -94,4 +94,6 @@ Imperator.co [https://twitter.com/imperator\_co](https://twitter.com/imperator\_
 
 EZStaking.io https://twitter.com/EZStaking
 
+Lavender.Five [https://www.lavenderfive.com/](https://www.lavenderfive.com/)
+
 The list is constantly expanding. If your name is not mentioned and your actively contributing please reach out to the core team.
