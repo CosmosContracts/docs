@@ -119,7 +119,7 @@ which junod
 Then use the path returned to copy it to the directory Cosmovisor expects. Let's assume the previous command returned `/home/your-user/go/bin/junod`:
 
 ```bash
-cp /home/<your-user>/go/bin/junod $DAEMON_HOME/cosmovisor/genesis/bin
+cp $HOME/go/bin/junod $DAEMON_HOME/cosmovisor/genesis/bin
 ```
 
 Once you're done, check the folder structure looks correct using a tool like `tree`.
@@ -133,14 +133,14 @@ Nevertheless, just as we would manage `junod` using a process manager, we would 
 First, create the service file:
 
 ```bash
-sudo nano /etc/systemd/system/cosmovisor.service
+sudo nano /etc/systemd/system/junod.service
 ```
 
 Change the contents of the below to match your setup - `cosmovisor` is likely at `~/go/bin/cosmovisor` regardless of which installation path you took above, but it's worth checking.
 
 ```
 [Unit]
-Description=cosmovisor
+Description=Juno Daemon (cosmovisor)
 After=network-online.target
 
 [Service]
@@ -177,18 +177,18 @@ Finally, enable the service and start it.
 
 ```bash
 sudo -S systemctl daemon-reload
-sudo -S systemctl enable cosmovisor
-sudo systemctl start cosmovisor
+sudo -S systemctl enable junod
+sudo systemctl start junod
 ```
 
 Check it is running using:
 
 ```
-sudo systemctl status cosmovisor
+sudo systemctl status junod
 ```
 
 If you need to monitor the service after launch, you can view the logs using:
 
 ```bash
-journalctl -u cosmovisor -f
+journalctl -fu junod
 ```
