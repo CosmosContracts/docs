@@ -24,7 +24,7 @@ In order to streamline chain upgrades and minimise downtime, you may want to set
 
 ### Backups
 
-Backups of chain state are possible using the commands specified [here](https://hub.cosmos.network/main/gaia-tutorials/join-mainnet.html#export-state). If you are using a recent version of Cosmovisor, then the default configuration is that a state backup will be created before upgrades are applied. [This can be turned off using environment flags](https://docs.cosmos.network/master/run-node/cosmovisor.html#command-line-arguments-and-environment-variables).
+Backups of chain state are possible using the commands specified [here](https://hub.cosmos.network/main/hub-tutorials/join-mainnet.html#exporting-state). If you are using a recent version of Cosmovisor, then the default configuration is that a state backup will be created before upgrades are applied. [This can be turned off using environment flags](https://docs.cosmos.network/master/run-node/cosmovisor.html#command-line-arguments-and-environment-variables).
 
 ### Alerting and monitoring
 
