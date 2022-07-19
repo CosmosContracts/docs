@@ -65,7 +65,7 @@ Binary version [v4.0.0](https://github.com/CosmosContracts/juno/releases/tag/v4.
 
 Upgrade height **2951100**.&#x20;
 
-Refer to upgrade instructions [here](https://github.com/CosmosContracts/mainnet/blob/main/juno-1/UNITY\_UPGRADE.md).
+Refer to upgrade instructions [here](https://github.com/CosmosContracts/mainnet/blob/main/juno-1/1300_UNITY_UPGRADE.md).
 
 This upgrade was undertaken on May 4th 2022.
 
@@ -79,7 +79,7 @@ Binary version [v5.0.1](https://github.com/CosmosContracts/juno/releases/tag/v5.
 
 Upgrade height **3035000**.
 
-Refer to upgrade instructions [here](https://github.com/CosmosContracts/mainnet/blob/main/juno-1/VERITAS\_UPGRADE.md).
+Refer to upgrade instructions [here](https://github.com/CosmosContracts/mainnet/blob/main/juno-1/1400_VERITAS_UPGRADE.md).
 
 This upgrade was undertaken on May 10th 2022.
 
