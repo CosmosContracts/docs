@@ -93,5 +93,14 @@ Upgrade height **3159650**.
 
 This upgrade was undertaken on May 19 2022.
 
+### Multiverse upgrade
 
+Binary version [v8.0.0](https://github.com/CosmosContracts/juno/releases/tag/v8.0.0).
 
+Upgrade height **3851750**.
+
+Refer to upgrade instructions [here](https://github.com/CosmosContracts/mainnet/blob/main/juno-1/1600_MULTIVERSE_UPGRADE.md).
+
+This upgrade was undertaken on July 7th 2022.
+
+This was a scheduled upgrade that adds ICA Host functionality to the Juno chain. The multiverse upgrade was initially supposed to be released in v7.0.0 but due to a bug was released in v8.0.0 instead.
