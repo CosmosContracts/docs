@@ -12,9 +12,9 @@ coverY: 0
 
 ### **Independent Collective for Web3 infrastructure development on Juno.**
 
-Andrea Di Michele - Dimi (stakefish) [https://twitter.com/dimiandre](https://twitter.com/dimiandre)
+Andrea Di Michele aka Dimi (stakefish) [https://twitter.com/dimiandre](https://twitter.com/dimiandre)
 
-Lobo (SG-1)[ https://twitter.com/LoboJuno](https://twitter.com/lobojuno)
+Lobo aka Wolf (SG-1)[ https://twitter.com/LoboJuno](https://twitter.com/lobojuno)
 
 Blockcreators [https://twitter.com/CosmosChain](https://twitter.com/CosmosChain)
 
@@ -26,9 +26,9 @@ Jacob Gadikian (Notional) [https://twitter.com/gadikian](https://twitter.com/gad
 
 Max aka Wombat [https://twitter.com/max\_maxsolo](https://twitter.com/max\_maxsolo)
 
-The Frey (**N**eedlecast) [https://twitter.com/frey\_needlecast](https://twitter.com/frey\_needlecast)
+Alex aka The Frey (**N**eedlecast) [https://twitter.com/frey\_needlecast](https://twitter.com/frey\_needlecast)
 
-nullmames (kingnodes) [https://twitter.com/nullmames](https://twitter.com/nullMames)
+Null aka nullmames (kingnodes) [https://twitter.com/nullmames](https://twitter.com/nullMames)
 
 Callum (DAODAO) [https://twitter.com/callum\_and1](https://twitter.com/callum\_and1)
 
@@ -40,7 +40,7 @@ Kevin Garrison (Oni Validator) [https://twitter.com/KevinGarrison](https://twitt
 
 Andrew Gouin @gnudrew25
 
-Tosch (SG-1) [https://twitter.com/ToschDev](https://twitter.com/ToschDev)
+Tosch aka Toschdev (SG-1) [https://twitter.com/ToschDev](https://twitter.com/ToschDev)
 
 Joe Abbey @joeabbey [https://twitter.com/JoeAbbey](https://twitter.com/JoeAbbey)
 
