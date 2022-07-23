@@ -1,68 +1,74 @@
 ---
-cover: ../.gitbook/assets/wallpaperflare.com_wallpaper (61).jpg
-coverY: 0
 description: >-
   Hundreds of independent Cosmos ecosystem contributors are working on the Juno
   core network, independent dapps, tooling and more.
+cover: ../.gitbook/assets/wallpaperflare.com_wallpaper (61).jpg
+coverY: 0
 ---
 
 # Contributors
 
-### ****[**Core - 1**](https://www.discord.gg/Juno)****
+### ****[**C-Root**](https://twitter.com/CRootHQ)****
 
-### **Collective for Core Web3 infrastructure development on Juno.**
-
-
+### **Independent Collective for Web3 infrastructure development on Juno.**
 
 Andrea Di Michele - Dimi (stakefish) [https://twitter.com/dimiandre](https://twitter.com/dimiandre)
 
-Wolfcontract (SG-1) [https://twitter.com/wolfcontract](https://twitter.com/wolfcontract)
+Lobo (SG-1)[ https://twitter.com/LoboJuno](https://twitter.com/lobojuno)
 
 Blockcreators [https://twitter.com/CosmosChain](https://twitter.com/CosmosChain)
 
-Jake Hartnell (Stargaze.Zone) [https://twitter.com/JakeHartnell](https://twitter.com/JakeHartnell)
+Jake Hartnell (Stargaze) [https://twitter.com/JakeHartnell](https://twitter.com/JakeHartnell)
 
-Jack Zampolin (Strangelove Ventures) [https://twitter.com/jack\_zampolin](https://twitter.com/jack\_zampolin)
-
-### ****[**Core - 2**](https://www.discord.gg/Juno)****
-
-### **Collective for Core Web3 infrastructure development on Juno.**
-
-****
+Jack Zampolin (Strangelove) [https://twitter.com/jack\_zampolin](https://twitter.com/jack\_zampolin)
 
 Jacob Gadikian (Notional) [https://twitter.com/gadikian](https://twitter.com/gadikian)
 
-Giansalex (Disperze) [https://twitter.com/giansalex](https://twitter.com/giansalex)
+Max (Wombat) [https://twitter.com/max\_maxsolo](https://twitter.com/max\_maxsolo)
 
-The Frey (**N**eedlecast) the-frey#8626
+The Frey (**N**eedlecast) [https://twitter.com/frey\_needlecast](https://twitter.com/frey\_needlecast)
 
 nullmames (kingnodes) [https://twitter.com/nullmames](https://twitter.com/nullMames)
 
-EZStaking.io [https://twitter.com/EZStaking](https://twitter.com/EZStaking)
+Callum [https://twitter.com/callum\_and1](https://twitter.com/callum\_and1)
 
-Ibrar (Imperator) #6519
+Camel [https://twitter.com/TheJunonaut](https://twitter.com/TheJunonaut)
 
-Ben (Ben 2x4) [https://twitter.com/ben2x4](https://twitter.com/ben2x4)
+Ekez [https://twitter.com/ekez\_\_\_](https://twitter.com/ekez\_\_\_)
+
+Kevin Garrison (Oni Validator) [https://twitter.com/KevinGarrison](https://twitter.com/KevinGarrison)
+
+Andrew Gouin @gnudrew25
 
 Tosch (SG-1) [https://twitter.com/ToschDev](https://twitter.com/ToschDev)
 
-Ximpe (Imperator) [https://twitter.com/imperator\_co](https://twitter.com/imperator\_co)
+Joe Abbey @joeabbey [https://twitter.com/JoeAbbey](https://twitter.com/JoeAbbey)
 
-### **Independent development contributors on key tooling, dapps, contracts & network security**
+Boojamya @boojamya
 
-****
+Giansalex (Disperze) [https://twitter.com/giansalex](https://twitter.com/giansalex)
+
+Ben (Ben 2x4) [https://twitter.com/ben2x4](https://twitter.com/ben2x4)
+
+Highlander (Highlander Nodes) [https://twitter.com/HighlanderNodes](https://twitter.com/HighlanderNodes)
+
+Orkun (DEUS Labs) [https://twitter.com/zl00ba](https://twitter.com/zl00ba)
+
+Eliot Baker (elgorithm) elgorithm#0574
+
+Ethan Frey (Confio) @ethansf
+
+David Fortson (LOA Labs) [https://twitter.com/dave\_fortson](https://twitter.com/dave\_fortson)
+
+Zak (Ez Staking) @keupsonite
+
+catshark (Notional) [https://twitter.com/\_cat\_shark](https://twitter.com/\_cat\_shark)
 
 Sistla Abhishek (OmniFlix) [https://twitter.com/svabhishek](https://twitter.com/svabhishek)
 
 Simon Warta (Confio) [https://twitter.com/simon\_warta](https://twitter.com/simon\_warta)
 
-Highlander (Highlander Nodes) [https://twitter.com/HighlanderNodes](https://twitter.com/HighlanderNodes)
-
-Orkun (Confio) [https://twitter.com/zl00ba](https://twitter.com/zl00ba)
-
 Denis Fadeev (Tendermint) [https://twitter.com/fadeev](https://twitter.com/fadeev)
-
-Zaki Manian (Iqlusion) [https://twitter.com/zmanian](https://twitter.com/zmanian)
 
 Wabam (SpacePotatoe) @spacepotayto
 
@@ -74,21 +80,19 @@ Awef awef #1883
 
 shashankgoyal #3525
 
-Eliot Baker (elgorithm) elgorithm#0574
-
 Nonsencecode nonsensetwice#3475
 
 ### Relayers (The unsung heros of the Cosmos)
 
-Cros-nest [https://twitter.com/crosnest\_com ](https://twitter.com/crosnest\_com)
+Cros-nest [https://twitter.com/crosnest\_com](https://twitter.com/crosnest\_com)
 
-CryptoCrew Validators [https://twitter.com/crypto\_crew](https://twitter.com/crypto\_crew)&#x20;
+CryptoCrew Validators [https://twitter.com/crypto\_crew](https://twitter.com/crypto\_crew)
 
-Cephalopod Equipment Corp [https://twitter.com/CephalopodEquip](https://twitter.com/CephalopodEquip)&#x20;
+Cephalopod Equipment Corp [https://twitter.com/CephalopodEquip](https://twitter.com/CephalopodEquip)
 
-Notional [https://twitter.com/gadikian](https://twitter.com/gadikian)&#x20;
+Notional [https://twitter.com/gadikian](https://twitter.com/gadikian)
 
-SpacePotato @spacepotayto&#x20;
+SpacePotato @spacepotayto
 
 Imperator.co [https://twitter.com/imperator\_co](https://twitter.com/imperator\_co)
 
