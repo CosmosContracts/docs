@@ -18,13 +18,13 @@ Lobo (SG-1)[ https://twitter.com/LoboJuno](https://twitter.com/lobojuno)
 
 Blockcreators [https://twitter.com/CosmosChain](https://twitter.com/CosmosChain)
 
-Jake Hartnell (Stargaze) [https://twitter.com/JakeHartnell](https://twitter.com/JakeHartnell)
+Jake Hartnell aka Meow (DAODAO & Stargaze) [https://twitter.com/JakeHartnell](https://twitter.com/JakeHartnell)
 
 Jack Zampolin (Strangelove) [https://twitter.com/jack\_zampolin](https://twitter.com/jack\_zampolin)
 
 Jacob Gadikian (Notional) [https://twitter.com/gadikian](https://twitter.com/gadikian)
 
-Max (Wombat) [https://twitter.com/max\_maxsolo](https://twitter.com/max\_maxsolo)
+Max aka Wombat [https://twitter.com/max\_maxsolo](https://twitter.com/max\_maxsolo)
 
 The Frey (**N**eedlecast) [https://twitter.com/frey\_needlecast](https://twitter.com/frey\_needlecast)
 
