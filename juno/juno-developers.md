@@ -8,7 +8,7 @@ coverY: 0
 
 # Contributors
 
-### ****[**C-Root**](https://twitter.com/CRootHQ)****
+### ****[**C-Root**](https://twitter.com/CRootHQ) **** 🌱
 
 ### **Independent Collective for Web3 infrastructure development on Juno.**
 
