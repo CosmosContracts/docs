@@ -26,7 +26,7 @@ Jacob Gadikian (Notional) [https://twitter.com/gadikian](https://twitter.com/gad
 
 Max aka Wombat [https://twitter.com/max\_maxsolo](https://twitter.com/max\_maxsolo)
 
-Alex aka The Frey (**N**eedlecast) [https://twitter.com/frey\_needlecast](https://twitter.com/frey\_needlecast)
+Alex aka The Frey (Needlecast) [https://twitter.com/frey\_needlecast](https://twitter.com/frey\_needlecast)
 
 Null aka nullmames (kingnodes) [https://twitter.com/nullmames](https://twitter.com/nullMames)
 
@@ -35,6 +35,8 @@ Callum (DAODAO) [https://twitter.com/callum\_and1](https://twitter.com/callum\_a
 Junonaut [https://twitter.com/TheJunonaut](https://twitter.com/TheJunonaut)
 
 Ekez (DAODAO) [https://twitter.com/ekez\_\_\_](https://twitter.com/ekez\_\_\_)
+
+Ethereal (Strangelove) [https://twitter.com/Ethereal0ne](https://twitter.com/Ethereal0ne)
 
 Kevin Garrison (Oni Validator) [https://twitter.com/KevinGarrison](https://twitter.com/KevinGarrison)
 
