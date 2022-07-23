@@ -30,11 +30,11 @@ The Frey (**N**eedlecast) [https://twitter.com/frey\_needlecast](https://twitter
 
 nullmames (kingnodes) [https://twitter.com/nullmames](https://twitter.com/nullMames)
 
-Callum [https://twitter.com/callum\_and1](https://twitter.com/callum\_and1)
+Callum (DAODAO) [https://twitter.com/callum\_and1](https://twitter.com/callum\_and1)
 
 Camel [https://twitter.com/TheJunonaut](https://twitter.com/TheJunonaut)
 
-Ekez [https://twitter.com/ekez\_\_\_](https://twitter.com/ekez\_\_\_)
+Ekez (DAODAO) [https://twitter.com/ekez\_\_\_](https://twitter.com/ekez\_\_\_)
 
 Kevin Garrison (Oni Validator) [https://twitter.com/KevinGarrison](https://twitter.com/KevinGarrison)
 
