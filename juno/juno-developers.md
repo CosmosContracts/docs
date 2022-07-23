@@ -32,7 +32,7 @@ Null aka nullmames (kingnodes) [https://twitter.com/nullmames](https://twitter.c
 
 Callum (DAODAO) [https://twitter.com/callum\_and1](https://twitter.com/callum\_and1)
 
-Camel [https://twitter.com/TheJunonaut](https://twitter.com/TheJunonaut)
+Junonaut [https://twitter.com/TheJunonaut](https://twitter.com/TheJunonaut)
 
 Ekez (DAODAO) [https://twitter.com/ekez\_\_\_](https://twitter.com/ekez\_\_\_)
 
