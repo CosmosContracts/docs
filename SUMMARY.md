@@ -4,14 +4,15 @@
 
 * [Introduction](README.md)
 * [Home of CosmWasm](juno/home-of-cosmwasm.md)
-* [Economic Overview](juno/economic-overview/README.md)
-  * [Native Asset (JUNO)](juno/economic-overview/asset.md)
-  * [Incentive structure](juno/economic-overview/incentive-structure.md)
-  * [Supply API - Data](juno/economic-overview/supply-api-data.md)
 * [Contributors](juno/juno-developers.md)
 * [Brand Identity](juno/brand-identity.md)
 * [Social/Resources/Updates](juno/social-resources-updates.md)
 * [Security Disclosures](juno/security-disclosures.md)
+* [Economic Overview](juno/economic-overview/README.md)
+  * [Disclaimer](juno/economic-overview/disclaimer.md)
+  * [Native Asset (JUNO)](juno/economic-overview/asset.md)
+  * [Incentive structure](juno/economic-overview/incentive-structure.md)
+  * [Supply API - Data](juno/economic-overview/supply-api-data.md)
 
 ## TUTORIALS
 

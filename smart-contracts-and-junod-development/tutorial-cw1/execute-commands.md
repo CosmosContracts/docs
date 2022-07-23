@@ -2,7 +2,7 @@
 description: >-
   Now we complete the task - sending some tokens that have been delegated to a
   key
-cover: ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (10) (20).png
+cover: ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (22).png
 coverY: 0
 ---
 

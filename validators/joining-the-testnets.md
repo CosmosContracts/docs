@@ -1,12 +1,12 @@
 ---
-description: General instructions on how to join the Juno testnets
-cover: ../.gitbook/assets/Gitbook Banner large 6 (1) (1) (10) (19).png
+description: General instructions on how to join the Juno testnet
+cover: ../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (21).png
 coverY: 0
 ---
 
-# Joining Testnets
+# Joining Testnet
 
-## Current testnets
+## Current testnet
 
 Below is the list of Juno testnets and their current status. You will need to know the version tag for installation of the `junod` binary.
 
@@ -14,17 +14,17 @@ For details of upgrades on the current testnet, as well as syncing, you can [che
 
 If you get stuck, then please ask on Discord.
 
-| chain-id | Current Github version tag |             Description            | Status  |
-| -------- | -------------------------- | :--------------------------------: | ------- |
-| uni-2    | v4.0.0-beta                | Testing ground for wasm contracts. | current |
+| chain-id | Current Github version tag |
+| -------- | -------------------------- |
+| uni-3    | v6.0.0                     |
 
 ## Minimum Hardware Requirements
 
 The minimum recommended hardware requirements for running a validator for the Juno testnets are:
 
-| Chain-id | Requirements                                                                          |
-| -------- | ------------------------------------------------------------------------------------- |
-| uni-2    | <ul><li>16GB RAM</li><li>200GB of disk space</li><li>2 Cores (modern CPU's)</li></ul> |
+| Requirements                                                                          |
+| ------------------------------------------------------------------------------------- |
+| <ul><li>16GB RAM</li><li>200GB of disk space</li><li>2 Cores (modern CPU's)</li></ul> |
 
 {% hint style="warning" %}
 These specifications are the minimum recommended. As Juno Network is a smart contract platform, it can at times be very demanding on hardware. Low spec validators WILL get stuck on difficult to process blocks.
@@ -48,13 +48,10 @@ To clear a variable binding, use `unset $VARIABLE_NAME` . Shell variables should
 
 ### Choose a testnet
 
-Choose the `<chain-id>` testnet you would like to join from [here](joining-the-testnets.md#current-testnets). Set the `CHAIN_ID`:
+Set the `CHAIN_ID`:
 
 ```bash
-CHAIN_ID=<chain-id>
-
-#Example
-CHAIN_ID=uni-2
+CHAIN_ID=uni-3
 ```
 
 ### Set your moniker name
@@ -124,7 +121,7 @@ Note that this means if you jumped ahead and already downloaded the genesis file
 curl https://raw.githubusercontent.com/CosmosContracts/testnets/main/$CHAIN_ID/genesis.json > ~/.juno/config/genesis.json
 ```
 
-This will replace the genesis file created using `junod init` command with the genesis file for the testnet. \*\*\*\*
+This will replace the genesis file created using `junod init` command with the genesis file for the testnet.&#x20;
 
 ### **Set persistent peers**
 
@@ -136,22 +133,21 @@ sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" ~/.juno/
 
 ### **Create a local key pair**
 
-Create a new key pair for your validator:
+Create a new key pair or restore a key for your validator:
 
 ```bash
+# Create new keypair
 junod keys add <key-name>
+
+# Restore existing juno wallet with mnemonic seed phrase.
+# You will be prompted to enter mnemonic seed.
+junod keys add <key-name> --recover
 
 # Query the keystore for your public address
 junod keys show <key-name> -a
 ```
 
 Replace `<key-name>` with a key name of your choosing.
-
-If you already have a key from a previous testnet, you can recover it using the mnemonic:
-
-```bash
-junod keys add <key-name> --recover
-```
 
 {% hint style="danger" %}
 After creating a new key, the key information and seed phrase will be shown. It is essential to write this seed phrase down and keep it in a safe place. The seed phrase is the only way to restore your keys.

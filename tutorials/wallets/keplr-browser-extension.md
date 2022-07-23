@@ -2,7 +2,7 @@
 description: >-
   In this tutorial we will explore the steps required to install and configure
   the Keplr browser extension.
-cover: ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (10) (5).png
+cover: ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (5).png
 coverY: 0
 ---
 
