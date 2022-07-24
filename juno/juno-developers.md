@@ -128,4 +128,6 @@ Smart Stake [https://juno.smartstake.io/](https://juno.smartstake.io/)
 
 Silk Nodes [https://silknodes.io/](https://silknodes.io/)
 
+Cosmos Spaces [https://twitter.com/Cosmos\_spaces](https://twitter.com/Cosmos\_spaces)
+
 The list is constantly expanding. If your name is not mentioned and your actively contributing please reach out to the core team.
