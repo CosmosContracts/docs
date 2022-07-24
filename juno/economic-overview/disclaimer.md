@@ -23,7 +23,7 @@ The asset has never been advertised, publicized nor was anyone ever encouraged t
 
 As a decentralized network, Juno is controlled by 250000+ unique addresses ie. delegators that decide the direction of the blockchain via on-chain governance, and 150 validators that run nodes to secure the network (As of July 2022).&#x20;
 
-There is no centralized company, foundation or enterprise that runs the ecosystem. Instead all efforts are controlled and moved by community members that build on the decentralized smart contract layer.
+
 
 
 
