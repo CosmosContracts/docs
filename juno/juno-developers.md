@@ -84,6 +84,8 @@ shashankgoyal #3525
 
 Nonsencecode nonsensetwice#3475
 
+aswever aswever#4222
+
 ### Relayers (The unsung heros of the Cosmos)
 
 Cros-nest [https://twitter.com/crosnest\_com](https://twitter.com/crosnest\_com)
@@ -101,5 +103,31 @@ Imperator.co [https://twitter.com/imperator\_co](https://twitter.com/imperator\_
 EZStaking.io https://twitter.com/EZStaking
 
 Lavender.Five [https://www.lavenderfive.com/](https://www.lavenderfive.com/)
+
+Pupmos [https://twitter.com/pupmos](https://twitter.com/pupmos)
+
+Golden Ratio Staking [https://twitter.com/GoldenStaking](https://twitter.com/GoldenStaking)
+
+PostHuman [https://posthuman.digital/](https://posthuman.digital/)
+
+ChandraStation [https://www.chandrastation.com/](https://www.chandrastation.com/)
+
+Bro_n_bro [https://bronbro.io/](https://bronbro.io/)
+
+Strangelove Ventures [https://www.strangelove.ventures/](https://www.strangelove.ventures/)
+
+Polkachu [https://polkachu.com/](https://polkachu.com/)
+
+StakeLab [https://www.stakelab.fr/](https://www.stakelab.fr/)
+
+Witval [https://twitter.com/Vitwit\_](https://twitter.com/Vitwit\_)
+
+Consensus One [https://twitter.com/ConsensusOne](https://twitter.com/ConsensusOne)
+
+Smart Stake [https://juno.smartstake.io/](https://juno.smartstake.io/)
+
+Silk Nodes [https://silknodes.io/](https://silknodes.io/)
+
+Cosmos Spaces [https://twitter.com/Cosmos\_spaces](https://twitter.com/Cosmos\_spaces)
 
 The list is constantly expanding. If your name is not mentioned and your actively contributing please reach out to the core team.
