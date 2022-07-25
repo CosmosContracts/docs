@@ -26,7 +26,7 @@ Jacob Gadikian (Notional) [https://twitter.com/gadikian](https://twitter.com/gad
 
 Max aka Wombat [https://twitter.com/max\_maxsolo](https://twitter.com/max\_maxsolo)
 
-Alex aka The Frey (Needlecast) [https://twitter.com/frey\_needlecast](https://twitter.com/frey\_needlecast)
+The Frey (Needlecast) [https://twitter.com/frey\_needlecast](https://twitter.com/frey\_needlecast)
 
 Null aka nullmames (kingnodes) [https://twitter.com/nullmames](https://twitter.com/nullMames)
 
