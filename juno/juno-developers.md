@@ -62,7 +62,7 @@ Ethan Frey (Confio) @ethansf
 
 David Fortson (LOA Labs) [https://twitter.com/dave\_fortson](https://twitter.com/dave\_fortson)
 
-Zak (Ez Staking) @keupsonite
+Zakaria Lounes (EZStaking) [https://twitter.com/zakarialounes](https://twitter.com/zakarialounes)
 
 catshark (Notional) [https://twitter.com/\_cat\_shark](https://twitter.com/\_cat\_shark)
 
@@ -100,7 +100,7 @@ SpacePotato @spacepotayto
 
 Imperator.co [https://twitter.com/imperator\_co](https://twitter.com/imperator\_co)
 
-EZStaking.io https://twitter.com/EZStaking
+EZStaking.io [https://twitter.com/EZStaking](https://twitter.com/EZStaking)
 
 Lavender.Five [https://www.lavenderfive.com/](https://www.lavenderfive.com/)
 
