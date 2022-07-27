@@ -1,6 +1,6 @@
 ---
 description: Juno - Interoperable Smart Contract Network
-cover: .gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (8).png
+cover: .gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (10) (9).png
 coverY: 0
 ---
 
@@ -12,7 +12,7 @@ Anyone can create & use inter-chain applications on Juno. The ecosystem is pione
 
 ## ****
 
-## **Origin Story**
+## **Grassroots Origin**
 
 Juno originates & evolves from a **community driven initiative**, prompted by dozens of developers, validators & delegators in the Cosmos ecosystem. The shared vision is to **preserve the neutrality, performance & reliability** of the Cosmos Hub and offload smart contract deployment to a dedicated sister Hub.
 

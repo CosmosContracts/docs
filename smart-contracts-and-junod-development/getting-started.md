@@ -18,3 +18,7 @@ To get up-and-running, the steps are:
 You're now set up with a Juno local development environment!
 
 For more advanced usage, [check out deploy scripts like the one used for The Decentralized Name Service](https://github.com/envoylabs/whoami/blob/main/scripts/deploy\_local.sh). You can adapt this for your own use.
+
+Finally, there's a video going over these steps from Juno Contributors that you can view:\
+\
+[https://youtu.be/YsrUGv6M8KQ?t=2056](https://youtu.be/YsrUGv6M8KQ?t=2056)&#x20;

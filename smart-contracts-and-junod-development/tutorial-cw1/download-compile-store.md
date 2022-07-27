@@ -1,6 +1,6 @@
 ---
 description: Walking before we can run...
-cover: ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (22).png
+cover: ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (10) (7).png
 coverY: 0
 ---
 

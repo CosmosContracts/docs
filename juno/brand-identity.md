@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (7).png
+cover: ../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (10) (13).png
 coverY: 0
 ---
 
@@ -13,7 +13,7 @@ coverY: 0
 
 {% file src="../.gitbook/assets/juno-text-logo.svg" %}
 
-{% file src="../.gitbook/assets/juno-symbol (2) (2) (2) (2) (1) (1).svg" %}
+{% file src="../.gitbook/assets/juno-symbol (2) (2) (2) (2) (1) (1) (1).svg" %}
 
 {% file src="../.gitbook/assets/juno-logo-squared-.png" %}
 
