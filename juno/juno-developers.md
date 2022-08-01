@@ -52,7 +52,7 @@ Giansalex (Disperze) [https://twitter.com/giansalex](https://twitter.com/giansal
 
 Ben (Ben 2x4) [https://twitter.com/ben2x4](https://twitter.com/ben2x4)
 
-Highlander (Highlander Nodes) [https://twitter.com/HighlanderNodes](https://twitter.com/HighlanderNodes)
+Highlander (Highlander | ChainTools) [https://twitter.com/HighlanderCTs](https://twitter.com/HighlanderCTs)
 
 Orkun (DEUS Labs) [https://twitter.com/zl00ba](https://twitter.com/zl00ba)
 
@@ -129,5 +129,7 @@ Smart Stake [https://juno.smartstake.io/](https://juno.smartstake.io/)
 Silk Nodes [https://silknodes.io/](https://silknodes.io/)
 
 Cosmos Spaces [https://twitter.com/Cosmos\_spaces](https://twitter.com/Cosmos\_spaces)
+
+ChainTools [https://twitter.com/ChaintoolsT](https://twitter.com/ChaintoolsT)
 
 The list is constantly expanding. If your name is not mentioned and your actively contributing please reach out to the core team.
