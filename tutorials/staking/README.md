@@ -1,6 +1,6 @@
 ---
 description: Securing the Juno Network by staking JUNO🔒 🔑
-cover: ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (10) (21).png
+cover: ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (8).png
 coverY: 0
 ---
 
