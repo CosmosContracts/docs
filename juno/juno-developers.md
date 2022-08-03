@@ -8,7 +8,9 @@ coverY: 0
 
 # Contributors
 
-### ****[**C-Root**](https://twitter.com/CRootHQ) **** 🌱
+### \*\*\*\*[**C-Root**](https://twitter.com/CRootHQ) \*\*\*\* 🌱
+
+### ![](../.gitbook/assets/C-Root.png)
 
 ### **Independent Collective for Web3 infrastructure development on Juno.**
 
@@ -112,7 +114,7 @@ PostHuman [https://posthuman.digital/](https://posthuman.digital/)
 
 ChandraStation [https://www.chandrastation.com/](https://www.chandrastation.com/)
 
-Bro_n_bro [https://bronbro.io/](https://bronbro.io/)
+Bro\_n\_bro [https://bronbro.io/](https://bronbro.io/)
 
 Strangelove Ventures [https://www.strangelove.ventures/](https://www.strangelove.ventures/)
 

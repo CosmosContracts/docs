@@ -2,7 +2,7 @@
 description: >-
   A general introduction Juno cli along with a brief description of commands and
   flags
-cover: ../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (20).png
+cover: ../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (24).png
 coverY: 0
 ---
 
