@@ -118,6 +118,8 @@ Bro\_n\_bro [https://bronbro.io/](https://bronbro.io/)
 
 Strangelove Ventures [https://www.strangelove.ventures/](https://www.strangelove.ventures/)
 
+White Marlin Staking [https://twitter.com/WhiteMarlin4](https://twitter.com/WhiteMarlin4)
+
 Polkachu [https://polkachu.com/](https://polkachu.com/)
 
 StakeLab [https://www.stakelab.fr/](https://www.stakelab.fr/)
