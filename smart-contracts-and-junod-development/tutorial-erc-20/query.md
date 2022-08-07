@@ -10,7 +10,7 @@ coverY: 0
 Now you can check that the contract has assigned the right amount to the self-delegate address:
 
 ```bash
-junod query wasm contract-state smart <contract-address> '{"balance":{"address":"<validator-self-delegate-address>"}}' -b block 
+junod query wasm contract-state smart <contract-address> '{"balance":{"address":"<validator-self-delegate-address>"}}'
 ```
 
 From the example above, it will return:
