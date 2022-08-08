@@ -1,7 +1,7 @@
 ---
 description: >-
-  Dozens of independent development teams are working on Juno. Serving the core
-  network, tooling, dapps and more.
+  Dozens of independent development teams are working on Juno. Maintaining &
+  building the core network, tooling, dapps, relayers and more.
 cover: ../.gitbook/assets/wallpaperflare.com_wallpaper (61).jpg
 coverY: 0
 ---
