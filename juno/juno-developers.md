@@ -14,7 +14,7 @@ The core network is maintained by independent validators & Core Root an open dev
 
 
 
-![](../.gitbook/assets/image.png)[Discord.gg/Juno](https://discord.gg/Juno)\
+<img src="../.gitbook/assets/image.png" alt="" data-size="line">[Discord.gg/Juno](https://discord.gg/Juno)\
 
 
 Andrea Di Michele aka Dimi (stakefish) [https://twitter.com/dimiandre](https://twitter.com/dimiandre)
