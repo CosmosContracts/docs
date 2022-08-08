@@ -8,7 +8,7 @@ coverY: 0
 
 # Contributors
 
-The core network is maintained by independent validators & Core Root an open developer collective | Building & maintaining web 3 Infrastructure at Juno.
+The core network is secured & maintained by independent validators & Core Root, an open developer collective | Building & maintaining web 3 Infrastructure at Juno.
 
 ![](<../.gitbook/assets/Banner 4 (C-Root).png>)
 
