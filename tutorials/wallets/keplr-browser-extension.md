@@ -37,7 +37,7 @@ This tutorial assumes you are using the Chrome browser.
 
 3\. By default, the extension icon will be nested under the extensions icon on the toolbar in the top right of the browser. Click the extensions icon and then click the pin icon to make Keplr visible in the toolbar.
 
-![](<../../.gitbook/assets/image (4).png>)
+![](<../../.gitbook/assets/image (4) (1).png>)
 
 4\. The Keplr extension can now be interacted with by clicking on the Keplr icon.
 
@@ -97,7 +97,7 @@ If you do not already have the account associated with your stakedrop loaded int
 
 4\. The following screen will let you know "You're all set!". Click the **Done** button to finish.
 
-![](../../.gitbook/assets/image.png)
+![](<../../.gitbook/assets/image (4).png>)
 
 5\. Your account is now accessible by clicking on the Keplr extension icon in the toolbar.
 

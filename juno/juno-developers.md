@@ -12,15 +12,22 @@ coverY: 0
 
 ### ![](../.gitbook/assets/C-Root.png)
 
-### **Independent Collective for Web3 infrastructure development on Juno.**
+
+
+C-Root aka Core Root is an open developer collective | Building & maintaining web 3 Infrastructure at Juno.
+
+
+
+![](../.gitbook/assets/image.png)[Discord.gg/Juno](https://discord.gg/Juno)\
+
 
 Andrea Di Michele aka Dimi (stakefish) [https://twitter.com/dimiandre](https://twitter.com/dimiandre)
-
-Lobo aka Wolf (SG-1)[ https://twitter.com/LoboJuno](https://twitter.com/lobojuno)
 
 Blockcreators [https://twitter.com/CosmosChain](https://twitter.com/CosmosChain)
 
 Jake Hartnell aka Meow (DAODAO & Stargaze) [https://twitter.com/JakeHartnell](https://twitter.com/JakeHartnell)
+
+Lobo aka Wolf (SG-1)[ https://twitter.com/LoboJuno](https://twitter.com/lobojuno)
 
 Jack Zampolin (Strangelove) [https://twitter.com/jack\_zampolin](https://twitter.com/jack\_zampolin)
 
