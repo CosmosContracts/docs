@@ -10,9 +10,7 @@ coverY: 0
 
 The core network is maintained by independent validators & Core Root an open developer collective | Building & maintaining web 3 Infrastructure at Juno.
 
-### ![](../.gitbook/assets/C-Root.png)
-
-
+![](<../.gitbook/assets/Banner 4 (C-Root).png>)
 
 <img src="../.gitbook/assets/image.png" alt="" data-size="line">[Discord.gg/Juno](https://discord.gg/Juno)\
 
