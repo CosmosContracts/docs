@@ -8,13 +8,9 @@ coverY: 0
 
 # Contributors
 
-### \*\*\*\*[**C-Root**](https://twitter.com/CRootHQ) \*\*\*\* 🌱
+The core network is maintained by Core Root an open developer collective | Building & maintaining web 3 Infrastructure at Juno.
 
 ### ![](../.gitbook/assets/C-Root.png)
-
-
-
-C-Root aka Core Root is an open developer collective | Building & maintaining web 3 Infrastructure at Juno.
 
 
 
