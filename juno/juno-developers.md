@@ -1,7 +1,7 @@
 ---
 description: >-
-  Hundreds of independent Cosmos ecosystem contributors are working on the Juno
-  core network, independent dapps, tooling and more.
+  Dozens of independent development teams are working on Juno. Serving the core
+  network, tooling, dapps and more.
 cover: ../.gitbook/assets/wallpaperflare.com_wallpaper (61).jpg
 coverY: 0
 ---
