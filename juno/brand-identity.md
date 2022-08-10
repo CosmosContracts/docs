@@ -36,3 +36,7 @@ Secondary Color: 9f9f9f
 Secondary Color: ffffff
 
 ![](../.gitbook/assets/juno-secondary-color-white-.png)
+
+**Font**
+
+The wordmark font is Gotham Medium.
