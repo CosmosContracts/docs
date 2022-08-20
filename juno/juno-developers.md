@@ -12,8 +12,7 @@ The core network is secured & maintained by independent validators & Core Root, 
 
 ![](<../.gitbook/assets/Banner 4 (C-Root).png>)
 
-<img src="../.gitbook/assets/image.png" alt="" data-size="line">[Discord.gg/Juno](https://discord.gg/Juno)\
-
+<img src="../.gitbook/assets/image.png" alt="" data-size="line">[Discord.gg/Juno](https://discord.gg/Juno)\\
 
 Andrea Di Michele aka Dimi (stakefish) [https://twitter.com/dimiandre](https://twitter.com/dimiandre)
 
@@ -122,6 +121,8 @@ Strangelove Ventures [https://www.strangelove.ventures/](https://www.strangelove
 White Marlin Staking [https://twitter.com/WhiteMarlin4](https://twitter.com/WhiteMarlin4)
 
 Polkachu [https://polkachu.com/](https://polkachu.com/)
+
+IcyCRO [https://www.icycro.org/](https://www.icycro.org/)
 
 StakeLab [https://www.stakelab.fr/](https://www.stakelab.fr/)
 

@@ -1,6 +1,6 @@
 ---
 description: It's 🚀 time!
-cover: ../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (15).png
+cover: ../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (12).png
 coverY: 0
 ---
 

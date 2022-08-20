@@ -1,6 +1,8 @@
 ---
 description: Some useful commands for querying contract state
-cover: ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (4).png
+cover: >-
+  ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1)
+  (14).png
 coverY: 0
 ---
 

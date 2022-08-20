@@ -3,7 +3,9 @@ order: 4
 description: >-
   Now it's time for the fun stuff. Let's configure and get this contract
   up-and-running.
-cover: ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (24).png
+cover: >-
+  ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1)
+  (7).png
 coverY: 0
 ---
 
