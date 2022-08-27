@@ -1,5 +1,7 @@
 ---
-cover: ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (22).png
+cover: >-
+  ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1)
+  (11).png
 coverY: 0
 ---
 
@@ -33,4 +35,4 @@ Juno Network is a completely community owned and operated smart contract platfor
 
 &#x20;
 
-![](<../../.gitbook/assets/image (17).png>)
+![](<../../.gitbook/assets/image (14).png>)

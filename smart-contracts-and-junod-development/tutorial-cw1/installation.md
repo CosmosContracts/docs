@@ -1,6 +1,8 @@
 ---
 description: The basics.
-cover: ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (24).png
+cover: >-
+  ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1)
+  (7).png
 coverY: 0
 ---
 
