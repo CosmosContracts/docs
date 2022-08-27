@@ -103,12 +103,13 @@ Download the the "Phoenix" geneis file. The following instructions download the 
 
 ```
 # Download genesis.json file
-curl https://share.blockpane.com/juno/phoenix/genesis.json > ~/.juno/config/genesis.json
+rm ~/.juno/config/genesis.json
+wget https://download.dimi.sh/juno-phoenix2-genesis.tar.gz
+tar -xvf juno-phoenix2-genesis.tar.gz
+mv juno-phoenix2-genesis.json $HOME/.juno/config/genesis.json
 ```
 
 This will replace the genesis file created using `junod init` command with the mainnet `genesis.json`.&#x20;
-
-Alternate directions to download the genesis from IPFS are provided by Simon from Confio [here](https://gist.github.com/webmaster128/af65a1d499bf246e08dac99d445dd26a).
 
 ### **Set persistent peers**
 
