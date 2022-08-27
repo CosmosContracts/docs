@@ -67,14 +67,14 @@ MONIKER_NAME=<moniker-name>
 MONIKER_NAME="Validatron 9000"
 ```
 
-### **Set persistent peers**
+### **Set seeds**
 
-Persistent peers will be required to tell your node where to connect to other nodes and join the network. To retrieve the peers for the chosen `chain-id`:
+Seeds will be required to tell your node where to connect to other nodes and join the network. To retrieve the seeds for the chosen `chain-id`:
 
 ```bash
-# Set the base repo URL for mainnet & retrieve peers
+# Set the base repo URL for mainnet & retrieve seeds
 CHAIN_REPO="https://raw.githubusercontent.com/CosmosContracts/mainnet/main/$CHAIN_ID" && \
-export PEERS="$(curl -sL "$CHAIN_REPO/persistent_peers.txt")"
+export SEEDS="$(curl -sL "$CHAIN_REPO/seeds.txt")"
 ```
 
 {% hint style="info" %}
@@ -116,7 +116,7 @@ This will replace the genesis file created using `junod init` command with the m
 Using the peers variable we set earlier, we can set the `persistent_peers` in `~/.juno/config/config.toml`:
 
 ```bash
-sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" ~/.juno/config/config.toml
+sed -i.bak -e "s/^seeds *=.*/seeds = \"$SEEDS\"/" ~/.juno/config/config.toml
 ```
 
 ### Set minimum gas prices
