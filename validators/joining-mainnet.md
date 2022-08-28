@@ -12,15 +12,11 @@ To get up and running with the junod binary, please follow the instructions [her
 
 ## Mainnet binary version
 
-The Juno Network has undergone several upgrades since the network inception on October 1st 2021. There was a hard fork after the network was attached with a smart contract vulnerability on April 5th 2022. This has resulted in two networks that can be synced.&#x20;
+The Juno Network has undergone several upgrades since the network inception on October 1st 2021. There was a hard fork after the network was attached with a smart contract vulnerability on April 5th 2022.
 
-The first is referred to as "Juno Classic" and the blockchain is inclusive of blocks between 0 and 2578097.&#x20;
+The second is the current mainnet "Juno Phoenix 2" which raised Juno from the ashes on July 28th 2022.
 
-The second is the current mainnet "Juno Phoenix" which raised Juno from the ashes on April 7th 2022.
-
-The correct version of the binary for mainnet at genesis (Phoenix) is `v3.0.0`. Its release page can be found [here](https://github.com/CosmosContracts/juno/releases/tag/v3.0.0).
-
-For those wanting to sync a full history node to Juno Classic, please refer to instructions [here](sync-juno-classic.md).
+The correct version of the binary for mainnet at genesis (Phoenix) is `v9.0.0`. Its release page can be found [here](https://github.com/CosmosContracts/juno/releases/tag/v9.0.0).
 
 ## Recommended Minimum Hardware
 
@@ -111,9 +107,9 @@ mv juno-phoenix2-genesis.json $HOME/.juno/config/genesis.json
 
 This will replace the genesis file created using `junod init` command with the mainnet `genesis.json`.&#x20;
 
-### **Set persistent peers**
+### **Set seeds**
 
-Using the peers variable we set earlier, we can set the `persistent_peers` in `~/.juno/config/config.toml`:
+Using the peers variable we set earlier, we can set the `seeds` in `~/.juno/config/config.toml`:
 
 ```bash
 sed -i.bak -e "s/^seeds *=.*/seeds = \"$SEEDS\"/" ~/.juno/config/config.toml
