@@ -12,7 +12,7 @@ To get up and running with the junod binary, please follow the instructions [her
 
 ## Mainnet binary version
 
-The Juno Network has undergone several upgrades since the network inception on October 1st 2021. There was a hard fork after the network was attached with a smart contract vulnerability on April 5th 2022.
+The Juno Network has undergone several upgrades since the network inception on October 1st 2021. There was a hard fork after the network was attaked with a smart contract vulnerability on July 28th 2022.
 
 The second is the current mainnet "Juno Phoenix 2" which raised Juno from the ashes on July 28th 2022.
 
