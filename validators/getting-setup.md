@@ -86,6 +86,6 @@ To confirm that the installation has succeeded, you can run:
 ```bash
 junod version
 
-# v3.0.0
+# v9.0.0
 ```
 
