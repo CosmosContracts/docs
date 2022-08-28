@@ -37,7 +37,7 @@ wget https://golang.org/dl/go1.18.2.linux-amd64.tar.gz
 sudo tar -C /usr/local -xzf go1.18.2.linux-amd64.tar.gz
 ```
 
-Please install Go v1.18 or later.
+Please install Go v1.18.2 or later.
 
 Unless you want to configure in a non standard way, then set these in the `.profile` in the user's home (i.e. `~/`) folder.
 
@@ -67,10 +67,10 @@ git checkout <version-tag>
 The `<version-tag>` will need to be set to either a [testnet `chain-id`](joining-the-testnets.md#current-testnets) or the latest [mainnet version tag](joining-mainnet.md).
 
 {% hint style="warning" %}
-For genesis (Phoenix), the mainnet version tag will be `v3.0.0` - i.e:
+For genesis (Phoenix 2), the mainnet genesis version tag will be `v9.0.0` - i.e:
 
 ```bash
-git checkout v3.0.0
+git checkout v9.0.0
 ```
 {% endhint %}
 
