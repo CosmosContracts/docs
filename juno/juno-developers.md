@@ -138,4 +138,6 @@ Cosmos Spaces [https://twitter.com/Cosmos\_spaces](https://twitter.com/Cosmos\_s
 
 ChainTools [https://twitter.com/ChaintoolsT](https://twitter.com/ChaintoolsT)
 
+Stake&Relax [https://linktr.ee/stakeandrelax](https://linktr.ee/stakeandrelax)
+
 The list is constantly expanding. If your name is not mentioned and your actively contributing please reach out to the core team.
