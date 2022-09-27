@@ -1,8 +1,8 @@
 ---
 description: CLI reference for junod modules
 cover: >-
-  ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1)
-  (7).png
+  ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (1)
+  (20).png
 coverY: 0
 ---
 
@@ -48,8 +48,8 @@ coverY: 0
 [tendermint.md](tendermint.md)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="broken-reference/" %}
+[broken-reference](broken-reference/)
 {% endcontent-ref %}
 
 {% content-ref url="upgrade.md" %}
@@ -60,7 +60,6 @@ coverY: 0
 [wasm.md](wasm.md)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="broken-reference/" %}
+[broken-reference](broken-reference/)
 {% endcontent-ref %}
-

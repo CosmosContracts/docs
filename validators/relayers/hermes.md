@@ -1,8 +1,8 @@
 ---
 description: Instructions for setting up the rust based relayer, Hermes
 cover: >-
-  ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1)
-  (17).png
+  ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (1)
+  (22).png
 coverY: 0
 ---
 

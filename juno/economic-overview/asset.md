@@ -1,7 +1,7 @@
 ---
 cover: >-
-  ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1)
-  (11).png
+  ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (1)
+  (41).png
 coverY: 0
 ---
 
@@ -12,8 +12,6 @@ coverY: 0
 ### **Summary**
 
 Juno Network is a completely community owned and operated smart contract platform. Therefore, the majority of the genesis supply (Over 95%) was stake-dropped to atom stakers, committed to the community pool, and committed to the development reserve for ongoing development of the Juno Network features.
-
-
 
 ✅ Initial Circulating Supply: 33.036.534 $JUNO
 
@@ -33,6 +31,4 @@ Juno Network is a completely community owned and operated smart contract platfor
 
 ⚪️ **Core Team** (Vested over 12 years, i.e. non-circulating): 1.782.312 $JUNO
 
-&#x20;
-
-![](<../../.gitbook/assets/image (14).png>)
+![](<../../.gitbook/assets/image (17).png>)

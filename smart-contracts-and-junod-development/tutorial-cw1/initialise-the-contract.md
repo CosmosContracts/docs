@@ -1,8 +1,8 @@
 ---
 description: It's go time!
 cover: >-
-  ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1)
-  (14).png
+  ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (1)
+  (31).png
 coverY: 0
 ---
 

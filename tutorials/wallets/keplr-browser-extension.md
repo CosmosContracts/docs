@@ -3,8 +3,8 @@ description: >-
   In this tutorial we will explore the steps required to install and configure
   the Keplr browser extension.
 cover: >-
-  ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1)
-  (14).png
+  ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (1)
+  (31).png
 coverY: 0
 ---
 
@@ -17,7 +17,7 @@ Please note the following important announcements:
 {% hint style="warning" %}
 **Keplr extension is only officially supported by the Google Chrome browser.**
 
-There is a Brave extension available but may lack some features of the Chrome version. \
+There is a Brave extension available but may lack some features of the Chrome version.\
 There is no official Keplr extension for Firefox. Be aware of scammers.
 {% endhint %}
 
@@ -103,7 +103,7 @@ If you do not already have the account associated with your stakedrop loaded int
 
 5\. Your account is now accessible by clicking on the Keplr extension icon in the toolbar.
 
-![](<../../.gitbook/assets/image (29) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (29) (1) (1) (1) (1).png>)
 
 ### Import an existing account
 
@@ -117,7 +117,7 @@ If you do not already have the account associated with your stakedrop loaded int
 
 3\. Your account is now accessible by clicking on the Keplr extension icon in the toolbar.
 
-![](<../../.gitbook/assets/image (29) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (29) (1) (1) (1).png>)
 
 ### Import ledger
 
@@ -137,8 +137,6 @@ Now that your ledger device has been setup, we can continue with the tutorial.
 
 5\. Enter your chosen account name as well as a password. Click **Next** to continue.
 
-
-
 ![](<../../.gitbook/assets/image (28).png>)
 
 If this is the first time you have used a ledger with the browser, you may be presented with the following popup. **Follow the steps in the popup** and click **Next** to continue.
@@ -149,7 +147,7 @@ You will be presented with another popup window. Select the desired device from 
 
 ![](<../../.gitbook/assets/image (26).png>)
 
-6\.  The following screen will let you know "You're all set!". Click the **Done** button to finish.
+6\. The following screen will let you know "You're all set!". Click the **Done** button to finish.
 
 ![](<../../.gitbook/assets/image (36).png>)
 
@@ -163,13 +161,10 @@ If you have multiple accounts attached to your Keplr browser extension, you may 
 
 To change accounts:
 
-1. Click the Keplr extension icon, then click the silhouette in the top right hand corner.&#x20;
-
-&#x20;
+1. Click the Keplr extension icon, then click the silhouette in the top right hand corner.
 
 ![](<../../.gitbook/assets/image (32).png>)
 
 2\. A window will be shown with all of you accounts attached to Keplr. You can choose your desired account by clicking on it.
 
 ![](<../../.gitbook/assets/image (34).png>)
-

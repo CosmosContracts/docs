@@ -1,8 +1,8 @@
 ---
 description: Some useful commands for querying contract state
 cover: >-
-  ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1)
-  (14).png
+  ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (1)
+  (31).png
 coverY: 0
 ---
 
@@ -29,4 +29,3 @@ Or query to see all allowances:
 ```bash
 junod query wasm contract-state smart <contract-addr> '{"all_allowances":{}}' --chain-id <chain-id>
 ```
-

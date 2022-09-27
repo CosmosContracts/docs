@@ -1,6 +1,8 @@
 ---
 description: General instructions on how to join the Juno testnet
-cover: ../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (3).png
+cover: >-
+  ../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (1)
+  (45).png
 coverY: 0
 ---
 
@@ -16,7 +18,7 @@ If you get stuck, then please ask on Discord.
 
 | chain-id | Current Github version tag |
 | -------- | -------------------------- |
-| uni-3    | v6.0.0                     |
+| uni-5    | v10.0.0-alpha.2            |
 
 ## Minimum Hardware Requirements
 
@@ -121,7 +123,7 @@ Note that this means if you jumped ahead and already downloaded the genesis file
 curl https://raw.githubusercontent.com/CosmosContracts/testnets/main/$CHAIN_ID/genesis.json > ~/.juno/config/genesis.json
 ```
 
-This will replace the genesis file created using `junod init` command with the genesis file for the testnet.&#x20;
+This will replace the genesis file created using `junod init` command with the genesis file for the testnet.
 
 ### **Set persistent peers**
 

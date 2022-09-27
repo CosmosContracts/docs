@@ -1,8 +1,8 @@
 ---
 description: How to stake your Juno with the Omniflix UI and Keplr browser extension
 cover: >-
-  ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1)
-  (8).png
+  ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (1)
+  (39).png
 coverY: 0
 ---
 
@@ -17,7 +17,7 @@ In this tutorial we will learn how to stake Juno to a validator of the Juno netw
 * [Select a validator and stake your Juno tokens](omniflix-platform.md#select-a-validator-and-stake-your-juno-tokens)
 * [Collect staking rewards](omniflix-platform.md#collect-staking-rewards)
 
-The Omniflix staking UI has been provided by the Omniflix team for easy staking to be available for the launch of Juno.&#x20;
+The Omniflix staking UI has been provided by the Omniflix team for easy staking to be available for the launch of Juno.
 
 {% hint style="info" %}
 For users with a Juno stakedrop allocation, you will need to add your juno wallet associated with the stakedrop to your Keplr browser extension. You can do this by following the Keplr [guide ](../wallets/keplr-browser-extension.md#import-an-existing-account)and entering the mnemonic associated with your cosmos (atom) wallet address.
@@ -31,7 +31,7 @@ Delegation of your tokens to a validator will make them unusable for any other p
 
 Open the Chrome browser and navigate to [https://juno.omniflix.co](http://juno.omniflix.co). If this is the first time you have visited the UI, you will be shown a splash screen prompting you to connect your Keplr wallet.
 
-![](<../../.gitbook/assets/image (17) (1) (1).png>)
+![](<../../.gitbook/assets/image (17) (1) (1) (1).png>)
 
 {% hint style="info" %}
 Be sure that you have the wallet you wish to use selected by clicking the Keplr icon in your Chrome toolbar, selecting the silhouette in the top right of the Keplr window and then selecting the account you wish to use.
@@ -55,7 +55,7 @@ To see all the available validators, click the **Stake** link at the top of the 
 
 ![](<../../.gitbook/assets/image (20).png>)
 
-A form will appear, showing the validator and a field to enter the amount of tokens to delegate. Your available tokens can be seen at the bottom of the form. Enter the amount of tokens you wish to delegate and click  **DELEGATE**.
+A form will appear, showing the validator and a field to enter the amount of tokens to delegate. Your available tokens can be seen at the bottom of the form. Enter the amount of tokens you wish to delegate and click **DELEGATE**.
 
 ![](<../../.gitbook/assets/image (15).png>)
 
@@ -74,6 +74,3 @@ Your tokens are now delegated to the selected validator. You can now see the del
 ## Collect staking rewards
 
 Work in progress....
-
-
-

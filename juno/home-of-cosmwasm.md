@@ -1,5 +1,7 @@
 ---
-cover: ../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (25).png
+cover: >-
+  ../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (1)
+  (27).png
 coverY: 0
 ---
 
@@ -7,7 +9,7 @@ coverY: 0
 
 Juno is the neutral home of CosmWasm smart contracts and the InterWasm DAO. The ecosystem is pioneering CosmWasm development and adoption.
 
-CosmWasm, enables [WebAssembly (WASM) virtual machines (VMs) in the Cosmos SDK](https://medium.com/@interchain\_io/virtual-machines-take-off-in-the-cosmos-3d11bd6ae942).&#x20;
+CosmWasm, enables [WebAssembly (WASM) virtual machines (VMs) in the Cosmos SDK](https://medium.com/@interchain\_io/virtual-machines-take-off-in-the-cosmos-3d11bd6ae942).
 
 Adding WebAssembly to the Cosmos SDK allows software written in [many languages](https://github.com/appcypher/awesome-wasm-langs/blob/master/README.md) to run securely on a blockchain. WASM serves as an intermediate language that compiles the developer’s language of choice into a portable virtual machine. This means that you can have a simple, secure and fast virtual machine set up to sandbox or partition your application’s actions for better testing, security, performance and speed.
 

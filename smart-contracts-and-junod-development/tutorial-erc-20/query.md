@@ -2,8 +2,8 @@
 order: 5
 description: How to query and execute commands on your shiny new contract
 cover: >-
-  ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1)
-  (7).png
+  ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (1)
+  (20).png
 coverY: 0
 ---
 

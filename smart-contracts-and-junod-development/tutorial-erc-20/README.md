@@ -2,8 +2,8 @@
 order: 1
 description: Make your own memecoin!
 cover: >-
-  ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1)
-  (7).png
+  ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (1)
+  (20).png
 coverY: 0
 ---
 
@@ -29,4 +29,3 @@ There is a video version available as well. The versions have changed since the 
 {% endcontent-ref %}
 
 {% embed url="https://www.youtube.com/embed/c3DDHobH3Ow" %}
-

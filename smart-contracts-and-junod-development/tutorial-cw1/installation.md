@@ -1,8 +1,8 @@
 ---
 description: The basics.
 cover: >-
-  ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1)
-  (7).png
+  ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (1)
+  (20).png
 coverY: 0
 ---
 
@@ -17,4 +17,3 @@ If `cargo version` shows a version greater than 1.49, then ditto - you're probab
 {% content-ref url="../tutorial-erc-20/installation.md" %}
 [installation.md](../tutorial-erc-20/installation.md)
 {% endcontent-ref %}
-

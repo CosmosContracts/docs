@@ -1,6 +1,6 @@
 ---
 description: Instruction to install the junod binary
-cover: ../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (20).png
+cover: ../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (1).png
 coverY: 0
 ---
 
@@ -88,4 +88,3 @@ junod version
 
 # v9.0.0
 ```
-

@@ -1,6 +1,8 @@
 ---
 description: General instructions to join the Juno mainnet after network genesis.
-cover: ../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (19).png
+cover: >-
+  ../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (1)
+  (3).png
 coverY: 0
 ---
 
@@ -95,7 +97,7 @@ This will generate the following files in `~/.juno/config/`
 
 ### Download the genesis file
 
-Download the the "Phoenix" geneis file. The following instructions download the genesis file hosted by blockpane.&#x20;
+Download the the "Phoenix" geneis file. The following instructions download the genesis file hosted by blockpane.
 
 ```
 # Download genesis.json file
@@ -105,7 +107,7 @@ tar -xvf juno-phoenix2-genesis.tar.gz
 mv juno-phoenix2-genesis.json $HOME/.juno/config/genesis.json
 ```
 
-This will replace the genesis file created using `junod init` command with the mainnet `genesis.json`.&#x20;
+This will replace the genesis file created using `junod init` command with the mainnet `genesis.json`.
 
 ### **Set seeds**
 
