@@ -53,7 +53,7 @@ To clear a variable binding, use `unset $VARIABLE_NAME` . Shell variables should
 Set the `CHAIN_ID`:
 
 ```bash
-CHAIN_ID=uni-3
+CHAIN_ID=uni-5
 ```
 
 ### Set your moniker name
