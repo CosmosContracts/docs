@@ -4,8 +4,8 @@ description: >-
   not used it before, then run it during a testnet to check you can get it set
   up correctly.
 cover: >-
-  ../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (10)
-  (2).png
+  ../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (1) (1)
+  (20).png
 coverY: 0
 ---
 
