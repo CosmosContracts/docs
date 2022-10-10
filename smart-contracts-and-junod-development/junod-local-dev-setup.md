@@ -78,7 +78,7 @@ To call Juno inside a container, use `docker exec` like so:
 docker run --rm -v "$(pwd)":/code \
   --mount type=volume,source="$(basename "$(pwd)")_cache",target=/code/target \
   --mount type=volume,source=registry_cache,target=/usr/local/cargo/registry \
-  cosmwasm/rust-optimizer:0.12.6
+  cosmwasm/rust-optimizer:0.12.8
 
 # copy wasm to container
 docker cp artifacts/your_compiled.wasm juno_node_1:/your_compiled.wasm
