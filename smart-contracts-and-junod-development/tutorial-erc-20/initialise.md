@@ -5,7 +5,7 @@ description: >-
   up-and-running.
 cover: >-
   ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (1)
-  (1) (1) (35).png
+  (1) (1) (26).png
 coverY: 0
 ---
 
