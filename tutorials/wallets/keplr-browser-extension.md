@@ -4,7 +4,7 @@ description: >-
   the Keplr browser extension.
 cover: >-
   ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (1)
-  (1) (25).png
+  (1) (1) (46).png
 coverY: 0
 ---
 
@@ -103,7 +103,7 @@ If you do not already have the account associated with your stakedrop loaded int
 
 5\. Your account is now accessible by clicking on the Keplr extension icon in the toolbar.
 
-![](<../../.gitbook/assets/image (29) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (29) (1) (1) (1) (1).png>)
 
 ### Import an existing account
 
@@ -117,7 +117,7 @@ If you do not already have the account associated with your stakedrop loaded int
 
 3\. Your account is now accessible by clicking on the Keplr extension icon in the toolbar.
 
-![](<../../.gitbook/assets/image (29) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (29) (1) (1) (1).png>)
 
 ### Import ledger
 

@@ -1,7 +1,7 @@
 ---
 cover: >-
   ../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (1) (1)
-  (33).png
+  (1) (38).png
 coverY: 0
 ---
 
@@ -13,9 +13,9 @@ coverY: 0
 
 ![](<../.gitbook/assets/Juno Banner Wide (Black).png>)
 
-{% file src="../.gitbook/assets/juno-text-logo (1).svg" %}
+{% file src="../.gitbook/assets/juno-text-logo.svg" %}
 
-{% file src="../.gitbook/assets/juno-symbol (2) (2) (2) (2) (1) (1) (1) (1) (1) (1) (1) (1).svg" %}
+{% file src="../.gitbook/assets/juno-symbol (2) (2) (2) (2) (1) (1) (1) (1) (1) (1) (1).svg" %}
 
 {% file src="../.gitbook/assets/juno-logo-squared-.png" %}
 
@@ -25,7 +25,7 @@ coverY: 0
 
 Primary Color\*\*:\*\* f0827d
 
-![](<../.gitbook/assets/JUNO Primary Color (1) (1) (1) (1) (1) (1) (1) (1) (1) (9).png>)
+![](<../.gitbook/assets/JUNO Primary Color (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (11).png>)
 
 Secondary Color: 000000
 

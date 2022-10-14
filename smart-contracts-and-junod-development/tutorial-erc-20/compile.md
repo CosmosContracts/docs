@@ -4,7 +4,7 @@ description: >-
   chain.
 cover: >-
   ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (1)
-  (1) (23).png
+  (1) (1) (35).png
 coverY: 0
 ---
 

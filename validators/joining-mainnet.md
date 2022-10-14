@@ -18,7 +18,9 @@ The Juno Network has undergone several upgrades since the network inception on O
 
 The second is the current mainnet "Juno Phoenix 2" which raised Juno from the ashes on July 28th 2022.
 
-The correct version of the binary for mainnet at genesis (Phoenix) is `v10.0.2`. Its release page can be found [here](https://github.com/CosmosContracts/juno/releases/tag/v10.0.2).
+The correct version of the binary for mainnet at genesis (Phoenix) was `v9.0.0`.&#x20;
+
+Releases after genesis can be found in the mainnet repo.
 
 {% hint style="info" %}
 To find the current version of the binary, go to the [mainnet repo](https://github.com/cosmoscontracts/mainnet) and find the most recent upgrade.
