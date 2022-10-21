@@ -40,7 +40,7 @@ Ekez (DAODAO) [https://twitter.com/ekez\_\_\_](https://twitter.com/ekez\_\_\_)
 
 Ethereal (Strangelove) [https://twitter.com/Ethereal0ne](https://twitter.com/Ethereal0ne)
 
-Kevin Garrison (Oni Validator) [https://twitter.com/KevinGarrison](https://twitter.com/KevinGarrison)
+Kevin Garrison (Oni Validator ⛩) [https://twitter.com/KevinGarrison](https://twitter.com/KevinGarrison)
 
 Andrew Gouin @gnudrew25
 
@@ -139,5 +139,7 @@ Cosmos Spaces [https://twitter.com/Cosmos\_spaces](https://twitter.com/Cosmos\_s
 ChainTools [https://twitter.com/ChaintoolsT](https://twitter.com/ChaintoolsT)
 
 Stake&Relax [https://linktr.ee/stakeandrelax](https://linktr.ee/stakeandrelax)
+
+Oni Validator ⛩ [https://twitter.com/OniValidator](https://twitter.com/OniValidator)
 
 The list is constantly expanding. If your name is not mentioned and your actively contributing please reach out to the core team.
