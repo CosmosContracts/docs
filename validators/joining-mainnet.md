@@ -26,6 +26,10 @@ Releases after genesis can be found in the mainnet repo.
 To find the current version of the binary, go to the [mainnet repo](https://github.com/cosmoscontracts/mainnet) and find the most recent upgrade.
 {% endhint %}
 
+{% hint style="info" %}
+If you plan to use a snapshot or state sync to sync your node, you will need the latest binary. Check [#mainnet-upgrades](mainnet-upgrades.md#mainnet-upgrades "mention") for the latest upgraded binary version.
+{% endhint %}
+
 ## Recommended Minimum Hardware
 
 The minimum recommended hardware requirements for running a validator for the Juno mainnet are:
@@ -71,20 +75,6 @@ MONIKER_NAME=<moniker-name>
 MONIKER_NAME="Validatron 9000"
 ```
 
-### **Set seeds**
-
-Seeds will be required to tell your node where to connect to other nodes and join the network. To retrieve the seeds for the chosen `chain-id`:
-
-```bash
-# Set the base repo URL for mainnet & retrieve seeds
-CHAIN_REPO="https://raw.githubusercontent.com/CosmosContracts/mainnet/main/$CHAIN_ID" && \
-export SEEDS="$(curl -sL "$CHAIN_REPO/seeds.txt")"
-```
-
-{% hint style="info" %}
-NB: If you are unsure about this, you can ask in discord for the current peers and explicitly set them in `~/.juno/config/config.toml` instead.
-{% endhint %}
-
 ## Setting up the Node
 
 These instructions will direct you on how to initialize your node, synchronize to the network and upgrade your node to a validator.
@@ -117,11 +107,20 @@ This will replace the genesis file created using `junod init` command with the m
 
 ### **Set seeds**
 
-Using the peers variable we set earlier, we can set the `seeds` in `~/.juno/config/config.toml`:
+We can set the `seeds` by retrieving the list of seeds from the cosmoscontracts/mainnet repo and using `sed` to inject into `~/.juno/config/config.toml`:
 
 ```bash
+# Set the base repo URL for mainnet & retrieve seeds
+CHAIN_REPO="https://raw.githubusercontent.com/CosmosContracts/mainnet/main/$CHAIN_ID" && \
+export SEEDS="$(curl -sL "$CHAIN_REPO/seeds.txt")"
+
+# Add seeds to config.toml
 sed -i.bak -e "s/^seeds *=.*/seeds = \"$SEEDS\"/" ~/.juno/config/config.toml
 ```
+
+{% hint style="info" %}
+NB: If you are unsure about this, you can ask in discord for the current peers and explicitly set them in `~/.juno/config/config.toml` instead.
+{% endhint %}
 
 ### Set minimum gas prices
 
@@ -145,6 +144,8 @@ Either create a new key pair, or restore an existing wallet for your validator:
 # Create new keypair
 junod keys add <key-name>
 
+# OR
+
 # Restore existing juno wallet with mnemonic seed phrase.
 # You will be prompted to enter mnemonic seed.
 junod keys add <key-name> --recover
@@ -161,7 +162,7 @@ After creating a new key, the key information and seed phrase will be shown. It 
 
 ### **Get some Juno tokens**
 
-You will require some Juno tokens to bond to your validator. To be in the active set you will need to have enough tokens to be in the top 135 validators by delegation weight.
+You will require some Juno tokens to bond to your validator. To be in the active set you will need to have enough tokens to be in the top 150 validators by delegation weight.
 
 If you do not have any Juno tokens for you validator you can purchase tokens on [Osmosis](https://app.osmosis.zone) or [JunoSwap](https://junoswap.com).
 
@@ -174,7 +175,7 @@ Using cosmovisor is completely optional. If you choose not to use cosmovisor, yo
 {% endhint %}
 
 {% hint style="warning" %}
-If syncing a node from the "Phoenix" genesis, the initial "invariant checks" will take many hours to complete. If you want to skip invariant checks, thart the node with `--x-crisis-skip-assert-invariants` flag. This will still take around 30+ minutes to start the node.
+If syncing a node from the "Phoenix 2" genesis, the initial "invariant checks" will take many hours to complete. If you want to skip invariant checks, thart the node with `--x-crisis-skip-assert-invariants` flag. This will still take around 30+ minutes to start the node.
 {% endhint %}
 
 ## Syncing the node
@@ -187,6 +188,10 @@ curl http://localhost:26657/status | jq .result.sync_info.catching_up
 ```
 
 If this command returns `true` then your node is still catching up. If it returns `false` then your node has caught up to the network current block and you are safe to proceed to upgrade to a validator node.
+
+{% hint style="warning" %}
+When syncing from genesis, you will need to perform upgrades while catching up to the head. `juno-1` upgrades are detailed in [mainnet-upgrades.md](mainnet-upgrades.md "mention") along with a description of each type of upgrade.
+{% endhint %}
 
 ### Binary Upgrades
 
