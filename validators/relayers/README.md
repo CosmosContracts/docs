@@ -2,7 +2,7 @@
 description: Instructions to setup relayers on the mainnet channels
 cover: >-
   ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (1)
-  (1) (1) (1) (29).png
+  (1) (1) (1) (13).png
 coverY: 0
 ---
 

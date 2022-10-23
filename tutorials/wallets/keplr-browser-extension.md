@@ -4,7 +4,7 @@ description: >-
   the Keplr browser extension.
 cover: >-
   ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (1)
-  (1) (1) (1) (28).png
+  (1) (1) (1) (11).png
 coverY: 0
 ---
 

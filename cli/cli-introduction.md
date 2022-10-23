@@ -4,7 +4,7 @@ description: >-
   flags
 cover: >-
   ../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (1) (1)
-  (1) (1) (34).png
+  (1) (1) (20).png
 coverY: 0
 ---
 

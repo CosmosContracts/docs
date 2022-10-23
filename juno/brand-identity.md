@@ -1,7 +1,7 @@
 ---
 cover: >-
   ../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (1) (1)
-  (1) (1) (13).png
+  (1) (1) (1).png
 coverY: 0
 ---
 
@@ -25,7 +25,7 @@ coverY: 0
 
 Primary Color\*\*:\*\* f0827d
 
-![](<../.gitbook/assets/JUNO Primary Color (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/JUNO Primary Color (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 Secondary Color: 000000
 
