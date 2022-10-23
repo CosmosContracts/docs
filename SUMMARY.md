@@ -73,7 +73,5 @@
   * [Mainnet Upgrades](validators/joining-mainnet/mainnet-upgrades.md)
 * [Joining Testnet](validators/joining-the-testnets.md)
 * [Relayers](validators/relayers/README.md)
-  * [ibc-go](validators/relayers/ibc-go.md)
   * [Hermes](validators/relayers/hermes.md)
 * [Official Delegations Handbook](validators/official-delegations-handbook.md)
-* [Sync Juno Classic](validators/sync-juno-classic.md)

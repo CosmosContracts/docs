@@ -180,6 +180,14 @@ If syncing a node from the "Phoenix 2" genesis, the initial "invariant checks" w
 
 ## Syncing the node
 
+There are methods to sync a node to the network:
+
+1. &#x20;[#from-genesis](./#from-genesis "mention") and following the [mainnet-upgrades.md](mainnet-upgrades.md "mention") path
+2. &#x20;[sync-from-snapshot.md](sync-from-snapshot.md "mention")
+3. &#x20;[sync-with-state-sync.md](sync-with-state-sync.md "mention")
+
+### From genesis
+
 After starting the `junod` daemon, the chain will begin to sync to the network. The time to sync to the network will vary depending on your setup and the current size of the blockchain, but could take a very long time. To query the status of your node:
 
 ```bash
@@ -193,7 +201,7 @@ If this command returns `true` then your node is still catching up. If it return
 When syncing from genesis, you will need to perform upgrades while catching up to the head. `juno-1` upgrades are detailed in [mainnet-upgrades.md](mainnet-upgrades.md "mention") along with a description of each type of upgrade.
 {% endhint %}
 
-### Binary Upgrades
+#### Binary Upgrades
 
 During the syncing process you will need to install binary upgrades at the correct height. Please refer to [Mainnet Upgrades](mainnet-upgrades.md) for further information.
 
