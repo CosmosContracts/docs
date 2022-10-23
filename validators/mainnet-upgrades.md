@@ -41,8 +41,18 @@ In order to sync a node with the current Juno mainnet, you will need to follow t
 
 The genesis binary of the current iteration of Juno Network mainnet is [v9.0.0](https://github.com/CosmosContracts/juno/releases/tag/v9.0.0). This binary should be used with the Phoenix 2 genesis file. Refer to instructions detailed in [Joining Mainnet](joining-mainnet.md).
 
-Block height at Phoenix genesis is **4136532**.
+Block height at Phoenix genesis is [4136532](https://www.mintscan.io/juno/blocks/4136532).
 
-#### V10
+#### Planned upgrade V10 (28 September 2022)
 
 An upgrade to V10 of Juno happened at block [5004269](https://www.mintscan.io/juno/blocks/5004269), up to version [v10.0.2](https://github.com/CosmosContracts/juno/releases/tag/v10.0.2) of Juno.
+
+This upgrade was voted in via governance proposal [#40](https://www.mintscan.io/juno/proposals/40)
+
+Upgrade instructions are available [here](https://github.com/CosmosContracts/mainnet/blob/main/juno-1/2100\_v10\_UPGRADE.md).
+
+#### Dragonberry security patch (15 October 2022)
+
+The blockchain was upgraded with the dragonberry patch which resolved a security issue related to IBC. The upgrade version is to [v10.1.0](https://github.com/CosmosContracts/juno/releases/tag/v10.1.0) of Juno. The upgrade can be performed any time after [#planned-upgrade-v10-28-september-2022](mainnet-upgrades.md#planned-upgrade-v10-28-september-2022 "mention").
+
+Upgrade instructions are available [here](https://github.com/CosmosContracts/mainnet/blob/main/juno-1/2200\_v10\_1\_0\_PATCH.md).
