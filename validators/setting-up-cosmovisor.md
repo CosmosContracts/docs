@@ -5,7 +5,7 @@ description: >-
   up correctly.
 cover: >-
   ../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (1) (1)
-  (1) (1).png
+  (1) (10).png
 coverY: 0
 ---
 

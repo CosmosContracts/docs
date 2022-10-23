@@ -2,7 +2,7 @@
 description: CLI reference for junod modules
 cover: >-
   ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (1)
-  (1) (1) (26).png
+  (1) (1) (1) (34).png
 coverY: 0
 ---
 

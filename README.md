@@ -2,7 +2,7 @@
 description: Juno - Interoperable Smart Contract Network
 cover: >-
   .gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (1) (1) (1)
-  (32).png
+  (1) (39).png
 coverY: 0
 ---
 
