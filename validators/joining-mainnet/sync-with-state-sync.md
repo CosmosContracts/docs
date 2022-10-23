@@ -4,22 +4,22 @@ description: Instructions for joining Juno networks with statesync
 
 # Sync with state-sync
 
-State-sync is a module built into the Cosmos SDK to allow validators to rapidly join the network by syncing your node with a snapshot enabled RPC from a trusted block height.&#x20;
+State-sync is a module built into the Cosmos SDK to allow validators to rapidly join the network by syncing your node with a snapshot enabled RPC from a trusted block height.
 
 This greatly reduces the time required for a validator or sentry to sync with the network from days to minutes. The limitations of this are that there is not a full transaction history, just the most recent state that the state-sync RPC has stored. An advantage of state-sync is that the database is very small in comparison to a fully synced node, therefore using state-sync to resync your node to the network can help keep running costs lower by minimising storage usage.
 
 By syncing to the network with state-sync, a node can avoid having to go through all the upgrade procedures and can sync with the most recent binary only.
 
 {% hint style="info" %}
-For nodes that are intended to serve data for dapps, explorers or any other RPC requiring full history, state-syncing to the network would not be appropriate.&#x20;
+For nodes that are intended to serve data for dapps, explorers or any other RPC requiring full history, state-syncing to the network would not be appropriate.
 {% endhint %}
 
 ## Mainnet state-sync
 
-Polkachu operate and maintain a snapshot RPC for the `juno-1` mainnet network.&#x20;
+Polkachu operate and maintain a snapshot RPC for the `juno-1` mainnet network.
 
 {% hint style="info" %}
-This documentation assumes you have followed the instructions for [Joining Mainnet](joining-mainnet.md) and [Setting up Cosmovisor](setting-up-cosmovisor.md).
+This documentation assumes you have followed the instructions for [Joining Mainnet](./) and [Setting up Cosmovisor](../setting-up-cosmovisor.md).
 {% endhint %}
 
 The state-sync configuration is as follows:
@@ -39,7 +39,7 @@ Set `SNAP_RPC` variable to the polkachu snapshot RPC
 SNAP_RPC="https://juno-rpc.polkachu.com:443"
 ```
 
-Fetch the `LATEST_HEIGHT` from the snapshot RPC, set the state-sync `BLOCK_HEIGHT` and fetch the `TRUST_HASH` from the snapshot RPC. The `BLOCK_HEIGHT` to sync is determined by subtracting the snapshot-interval from the `LATEST_HEIGHT`.&#x20;
+Fetch the `LATEST_HEIGHT` from the snapshot RPC, set the state-sync `BLOCK_HEIGHT` and fetch the `TRUST_HASH` from the snapshot RPC. The `BLOCK_HEIGHT` to sync is determined by subtracting the snapshot-interval from the `LATEST_HEIGHT`.
 
 ```bash
 LATEST_HEIGHT=$(curl -s $SNAP_RPC/block | jq -r .result.block.header.height); \
@@ -56,7 +56,7 @@ echo $LATEST_HEIGHT $BLOCK_HEIGHT $TRUST_HASH
 # 1002969 1000969 0B532538F74C946B82D1697704B25F2D8E12D989766B30AF5F8730A7A7A94CDB
 ```
 
-If you have not already, [set some seeds](joining-the-testnets.md#set-seeds-1).
+If you have not already, [set some seeds](../joining-the-testnets.md#set-seeds-1).
 
 Set the required variables in `~/.juno/config/config.toml`
 
@@ -83,5 +83,5 @@ junod tendermint unsafe-reset-all --home $HOME/.juno
 Restart node and check logs
 
 ```bash
-sudo systemctl restart junod && journalctl -u cosmovisor -f
+sudo systemctl restart cosmovisor && journalctl -fu cosmovisor 0 cat
 ```

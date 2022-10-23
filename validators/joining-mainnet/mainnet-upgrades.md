@@ -39,7 +39,7 @@ In order to sync a node with the current Juno mainnet, you will need to follow t
 
 #### Genesis binary (Phoenix 2)
 
-The genesis binary of the current iteration of Juno Network mainnet is [v9.0.0](https://github.com/CosmosContracts/juno/releases/tag/v9.0.0). This binary should be used with the Phoenix 2 genesis file. Refer to instructions detailed in [Joining Mainnet](joining-mainnet.md).
+The genesis binary of the current iteration of Juno Network mainnet is [v9.0.0](https://github.com/CosmosContracts/juno/releases/tag/v9.0.0). This binary should be used with the Phoenix 2 genesis file. Refer to instructions detailed in [Joining Mainnet](./).
 
 Block height at Phoenix genesis is [4136532](https://www.mintscan.io/juno/blocks/4136532).
 

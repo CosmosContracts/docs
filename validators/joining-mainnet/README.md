@@ -1,8 +1,8 @@
 ---
 description: General instructions to join the Juno mainnet after network genesis.
 cover: >-
-  ../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (1) (1)
-  (1) (1) (39).png
+  ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (1)
+  (1) (1) (1) (39).png
 coverY: 0
 ---
 
@@ -10,7 +10,7 @@ coverY: 0
 
 ## Junod Installation
 
-To get up and running with the junod binary, please follow the instructions [here](getting-setup.md).
+To get up and running with the junod binary, please follow the instructions [here](../getting-setup.md).
 
 ## Mainnet binary version
 
@@ -93,7 +93,7 @@ This will generate the following files in `~/.juno/config/`
 
 ### Download the genesis file
 
-Download the the "Phoenix" geneis file. The following instructions download the genesis file hosted by blockpane.
+Download the the "Phoenix" geneis file. The following instructions download the genesis file hosted by [Dimi](https://twitter.com/dimiandre).
 
 ```
 # Download genesis.json file
@@ -168,7 +168,7 @@ If you do not have any Juno tokens for you validator you can purchase tokens on 
 
 ## Setup cosmovisor and start the node
 
-Follow [these](setting-up-cosmovisor.md) instructions to setup cosmovisor and start the node.
+Follow [these](../setting-up-cosmovisor.md) instructions to setup cosmovisor and start the node.
 
 {% hint style="info" %}
 Using cosmovisor is completely optional. If you choose not to use cosmovisor, you will need to be sure to attend network upgrades to ensure your validator does not have downtime and get jailed.

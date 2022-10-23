@@ -32,7 +32,7 @@ sudo apt-get install make build-essential gcc git jq chrony -y
 
 Follow the instructions [here](https://golang.org/doc/install) to install Go.
 
-For an Ubuntu LTS, you can probably use:
+For an Ubuntu, you can probably use:
 
 ```bash
 wget https://golang.org/dl/go1.19.2.linux-amd64.tar.gz
@@ -66,7 +66,7 @@ git fetch
 git checkout <version-tag>
 ```
 
-The `<version-tag>` will need to be set to either a [testnet `chain-id`](joining-the-testnets.md#current-testnets) or the latest [mainnet version tag](joining-mainnet.md).
+The `<version-tag>` will need to be set to either a [testnet `chain-id`](joining-the-testnets.md#current-testnets) or the latest [mainnet version tag](joining-mainnet/).
 
 {% hint style="warning" %}
 For genesis (Phoenix 2), the mainnet genesis version tag will be `v10.0.2` - i.e:
@@ -77,7 +77,7 @@ git checkout v10.0.2
 {% endhint %}
 
 {% hint style="warning" %}
-If you plan to use a snapshot or state sync to sync your node, you will need the latest binary. Check [#mainnet-upgrades](mainnet-upgrades.md#mainnet-upgrades "mention") for the latest upgraded binary version.
+If you plan to use a snapshot or state sync to sync your node, you will need the latest binary. Check [#mainnet-upgrades](joining-mainnet/mainnet-upgrades.md#mainnet-upgrades "mention") for the latest upgraded binary version.
 {% endhint %}
 
 Once you're on the correct tag, you can build:
@@ -97,7 +97,7 @@ junod version
 
 ## Configure \`junod\` to connect to public RPC
 
-Follow these instructions to configure your `junod` binary to connect to public RPC for submitting transactions and making queries to the Juno network without syncing a node.
+Follow these instructions to configure your `junod` binary to connect to public RPC for submitting transactions and making queries to the Juno network if you will not be syncing a node.
 
 Set the `chain-id`
 
