@@ -56,3 +56,11 @@ Upgrade instructions are available [here](https://github.com/CosmosContracts/mai
 The blockchain was upgraded with the dragonberry patch which resolved a security issue related to IBC. The upgrade version is to [v10.1.0](https://github.com/CosmosContracts/juno/releases/tag/v10.1.0) of Juno. The upgrade can be performed any time after [#planned-upgrade-v10-28-september-2022](mainnet-upgrades.md#planned-upgrade-v10-28-september-2022 "mention").
 
 Upgrade instructions are available [here](https://github.com/CosmosContracts/mainnet/blob/main/juno-1/2200\_v10\_1\_0\_PATCH.md).
+
+#### Planned upgrade to v11 (31 October 2022)
+
+An upgrade to v11 of Juno at block 5480000.
+
+This was covered in gov prop [47](https://www.mintscan.io/juno/proposals/47).
+
+Upgrade instructions are [here](https://github.com/CosmosContracts/mainnet/blob/main/juno-1/2300\_v11\_UPGRADE.md).
