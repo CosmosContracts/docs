@@ -142,4 +142,6 @@ Stake&Relax [https://linktr.ee/stakeandrelax](https://linktr.ee/stakeandrelax)
 
 Oni Validator ⛩ [https://twitter.com/OniValidator](https://twitter.com/OniValidator)
 
+Kleomedes [https://kleomed.es](https://kleomed.es)
+
 The list is constantly expanding. If your name is not mentioned and your actively contributing please reach out to the core team.
