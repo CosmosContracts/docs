@@ -2,7 +2,7 @@
 description: How to install and configure crypto wallets that are compatible with Juno
 cover: >-
   ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (1)
-  (1) (1) (1) (31).png
+  (1) (1) (1) (1) (31).png
 coverY: 0
 ---
 

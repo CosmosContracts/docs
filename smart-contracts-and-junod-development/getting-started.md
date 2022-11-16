@@ -13,7 +13,7 @@ To get up-and-running, the steps are:
 3. Open a browser with Keplr installed and go to `localhost:3000`
 4. Click 'connect wallet' and add `Juno Local Test` blockchain
 5. Import the seed user to Keplr from [this page](junod-local-dev-setup.md) - remember this mnemonic is public!
-6. Execute or query the contract using [CosmJS and the local chain RPC](interacting-with-smart-contracts.md)
+6. Execute or query the contract using [CosmJS and the local chain RPC](broken-reference)
 
 You're now set up with a Juno local development environment!
 
@@ -21,4 +21,4 @@ For more advanced usage, [check out deploy scripts like the one used for The Dec
 
 Finally, there's a video going over these steps from Juno Contributors that you can view:\
 \
-[https://youtu.be/YsrUGv6M8KQ?t=2056](https://youtu.be/YsrUGv6M8KQ?t=2056)&#x20;
+[https://youtu.be/YsrUGv6M8KQ?t=2056](https://youtu.be/YsrUGv6M8KQ?t=2056)
