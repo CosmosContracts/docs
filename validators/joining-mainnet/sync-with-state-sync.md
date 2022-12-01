@@ -83,5 +83,5 @@ junod tendermint unsafe-reset-all --home $HOME/.juno
 Restart node and check logs
 
 ```bash
-sudo systemctl restart cosmovisor && journalctl -fu cosmovisor 0 cat
+sudo systemctl restart cosmovisor && journalctl -fu cosmovisor -o cat
 ```
