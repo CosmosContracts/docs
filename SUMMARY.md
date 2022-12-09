@@ -13,6 +13,10 @@
   * [Incentive structure](juno/economic-overview/incentive-structure.md)
   * [Supply API - Data](juno/economic-overview/supply-api-data.md)
 
+## Developer Guides
+
+* [Junod Local Dev Setup](developer-guides/junod-local-dev-setup.md)
+
 ## Governance
 
 * [Before submitting a proposal](governance/before-submitting-a-proposal.md)
