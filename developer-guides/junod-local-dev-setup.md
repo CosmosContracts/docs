@@ -88,7 +88,7 @@ docker exec -i juno_node_1 \
 If you don't want to go through the process of setting up a node and just want to experiment with the Juno uni testnet:
 
 1. Get a public node's RPC address. These can be found pinned in Discord in the dev channel.
-2. In `~/.juno/config/client.toml` set `node="<public node RPC address>"` and `chain-id="uni-3"`.
+2. In `~/.juno/config/client.toml` set `node="<public node RPC address>"` and `chain-id="uni-5"`.
 3. Create a key to use by running `junod keys add <key-name>`.
 4. Get that key's public address by running `junod keys show <key-name> -a`.
 5. Get some test Juno by sending `$request <key-address>` in the #faucet Discord channel.
