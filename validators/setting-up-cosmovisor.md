@@ -22,12 +22,9 @@ Rather than having to do stressful ops tasks late at night, it's always better i
 First, go and get cosmovisor (recommended approach):
 
 ```bash
-go get github.com/cosmos/cosmos-sdk/cosmovisor/cmd/cosmovisor
+go install cosmossdk.io/tools/cosmovisor/cmd/cosmovisor@latest
 
-# or, with go >= 1.15 you can do
-go install github.com/cosmos/cosmos-sdk/cosmovisor/cmd/cosmovisor@latest
-
-# to target a specific version:
+To install a previous version, you can specify the version after the @ sign. Note that versions older than 1.4.0 can also target a specific version, at a slightly different location:
 go install github.com/cosmos/cosmos-sdk/cosmovisor/cmd/cosmovisor@v1.0.0
 ```
 
