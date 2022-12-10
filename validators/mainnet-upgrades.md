@@ -45,4 +45,4 @@ Block height at Phoenix genesis is **4136532**.
 
 #### V10
 
-An upgrade to V10 of Juno happened at block [5004269](https://www.mintscan.io/juno/blocks/5004269), up to version [v10.0.2](https://github.com/CosmosContracts/juno/releases/tag/v10.0.2) of Juno.
+An upgrade to V10 of Juno happened at block [5004269](https://www.mintscan.io/juno/blocks/5004269), up to version [v11.0.3](https://github.com/CosmosContracts/juno/releases/tag/v11.0.3) of Juno.

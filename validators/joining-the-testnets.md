@@ -17,8 +17,8 @@ For details of upgrades on the current testnet, as well as syncing, you can [che
 If you get stuck, then please ask on Discord.
 
 | chain-id | Current Github version tag |
-| -------- | -------------------------- |
-| uni-5    | v10.0.0-alpha.2            |
+| -------- |----------------------------|
+| uni-5    | v11.0.3                    |
 
 ## Minimum Hardware Requirements
 

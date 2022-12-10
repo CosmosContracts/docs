@@ -69,10 +69,10 @@ git checkout <version-tag>
 The `<version-tag>` will need to be set to either a [testnet `chain-id`](joining-the-testnets.md#current-testnets) or the latest [mainnet version tag](joining-mainnet.md).
 
 {% hint style="warning" %}
-For genesis (Phoenix 2), the mainnet genesis version tag will be `v10.0.2` - i.e:
+For genesis (Phoenix 2), the mainnet genesis version tag will be `v11.0.3` - i.e:
 
 ```bash
-git checkout v10.0.2
+git checkout v11.0.3
 ```
 {% endhint %}
 
@@ -88,5 +88,5 @@ To confirm that the installation has succeeded, you can run:
 ```bash
 junod version
 
-# v10.0.2
+# v11.0.3
 ```
