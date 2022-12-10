@@ -32,7 +32,7 @@ go install github.com/cosmos/cosmos-sdk/cosmovisor/cmd/cosmovisor@v1.0.0
 ```
 
 {% hint style="danger" %}
-When using cosmovisor, make sure that you do not have auto download of binaries on.
+When using cosmovisor, make sure that you do not have auto download of binaries on. Ensure you have the environment variable `DAEMON_ALLOW_DOWNLOAD_BINARIES` set to `false`.
 {% endhint %}
 
 Your installation can be confirmed with:
