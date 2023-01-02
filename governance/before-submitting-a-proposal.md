@@ -38,7 +38,8 @@ To make your proposal easily identifiable, please use the following format for t
 
 Please avoid using numbering in your proposal discussion. Should the proposal not go ahead, the numbering of the discussion can become confusing.
 
-It is recommended to **keep your proposal discussion open for at least seven days** prior to formalizing the proposal on-chain.
+Since the passing of proposal #63 [Formalise usage of Commonwealth for governance](https://www.mintscan.io/juno/proposals/63) it is **mandatory** to submit your proposal to Commonwealth for a **minimum** of 3 days prior to going on chain. Not adhering to this policy will be met with a NO WITH VETO vote.
+However, it is recommended to **keep your proposal discussion open for at least seven days** prior to formalizing the proposal on-chain.
 
 To get the most exposure for your conversation, advertise the link in the Telegram and Discord. Consider contacting the core devs to advertise the discussion on the official @JunoNetwork Twitter account.
 
@@ -48,7 +49,7 @@ Consider making appropriate changes to your proposal based on feedback from the 
 
 Once you are confident about your proposal, you can submit on-chain for voting. You can find guidance on submitting your proposal [here](submitting-a-proposal-cli.md).
 
-Please note that the fee to fully fund a governance deposit is 500 JUNO. These funds will be returned to the depositor following completion of the voting period. If there are sufficient `NO WITH VETO` votes, the depositors will lose their funds. The depositor will also lose their funds if quorum of 33.4% is not reached.
+Please note that the fee to fully fund a governance deposit is 1,000 JUNO. These funds will be returned to the depositor following completion of the voting period. If there are sufficient `NO WITH VETO` votes, the depositors will lose their funds. The depositor will also lose their funds if quorum of 33.4% is not reached.
 
 ## Closing thoughts
 
