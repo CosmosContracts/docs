@@ -22,12 +22,9 @@ Rather than having to do stressful ops tasks late at night, it's always better i
 First, go and get cosmovisor (recommended approach):
 
 ```bash
-go get github.com/cosmos/cosmos-sdk/cosmovisor/cmd/cosmovisor
+go install cosmossdk.io/tools/cosmovisor/cmd/cosmovisor@latest
 
-# or, with go >= 1.15 you can do
-go install github.com/cosmos/cosmos-sdk/cosmovisor/cmd/cosmovisor@latest
-
-# to target a specific version:
+To install a previous version, you can specify the version after the @ sign. Note that versions older than 1.4.0 can also target a specific version, at a slightly different location:
 go install github.com/cosmos/cosmos-sdk/cosmovisor/cmd/cosmovisor@v1.0.0
 ```
 
@@ -103,25 +100,10 @@ Cosmovisor expects a certain folder structure:
 
 Don't worry about `current` - that is simply a symlink used by Cosmovisor. The other folders will need setting up, but this is easy:
 
-```bash
-mkdir -p $DAEMON_HOME/cosmovisor/genesis/bin
-mkdir -p $DAEMON_HOME/cosmovisor/upgrades
-```
-
-## Set up genesis binary
-
-Cosmovisor needs to know which binary to use at genesis. We put this in `$DAEMON_HOME/cosmovisor/genesis/bin`.
-
-First, find the location of the binary you want to use:
+The recent versions of Cosmovisor have a command that will create the directories and copy the `junod` binary into the proper directory. To create the directories and copy the binary, run this command:
 
 ```bash
-which junod
-```
-
-Then use the path returned to copy it to the directory Cosmovisor expects. Let's assume the previous command returned `/home/your-user/go/bin/junod`:
-
-```bash
-cp $HOME/go/bin/junod $DAEMON_HOME/cosmovisor/genesis/bin
+cosmovisor init $HOME/go/bin/junod
 ```
 
 Once you're done, check the folder structure looks correct using a tool like `tree`.
@@ -147,7 +129,7 @@ After=network-online.target
 
 [Service]
 User=<your-user>
-ExecStart=/home/<your-user>/go/bin/cosmovisor start
+ExecStart=/home/<your-user>/go/bin/cosmovisor run start
 Restart=always
 RestartSec=3
 LimitNOFILE=4096
@@ -179,8 +161,7 @@ Finally, enable the service and start it.
 
 ```bash
 sudo -S systemctl daemon-reload
-sudo -S systemctl enable junod
-sudo systemctl start junod
+sudo -S systemctl enable junod --now
 ```
 
 Check it is running using:
