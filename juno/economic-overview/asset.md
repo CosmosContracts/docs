@@ -1,7 +1,7 @@
 ---
 cover: >-
   ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (1)
-  (1) (1) (1) (1) (1) (38).png
+  (1) (1) (1) (1) (1) (26).png
 coverY: 0
 ---
 
@@ -21,14 +21,14 @@ Juno Network is a completely community owned and operated smart contract platfor
 
 ### **Token Distribution Breakdown**
 
-⚪️ Community **Stakedrop**: 30.663.193 $JUNO (Genesis Stakedrop)
+⚪️ Community **Stakedrop**: 30.663.193 $JUNO (Genesis Community Stakedrop)
 
 ⚪️ **Community Pool:** 20.000.000 $JUNO (Genesis Community Pool Allocation / Non circulating)
 
 ⚪️ Smart Contract **Challenges**: 2.373.341 $JUNO (50% distributed post genesis via JunoHack 1)
 
-⚪️ **Core** **Development Reserve:** 10.084.396 $JUNO (Vested 12 years / Periodic unlocks)
+⚪️ **Core** **Development Reserve:** 10.084.396 $JUNO (Vested 12 years / Periodic unlocks until year 12)
 
-⚪️ **Core- 1 Team/Multi-sig:**  1.782.312 $JUNO (Vested 12 years / Periodic unlocks)
+⚪️ **Core- 1 Team/Multi-sig:**  1.782.312 $JUNO (Vested 12 years / Periodic unlocks until year 12)
 
 ![](<../../.gitbook/assets/image (14).png>)
