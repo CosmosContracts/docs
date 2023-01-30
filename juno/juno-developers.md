@@ -22,7 +22,7 @@ Jake Hartnell aka Meow (DAODAO & Stargaze) [https://twitter.com/JakeHartnell](ht
 
 Lobo aka Wolf (SG-1)[ https://twitter.com/LoboJuno](https://twitter.com/lobojuno)
 
-Jack Zampolin (Strangelove) [https://twitter.com/jack\_zampolin](https://twitter.com/jack\_zampolin)
+Jack Zampolin (Strangelove) [https://twitter.com/jackzampolin](https://twitter.com/jackzampolin)
 
 Jacob Gadikian (Notional) [https://twitter.com/gadikian](https://twitter.com/gadikian)
 
