@@ -1,9 +1,7 @@
 ---
 description: CLI reference for junod modules
-cover: >-
-  ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (1)
-  (1) (1) (1) (1) (1) (10) (34).png
-coverY: 0
+cover: ../../.gitbook/assets/Discord Invite (1).png
+coverY: 260
 ---
 
 # Module Reference
