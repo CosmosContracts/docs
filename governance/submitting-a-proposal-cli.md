@@ -1,8 +1,13 @@
+---
+cover: ../.gitbook/assets/Discord Invite.png
+coverY: 261
+---
+
 # Submitting a Proposal (CLI)
 
-[Governance proposals](https://hub.cosmos.network/main/resources/gaiad.html) target the parameters of specific modules. Go to the [list of modules](https://docs.cosmos.network/master/modules/), and go to the 'parameters' tab for the module you are interested in. 
+[Governance proposals](https://hub.cosmos.network/main/resources/gaiad.html) target the parameters of specific modules. Go to the [list of modules](https://docs.cosmos.network/master/modules/), and go to the 'parameters' tab for the module you are interested in.
 
-You can query the current setting for that parameter with `junod query params subspace [module] [parameter]`. For example, to query [the `communitytax` param in `distribution`](https://docs.cosmos.network/master/modules/distribution/07_params.html), you would do:
+You can query the current setting for that parameter with `junod query params subspace [module] [parameter]`. For example, to query [the `communitytax` param in `distribution`](https://docs.cosmos.network/master/modules/distribution/07\_params.html), you would do:
 
 ```bash
 junod query params subspace distribution communitytax
@@ -59,4 +64,4 @@ junod tx gov submit-proposal param-change ./max_block_gas_proposal.json --from n
 
 (Note: this example is [Juno Mainnet Proposal 6](https://www.mintscan.io/juno/proposals/6)).
 
-Other types of proposals include [`community-pool-spend`](https://hub.cosmos.network/main/governance/community-pool-spend/best_practices.html) and `software-upgrade`/`cancel-software-upgrade`.
+Other types of proposals include [`community-pool-spend`](https://hub.cosmos.network/main/governance/community-pool-spend/best\_practices.html) and `software-upgrade`/`cancel-software-upgrade`.
