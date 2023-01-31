@@ -10,7 +10,9 @@ Juno is a global, open source, permission-less network for decentralized interop
 
 Anyone can create & use inter-chain applications on Juno. The ecosystem is pioneering CosmWasm development and adoption, allowing developers to deploy secure & robust inter-chain smart contracts in Rust. The Juno proof of stake blockchain is built using the Cosmos SDK and reaches network agreement via Tendermint Consensus. The network is governed by delegators, who vote in changes via on-chain governance. All network processes are fueled by $JUNO the native asset of the network. Juno had its decentralized network launch on the 1st of October 2021. CosmWasm Smart Contracts went live on December 15th 2021.
 
-## \*\*\*\*
+
+
+<figure><img src=".gitbook/assets/Twitter 3000.jpg" alt=""><figcaption></figcaption></figure>
 
 ## **Grassroots Origin**
 
@@ -33,5 +35,3 @@ Some of the founding principles centre around:
 ***
 
 ***
-
-### \*\*\*\*
