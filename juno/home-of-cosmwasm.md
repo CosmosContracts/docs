@@ -1,8 +1,6 @@
 ---
-cover: >-
-  ../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (1) (1)
-  (1) (1) (1) (1) (10) (32).png
-coverY: 0
+cover: ../.gitbook/assets/Discord Invite (1).png
+coverY: 264
 ---
 
 # Home of CosmWasm

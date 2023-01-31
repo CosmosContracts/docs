@@ -2,7 +2,7 @@
 description: General instructions on how to join the Juno testnet
 cover: >-
   ../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (1) (1)
-  (1) (1) (1) (1) (10) (54).png
+  (1) (1) (1) (1) (10) (3).png
 coverY: 0
 ---
 

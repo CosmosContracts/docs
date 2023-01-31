@@ -2,8 +2,8 @@
 description: >-
   Dozens of independent development teams are working on Juno. Maintaining &
   building the core network, tooling, dapps, relayers and more.
-cover: ../.gitbook/assets/wallpaperflare.com_wallpaper (61).jpg
-coverY: 0
+cover: ../.gitbook/assets/Discord Invite 1.png
+coverY: -83
 ---
 
 # Contributors
@@ -138,7 +138,7 @@ Cosmos Spaces [https://twitter.com/Cosmos\_spaces](https://twitter.com/Cosmos\_s
 
 ChainTools [https://twitter.com/ChaintoolsT](https://twitter.com/ChaintoolsT)
 
-Stake&Relax [https://linktr.ee/stakeandrelax](https://linktr.ee/stakeandrelax)
+Stake\&Relax [https://linktr.ee/stakeandrelax](https://linktr.ee/stakeandrelax)
 
 Oni Validator ⛩ [https://twitter.com/OniValidator](https://twitter.com/OniValidator)
 
