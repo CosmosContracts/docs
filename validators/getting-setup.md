@@ -1,9 +1,7 @@
 ---
 description: Instruction to install and configure the junod binary
-cover: >-
-  ../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (1) (1)
-  (1) (1) (1) (1) (10).png
-coverY: 0
+cover: ../.gitbook/assets/Discord Invite.png
+coverY: 259
 ---
 
 # Junod Installation and setup
