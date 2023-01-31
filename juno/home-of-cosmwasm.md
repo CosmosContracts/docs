@@ -1,7 +1,7 @@
 ---
 cover: >-
   ../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (1) (1)
-  (1) (1) (1) (1) (48).png
+  (1) (1) (1) (1) (10) (32).png
 coverY: 0
 ---
 
