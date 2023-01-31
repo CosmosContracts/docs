@@ -1,8 +1,6 @@
 ---
-cover: >-
-  ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (1)
-  (1) (1) (1) (1) (1) (10) (24).png
-coverY: 0
+cover: ../../.gitbook/assets/Discord Invite (2).png
+coverY: 263
 ---
 
 # Supply API - Data
