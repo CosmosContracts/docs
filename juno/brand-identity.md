@@ -1,21 +1,19 @@
 ---
-cover: ../.gitbook/assets/Discord Invite (2) (1).png
-coverY: 263
+cover: ../.gitbook/assets/Anatomy.png
+coverY: -4
 ---
 
 # Brand Identity
 
 **Assets**
 
-{% file src="../.gitbook/assets/JUNO Logo (Black).svg" %}
+{% file src="../.gitbook/assets/juno_salmon.svg" %}
 
-![](<../.gitbook/assets/Juno Banner Wide (Black).png>)
+{% file src="../.gitbook/assets/juno_salmon.png" %}
 
-{% file src="../.gitbook/assets/juno-text-logo (1).svg" %}
+{% file src="../.gitbook/assets/juno_bright.svg" %}
 
-{% file src="../.gitbook/assets/juno-symbol (2) (2) (2) (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).svg" %}
-
-{% file src="../.gitbook/assets/juno-logo-squared-.png" %}
+{% file src="../.gitbook/assets/juno_bright.png" %}
 
 ***
 
