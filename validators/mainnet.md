@@ -1,9 +1,7 @@
 ---
 description: It's 🚀 time!
-cover: >-
-  ../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (1) (1)
-  (1) (1) (1) (1) (10) (4).png
-coverY: 0
+cover: ../.gitbook/assets/Discord Invite (1).png
+coverY: 259
 ---
 
 # Mainnet Setup and Tooling
