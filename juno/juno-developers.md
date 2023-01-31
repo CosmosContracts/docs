@@ -12,7 +12,7 @@ The core network is secured & maintained by independent validators & Core Root, 
 
 ![](<../.gitbook/assets/Banner 4 (C-Root).png>)
 
-<img src="../.gitbook/assets/image.png" alt="" data-size="line">[Discord.gg/Juno](https://discord.gg/Juno)\\
+<img src="../.gitbook/assets/image (17).png" alt="" data-size="line">[Discord.gg/Juno](https://discord.gg/Juno)\\
 
 Andrea Di Michele aka Dimi (stakefish) [https://twitter.com/dimiandre](https://twitter.com/dimiandre)
 

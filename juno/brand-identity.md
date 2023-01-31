@@ -19,22 +19,20 @@ coverY: -4
 
 **Color Identity**
 
-Primary Color\*\*:\*\* f0827d
+Primary Color #FF7B7C
 
-![](<../.gitbook/assets/JUNO Primary Color (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (10) (11).png>)
+<figure><img src="../.gitbook/assets/Primary Color.png" alt=""><figcaption></figcaption></figure>
 
-Secondary Color: 000000
+Secondary Color: #1E1E1EFF
 
-![](../.gitbook/assets/juno-secondary-color-black-.png)
+<figure><img src="../.gitbook/assets/Secondary Color (1).png" alt=""><figcaption></figcaption></figure>
 
-Secondary Color: 9f9f9f
+Complementary Color: #FFEBD2
 
-![](../.gitbook/assets/juno-secondary-color-grey-.png)
+<figure><img src="../.gitbook/assets/Complementary Color.png" alt=""><figcaption></figcaption></figure>
 
-Secondary Color: ffffff
-
-![](../.gitbook/assets/juno-secondary-color-white-.png)
-
-**Font**
+**Font Identity**
 
 The wordmark font is Gotham Medium.
+
+![](../.gitbook/assets/image.png)
