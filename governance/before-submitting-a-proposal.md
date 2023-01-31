@@ -1,5 +1,7 @@
 ---
 description: 🛠 This page is a work in progress, and should not be considered canon 🛠
+cover: ../.gitbook/assets/Discord Invite (4).png
+coverY: 262
 ---
 
 # Before submitting a proposal
@@ -38,8 +40,7 @@ To make your proposal easily identifiable, please use the following format for t
 
 Please avoid using numbering in your proposal discussion. Should the proposal not go ahead, the numbering of the discussion can become confusing.
 
-Since the passing of proposal #63 [Formalise usage of Commonwealth for governance](https://www.mintscan.io/juno/proposals/63) it is **mandatory** to submit your proposal to Commonwealth for a **minimum** of 3 days prior to going on chain. Not adhering to this policy will be met with a NO WITH VETO vote.
-However, it is recommended to **keep your proposal discussion open for at least seven days** prior to formalizing the proposal on-chain.
+Since the passing of proposal #63 [Formalise usage of Commonwealth for governance](https://www.mintscan.io/juno/proposals/63) it is **mandatory** to submit your proposal to Commonwealth for a **minimum** of 3 days prior to going on chain. Not adhering to this policy will be met with a NO WITH VETO vote. However, it is recommended to **keep your proposal discussion open for at least seven days** prior to formalizing the proposal on-chain.
 
 To get the most exposure for your conversation, advertise the link in the Telegram and Discord. Consider contacting the core devs to advertise the discussion on the official @JunoNetwork Twitter account.
 
