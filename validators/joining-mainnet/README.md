@@ -1,9 +1,7 @@
 ---
 description: General instructions to join the Juno mainnet after network genesis.
-cover: >-
-  ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (1)
-  (1) (1) (1) (1) (1) (10) (1).png
-coverY: 0
+cover: ../../.gitbook/assets/Discord Invite.png
+coverY: 260
 ---
 
 # Joining Mainnet
