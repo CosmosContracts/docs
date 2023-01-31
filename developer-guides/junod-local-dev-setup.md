@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/Discord Invite (6).png
+coverY: 259
+---
+
 # Junod Local Dev Setup
 
 {% hint style="info" %}
