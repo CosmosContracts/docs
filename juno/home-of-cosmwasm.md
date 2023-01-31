@@ -1,6 +1,6 @@
 ---
 cover: ../.gitbook/assets/Discord Invite (1) (1) (1).png
-coverY: 264
+coverY: 185.16283716283715
 ---
 
 # Home of CosmWasm
