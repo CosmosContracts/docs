@@ -1,8 +1,6 @@
 ---
-cover: >-
-  ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (1)
-  (1) (1) (1) (1) (1) (10) (27).png
-coverY: 0
+cover: ../../.gitbook/assets/Discord Invite.png
+coverY: 260
 ---
 
 # Native Asset (JUNO)
