@@ -16,7 +16,7 @@ If you get stuck, then please ask on Discord.
 
 | chain-id | Current Github version tag |
 | -------- | -------------------------- |
-| uni-5    | v10.0.0-alpha.2            |
+| uni-6    | v11.0.0                    |
 
 ## Minimum Hardware Requirements
 
@@ -51,7 +51,7 @@ To clear a variable binding, use `unset $VARIABLE_NAME` . Shell variables should
 Set the `CHAIN_ID`:
 
 ```bash
-CHAIN_ID=uni-5
+CHAIN_ID=uni-6
 ```
 
 ### Set your moniker name
