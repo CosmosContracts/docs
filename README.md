@@ -12,7 +12,7 @@ Anyone can create & use inter-chain applications on Juno. The ecosystem is pione
 
 
 
-<figure><img src=".gitbook/assets/Twitter 3000.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Docs Banner (JUNO) 1.png" alt=""><figcaption></figcaption></figure>
 
 ## **Grassroots Origin**
 
