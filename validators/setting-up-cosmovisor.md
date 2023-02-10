@@ -98,7 +98,33 @@ Cosmovisor expects a certain folder structure:
 
 Don't worry about `current` - that is simply a symlink used by Cosmovisor. The other folders will need setting up, but this is easy:
 
-The recent versions of Cosmovisor have a command that will create the directories and copy the `junod` binary into the proper directory. To create the directories and copy the binary, run this command:
+```bash
+mkdir -p $DAEMON_HOME/cosmovisor/genesis/bin && mkdir -p $DAEMON_HOME/cosmovisor/upgrades
+```
+
+### Set up genesis binary
+
+Cosmovisor needs to know which binary to use at genesis. We put this in `$DAEMON_HOME/cosmovisor/genesis/bin`.
+
+First, find the location of the binary you want to use:
+
+```bash
+which junod
+```
+
+Then use the path returned to copy it to the directory Cosmovisor expects. Let's assume the previous command returned `/home/your-user/go/bin/junod`:
+
+```bash
+cp $HOME/go/bin/junod $DAEMON_HOME/cosmovisor/genesis/bin
+```
+
+```bash
+cp $HOME/go/bin/junod $DAEMON_HOME/cosmovisor/genesis/bin
+```
+
+## Cosmovisor init
+
+Post v1 versions of Cosmovisor have a command that will create the directories and copy the `junod` binary into the proper directory. To create the directories and copy the binary, run this command:
 
 ```bash
 cosmovisor init $HOME/go/bin/junod
@@ -119,6 +145,12 @@ sudo nano /etc/systemd/system/junod.service
 ```
 
 Change the contents of the below to match your setup - `cosmovisor` is likely at `~/go/bin/cosmovisor` regardless of which installation path you took above, but it's worth checking.
+
+**Note** `cosmovisor run start` is only for the latest versions of cosmovisor. For earlier versions that line should be:
+
+```
+ExecStart=/home/<your-user>/go/bin/cosmovisor start
+```
 
 ```
 [Unit]
@@ -159,7 +191,9 @@ Finally, enable the service and start it.
 
 ```bash
 sudo -S systemctl daemon-reload
-sudo -S systemctl enable junod --now
+sudo -S systemctl enable junod
+# check config one last time before starting!
+sudo systemctl start junod
 ```
 
 Check it is running using:
