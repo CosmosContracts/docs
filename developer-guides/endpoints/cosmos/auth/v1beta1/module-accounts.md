@@ -1,0 +1,5 @@
+# Module accounts
+
+{% swagger src="../../../../../.gitbook/assets/openapi (6).yml" path="/cosmos/auth/v1beta1/module_accounts/{name}" method="get" %}
+[openapi (6).yml](<../../../../../.gitbook/assets/openapi (6).yml>)
+{% endswagger %}
