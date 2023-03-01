@@ -43,7 +43,7 @@ docker run -it \
   -p 26657:26657 \
   -e STAKE_TOKEN=ujunox \
   -e UNSAFE_CORS=true \
-  ghcr.io/cosmoscontracts/juno:v11.0.0 \
+  ghcr.io/cosmoscontracts/juno:v12.0.0 \
   ./setup_and_run.sh juno16g2rahf5846rxzp3fwlswy08fz8ccuwk03k57y
 ```
 
@@ -75,7 +75,7 @@ To call Juno inside a container, use `docker exec` like so:
 docker run --rm -v "$(pwd)":/code \
   --mount type=volume,source="$(basename "$(pwd)")_cache",target=/code/target \
   --mount type=volume,source=registry_cache,target=/usr/local/cargo/registry \
-  cosmwasm/rust-optimizer:0.12.8
+  cosmwasm/rust-optimizer:0.12.11
 
 # copy wasm to container
 docker cp artifacts/your_compiled.wasm juno_node_1:/your_compiled.wasm
@@ -93,7 +93,7 @@ docker exec -i juno_node_1 \
 If you don't want to go through the process of setting up a node and just want to experiment with the Juno uni testnet:
 
 1. Get a public node's RPC address. These can be found pinned in Discord in the dev channel.
-2. In `~/.juno/config/client.toml` set `node="<public node RPC address>"` and `chain-id="uni-5"`.
+2. In `~/.juno/config/client.toml` set `node="<public node RPC address>"` and `chain-id="uni-6"`.
 3. Create a key to use by running `junod keys add <key-name>`.
 4. Get that key's public address by running `junod keys show <key-name> -a`.
 5. Get some test Juno by sending `$request <key-address>` in the #faucet Discord channel.
