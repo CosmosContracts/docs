@@ -25,6 +25,7 @@
   * [Get Token Prices](developer-guides/miscellaneous/get-token-prices.md)
   * [Get Account Transactions](developer-guides/miscellaneous/get-account-transactions.md)
   * [IBC Transfer](developer-guides/miscellaneous/ibc-transfer.md)
+  * [State Export / Airdrop](developer-guides/miscellaneous/state-export-airdrop.md)
 * [Junod Local Dev Setup](developer-guides/junod-local-dev-setup.md)
 
 ## Governance
