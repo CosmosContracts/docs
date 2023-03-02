@@ -1,10 +1,12 @@
 ---
-description: How to Compile a CosmWasm Smart Contract via CLI
+description: How to Compile CosmWasm Smart Contracts
 ---
 
 # Compile a Contract
 
-[This guide is from the official CosmWasm/rust-optimizer repository](https://github.com/CosmWasm/rust-optimizer)
+[This guide is from the official CosmWasm/rust-optimizer repository](https://github.com/CosmWasm/rust-optimizer). This method of compiling the contract will optimize the final build so that it reduces gas consumption.
+
+Example contracts for this can be found at [https://github.com/CosmWasm/cw-examples](https://github.com/CosmWasm/cw-examples). This repository requires the "Multiple Contract Repository" section.
 
 ## Single Contract Repository
 

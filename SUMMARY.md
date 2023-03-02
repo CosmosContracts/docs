@@ -15,9 +15,11 @@
 
 ## Developer Guides
 
-* [Miscellaneous Guides](developer-guides/miscellaneous-guides/README.md)
-  * [Multi Message Transaction](developer-guides/miscellaneous-guides/multi-message-transaction.md)
-  * [Compile a Contract](developer-guides/miscellaneous-guides/compile-a-contract.md)
+* [CosmWasm Contracts](developer-guides/cosmwasm-contracts/README.md)
+  * [Compile a Contract](developer-guides/cosmwasm-contracts/compile-a-contract.md)
+  * [Deploy a Contract](developer-guides/cosmwasm-contracts/deploy-a-contract.md)
+* [Miscellaneous](developer-guides/miscellaneous/README.md)
+  * [Multi Message Transaction](developer-guides/miscellaneous/multi-message-transaction.md)
 * [Junod Local Dev Setup](developer-guides/junod-local-dev-setup.md)
 
 ## Governance
