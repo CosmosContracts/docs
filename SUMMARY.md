@@ -21,6 +21,7 @@
   * [Query A Contract](developer-guides/cosmwasm-contracts/query-a-contract.md)
 * [Miscellaneous](developer-guides/miscellaneous/README.md)
   * [Multi Message Transaction](developer-guides/miscellaneous/multi-message-transaction.md)
+  * [Get Token Prices](developer-guides/miscellaneous/get-token-prices.md)
 * [Junod Local Dev Setup](developer-guides/junod-local-dev-setup.md)
 
 ## Governance
