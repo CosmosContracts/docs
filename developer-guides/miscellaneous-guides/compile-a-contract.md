@@ -1,0 +1,37 @@
+---
+description: How to Compile a CosmWasm Smart Contract via CLI
+---
+
+# Compile a Contract
+
+[This guide is from the official CosmWasm/rust-optimizer repository](https://github.com/CosmWasm/rust-optimizer)
+
+## Single Contract Repository
+
+The easiest way is to simply use the [published docker image](https://hub.docker.com/r/cosmwasm/rust-optimizer). You must set the local path to the smart contract you wish to compile and it will produce an `artifacts` directory with `<crate_name>.wasm` and `contracts.txt` containing the hashes. This is just one file.
+
+```
+docker run --rm -v "$(pwd)":/code \
+  --mount type=volume,source="$(basename "$(pwd)")_cache",target=/code/target \
+  --mount type=volume,source=registry_cache,target=/usr/local/cargo/registry \
+  cosmwasm/rust-optimizer:0.12.11
+```
+
+By running this in the root of your project, it will compile your contract into an artifacts/ folder. From here you can upload it to chain, collect the store code, and interact with it as you design
+
+## Multiple Contract Repository (Mono Repo)
+
+Sometime you want many contracts to be related and import common functionality. This is exactly the case of [`cosmwasm-plus`](https://github.com/CosmWasm/cosmwasm-plus). In such a case, we can often not just compile from root, as the compile order is not deterministic and there are feature flags shared among the repos. This has lead to [issues in the past](https://github.com/CosmWasm/rust-optimizer/issues/21).
+
+For this use-case there is second docker image, which will compile all the `contracts/*` folders inside the workspace and do so one-by-one in alphabetical order. It will then add all the generated wasm files to an `artifacts` directory with a checksum, just like the basic docker image (same output format).
+
+To compile all contracts in the workspace deterministically, you can run:
+
+```
+docker run --rm -v "$(pwd)":/code \
+  --mount type=volume,source="$(basename "$(pwd)")_cache",target=/code/target \
+  --mount type=volume,source=registry_cache,target=/usr/local/cargo/registry \
+  cosmwasm/workspace-optimizer:0.12.11
+```
+
+**NOTE**: See the difference with **workspace-optimizer** vs **rust-optimizer** in the previous single contract example.\
