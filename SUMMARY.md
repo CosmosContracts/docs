@@ -15,6 +15,8 @@
 
 ## Developer Guides
 
+* [Miscellaneous Guides](developer-guides/miscellaneous-guides/README.md)
+  * [Multi Message Transaction](developer-guides/miscellaneous-guides/multi-message-transaction.md)
 * [Junod Local Dev Setup](developer-guides/junod-local-dev-setup.md)
 
 ## Governance
