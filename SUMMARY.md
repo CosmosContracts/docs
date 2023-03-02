@@ -18,6 +18,7 @@
 * [CosmWasm Contracts](developer-guides/cosmwasm-contracts/README.md)
   * [Compile a Contract](developer-guides/cosmwasm-contracts/compile-a-contract.md)
   * [Deploy a Contract](developer-guides/cosmwasm-contracts/deploy-a-contract.md)
+  * [Query A Contract](developer-guides/cosmwasm-contracts/query-a-contract.md)
 * [Miscellaneous](developer-guides/miscellaneous/README.md)
   * [Multi Message Transaction](developer-guides/miscellaneous/multi-message-transaction.md)
 * [Junod Local Dev Setup](developer-guides/junod-local-dev-setup.md)
