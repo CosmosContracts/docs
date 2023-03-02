@@ -23,6 +23,7 @@
   * [Multi Message Transaction](developer-guides/miscellaneous/multi-message-transaction.md)
   * [Get Token Prices](developer-guides/miscellaneous/get-token-prices.md)
   * [Get Account Transactions](developer-guides/miscellaneous/get-account-transactions.md)
+  * [IBC Transfer](developer-guides/miscellaneous/ibc-transfer.md)
 * [Junod Local Dev Setup](developer-guides/junod-local-dev-setup.md)
 
 ## Governance
