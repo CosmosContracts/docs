@@ -72,9 +72,8 @@ This will return the data about the transaction, and give us the code id of our 
         }
       ]
     }
-  ],
-  "info": "",
-  ...
+  }]
+}
 ```
 
 We can see both raw\_log and also logs\[0].events\[1].store\_code shows the code\_id being 13. If you wish the automate this return code in bash to a variable, you can&#x20;
@@ -97,7 +96,7 @@ junod tx wasm instantiate "$CODE_ID" '{"name":"test","symbol":"aaaa","decimals":
 <strong># then query the tranasaction hash as we do above.
 </strong><strong>
 </strong># Automated return of the contract address
-CODE_ID13
+CODE_ID=13
 CW20_TX_INIT=$(junod tx wasm instantiate "$CODE_ID" '{"name":"test","symbol":"aaaa","decimals":6,"initial_balances":[{"address":"juno1hj5fveer5cjtn4wd6wstzugjfdxzl0xps73ftl","amount":"100"}]}' --label "cw20" $FLAGS -y --admin &#x3C;your-address-here> | jq -r '.txhash') &#x26;&#x26; echo $CW20_TX_INIT
 CW20_ADDR=$($BINARY query tx $CW20_TX_INIT --output json | jq -r '.logs[0].events[0].attributes[0].value') &#x26;&#x26; echo "$CW20_ADDR"
 </code></pre>
