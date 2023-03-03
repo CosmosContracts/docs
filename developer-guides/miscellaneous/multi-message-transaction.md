@@ -23,7 +23,7 @@ To generate a multiple message transaction, you will need to slight scripting kn
 First, you need to generate a default single message transaction from the command line like so
 
 ```sh
-junod tx bank send juno16g2r... juno1t8e... 1000000ujuno --generate-only
+junod tx bank send juno16g2r... juno1t8e... 1000000ujuno --generate-only [flags]
 ```
 
 ```json
@@ -62,7 +62,7 @@ junod tx bank send juno16g2r... juno1t8e... 1000000ujuno --generate-only
 }
 ```
 
-Here are are interested in the body -> messages section. In this array, we can put any amount of actions (within the gas limitation) for this transaction to execute with a single execute. So if I wanted to send another amount to a different address at the same time as well, we can manually alter the array of messages to add this new message like so
+Here we are interested in the body -> messages section. In this array, we can put any amount of actions (within the gas limitation) for this transaction to execute with a single execute. So if I wanted to send another amount to a different address at the same time as well, we can manually alter the array of messages to add this new message like so
 
 ```json
 {
@@ -93,7 +93,19 @@ Here are are interested in the body -> messages section. In this array, we can p
     ],
     "memo": "",
     "timeout_height": "0",
-     ...
+    "extension_options": [],
+    "non_critical_extension_options": []
+  },
+  "auth_info": {
+    "signer_infos": [],
+    "fee": {
+      "amount": [],
+      "gas_limit": "200000",
+      "payer": "",
+      "granter": ""
+    }
+  },
+  "signatures": []
 }
 ```
 

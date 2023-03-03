@@ -8,15 +8,26 @@ description: How to Compile CosmWasm Smart Contracts
 
 Example contracts for this can be found at [https://github.com/CosmWasm/cw-examples](https://github.com/CosmWasm/cw-examples). This repository [requires this section to compile](compile-a-contract.md#multiple-contract-repository-mono-repo) since multiple contracts are involved in a single repository.
 
+{% hint style="info" %}
+If you have ZERO experience with smart contracts, you need to check out [book.cosmwasm.com](https://book.cosmwasm.com) for setting up your envirioment, testnet, and the basics of CosmWasm
+{% endhint %}
+
 ## Single Contract Repository
 
-The easiest way is to simply use the [published docker image](https://hub.docker.com/r/cosmwasm/rust-optimizer). You must set the local path to the smart contract you wish to compile and it will produce an `artifacts` directory with `<crate_name>.wasm` and `contracts.txt` containing the hashes. This is just one file.
+The easiest way is to simply use the [published docker image](https://hub.docker.com/r/cosmwasm/rust-optimizer). You must run this in the root of the smart contract repository you wish to compile. It will produce an `artifacts` directory with `<crate_name>.wasm` and `contracts.txt` containing the hashes. This is just one file.
 
 ```
 docker run --rm -v "$(pwd)":/code \
   --mount type=volume,source="$(basename "$(pwd)")_cache",target=/code/target \
   --mount type=volume,source=registry_cache,target=/usr/local/cargo/registry \
   cosmwasm/rust-optimizer:0.12.11
+
+# If you you use an ARM machine (Ex: Mac M1), you need to use the following
+# This is experimental and should not be used for production use
+docker run --rm -v "$(pwd)":/code \
+  --mount type=volume,source="$(basename "$(pwd)")_cache",target=/code/target \
+  --mount type=volume,source=registry_cache,target=/usr/local/cargo/registry \
+  cosmwasm/rust-optimizer-arm64:0.12.11
 ```
 
 By running this in the root of your project, it will compile your contract into an artifacts/ folder. From here you can upload it to chain, collect the store code, and interact with it as you design
@@ -34,6 +45,13 @@ docker run --rm -v "$(pwd)":/code \
   --mount type=volume,source="$(basename "$(pwd)")_cache",target=/code/target \
   --mount type=volume,source=registry_cache,target=/usr/local/cargo/registry \
   cosmwasm/workspace-optimizer:0.12.11
+
+# If you you use an ARM machine (Ex: Mac M1), you need to use the following
+# This is experimental and should not be used for production use
+docker run --rm -v "$(pwd)":/code \
+  --mount type=volume,source="$(basename "$(pwd)")_cache",target=/code/target \
+  --mount type=volume,source=registry_cache,target=/usr/local/cargo/registry \
+  cosmwasm/workspace-optimizer-arm64:0.12.11
 ```
 
 **NOTE**: See the difference with **workspace-optimizer** vs **rust-optimizer** in the previous single contract example.\
