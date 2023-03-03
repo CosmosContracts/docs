@@ -20,15 +20,15 @@ By default, you can only submit 1 transaction per block. In doing this, it will 
 
 To generate a multiple message transaction, you will need to slight scripting knoladge to assist for your needs. This works for any module in Juno, and you can add as many different messages to the same transaction within the gas limit. (Gas is a deterministic number describing the amount of computer a given action takes on a node).
 
-First, you need to generate a default single message transaction from the command line like so
+First, you need to generate a default single message transaction from the command line. Ensure that the from address is an address you have the key access too.
 
 ```sh
-junod tx bank send juno16g2r... juno1t8e... 1000000ujuno --generate-only [flags]
+junod tx bank send juno16g2r... juno1t8e... 1000000ujunox \
+    --generate-only --fees=5000ujunox \
+    --chain-id=uni-6 --node=https://uni-rpc.reece.sh:443 [flags] > bankmsgs.json
 ```
 
 ```json
-// this generates the following. You can pipe the output into 
-// the `jq` command on mac / linux to format it like this
 {
   "body": {
     "messages": [
@@ -52,7 +52,12 @@ junod tx bank send juno16g2r... juno1t8e... 1000000ujuno --generate-only [flags]
   "auth_info": {
     "signer_infos": [],
     "fee": {
-      "amount": [],
+      "amount": [
+          {
+              "denom": "ujunox",
+              "amount": "5000"
+          }
+      ],
       "gas_limit": "200000",
       "payer": "",
       "granter": ""
@@ -99,7 +104,12 @@ Here we are interested in the body -> messages section. In this array, we can pu
   "auth_info": {
     "signer_infos": [],
     "fee": {
-      "amount": [],
+      "amount": [
+          {
+              "denom": "ujunox",
+              "amount": "5000"
+          }
+      ],
       "gas_limit": "200000",
       "payer": "",
       "granter": ""
@@ -112,6 +122,22 @@ Here we are interested in the body -> messages section. In this array, we can pu
 In this case, we send 5JUNO to juno1ka... as well as the original account, at the same time. (Reminder: ujuno is a 6th exponent representation of human readable form). So in the above messages, we in total send 6JUNO.&#x20;
 
 **NOTE**: If our account only has less than 6JUNO, the entire above transaction would fail (non 0 return code) for not enough balance. Even through the first message is only 1JUNO, all messages in a transaction do not execute unless they are all successful. This is a safety mechanism!
+
+Then we can sign and broadcast it
+
+```bash
+# Sign the message from the account who is sending the tokens
+# This creates a new file which adds a signature to the signatures array
+junod tx sign bankmsgs.json \
+    --chain-id=uni-6 --from KEY [flags] &> signed_bankmsgs.json
+
+# Broadcast the message to the chain after it is successfully signed
+junod tx broadcast signed_bankmsgs.json \
+    --from KEY --chain-id=uni-6 [flags]
+
+# Query to ensure it went through well (enough gas and fees)
+junod q tx 12A4D888F6737130CE03CEC6BBAFD98855462E81D5AF871949E1EDE1B0B1A14B --node https://uni-rpc.reece.sh:443
+```
 
 ## Multi Message NFT Mint (CosmWasm)
 
@@ -163,7 +189,12 @@ junod tx wasm execute juno1za0uemnhzwkjrqwguy34w45mqdlzfm9hl4s5gp5jtc0e4xvkrwjs6
   "auth_info": {
     "signer_infos": [],
     "fee": {
-      "amount": [],
+      "amount": [
+          {
+              "denom": "ujunox",
+              "amount": "5000"
+          }
+      ],
       "gas_limit": "200000",
       "payer": "",
       "granter": ""
@@ -241,9 +272,10 @@ This saves a file named `mint_nfts.json` to the directory this script is saved i
 
 ```sh
 # Sign the message from the account who is minting
-junod tx sign mint_nfts.json --from <KEY> &> signed_mint_images.json
+junod tx sign mint_nfts.json \
+    --chain-id=uni-6 --from KEY [flags] &> signed_mint_images.json
 
 # Broadcast the message to the chain after it is successfully signed
 junod tx broadcast signed_mint_images.json \
-    --gas=auto --gas-prices=0.003ujuno --gas-adjustment=1.3
+    --from KEY --chain-id=uni-6 [flags]
 ```
