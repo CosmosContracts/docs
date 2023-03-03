@@ -26,6 +26,9 @@
   * [Get Account Transactions](developer-guides/miscellaneous/get-account-transactions.md)
   * [IBC Transfer](developer-guides/miscellaneous/ibc-transfer.md)
   * [State Export / Airdrop](developer-guides/miscellaneous/state-export-airdrop.md)
+* [Juno Modules](developer-guides/juno-modules/README.md)
+  * [FeeShare](developer-guides/juno-modules/feeshare.md)
+  * [TokenFactory](developer-guides/juno-modules/tokenfactory.md)
 * [Junod Local Dev Setup](developer-guides/junod-local-dev-setup.md)
 
 ## Governance
