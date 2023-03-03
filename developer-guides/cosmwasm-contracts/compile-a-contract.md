@@ -9,7 +9,9 @@ description: How to Compile CosmWasm Smart Contracts
 Example contracts for this can be found at [https://github.com/CosmWasm/cw-examples](https://github.com/CosmWasm/cw-examples). This repository [requires this section to compile](compile-a-contract.md#multiple-contract-repository-mono-repo) since multiple contracts are involved in a single repository.
 
 {% hint style="info" %}
-If you have ZERO experience with smart contracts, you need to check out [book.cosmwasm.com](https://book.cosmwasm.com) for setting up your envirioment, testnet, and the basics of CosmWasm
+If you have ZERO experience with smart contracts, you need to check out [book.cosmwasm.com](https://book.cosmwasm.com) for setting up your environment, testnet, and the basics of CosmWasm.\
+\
+For all great CosmWasm tools, [https://github.com/CosmWasm/awesome-cosmwasm](https://github.com/CosmWasm/awesome-cosmwasm)
 {% endhint %}
 
 ## Single Contract Repository
