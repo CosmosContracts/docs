@@ -18,14 +18,20 @@ By default, you can only submit 1 transaction per block. In doing this, it will 
 
 ## Multi Message Transaction (bank)
 
-To generate a multiple message transaction, you will need to slight scripting knoladge to assist for your needs. This works for any module in Juno, and you can add as many different messages to the same transaction within the gas limit. (Gas is a deterministic number describing the amount of computer a given action takes on a node).
+To generate a multiple message transaction, you will need to slight scripting knowledge to assist for your needs. This works for any module in Juno, and you can add as many different messages to the same transaction within the gas limit. (Gas is a deterministic number describing the amount of computer a given action takes on a node).
 
 First, you need to generate a default single message transaction from the command line. Ensure that the from address is an address you have the key access too.
+
+{% hint style="info" %}
+NOTE: ujunox is used on the uni-6 chain-id, while ujuno is used on the mainnet juno1 chain-id.\
+\
+You can find uni-6 testnet nodes on [https://testnet.cosmos.directory/junotestnet/nodes](https://testnet.cosmos.directory/junotestnet/nodes)
+{% endhint %}
 
 ```sh
 junod tx bank send juno16g2r... juno1t8e... 1000000ujunox \
     --generate-only --fees=5000ujunox \
-    --chain-id=uni-6 --node=https://uni-rpc.reece.sh:443 [flags] > bankmsgs.json
+    --chain-id=uni-6 --node=https://rpc.uni.junonetwork.io:443 [flags] > bankmsgs.json
 ```
 
 ```json
@@ -143,7 +149,7 @@ junod tx broadcast signed_bankmsgs.json \
     --from KEY --chain-id=uni-6 [flags]
 
 # Query to ensure it went through well (enough gas and fees)
-junod q tx 12A4D888F6737130CE03CEC6BBAFD98855462E81D5AF871949E1EDE1B0B1A14B --node https://uni-rpc.reece.sh:443
+junod q tx 12A4D888F6737130CE03CEC6BBAFD98855462E81D5AF871949E1EDE1B0B1A14B --node https://rpc.uni.junonetwork.io:443
 ```
 
 ## Multi Message NFT Mint (CosmWasm)
@@ -154,7 +160,7 @@ After reading the above guide, the same steps can be applied to mint cosmwasm ba
 # generate the initial Transaction structure
 junod tx wasm execute juno1za0uemnhzwkjrqwguy34w45mqdlzfm9hl4s5gp5jtc0e4xvkrwjs6s2rt4 \
     '{"mint":{"token_id":"1","owner":"juno16g2rahf5846rxzp3fwlswy08fz8ccuwk03k57y","token_uri":"https://domain.com/image1.png"}}' \
-    --output json -y --generate-only --from juno16g2rahf5846rxzp3fwlswy08fz8ccuwk03k57y
+    --output json --chain-id=uni-6 --yes --generate-only --from juno16g2rahf5846rxzp3fwlswy08fz8ccuwk03k57y
 ```
 
 ```json
