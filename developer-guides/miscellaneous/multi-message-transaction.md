@@ -129,7 +129,14 @@ Then we can sign and broadcast it
 # Sign the message from the account who is sending the tokens
 # This creates a new file which adds a signature to the signatures array
 junod tx sign bankmsgs.json \
-    --chain-id=uni-6 --from KEY [flags] &> signed_bankmsgs.json
+    --chain-id=uni-6 --from KEY [flags]
+    
+
+# take the output from here and paste it into a file named
+# signed_bankmsgs.json. 
+# You can also try doing &> signed_bankmsgs.json or > signed_bankmsgs.json
+touch signed_bankmsgs.json # create the file
+
 
 # Broadcast the message to the chain after it is successfully signed
 junod tx broadcast signed_bankmsgs.json \
