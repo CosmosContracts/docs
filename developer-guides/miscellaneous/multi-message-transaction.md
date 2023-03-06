@@ -125,7 +125,7 @@ Here we are interested in the body -> messages section. In this array, we can pu
 }
 ```
 
-In this case, we send 5JUNO to juno1ka... as well as the original account, at the same time. (Reminder: ujuno is a 6th exponent representation of human readable form). So in the above messages, we in total send 6JUNO.&#x20;
+In this case, we send 5JUNO to juno1ka... as well as the original account, at the same time. (Reminder: ujuno is a 6th exponent representation of human readable form). So in the above messages, we in total send 6JUNO.
 
 **NOTE**: If our account only has less than 6JUNO, the entire above transaction would fail (non 0 return code) for not enough balance. Even through the first message is only 1JUNO, all messages in a transaction do not execute unless they are all successful. This is a safety mechanism!
 
@@ -173,9 +173,9 @@ junod tx wasm execute juno1za0uemnhzwkjrqwguy34w45mqdlzfm9hl4s5gp5jtc0e4xvkrwjs6
         "contract": "juno1za0uemnhzwkjrqwguy34w45mqdlzfm9hl4s5gp5jtc0e4xvkrwjs6s2rt4",
         "msg": {
             "mint": {
-                "token_id": f"1",
-                "owner": f"juno16g2rahf5846rxzp3fwlswy08fz8ccuwk03k57y",
-                "token_uri": f"https://domain.com/image1.png"
+                "token_id": "1",
+                "owner": "juno16g2rahf5846rxzp3fwlswy08fz8ccuwk03k57y",
+                "token_uri": "https://domain.com/image1.png"
             }
         },
         "funds": []
@@ -186,9 +186,9 @@ junod tx wasm execute juno1za0uemnhzwkjrqwguy34w45mqdlzfm9hl4s5gp5jtc0e4xvkrwjs6
         "contract": "juno1za0uemnhzwkjrqwguy34w45mqdlzfm9hl4s5gp5jtc0e4xvkrwjs6s2rt4",
         "msg": {
             "mint": {
-                "token_id": f"2",
-                "owner": f"juno16g2rahf5846rxzp3fwlswy08fz8ccuwk03k57y",
-                "token_uri": f"https://domain.com/image2.png"
+                "token_id": "2",
+                "owner": "juno16g2rahf5846rxzp3fwlswy08fz8ccuwk03k57y",
+                "token_uri": "https://domain.com/image2.png"
             }
         },
         "funds": []
@@ -274,10 +274,7 @@ for idx, link in enumerate(links, START_IDX):
         }
     )
 
-p = os.path.join(current_dir, "images")
-os.makedirs(p, exist_ok=True)
-
-with open(os.path.join(p, "mint_nfts.json"), "w") as f:
+with open(os.path.join(current_dir, "mint_nfts.json"), "w") as f:
     json.dump(msgFmt, f, indent=4)
 ```
 
