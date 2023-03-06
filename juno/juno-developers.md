@@ -74,6 +74,8 @@ Simon Warta (Confio) [https://twitter.com/simon\_warta](https://twitter.com/simo
 
 Denis Fadeev (Tendermint) [https://twitter.com/fadeev](https://twitter.com/fadeev)
 
+Reece Williams (Juno) [https://twitter.com/Reecepbcups\_](https://twitter.com/Reecepbcups\_)
+
 Wabam (SpacePotatoe) @spacepotayto
 
 Paulo axpppp#2164
