@@ -16,7 +16,7 @@ The Juno Network has undergone several upgrades since the network inception on O
 
 The second is the current mainnet "Juno Phoenix 2" which raised Juno from the ashes on July 28th 2022.
 
-The correct version of the binary for mainnet at genesis (Phoenix) was `v9.0.0`.&#x20;
+The correct version of the binary for mainnet at genesis (Phoenix) was `v9.0.0`.
 
 Releases after genesis can be found in the mainnet repo.
 
@@ -93,7 +93,7 @@ This will generate the following files in `~/.juno/config/`
 
 Download the the "Phoenix" geneis file. The following instructions download the genesis file hosted by [Dimi](https://twitter.com/dimiandre).
 
-```
+```bash
 # Download genesis.json file
 rm ~/.juno/config/genesis.json
 wget https://download.dimi.sh/juno-phoenix2-genesis.tar.gz
@@ -126,7 +126,7 @@ For RPC nodes and Validator nodes we recommend setting the following `minimum-ga
 
 In `$HOME/.juno/config/app.toml`, set minimum gas prices:
 
-```
+```bash
 sed -i.bak -e "s/^minimum-gas-prices *=.*/minimum-gas-prices = \"0.0025ujuno,0.001ibc\/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9\"/" ~/.juno/config/app.toml
 ```
 
@@ -180,9 +180,9 @@ If syncing a node from the "Phoenix 2" genesis, the initial "invariant checks" w
 
 There are methods to sync a node to the network:
 
-1. &#x20;[#from-genesis](./#from-genesis "mention") and following the [mainnet-upgrades.md](mainnet-upgrades.md "mention") path
-2. &#x20;[sync-from-snapshot.md](sync-from-snapshot.md "mention")
-3. &#x20;[sync-with-state-sync.md](sync-with-state-sync.md "mention")
+1. [#from-genesis](./#from-genesis "mention") and following the [mainnet-upgrades.md](mainnet-upgrades.md "mention") path
+2. [sync-from-snapshot.md](sync-from-snapshot.md "mention")
+3. [sync-with-state-sync.md](sync-with-state-sync.md "mention")
 
 ### From genesis
 
