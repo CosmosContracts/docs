@@ -12,7 +12,7 @@ Make sure you follow the [compile a contract](compile-a-contract.md) guide first
 
 You need to upload the contract via the CLI to chain. To do this, perform the following
 
-```
+```bash
 TXFLAGS="--chain-id=uni-6 --gas-prices=0.025ujunox --gas=auto --gas-adjustment 1.3"
 
 junod tx wasm store artifacts/CONRTACT_NAME.wasm \
@@ -21,7 +21,7 @@ junod tx wasm store artifacts/CONRTACT_NAME.wasm \
 
 This will then return a transaction hash. With this data, you need to query it to get the code id of the contract on chain
 
-```
+```bash
 junod q tx 38330E909CD219B80927009DA37FD69D334D19B2AD4EC47456A24E85034F0085 --output=json
 ```
 
@@ -78,7 +78,7 @@ This will return the data about the transaction, and give us the code id of our 
 
 We can see both raw\_log and also logs\[0].events\[1].store\_code shows the code\_id being 13. If you wish the automate this return code in bash to a variable, you can&#x20;
 
-```shellscript
+```bash
 # ensure jq is installed
 UPLOAD_TX_HASH=38330E909CD219B80927009DA37FD69D334D19B2AD4EC47456A24E85034F0085
 CODE_ID=$(junod q tx $UPLOAD_TX_HASH --output json | jq -r '.logs[0].events[] | select(.type == "store_code").attributes[] | select(.key == "code_id").value') && echo "Code Id: $CODE_ID"
@@ -86,17 +86,17 @@ CODE_ID=$(junod q tx $UPLOAD_TX_HASH --output json | jq -r '.logs[0].events[] | 
 
 ## Instantiate
 
-With the code now being up on chain, we can now run logic to setup our own copy of the contract which we control. This will then give us a unique contract address for others to interact with in accordance with the contract logic. This instantiate example is from [cosmwasm/cw20-base](https://github.com/CosmWasm/cw-plus/tree/main/contracts/cw20-base).&#x20;
+With the code now being up on chain, we can now run logic to setup our own copy of the contract which we control. This will then give us a unique contract address for others to interact with in accordance with the contract logic. This example is from the [cosmwasm/cw-template](https://github.com/CosmWasm/cw-template).
 
 Ensure you change CODE\_ID to match your code id from the store code
 
 <pre class="language-sh"><code class="lang-sh"># Manual
-CODE_ID=13
-junod tx wasm instantiate "$CODE_ID" '{"name":"test","symbol":"aaaa","decimals":6,"initial_balances":[{"address":"juno1hj5fveer5cjtn4wd6wstzugjfdxzl0xps73ftl","amount":"100"}]}' --label "my-cw20" $FLAGS -y --admin &#x3C;your-address-here>
+CODE_ID=1
+junod tx wasm instantiate "$CODE_ID" '{"count":0}' --label "some-contract" $FLAGS -y --admin &#x3C;your-address-here>
 <strong># then query the tranasaction hash as we do above.
 </strong><strong>
 </strong># Automated return of the contract address
-CODE_ID=13
-CW20_TX_INIT=$(junod tx wasm instantiate "$CODE_ID" '{"name":"test","symbol":"aaaa","decimals":6,"initial_balances":[{"address":"juno1hj5fveer5cjtn4wd6wstzugjfdxzl0xps73ftl","amount":"100"}]}' --label "cw20" $FLAGS -y --admin &#x3C;your-address-here> | jq -r '.txhash') &#x26;&#x26; echo $CW20_TX_INIT
-CW20_ADDR=$($BINARY query tx $CW20_TX_INIT --output json | jq -r '.logs[0].events[0].attributes[0].value') &#x26;&#x26; echo "$CW20_ADDR"
+CODE_ID=1
+TX_INIT=$(junod tx wasm instantiate "$CODE_ID" '{"count":0}' --label "contract" $FLAGS -y --admin &#x3C;your-address-here> | jq -r '.txhash') &#x26;&#x26; echo $TX_INIT
+CONTRACT_ADDR=$($BINARY query tx $TX_INIT --output json | jq -r '.logs[0].events[0].attributes[0].value') &#x26;&#x26; echo "CONTRACT_ADDR: $CONTRACT_ADDR"
 </code></pre>

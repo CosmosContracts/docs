@@ -18,7 +18,7 @@ For all great CosmWasm tools, [https://github.com/CosmWasm/awesome-cosmwasm](htt
 
 The easiest way is to simply use the [published docker image](https://hub.docker.com/r/cosmwasm/rust-optimizer). You must run this in the root of the smart contract repository you wish to compile. It will produce an `artifacts` directory with `<crate_name>.wasm` and `contracts.txt` containing the hashes. This is just one file.
 
-```
+```bash
 docker run --rm -v "$(pwd)":/code \
   --mount type=volume,source="$(basename "$(pwd)")_cache",target=/code/target \
   --mount type=volume,source=registry_cache,target=/usr/local/cargo/registry \
@@ -26,6 +26,7 @@ docker run --rm -v "$(pwd)":/code \
 
 # If you you use an ARM machine (Ex: Mac M1), you need to use the following
 # This is experimental and should not be used for production use
+
 docker run --rm -v "$(pwd)":/code \
   --mount type=volume,source="$(basename "$(pwd)")_cache",target=/code/target \
   --mount type=volume,source=registry_cache,target=/usr/local/cargo/registry \
@@ -42,7 +43,7 @@ For this use-case there is second docker image, which will compile all the `cont
 
 To compile all contracts in the workspace deterministically, you can run:
 
-```
+```bash
 docker run --rm -v "$(pwd)":/code \
   --mount type=volume,source="$(basename "$(pwd)")_cache",target=/code/target \
   --mount type=volume,source=registry_cache,target=/usr/local/cargo/registry \
@@ -50,6 +51,7 @@ docker run --rm -v "$(pwd)":/code \
 
 # If you you use an ARM machine (Ex: Mac M1), you need to use the following
 # This is experimental and should not be used for production use
+
 docker run --rm -v "$(pwd)":/code \
   --mount type=volume,source="$(basename "$(pwd)")_cache",target=/code/target \
   --mount type=volume,source=registry_cache,target=/usr/local/cargo/registry \
