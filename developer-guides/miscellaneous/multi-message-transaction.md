@@ -160,8 +160,52 @@ After reading the above guide, the same steps can be applied to mint cosmwasm ba
 # generate the initial Transaction structure
 junod tx wasm execute juno1za0uemnhzwkjrqwguy34w45mqdlzfm9hl4s5gp5jtc0e4xvkrwjs6s2rt4 \
     '{"mint":{"token_id":"1","owner":"juno16g2rahf5846rxzp3fwlswy08fz8ccuwk03k57y","token_uri":"https://domain.com/image1.png"}}' \
-    --output json --chain-id=uni-6 --yes --generate-only --from juno16g2rahf5846rxzp3fwlswy08fz8ccuwk03k57y
+    --output json --chain-id=uni-6 --yes --generate-only --from juno16g2rahf5846rxzp3fwlswy08fz8ccuwk03k57y > nft_multi_msg.json
 ```
+
+```json
+{
+  "body": {
+    "messages": [
+      {
+        "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+        "sender": "juno16g2rahf5846rxzp3fwlswy08fz8ccuwk03k57y",
+        "contract": "juno1za0uemnhzwkjrqwguy34w45mqdlzfm9hl4s5gp5jtc0e4xvkrwjs6s2rt4",
+        "msg": {
+          "mint": {
+            "token_id": "1",
+            "owner": "juno16g2rahf5846rxzp3fwlswy08fz8ccuwk03k57y",
+            "token_uri": "https://domain.com/image1.png"
+          }
+        },
+        "funds": []
+      }
+    ],
+    "memo": "",
+    "timeout_height": "0",
+    "extension_options": [],
+    "non_critical_extension_options": []
+  },
+  "auth_info": {
+    "signer_infos": [],
+    "fee": {
+      "amount": [
+             {
+              "denom": "ujunox",
+              "amount": "5000"
+          }
+      ],
+      "gas_limit": "200000",
+      "payer": "",
+      "granter": ""
+    }
+  },
+  "signatures": []
+}
+
+```
+
+Once again we are interested in the body -> messages section. In this array, we can put any amount of actions (within the gas limitation) for this transaction to execute with a single execute. So if I wanted to mint another within the same tx we can do the following manually.&#x20;
 
 ```json
 {
@@ -215,6 +259,27 @@ junod tx wasm execute juno1za0uemnhzwkjrqwguy34w45mqdlzfm9hl4s5gp5jtc0e4xvkrwjs6
   },
   "signatures": []
 }
+```
+
+```bash
+# Sign the message from the account who is minting the NFT
+# This creates a new file which adds a signature to the signatures array
+junod tx sign nft_multi_msg.json \
+    --chain-id=uni-6 --from KEY --fees=5000ujunox [flags]
+    
+
+# take the output from here and paste it into a file named
+# signed_nft_multi_msg.json. 
+# You can also try doing &> signed_mft_multi_msg.json or > signed_nft_multi_msg.json
+touch signed_nft_multi_msg.json # create the file
+
+
+# Broadcast the message to the chain after it is successfully signed
+junod tx broadcast signed_nft_multi_msg.json \
+    --from KEY --chain-id=uni-6 [flags]
+
+# Query to ensure it went through well (enough gas and fees)
+junod q tx <TX HASH> --node https://rpc.uni.junonetwork.io:443
 ```
 
 ## Automate Minting Example
