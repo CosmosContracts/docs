@@ -173,7 +173,6 @@
 * [Useful CLI Commands](cli/useful-cli-commands.md)
 * [Module Reference](cli/modules/README.md)
   * [bank](cli/modules/bank.md)
-  * [debug](cli/modules/debug.md)
   * [distribution](cli/modules/distribution.md)
   * [gov](cli/modules/gov.md)
   * [keys](cli/modules/keys.md)

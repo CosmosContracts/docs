@@ -2,7 +2,7 @@
 description: >-
   A general introduction Juno cli along with a brief description of commands and
   flags
-cover: ../.gitbook/assets/Discord Invite (1) (1) (1) (16).png
+cover: ../.gitbook/assets/Discord Invite (1) (1) (1) (15).png
 coverY: 258
 ---
 
@@ -73,7 +73,6 @@ All POST commands have the following global flags:
 | **Subcommand**                          | **Description**                                               |
 | --------------------------------------- | ------------------------------------------------------------- |
 | [bank](modules/bank.md)                 | Bank subcommands for querying accounts and sending coins etc. |
-| [debug](modules/debug.md)               | Debug subcommands                                             |
 | [distribution](modules/distribution.md) | Distribution subcommands for rewards management               |
 | [gov](modules/gov.md)                   | Governance and voting subcommands                             |
 | [keys](modules/keys.md)                 | Keys allows you to manage your local keystore for tendermint  |
