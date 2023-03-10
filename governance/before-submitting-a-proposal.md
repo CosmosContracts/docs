@@ -48,7 +48,7 @@ Consider making appropriate changes to your proposal based on feedback from the 
 
 ### Submit your proposal on-chain
 
-Once you are confident about your proposal, you can submit on-chain for voting. You can find guidance on submitting your proposal [here](submitting-a-proposal-cli.md).
+Once you are confident about your proposal, you can submit on-chain for voting. You can find guidance on submitting your proposal [here](submitting-a-proposal-cli/).
 
 Please note that the fee to fully fund a governance deposit is 1,000 JUNO. These funds will be returned to the depositor following completion of the voting period. If there are sufficient `NO WITH VETO` votes, the depositors will lose their funds. The depositor will also lose their funds if quorum of 33.4% is not reached.
 

@@ -21,7 +21,9 @@
   * [Query A Contract](developer-guides/cosmwasm-contracts/query-a-contract.md)
   * [Send Tokens to a Contract](developer-guides/cosmwasm-contracts/send-tokens-to-a-contract.md)
 * [Miscellaneous](developer-guides/miscellaneous/README.md)
+  * [Conversions](developer-guides/miscellaneous/conversions.md)
   * [Multi Message Transaction](developer-guides/miscellaneous/multi-message-transaction.md)
+  * [Get & Decode Transactions](developer-guides/miscellaneous/get-and-decode-transactions.md)
   * [Get Token Prices](developer-guides/miscellaneous/get-token-prices.md)
   * [Get Account Transactions](developer-guides/miscellaneous/get-account-transactions.md)
   * [IBC Transfer](developer-guides/miscellaneous/ibc-transfer.md)
@@ -162,7 +164,8 @@
 ## Governance
 
 * [Before submitting a proposal](governance/before-submitting-a-proposal.md)
-* [Submitting a Proposal (CLI)](governance/submitting-a-proposal-cli.md)
+* [Submitting a Proposal (CLI)](governance/submitting-a-proposal-cli/README.md)
+  * [Formatting Proposal Markdown](governance/submitting-a-proposal-cli/formatting-proposal-markdown.md)
 
 ## Command-Line Interface (CLI) <a href="#cli" id="cli"></a>
 
