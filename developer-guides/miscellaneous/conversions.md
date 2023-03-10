@@ -18,7 +18,7 @@ You can figure out which power a token uses by its prefix character in the denom
 This means the smallest amount anyone can send is 0.000001 JUNO
 {% endhint %}
 
-## Hex address to valcons (valiadtor consensus)
+## Hex address to valcons (validator consensus)
 
 Sometimes you may want to convert from a hex address found from one of Juno's endpoints to a more readable validators consensus address to get their signing blocks and link to other data. TO do so, here is a Typescript snippet
 
@@ -91,7 +91,12 @@ console.log(converted)
 
 ## JUNO Address to another chain
 
+For an easy UI, you can use [https://bech32.scrtlabs.com/](https://bech32.scrtlabs.com/) for address conversions. If you need a more programmatic version
+
+#### Typescript
+
 ```typescript
+// Typescript
 // npm i @cosmjs/encoding
 import {toBech32, fromBech32} from '@cosmjs/encoding'
 
@@ -102,6 +107,23 @@ let converted = toBech32(toPrefix, fromBech32(initial).data)
 
 console.log(converted)
 // cosmos196ax4vc0lwpxndu9dyhvca7jhxp70rmcfhxsrt
+```
+
+#### Python
+
+```python
+# pip install bech32 - https://pypi.org/project/bech32/
+import bech32
+
+address = "juno196ax4vc0lwpxndu9dyhvca7jhxp70rmcl99tyh"
+
+def address_convert(address=address, prefix="cosmos"):
+    _, data = bech32.bech32_decode(address)
+    return bech32.bech32_encode(prefix, data)
+
+converted_addr = address_convert(address, "cosmos")
+print(converted_addr)
+# cosmos196ax4vc0lwpxndu9dyhvca7jhxp70rmcfhxsrt
 ```
 
 Here we take SG-1's JUNO address and convert it to a cosmoshub address since these are both 118 coin types. Other 118 coin types include Juno, Osmosis, Chihuahua, and others. You can only convert between the same cointype, so converting a JUNO to EVM address such as EVMOS or INJECTIVE will not function.\
