@@ -1,21 +1,16 @@
 ---
-description: 'Instructions for setting up the golang relayer, ibc-go (rly)'
-cover: >-
-  ../../.gitbook/assets/Gitbook Banner large 6 (1) (1) (1) (1) (1) (1) (1) (1)
-  (1) (1) (31).png
+description: Instructions for setting up the golang relayer, ibc-go (rly)
+cover: ../.gitbook/assets/Discord Invite (1) (7).png
 coverY: 0
 ---
 
-# Relayer (or commonly rly)
+# Relaying
 
 ## Assumptions
 
-One of the main advantages of Relayer (known as rly that is the implementation of ibc-go libraries) VS Hermes is that rly needs only RPC nodes to work well, instead of RPC, gRPC and RPC Web. This makes it very interesting if you don't have your own node up and running for a specific chain but you want to help relay packets versus that chain and can't find reliable gRPCs.
-Despite this advantage, rly can work with your own local/remote nodes to improve further his relay performance.
-Remember that relaying works in a first-come-first-served way, so using remote RPCs or public overloaded RPCs with high latencies will make you relaying slower than other relayers, and relying on public RPC (nodes not monitored by you) gives always a higher level of uncertainty.
+One of the main advantages of Relayer (known as rly that is the implementation of ibc-go libraries) VS Hermes is that rly needs only RPC nodes to work well, instead of RPC, gRPC and RPC Web. This makes it very interesting if you don't have your own node up and running for a specific chain but you want to help relay packets versus that chain and can't find reliable gRPCs. Despite this advantage, rly can work with your own local/remote nodes to improve further his relay performance. Remember that relaying works in a first-come-first-served way, so using remote RPCs or public overloaded RPCs with high latencies will make you relaying slower than other relayers, and relying on public RPC (nodes not monitored by you) gives always a higher level of uncertainty.
 
-We assume that you already have access to Juno, Osmosis and Cosmos nodes. These can be either local nodes, or you can access them over the network.
-The given example has all relayed chains run remotely by public RPCs. Feel free to change the RPCs addresses in the configuration file.
+We assume that you already have access to Juno, Osmosis and Cosmos nodes. These can be either local nodes, or you can access them over the network. The given example has all relayed chains run remotely by public RPCs. Feel free to change the RPCs addresses in the configuration file.
 
 In these instructions, rly is installed under `/srv/rly`, adjust the paths according to your setup.
 
@@ -57,7 +52,9 @@ cosmos-sdk: v0.46.0
 go: go1.18 linux/amd64
 ```
 
-{% hint style="warning" %} If you get an output like `'rly' not found` you should probably add `/srv/rly/go/bin` to your PATH {% endhint %}
+{% hint style="warning" %}
+If you get an output like \`'rly' not found\` you should probably add \`/srv/rly/go/bin\` to your PATH
+{% endhint %}
 
 ## Configuring rly
 
@@ -66,12 +63,17 @@ First, we need to init rly so it will create the default configuration (location
 ```bash
 rly config init --memo "My custom memo"
 ```
+
 Then we will add the chains (Juno, Cosmos and Osmosis here) on the config file with a simple command:
 
 ```bash
 rly chains add juno cosmoshub osmosis
 ```
-{% hint style="info" %}  Chains configuration will be pulled from chain-registry https://github.com/cosmos/chain-registry so if you find misconfigurations (like gas fees or other) feel free to contribute. {% endhint %}
+
+{% hint style="info" %}
+Chains configuration will be pulled from chain-registry https://github.com/cosmos/chain-registry so if you find misconfigurations (like gas fees or other) feel free to contribute.
+{% endhint %}
+
 Also RPCs will be chosen from chain-registry, so feel free to change them to your local nodes' RPCs or to a preferred public RPC.
 
 ## Setting up wallets
@@ -89,9 +91,10 @@ the second option is to import it from your 24 words (key name could be the same
 rly keys restore cosmoshub <key-name> "<24 mnemonic words here>"
 rly keys restore osmosis <key-name> "<24 mnemonic words here>"
 ```
+
 In that case, you can create a new wallet, backup your keys and use the same keys to import for all the other relayed chains (if you like it).
 
-Now edit the configuration file (under ~/.relayer/config/config.yaml) changing the `key` values according to the <key-name> you had defined above. Example:
+Now edit the configuration file (under \~/.relayer/config/config.yaml) changing the `key` values according to the you had defined above. Example:
 
 ```bash
     juno:
@@ -147,14 +150,13 @@ Once we see things load up correctly and there are no fatal errors or impossible
 
 ## Configuring systemd
 
-Now we will setup rly to be run by systemd, and to start automatically on reboots. Beware of the `After=` parameter, because if you are using local nodes instead of remote ones you should add the services name here, like `After=network.target juno.service cosmos.service osmo.service`
-In this example we are using remote nodes, so we specify only `After=network.target`.
+Now we will setup rly to be run by systemd, and to start automatically on reboots. Beware of the `After=` parameter, because if you are using local nodes instead of remote ones you should add the services name here, like `After=network.target juno.service cosmos.service osmo.service` In this example we are using remote nodes, so we specify only `After=network.target`.
 
-{% hint style="info" %} Using public RPCs it's the simplest way to deploy a relayer (you need only relayer hardware, so a very small VPS for example) but this exposes you to RPCs connection issues. For that reason, the service definition below uses the `RuntimeMaxSec` parameter (and other 2), in order to restart the rly service every 4 hours (14400s). This reduces the issues with external public RPCs (the 4 hours value it's indicative, tune it after your own tests). 
-If you have your own private RPCs feel free to comment on that section. {% endhint %}
+{% hint style="info" %}
+Using public RPCs it's the simplest way to deploy a relayer (you need only relayer hardware, so a very small VPS for example) but this exposes you to RPCs connection issues. For that reason, the service definition below uses the \`RuntimeMaxSec\` parameter (and other 2), in order to restart the rly service every 4 hours (14400s). This reduces the issues with external public RPCs (the 4 hours value it's indicative, tune it after your own tests). If you have your own private RPCs feel free to comment on that section.
+{% endhint %}
 
-Create the following configuration to **/etc/systemd/system/rly.service**. 
-If you are still in rly user, exit to your own user (rootdemo here):
+Create the following configuration to **/etc/systemd/system/rly.service**. If you are still in rly user, exit to your own user (rootdemo here):
 
 ```bash
 # exit from rly user
@@ -188,5 +190,6 @@ systemctl daemon-reload
 systemctl start rly
 ```
 
-{% hint style="info" %} For troubleshooting you can find some information in rly Github
-https://github.com/cosmos/relayer/blob/main/docs/troubleshooting.md {% endhint %}
+{% hint style="info" %}
+For troubleshooting you can find some information in rly Github https://github.com/cosmos/relayer/blob/main/docs/troubleshooting.md
+{% endhint %}
