@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/Discord Invite (1) (6).png
+cover: ../../.gitbook/assets/Discord Invite (1) (6).png
 coverY: 261
 ---
 
@@ -13,7 +13,9 @@ You can query the current setting for that parameter with `junod query params su
 junod query params subspace distribution communitytax
 ```
 
-> NB: if you have not set it in config, you will need to add chain-id: `--chain-id uni`.
+{% hint style="info" %}
+if you have not set it in config, you will need to add chain-id: `--chain-id uni-6`
+{% endhint %}
 
 This will return:
 
@@ -39,7 +41,7 @@ value: '{"max_bytes":"22020096","max_gas":"80000000"}'
 
 Let's take this BlockParams parameter as an example. Say we want to create a proposal that increases this value.
 
-We can encode the parameter change in a JSON proposal like so:
+We can encode the parameter change in a JSON proposal like so. You can [use the following script](formatting-proposal-markdown.md) to format the description in markdown.
 
 ```json
 {

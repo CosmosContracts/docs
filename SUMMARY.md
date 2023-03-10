@@ -164,7 +164,8 @@
 ## Governance
 
 * [Before submitting a proposal](governance/before-submitting-a-proposal.md)
-* [Submitting a Proposal (CLI)](governance/submitting-a-proposal-cli.md)
+* [Submitting a Proposal (CLI)](governance/submitting-a-proposal-cli/README.md)
+  * [Formatting Proposal Markdown](governance/submitting-a-proposal-cli/formatting-proposal-markdown.md)
 
 ## Command-Line Interface (CLI) <a href="#cli" id="cli"></a>
 
