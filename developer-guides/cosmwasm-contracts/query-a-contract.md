@@ -35,7 +35,7 @@ The query shows CW721 Base is this contracts name. As this is a standard contrac
 [https://github.com/CosmWasm/cw-nfts/blob/main/contracts/cw721-base/src/msg.rs](https://github.com/CosmWasm/cw-nfts/blob/main/contracts/cw721-base/src/msg.rs)
 {% endhint %}
 
-From this, we now know all of the query endpoints and can requests something more specific from the contract for our usage. Let's get&#x20;
+From this, we now know all of the query endpoints and can requests something more specific from the contract for our usage. Let's get
 
 ```sh
 CONTRACT=juno1anh4pf98fe8uh64uuhaasqdmg89qe6kk5xsklxuvtjmu6rhpg53sj9uejj
@@ -79,13 +79,12 @@ junod q wasm contract-state smart $CONTRACT '{"nft_info":{"token_id":"8"}}'
 
 ## Rest API Query
 
-If you wish to query the data more programmatically with an application such as Python, you may be better suited to use the rest API. You can find these endpoints on [https://cosmos.directory/juno/nodes](https://cosmos.directory/juno/nodes) in the REST section.&#x20;
+If you wish to query the data more programmatically with an application such as Python, you may be better suited to use the rest API. You can find these endpoints on [https://cosmos.directory/juno/nodes](https://cosmos.directory/juno/nodes) in the REST section.
 
-This query endpoint can be found via Juno's SwaggerUI.  However, some modules you will not be able to easily find the endpoint. To do this, you will need to search through the proto files. Here we know we want to query the cosmwasm module, which is called wasmd on chain. This repo is found at [https://github.com/cosmwasm/wasmd](https://github.com/cosmwasm/wasmd).\
+This query endpoint can be found via Juno's SwaggerUI. However, some modules you will not be able to easily find the endpoint. To do this, you will need to search through the proto files. Here we know we want to query the cosmwasm module, which is called wasmd on chain. This repo is found at [https://github.com/cosmwasm/wasmd](https://github.com/cosmwasm/wasmd).\
 \
 In this module, you can see the proto folder in the root of the repo. This will house the endpoints the module exposes so we can find the above path which. This is a query so we find the query proto file\
-[https://github.com/CosmWasm/wasmd/blob/main/proto/cosmwasm/wasm/v1/query.proto](https://github.com/CosmWasm/wasmd/blob/main/proto/cosmwasm/wasm/v1/query.proto)\
-
+[https://github.com/CosmWasm/wasmd/blob/main/proto/cosmwasm/wasm/v1/query.proto](https://github.com/CosmWasm/wasmd/blob/main/proto/cosmwasm/wasm/v1/query.proto)\\
 
 ```protobuf
 option go_package = "github.com/CosmWasm/wasmd/x/wasm/types";
@@ -105,7 +104,7 @@ service Query {
 ```
 
 {% hint style="info" %}
-You must base64 encode the JSON payload for REST API Request. Just take your JSON payload and \
+You must base64 encode the JSON payload for REST API Request. Just take your JSON payload and\
 \
 \- put it into [https://www.base64encode.org/](https://www.base64encode.org/)\
 \- or use Mac / Linux built in command\
@@ -136,10 +135,24 @@ With this, we can now query the contract and gather the data. You can use your w
 }
 ```
 
-## Smart Contract internal Query
+## Cosmology Smart Contract Query
 
-TODO: Add how to query another smart contract from within a smart contract to get some data
+Using [CosmWasm/ts-codegen](https://github.com/CosmWasm/ts-codegen), you can create an NPM module to make interactions and queries into dev-friendly Typescript classes to allow you to focus on shipping code.
+
+Here are a few tutorials from cosmology:
+
+* [ts-codegen overview for CosmWasm](https://cosmology.tech/learn/video/overview-of-cosmwasm-ts-codegen)
+* [CosmWasm Contract to Typescript npm module](https://cosmology.tech/learn/video/turn-your-cosmwasm-smart-contracts-into-a-typescript-npm-module)
+* [Configure CosmWasm ts-codegen in your Contracts repo](https://cosmology.tech/learn/video/configuring-cosmwasm-ts-codegen-to-create-sdks-for-your-smart-contracts)
+* [Query a CosmWasm smart contract from ts-codegen](https://cosmology.tech/learn/video/how-to-query-cosmwasm-smart-contracts)
+* [Enable React Query](https://cosmology.tech/learn/video/how-to-use-react-query-for-interacting-with-cosmwasm-smart-contracts)
+* [Enable Recoil](https://cosmology.tech/learn/video/how-to-use-recoil-for-interacting-with-cosmwasm-smart-contracts)
+* [Integrate Telescope with ts-codegen](https://cosmology.tech/learn/video/integrating-telescope-and-cosmwasm-ts-codegen)
 
 ## CosmJS Query
 
 TODO: Add how to query a smart contract data with Typescript + Example through the RPC endpoint (proto encoded) & httpbatch tendermint client
+
+## Internal
+
+TODO: internal rust impl of how to WasmQuery a contract and get some data back.

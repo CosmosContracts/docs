@@ -72,3 +72,12 @@ await from_client.execute(
     console.log(`Success @ height ${res.height}\n\nTxHash: ${res.transactionHash}`)
 });
 ```
+
+## ts-codegen
+
+The cosmology toolkit has some useful typescript tools for interacting with your smart contracts. The repo can be found at [https://github.com/CosmWasm/ts-codegen](https://github.com/CosmWasm/ts-codegen), with setup and query tutorials in [Query A Contract section of this documentation](query-a-contract.md#cosmology-smart-contract-query).
+
+Here are some video tutorials:
+
+* [How to Execute a cosmwasm smart contract](https://cosmology.tech/learn/video/how-to-execute-cosmwasm-smart-contract-messages)
+* [Advanced execution with a cosmwasm message composer](https://cosmology.tech/learn/video/how-to-compose-messages-for-interacting-with-cosmwasm-smart-contracts)
