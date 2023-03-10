@@ -126,6 +126,13 @@ print(converted_addr)
 # cosmos196ax4vc0lwpxndu9dyhvca7jhxp70rmcfhxsrt
 ```
 
+#### Command Line
+
+```sh
+junod debug bech32-convert juno196ax4vc0lwpxndu9dyhvca7jhxp70rmcl99tyh --prefix cosmos
+# cosmos196ax4vc0lwpxndu9dyhvca7jhxp70rmcfhxsrt
+```
+
 Here we take SG-1's JUNO address and convert it to a cosmoshub address since these are both 118 coin types. Other 118 coin types include Juno, Osmosis, Chihuahua, and others. You can only convert between the same cointype, so converting a JUNO to EVM address such as EVMOS or INJECTIVE will not function.\
 \
 Once converted, [you can see that SG-1 cosmos address](https://www.mintscan.io/cosmos/account/cosmos196ax4vc0lwpxndu9dyhvca7jhxp70rmcfhxsrt) also has funds just like their JUNO account by using a UI explorer like mintscan.
