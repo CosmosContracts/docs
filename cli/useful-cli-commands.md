@@ -88,6 +88,12 @@ Query the results of a gov vote that has ended, from a remote RPC (NB - you have
  junod q gov votes 1 --height <height-before-vote-ended> --node https://rpc-archive.junonetwork.io:443
 ```
 
+Transfer JUNO to another chain (osmosis) with IBC
+
+```sh
+junod tx ibc-transfer transfer transfer channel-0 <osmo1...> 1000000ujuno --from <juno1...> --node https://rpc-archive.junonetwork.io:443  --packet-timeout-height 0-0
+```
+
 Query the validator set (and jailed status) via CLI:
 
 ```bash
