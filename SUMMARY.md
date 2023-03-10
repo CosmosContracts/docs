@@ -195,4 +195,5 @@
   * [Sync with state-sync](validators/joining-mainnet/sync-with-state-sync.md)
   * [Mainnet Upgrades](validators/joining-mainnet/mainnet-upgrades.md)
 * [Joining Testnet](validators/joining-the-testnets.md)
+* [Relaying](validators/relaying.md)
 * [Official Delegations Handbook](validators/official-delegations-handbook.md)
