@@ -1,4 +1,4 @@
-Pinning a code ID adds it to validators' cach. In effect, this removes startup fees associated with invoking contracts that use that code ID.
+Pinning a code ID adds it to validators' cache. In effect, this removes startup fees associated with invoking contracts that use that code ID.
 
 ## Querying pinned code
 

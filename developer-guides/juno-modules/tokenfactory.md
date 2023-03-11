@@ -72,7 +72,7 @@ Where denom-name is the entire denomination value `factory/juno1.../denom`.&#x20
 {
   "metadatas": [
     {
-      "description": "my desciption here https://domain.com",
+      "description": "my description here https://domain.com",
       "denom_units": [
         {
           "denom": "factory/juno1hj5fveer5cjtn4wd6wstzugjfdxzl0xps73ftl/denom1",

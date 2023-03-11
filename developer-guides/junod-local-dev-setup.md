@@ -11,7 +11,7 @@ These settings are only for development use of Juno on a local machine.
 
 Want to use `junod` locally for development, or to work with smart contracts? You're in the right place. Running locally is a much easier solution than interacting with a testnet.
 
-This guide focusses on running the chain. If you want to build the binary or develop in go, then check out:
+This guide focuses on running the chain. If you want to build the binary or develop in go, then check out:
 
 ## Using the Seed User
 

@@ -16,7 +16,7 @@ If you wish to make a IBC transfer between chains, you will need to leverage cos
 * [Example in Action from ibc-anywhere-webapp](https://github.com/Reecepbcups/ibc-anywhere-webapp/blob/main/src/routes/%2Bpage.svelte#L290)
 
 ```typescript
-// Psudo Code Example of the Flow
+// Pseudo Code Example of the Flow
 import { assets, chains, ibc } from 'chain-registry';
 import { Tendermint34Client } from '@cosmjs/tendermint-rpc';
 import { setupIbcExtension, QueryClient } from '@cosmjs/stargate';

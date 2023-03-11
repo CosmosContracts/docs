@@ -157,7 +157,7 @@ def main():
         txs_json = json.loads(run_cmd(f"junod tx decode {tx} --output json"))
         tx_data[height] = txs_json.get("body", {}).get("messages", [])
 
-    # Do somethign with that tx data here
+    # Do something with that tx data here
     print(tx_data)
 
 if __name__ == "__main__":

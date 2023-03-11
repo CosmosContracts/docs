@@ -90,7 +90,7 @@ Nonsencecode nonsensetwice#3475
 
 aswever aswever#4222
 
-### Relayers (The unsung heros of the Cosmos)
+### Relayers (The unsung heroes of the Cosmos)
 
 Cros-nest [https://twitter.com/crosnest\_com](https://twitter.com/crosnest\_com)
 
