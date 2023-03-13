@@ -1,5 +1,5 @@
 ---
-cover: ../../.gitbook/assets/Discord Invite (1) (1) (1) (12).png
+cover: ../../.gitbook/assets/Discord Invite (1) (1) (1) (1) (13).png
 coverY: 260
 ---
 
@@ -29,4 +29,4 @@ Juno Network is a completely community owned and operated smart contract platfor
 
 ⚪️ **Core- 1 Team/Multi-sig:** 1.782.312 $JUNO (Vested 12 years / Periodic unlocks until year 12)
 
-![](<../../.gitbook/assets/image (17) (1).png>)
+![](<../../.gitbook/assets/image (14).png>)

@@ -30,11 +30,39 @@ To use this command, you need to specify the following parameters:
 * `withdraw_bech32`: The bech32 address where the interaction fees will be sent every block.
 * `--from [key]`: The name or address of the key to sign the transaction.
 
-The withdraw\_bech32 parameter cannot be set to the community pool address because of an SDK limitation. For contracts created or administered by a contract factory, the withdrawal address must be the same as the contract address, which is unchangeable. This is useful for SubDAOs or public goods to save fees in the treasury.
-
-If you create a contract this way, it's best to add an execution method to withdraw fees to an account. To do this, save the withdrawal address in the contract's state before uploading a non-migratable contract.
-
+The withdraw\_bech32 parameter cannot be set to the community pool address because of an SDK limitation. \
+\
 Only the contract's admin can use this command. If there's no admin, only the creator can use it.
+
+### Registering Factory Contracts
+
+For contracts **created or administered by a contract factory** _(contract instantiates contract)_, the withdrawal address can only be registered to itself (the instantiated child contract). This is useful for SubDAOs and public goods to save fees in the treasury / another wallet while still being owned by a contract. \
+
+
+This can be a little confusing so here is the flow
+
+```
+User -> Factory -> instantiates child contract
+-> Register Child to FeeShare CLI command to itself 
+-> In child contract, set an external address (via a contract manager saved in state)
+-> Set a message to move funds from the child contract to external address OR manager
+
+This requires you to set the withdraw address 
+- via instantiate
+- or with a contract manmager who can then set the withdraw address to some account
+(If the manager is a DAO, this is the best outcome. else they can withdraw anywhere)
+
+*Manager is some address you save in the contract Config or state. This is entirely
+internal for permissioned actions on the contract logic.
+```
+
+Example:
+
+* Factory instantiates Contract A, where the creator and admin is Factory
+* Anyone can now `junod tx feeshare register contract-a contract-a`
+* With this, all feeshare funds are saved in the contract-a balance
+* To move these funds, your child contract needs a way to set a withdraw address. For example `ExecuteMsg::SetWithdrawAddress{address:juno123...}}` or do this on instantiate through the factory message payload. Just some other adderss we can withdraw the funds to
+* The child contract then has `ExecuteMsg::GetFeeShare{}` which takes the contracts balance minus any funds which are meant to be in the contract (ex: proposal deposits), and sends those tokens to the `juno123...` address set earlier
 
 ## Update Contract Withdraw Address
 

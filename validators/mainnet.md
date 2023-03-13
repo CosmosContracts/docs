@@ -1,6 +1,6 @@
 ---
 description: It's 🚀 time!
-cover: ../.gitbook/assets/Discord Invite (1) (1) (1) (20).png
+cover: ../.gitbook/assets/Discord Invite (1) (1) (1) (1) (5).png
 coverY: 259
 ---
 
