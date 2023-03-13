@@ -34,6 +34,20 @@ The withdraw\_bech32 parameter cannot be set to the community pool address becau
 \
 Only the contract's admin can use this command. If there's no admin, only the creator can use it.
 
+#### Register Contract Message JSON
+
+{% hint style="info" %}
+junod tx feeshare register \[contract] \[withdraw] --from \[your\_address] --generate-only
+{% endhint %}
+
+<pre class="language-json"><code class="lang-json"><strong>{
+</strong>  "@type": "/juno.feeshare.v1.MsgRegisterFeeShare",
+  "contract_address": "juno1d7yjapmwerm6qxaxtuyefmcns45x9x6d78gys9uhfsdpkfs4dxfssgw7ap",
+  "deployer_address": "juno10r39fueph9fq7a6lgswu4zdsg8t3gxlq670lt0",
+  "withdrawer_address": "juno1hj5fveer5cjtn4wd6wstzugjfdxzl0xps73ftl"
+}
+</code></pre>
+
 ### Registering Factory Contracts
 
 For contracts **created or administered by a contract factory** _(contract instantiates contract)_, the withdrawal address can only be registered to itself (the instantiated child contract). This is useful for SubDAOs and public goods to save fees in the treasury / another wallet while still being owned by a contract. \
@@ -72,6 +86,23 @@ The `junod tx feeshare update` command lets you update a contract's withdrawal a
 * `new_withdraw_address`: The new bech32 address where the interaction fees will be sent every block.
 
 Only the contract's admin or creator can use this command. It cannot be used if the contract was created or administered by another factory contract (like a DAO), and contracts cannot change their own withdrawal address directly. If ownership changes, the new owner can update the withdrawal address.
+
+#### Update Contract Message JSON
+
+Where deployer\_address is the contract admin (or creator if there is no admin), and withdrawal is the address you want funds to go to.
+
+{% hint style="info" %}
+junod tx feeshare update \[contract] \[withdraw] --from \[your\_address] --generate-only
+{% endhint %}
+
+```json
+{
+  "@type": "/juno.feeshare.v1.MsgUpdateFeeShare",
+  "contract_address": "contract",
+  "deployer_address": "your_address",
+  "withdrawer_address": "withdraw"
+}
+```
 
 ## Governance Action for FeeShare
 
