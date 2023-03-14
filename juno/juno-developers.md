@@ -1,6 +1,6 @@
 ---
 description: >-
-  The JUNO core software development is maintained by dozens of independent
+  JUNO core software development is maintained by dozens of independent
   developers, united under the Core Root umbrella. An open developer collective
   that builds and maintains web 3 infrastructure.
 cover: ../.gitbook/assets/Complementary Color (2).png
@@ -12,6 +12,10 @@ coverY: 0
 
 
 <figure><img src="../.gitbook/assets/juno-core1_avatar_twitter.png" alt=""><figcaption></figcaption></figure>
+
+Official Twitter: [https://twitter.com/CoreRootHQ](https://twitter.com/CoreRootHQ)
+
+Public Forum: [https://discord.gg/Juno](https://discord.gg/Juno)
 
 
 
