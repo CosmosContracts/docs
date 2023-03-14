@@ -13,8 +13,6 @@ coverY: 0
 
 <figure><img src="../.gitbook/assets/juno-core1_avatar_twitter.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Complementary Color (1).png" alt=""><figcaption></figcaption></figure>
-
 
 
 Andrea Di Michele aka Dimi  [https://twitter.com/dimiandre](https://twitter.com/dimiandre)
