@@ -2,7 +2,7 @@
 description: >-
   Dozens of independent development teams are working on Juno. Maintaining &
   building the core network, tooling, dapps, relayers and more.
-cover: ../.gitbook/assets/Discord Invite (1) (1) (1).png
+cover: ../.gitbook/assets/Discord Invite.png
 coverY: 260
 ---
 

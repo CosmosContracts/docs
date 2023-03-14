@@ -1,6 +1,6 @@
 ---
 description: Instruction to install and configure the junod binary
-cover: ../.gitbook/assets/Discord Invite (1) (1) (1) (1) (12).png
+cover: ../.gitbook/assets/Discord Invite.png
 coverY: 259
 ---
 
