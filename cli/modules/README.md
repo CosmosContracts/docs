@@ -1,6 +1,6 @@
 ---
 description: CLI reference for junod modules
-cover: ../../.gitbook/assets/Discord Invite.png
+cover: ../../.gitbook/assets/Discord Invite (18).png
 coverY: 260
 ---
 
@@ -10,8 +10,8 @@ coverY: 260
 [bank.md](bank.md)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="broken-reference/" %}
+[broken-reference](broken-reference/)
 {% endcontent-ref %}
 
 {% content-ref url="distribution.md" %}

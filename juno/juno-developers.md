@@ -1,20 +1,23 @@
 ---
 description: >-
-  Dozens of independent development teams are working on Juno. Maintaining &
-  building the core network, tooling, dapps, relayers and more.
-cover: ../.gitbook/assets/Discord Invite.png
-coverY: 260
+  The JUNO core software development is maintained by dozens of independent
+  developers, united under the Core Root umbrella. An open developer collective
+  that builds and maintains web 3 infrastructure.
+cover: ../.gitbook/assets/Complementary Color (2).png
+coverY: 0
 ---
 
-# Contributors
+# Contributors - Core Software
 
-The core network is secured & maintained by independent validators & Core Root, an open developer collective | Building & maintaining web 3 Infrastructure at Juno.
 
-![](<../.gitbook/assets/Banner 4 (C-Root).png>)
 
-<img src="../.gitbook/assets/image (17).png" alt="" data-size="line">[Discord.gg/Juno](https://discord.gg/Juno)\\
+<figure><img src="../.gitbook/assets/juno-core1_avatar_twitter.png" alt=""><figcaption></figcaption></figure>
 
-Andrea Di Michele aka Dimi (stakefish) [https://twitter.com/dimiandre](https://twitter.com/dimiandre)
+<figure><img src="../.gitbook/assets/Complementary Color (1).png" alt=""><figcaption></figcaption></figure>
+
+
+
+Andrea Di Michele aka Dimi  [https://twitter.com/dimiandre](https://twitter.com/dimiandre)
 
 Blockcreators [https://twitter.com/CosmosChain](https://twitter.com/CosmosChain)
 

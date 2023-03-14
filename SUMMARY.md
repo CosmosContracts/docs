@@ -4,7 +4,7 @@
 
 * [Introduction](README.md)
 * [Home of CosmWasm](juno/home-of-cosmwasm.md)
-* [Contributors](juno/juno-developers.md)
+* [Contributors - Core Software](juno/juno-developers.md)
 * [Brand Identity](juno/brand-identity.md)
 * [Security Disclosures](juno/security-disclosures.md)
 * [Economic Overview](juno/economic-overview/README.md)
