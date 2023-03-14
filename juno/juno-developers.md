@@ -13,9 +13,11 @@ coverY: 0
 
 <figure><img src="../.gitbook/assets/juno-core1_avatar_twitter.png" alt=""><figcaption></figcaption></figure>
 
-Official Twitter: [https://twitter.com/CoreRootHQ](https://twitter.com/CoreRootHQ)
 
-Public Forum: [https://discord.gg/Juno](https://discord.gg/Juno)
+
+⚵ Official Twitter: [https://twitter.com/CoreRootHQ](https://twitter.com/CoreRootHQ)
+
+⚵ Public Forum: [https://discord.gg/Juno](https://discord.gg/Juno)
 
 
 
