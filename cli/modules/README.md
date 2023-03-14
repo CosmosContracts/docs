@@ -1,6 +1,6 @@
 ---
 description: CLI reference for junod modules
-cover: ../../.gitbook/assets/Discord Invite (1) (1) (1) (1) (6).png
+cover: ../../.gitbook/assets/Discord Invite.png
 coverY: 260
 ---
 
