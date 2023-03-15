@@ -9,9 +9,9 @@ coverY: 0
 
 # Contributors - Core Software
 
+&#x20; &#x20;
 
-
-<figure><img src="../.gitbook/assets/juno-core1_avatar_twitter.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/JUNO - Core Root Collective (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
