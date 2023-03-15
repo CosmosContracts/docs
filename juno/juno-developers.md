@@ -9,10 +9,6 @@ coverY: 0
 
 # Contributors - Core Software
 
-&#x20; &#x20;
-
-<figure><img src="../.gitbook/assets/JUNO - Core Root Collective (1).png" alt=""><figcaption></figcaption></figure>
-
 
 
 ⚵ Official Twitter: [https://twitter.com/CoreRootHQ](https://twitter.com/CoreRootHQ)
