@@ -1,13 +1,12 @@
 ---
 description: >-
-  JUNO core software development is maintained by dozens of independent
-  developers, united under the Core Root umbrella. An open developer collective
-  that builds and maintains web 3 infrastructure.
+  Core Root is a global developer collective.  Maintaining & advancing JUNO core
+  software development.
 cover: ../.gitbook/assets/Complementary Color (2).png
 coverY: 0
 ---
 
-# Contributors - Core Software
+# Contributors - Core Software -
 
 
 
