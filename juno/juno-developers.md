@@ -18,6 +18,8 @@ coverY: 0
 
 
 
+Reece Williams  [https://twitter.com/Reecepbcups\_](https://twitter.com/Reecepbcups\_)
+
 Andrea Di Michele aka Dimi  [https://twitter.com/dimiandre](https://twitter.com/dimiandre)
 
 Blockcreators [https://twitter.com/CosmosChain](https://twitter.com/CosmosChain)
@@ -77,8 +79,6 @@ Sistla Abhishek (OmniFlix) [https://twitter.com/svabhishek](https://twitter.com/
 Simon Warta (Confio) [https://twitter.com/simon\_warta](https://twitter.com/simon\_warta)
 
 Denis Fadeev (Tendermint) [https://twitter.com/fadeev](https://twitter.com/fadeev)
-
-Reece Williams (Juno) [https://twitter.com/Reecepbcups\_](https://twitter.com/Reecepbcups\_)
 
 Wabam (SpacePotatoe) @spacepotayto
 
