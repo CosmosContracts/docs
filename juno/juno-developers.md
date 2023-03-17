@@ -6,7 +6,9 @@ cover: ../.gitbook/assets/Complementary Color (2).png
 coverY: 0
 ---
 
-# Contributors - Core Software -
+# Contributors - Core Software
+
+<figure><img src="../.gitbook/assets/CoreRoot-Salmon_2.png" alt=""><figcaption></figcaption></figure>
 
 
 
