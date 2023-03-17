@@ -24,7 +24,7 @@ Andrea Di Michele aka Dimi  [https://twitter.com/dimiandre](https://twitter.com/
 
 Blockcreators [https://twitter.com/CosmosChain](https://twitter.com/CosmosChain)
 
-Jake Hartnell aka Meow (DAODAO & Stargaze) [https://twitter.com/JakeHartnell](https://twitter.com/JakeHartnell)
+Jake Hartnell aka Meow (DAODAO) [https://twitter.com/JakeHartnell](https://twitter.com/JakeHartnell)
 
 Lobo aka Wolf (SG-1)[ https://twitter.com/LoboJuno](https://twitter.com/lobojuno)
 
@@ -38,6 +38,8 @@ The Frey (Needlecast) [https://twitter.com/frey\_needlecast](https://twitter.com
 
 Null aka nullmames (kingnodes) [https://twitter.com/nullmames](https://twitter.com/nullMames)
 
+Tosch aka Toschdev (SG-1) [https://twitter.com/ToschDev](https://twitter.com/ToschDev)
+
 Callum (DAODAO) [https://twitter.com/callum\_and1](https://twitter.com/callum\_and1)
 
 Camel aka CamelJuno #7465
@@ -49,8 +51,6 @@ Ethereal (Strangelove) [https://twitter.com/Ethereal0ne](https://twitter.com/Eth
 Kevin Garrison (Oni Validator ⛩) [https://twitter.com/KevinGarrison](https://twitter.com/KevinGarrison)
 
 Andrew Gouin @gnudrew25
-
-Tosch aka Toschdev (SG-1) [https://twitter.com/ToschDev](https://twitter.com/ToschDev)
 
 Joe Abbey @joeabbey [https://twitter.com/JoeAbbey](https://twitter.com/JoeAbbey)
 
