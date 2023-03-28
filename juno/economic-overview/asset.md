@@ -23,9 +23,9 @@ Juno Network is a completely community owned and operated smart contract platfor
 
 ****
 
-⚪️ Community **Stakedrop**: 30.663.193 $JUNO (Genesis Community Stakedrop)
+⚪️ Community **Stakedrop**: 30.663.193 $JUNO (Genesis Community Stakedrop - Unvested)
 
-⚪️ **Community Pool:** 20.000.000 $JUNO (Genesis Community Pool Allocation / Non circulating)
+⚪️ **Community Pool:** 20.000.000 $JUNO (Genesis Community Pool Allocation / Non circulating at genesis)
 
 ⚪️ Smart Contract **Challenges**: 2.373.341 $JUNO (50% distributed post genesis via JunoHack 1)
 
