@@ -23,7 +23,7 @@ Juno Network is a completely community owned and operated smart contract platfor
 
 ****
 
-⚪️ Community **Stakedrop**: 30.663.193 $JUNO (Genesis Community Stakedrop - Unvested)
+⚪️ **Community Stakedrop**: 30.663.193 $JUNO (Genesis Community Stakedrop - Unvested)
 
 Free stakedrop to ATOM stakers at inception on October 1st 2021.&#x20;
 
@@ -31,13 +31,13 @@ Free stakedrop to ATOM stakers at inception on October 1st 2021.&#x20;
 
 ⚪️ **Community Pool:** 20.000.000 $JUNO (Genesis Community Pool Allocation / Non circulating at genesis)
 
-At inception, 20 Million $JUNO were allocated to the community pool. Non-circulating and owned by the public JUNO commonwealth ie. the network stakers own these funds.
+At inception, 20 Million $JUNO were allocated to the community pool. Non-circulating and owned by the public JUNO commonwealth ie. all network stakers own these funds.
 
 
 
-⚪️ Smart Contract **Challenges**: 2.373.341 $JUNO (50% distributed post genesis via JunoHack 1)
+⚪️ **Hackathons**: 2.373.341 $JUNO (50% distributed post genesis via JunoHack 1)
 
-Allocateed to HackJuno smart contract challanges. These funds are managed by the Core-1 SubDAO and assigned to various Hackathons.
+Allocated to HackJuno smart contract challenges. These funds are managed by the Core-1 SubDAO and assigned to various Hackathons.
 
 
 
