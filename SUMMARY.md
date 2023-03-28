@@ -2,7 +2,7 @@
 
 ## Juno
 
-* [Introduction](README.md)
+* [Intro](README.md)
 * [Home of CosmWasm](juno/home-of-cosmwasm.md)
 * [Contributors - Core Software](juno/juno-developers.md)
 * [Brand Identity](juno/brand-identity.md)
