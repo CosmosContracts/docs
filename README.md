@@ -4,7 +4,7 @@ cover: .gitbook/assets/Discord Invite (18).png
 coverY: 255
 ---
 
-# Introduction
+# Intro
 
 Juno is a global, open source, permission-less network for decentralized interoperable applications.
 
@@ -12,7 +12,7 @@ Anyone can create & use inter-chain applications on Juno. The ecosystem is pione
 
 
 
-<figure><img src=".gitbook/assets/Docs Banner (JUNO) 1 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Docs.png" alt=""><figcaption></figcaption></figure>
 
 ## **Grassroots Origin**
 
