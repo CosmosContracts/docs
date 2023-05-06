@@ -43,7 +43,7 @@ docker run -it \
   -p 26657:26657 \
   -e STAKE_TOKEN=ujunox \
   -e UNSAFE_CORS=true \
-  ghcr.io/cosmoscontracts/juno:13.0.0 \
+  ghcr.io/cosmoscontracts/juno:14.1.0 \
   ./setup_and_run.sh juno16g2rahf5846rxzp3fwlswy08fz8ccuwk03k57y
 ```
 
