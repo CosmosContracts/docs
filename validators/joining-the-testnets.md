@@ -1,6 +1,6 @@
 ---
 description: General instructions on how to join the Juno testnet
-cover: ../.gitbook/assets/Discord Invite (18).png
+cover: ../.gitbook/assets/Discord Invite (1) (50).png
 coverY: 260
 ---
 
@@ -16,7 +16,7 @@ If you get stuck, then please ask on Discord.
 
 | chain-id | Current Github version tag |
 | -------- | -------------------------- |
-| uni-6    | v11.0.0                    |
+| uni-6    | v15.0.0-alpha2             |
 
 ## Minimum Hardware Requirements
 

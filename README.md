@@ -1,6 +1,6 @@
 ---
 description: Juno - Interoperable Smart Contract Network
-cover: .gitbook/assets/Discord Invite (18).png
+cover: .gitbook/assets/Discord Invite (1) (50).png
 coverY: 255
 ---
 

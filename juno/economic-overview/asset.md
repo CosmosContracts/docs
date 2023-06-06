@@ -1,5 +1,5 @@
 ---
-cover: ../../.gitbook/assets/Discord Invite (18).png
+cover: ../../.gitbook/assets/Discord Invite (1) (50).png
 coverY: 260
 ---
 
@@ -17,11 +17,11 @@ Juno Network is a completely community owned and operated smart contract platfor
 
 ✅ Maximum Supply (Reached after 12 years (2033): 185.562.268 $JUNO
 
-![](<../../.gitbook/assets/image (14).png>)
+![](<../../.gitbook/assets/image (17) (1).png>)
 
 ### **Token Distribution Breakdown**
 
-****
+
 
 ⚪️ **Community Stakedrop**: 30.663.193 $JUNO (Genesis Community Stakedrop - Unvested)
 

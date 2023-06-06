@@ -1,6 +1,6 @@
 ---
 description: 🛠 This page is a work in progress, and should not be considered canon 🛠
-cover: ../.gitbook/assets/Discord Invite (18).png
+cover: ../.gitbook/assets/Discord Invite (1) (50).png
 coverY: 262
 ---
 

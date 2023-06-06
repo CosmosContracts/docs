@@ -2,7 +2,7 @@
 description: >-
   Core Root is a global developer collective.  Maintaining & advancing JUNO core
   software development.
-cover: ../.gitbook/assets/Complementary Color (2).png
+cover: ../.gitbook/assets/Complementary Color (1) (1).png
 coverY: 0
 ---
 

@@ -1,6 +1,6 @@
 ---
 description: Instructions for setting up the golang relayer, ibc-go (rly)
-cover: ../.gitbook/assets/Discord Invite (18).png
+cover: ../.gitbook/assets/Discord Invite (1) (50).png
 coverY: 0
 ---
 

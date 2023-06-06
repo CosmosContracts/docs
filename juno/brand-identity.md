@@ -7,9 +7,9 @@ coverY: -4
 
 **Assets**
 
-{% file src="../.gitbook/assets/juno_salmon.svg" %}
+{% file src="../.gitbook/assets/Juno Logo (Salmon).svg" %}
 
-{% file src="../.gitbook/assets/juno_salmon.png" %}
+{% file src="../.gitbook/assets/Juno Logo (Salmon) (2) (1).png" %}
 
 {% file src="../.gitbook/assets/juno_bright.svg" %}
 
@@ -29,7 +29,7 @@ Secondary Color: #1E1E1EFF
 
 Complementary Color: #FFEBD2
 
-<figure><img src="../.gitbook/assets/Complementary Color.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Complementary Color (1).png" alt=""><figcaption></figcaption></figure>
 
 **Font Identity**
 
