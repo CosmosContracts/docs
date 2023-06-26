@@ -28,6 +28,8 @@
   * [Get Account Transactions](developer-guides/miscellaneous/get-account-transactions.md)
   * [IBC Transfer](developer-guides/miscellaneous/ibc-transfer.md)
   * [State Export / Airdrop](developer-guides/miscellaneous/state-export-airdrop.md)
+  * [Frontend UI integration tutorial](developer-guides/miscellaneous/frontend-ui-integration-tutorial/README.md)
+    * [Pre-requisites](developer-guides/miscellaneous/frontend-ui-integration-tutorial/pre-requisites.md)
 * [Juno Modules](developer-guides/juno-modules/README.md)
   * [FeeShare](developer-guides/juno-modules/feeshare.md)
   * [TokenFactory](developer-guides/juno-modules/tokenfactory.md)
