@@ -1,6 +1,14 @@
+---
+description: Follow this tutorial to incorporate CosmosKit wallet selection into your dapp.
+---
+
 # Wallet usage
 
-## Installation
+{% hint style="info" %}
+You can find all the code on the GitHub repository: [https://github.com/topmonks/juno-dapp-tutorial](http://localhost:5000/o/jCrX4yBFt02YOr6hTAgL/s/uwjK0eMfGoo1QBmmL4yh/)
+{% endhint %}
+
+### Installation
 
 If you're starting a new project and prefer a streamlined process, you can use the CosmosKit starter tool called "create-cosmos-app". This tool helps you bootstrap your project with Cosmos-related dependencies in just one command. Check [https://github.com/cosmology-tech/create-cosmos-app](https://github.com/cosmology-tech/create-cosmos-app).&#x20;
 
@@ -132,3 +140,161 @@ export default App;
 {% endcode %}
 
 This approach provides us with an empty project that can be bootstrapped with the desired functionality. We will start by creating a "Connect Wallet" button that allows us to establish a connection with Keplr, retrieve the user's address, and subsequently utilize it for signing transactions.
+
+#### Connect wallet button
+
+To create the WalletButton component that enables user interaction with their wallet, we will start by defining a Recoil atom to hold the state of the currently used network. This will allow us to switch between multiple chains in the future, specifically the Juno Testnet and Mainnet. Here's how you can define the Recoil atom:
+
+{% code title="src/state/cosmos.ts" %}
+```typescript
+import { atom } from "recoil";
+import { chains } from "chain-registry";
+
+import { TESTNET } from "../config";
+
+type Chain = (typeof chains)[0];
+
+export const chainState = atom<Chain>({
+  key: "chainState",
+  default: chains.find((c) => c.chain_id === TESTNET.JUNO),
+});
+
+```
+{% endcode %}
+
+The WalletButton component enables users to connect their wallet, copy their public address, and disconnect the wallet. One of the notable advantages of using CosmosKit is that it automatically reacts when the user switches between their accounts within the wallet. This means that our application can seamlessly respond to changes in the active account without requiring manual intervention.
+
+{% code title="src/components/wallet-button.tsx" %}
+```typescript
+import { Fragment } from "react";
+import { useChain } from "@cosmos-kit/react";
+import { useRecoilValue } from "recoil";
+import { Button, ButtonProps, useToast } from "@chakra-ui/react";
+
+import { chainState } from "../state/cosmos";
+
+export default function WalletButton({
+  ButtonProps,
+}: {
+  ButtonProps?: ButtonProps;
+}) {
+  const chain = useRecoilValue(chainState);
+  const { address, connect, disconnect, wallet, isWalletConnected } = useChain(
+    chain.chain_name
+  );
+  const toast = useToast();
+
+  if (!isWalletConnected) {
+    return (
+      <Fragment>
+        <Button onClick={connect} {...ButtonProps}>
+          Connect wallet
+        </Button>
+      </Fragment>
+    );
+  }
+
+  return (
+    <Fragment>
+      <Button
+        variant="outline"
+        onClick={() => {
+          if (address) {
+            navigator.clipboard.writeText(address);
+            toast({
+              title: "Address copied",
+              variant: "subtle",
+              status: "info",
+            });
+          }
+        }}
+      >
+        {wallet?.prettyName} - {addressShort(address || "")}
+      </Button>
+      <Button onClick={disconnect}>Logout</Button>
+    </Fragment>
+  );
+}
+
+function addressShort(address: string | null) {
+  if (!address) {
+    return address;
+  }
+
+  return `${address.slice(0, 9)}...${address.slice(-4)}`;
+}
+
+```
+{% endcode %}
+
+Now, let's utilize the recently created component.
+
+{% code title="src/App.tsx" %}
+```typescript
+
+//...
+import { Suspense, lazy } from "react";
+import { ChakraProvider, Flex, Spinner } from "@chakra-ui/react";
+const WalletButton = lazy(() => import("./components/wallet-button"));
+
+function App() {
+  return (
+    <RecoilRoot>
+      <ChakraProvider theme={theme}>
+        <ChainProvider ...>
+          <Flex gap={2} p={2}>
+            <Suspense fallback={<Spinner />}>
+              <WalletButton />
+            </Suspense>
+          </Flex>
+        </ChainProvider>
+      </ChakraProvider>
+    </RecoilRoot>
+  );
+}
+
+export default App;
+
+```
+{% endcode %}
+
+#### Select chain
+
+With Recoil as the state management tool, we can easily create a separate component that handles the selection of the chain, specifically between the Juno Testnet and Mainnet. By separating the logic for chain selection from the environment configuration files and incorporating it into the state management, we enable the creation of a reactive user experience
+
+{% code title="src/components/select-chain.tsx" %}
+```typescript
+import { Select } from "@chakra-ui/react";
+import { useRecoilState } from "recoil";
+import { chains } from "chain-registry";
+import { chainState } from "../state/cosmos";
+import { MAINNET, TESTNET } from "../config";
+
+export default function SelectChain() {
+  const [chain, setChain] = useRecoilState(chainState);
+
+  return (
+    <Select
+      placeholder="Select chain"
+      value={chain.chain_id}
+      width={200}
+      onChange={(e) => {
+        const chain = chains.find((c) => c.chain_id === e.target.value);
+        if (chain) {
+          setChain(chain);
+        }
+      }}
+    >
+      <option value={TESTNET.JUNO}>Juno (Testnet)</option>
+      <option value={MAINNET.JUNO}>Juno</option>
+    </Select>
+  );
+}
+
+```
+{% endcode %}
+
+
+
+
+
