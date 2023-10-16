@@ -15,7 +15,7 @@ coverY: -4
 
 {% file src="../.gitbook/assets/juno_bright.png" %}
 
-***
+
 
 **Color Identity**
 
