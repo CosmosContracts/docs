@@ -159,7 +159,8 @@
         * [V1](developer-guides/api-endpoints/ibc/apps/router/v1/README.md)
           * [Params](developer-guides/api-endpoints/ibc/apps/router/v1/params.md)
   * [API Specification](https://firebasestorage.googleapis.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F0DjstKdBwLDIVgooIdH0%2Fimports%2Fy2Elery9kvhV5TsEjOsb%2Fopenapi%20\(7\).yml?alt=media\&token=318f39bc-de9f-419d-be9c-c234892ee7e9)
-* [Local Interchain](developer-guides/local-interchain.md)
+* [Local Interchain](developer-guides/local-interchain/README.md)
+  * [Local Interchain Rust Example](developer-guides/local-interchain/local-interchain-rust-example.md)
 * [Junod Local Dev Setup](developer-guides/junod-local-dev-setup.md)
 
 ## Governance

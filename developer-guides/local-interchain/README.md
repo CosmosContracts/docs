@@ -40,7 +40,7 @@ make install
 
 * You can now access Local Interchain using the command "local-ic."
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-10-14 at 10.16.17.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-10-14 at 10.16.17.png" alt=""><figcaption></figcaption></figure>
 
 ### **Step 5: Explore Local Interchain Features**
 
