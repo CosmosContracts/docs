@@ -18,6 +18,7 @@
 * [CosmWasm Contracts](developer-guides/cosmwasm-contracts/README.md)
   * [Compile a Contract](developer-guides/cosmwasm-contracts/compile-a-contract.md)
   * [Deploy a Contract](developer-guides/cosmwasm-contracts/deploy-a-contract.md)
+  * [Guide: How to Upload a Smart Contract on the Juno Chain](developer-guides/cosmwasm-contracts/guide-how-to-upload-a-smart-contract-on-the-juno-chain.md)
   * [Query A Contract](developer-guides/cosmwasm-contracts/query-a-contract.md)
   * [Send Tokens to a Contract](developer-guides/cosmwasm-contracts/send-tokens-to-a-contract.md)
 * [Miscellaneous](developer-guides/miscellaneous/README.md)
