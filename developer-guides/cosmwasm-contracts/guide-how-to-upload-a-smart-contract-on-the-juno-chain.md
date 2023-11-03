@@ -4,9 +4,9 @@ description: Welcome to this tutorial on deploying a smart contract to the Juno 
 
 # Guide: How to Upload a Smart Contract on the Juno Chain
 
+{% embed url="https://youtu.be/e_-xxpfQfwU" %}
 
 
-{% embed url="https://youtu.be/ysKfHvTOxbY" %}
 
 ## **Preparation:**
 
