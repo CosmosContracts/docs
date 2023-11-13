@@ -163,6 +163,7 @@
 * [Local Interchain](developer-guides/local-interchain/README.md)
   * [Local Interchain Rust Example](developer-guides/local-interchain/local-interchain-rust-example.md)
 * [Junod Local Dev Setup](developer-guides/junod-local-dev-setup.md)
+* [Integrate Leap wallet](developer-guides/integrate-leap-wallet.md)
 
 ## Governance
 
