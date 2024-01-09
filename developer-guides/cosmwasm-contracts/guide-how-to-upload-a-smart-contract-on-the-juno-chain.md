@@ -1,5 +1,5 @@
 ---
-description: Welcome to this tutorial on deploying a smart contract to the Juno testnet.
+description: Welcome to this tutorial on deploying a smart contract to the Juno testnet. This guide will show you how to deploy and interact with a contract using CLI. For scripting using Rust, you can use <a href="https://orchestrator.abstract.money/" target="_blank">cw-orchestrator</a>.
 ---
 
 # Guide: How to Upload a Smart Contract on the Juno Chain
