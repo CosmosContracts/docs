@@ -8,7 +8,7 @@ description: Submit the code of a smart contract to chain and get its code id
 
 Make sure you follow the [compile a contract](compile-a-contract.md) guide first for your project. Once you have a contract compiled in the artifacts/\*.wasm directory, you are ready for this guide.
 
-This guide will show you how to deploy and interact with a contract using CLI. For scripting using Rust, you can use <a href="https://orchestrator.abstract.money/" target="_blank">cw-orchestrator</a>.
+This guide will show you how to deploy and interact with a contract using CLI. For scripting using Rust, you can use [cw-orchestrator](./cw-orchestrator.md).
 
 
 ## Upload
