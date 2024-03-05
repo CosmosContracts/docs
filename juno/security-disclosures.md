@@ -2,7 +2,7 @@
 description: >-
   Found a critical bug or need to report a security issue? Juno's disclosure
   process is documented alongside the source code, but is also reproduced here.
-cover: ../.gitbook/assets/Discord Invite (1) (50).png
+cover: ../.gitbook/assets/Discord Invite.png
 coverY: 261
 ---
 

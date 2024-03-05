@@ -7,32 +7,47 @@ coverY: -4
 
 **Assets**
 
-{% file src="../.gitbook/assets/Juno Logo (Salmon).svg" %}
+{% file src="../.gitbook/assets/Logo_Salmon.svg" %}
 
-{% file src="../.gitbook/assets/Juno Logo (Salmon) (2) (1).png" %}
+{% file src="../.gitbook/assets/Logo_Salmon.png" %}
 
-{% file src="../.gitbook/assets/juno_bright.svg" %}
+{% file src="../.gitbook/assets/Logo_Light.svg" %}
 
-{% file src="../.gitbook/assets/juno_bright.png" %}
+{% file src="../.gitbook/assets/Logo_Light.png" %}
 
+{% file src="../.gitbook/assets/Logo_Dark.svg" %}
+
+{% file src="../.gitbook/assets/Logo_Dark.png" %}
+
+{% file src="../.gitbook/assets/Wordmark_Salmon.svg" %}
+
+{% file src="../.gitbook/assets/Wordmark_Salmon.png" %}
+
+{% file src="../.gitbook/assets/Wordmark_Light.svg" %}
+
+{% file src="../.gitbook/assets/Wordmark_Light.png" %}
+
+{% file src="../.gitbook/assets/Wordmark_Dark.svg" %}
+
+{% file src="../.gitbook/assets/Wordmark_Dark.png" %}
 
 
 **Color Identity**
 
-Primary Color #FF7B7C
+Primary Color: #FF7B7C
 
 <figure><img src="../.gitbook/assets/Primary Color.png" alt=""><figcaption></figcaption></figure>
 
-Secondary Color: #1E1E1EFF
+Secondary Color: #270B0D
 
-<figure><img src="../.gitbook/assets/Secondary Color (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Secondary Color.png" alt=""><figcaption></figcaption></figure>
 
 Complementary Color: #FFEBD2
 
-<figure><img src="../.gitbook/assets/Complementary Color (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Complementary Color.png" alt=""><figcaption></figcaption></figure>
 
 **Font Identity**
 
-The wordmark font is Gotham Medium.
+The Wordmark font is Gotham Medium.
 
 ![](../.gitbook/assets/image.png)
