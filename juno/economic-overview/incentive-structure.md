@@ -73,5 +73,5 @@ where:
 - **blocksPerYear** = get it from the official _mint_ module endpoint at `/cosmos/mint/v1beta1/params`.params.blocks_per_year
 
 {% hint style="info" %}
-See all the available [API endpoints](../../developer-guides/api-endpoints/).
+You will need access to a public Juno node to use its base URL before the endpoint paths listed above. See the list and all the available API endpoints in [this section](../../developer-guides/api-endpoints/).
 {% endhint %}
