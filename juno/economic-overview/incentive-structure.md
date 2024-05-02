@@ -52,7 +52,7 @@ Total supply after year 3 = 119.941.194 JUNO
 
 ### End of phase calculation
 
-The end of each _phase_ can be estimated with the formula:
+The end of each _phase_ (commonly refereed to as the "halving") can be estimated with the formula:
 
 ```
 Time left until phase_end in seconds =
