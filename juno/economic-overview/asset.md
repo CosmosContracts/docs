@@ -43,4 +43,4 @@ Genesis core developer allocation.
 
 ## Technicals
 
-The Juno Network native asset "JUNO" is internally, ie. on the distributed ledger maintained by Validators, represented as "ujuno", which is an integer equal to 10^-6^ JUNO. Every transaction fee and reward on the network will be account for in the `ujuno` base denomination.
+The Juno Network native asset "JUNO" is internally, ie. on the distributed ledger maintained by Validators, represented as "ujuno", which is an integer equal to 10^-6^ JUNO. Every transaction fee and reward on the network will be accounted for in the `ujuno` base denomination.
