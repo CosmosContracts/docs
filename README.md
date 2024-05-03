@@ -8,9 +8,7 @@ coverY: 255
 
 Juno is a global, open source, permission-less network for decentralized interoperable applications.
 
-Anyone can create & use inter-chain applications on Juno. The ecosystem is pioneering CosmWasm development and adoption, allowing developers to deploy secure & robust inter-chain smart contracts in Rust. The Juno proof of stake blockchain is built using the Cosmos SDK and reaches network agreement via Tendermint Consensus. The network is governed by delegators, who vote in changes via on-chain governance. All network processes are fueled by $JUNO the native asset of the network. Juno had its decentralized network launch on the 1st of October 2021. CosmWasm Smart Contracts went live on December 15th 2021.
-
-
+Anyone can create & use inter-chain applications on Juno. The ecosystem is pioneering CosmWasm development and adoption, allowing developers to deploy secure & robust inter-chain smart contracts in Rust. The Juno proof of stake blockchain is built using the Cosmos SDK and reaches network agreement via Tendermint Consensus. The network is governed by delegators, who vote in changes via on-chain governance. All network processes are fueled by JUNO the native asset of the network. Juno had its decentralized network launch on the 1st of October 2021. CosmWasm Smart Contracts went live on December 15th 2021.
 
 <figure><img src=".gitbook/assets/Docs.png" alt=""><figcaption></figcaption></figure>
 
@@ -30,7 +28,7 @@ Some of the founding principles centre around:
 
 ⚪️ **Governance by ATOM stakers which become JUNO stakers**. Stakedrop where 47% of the genesis supply goes to ATOM stakers on a 1:1 basis.
 
-⚪️ **Eliminating potential legal limitations** (Juno has not/will not conduct any form of seed sale, private sale or public sale. All $JUNO entered circulation via the decentralized network launch on October 1st 2021)
+⚪️ **Eliminating potential legal limitations** (Juno has not/will not conduct any form of seed sale, private sale or public sale. All JUNO entered circulation via the decentralized network launch on October 1st 2021)
 
 ***
 
