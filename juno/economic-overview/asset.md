@@ -1,5 +1,5 @@
 ---
-cover: ../../.gitbook/assets/Discord Invite.png
+cover: ../../.gitbook/assets/Discord Invite (52).png
 coverY: 260
 ---
 
@@ -21,33 +21,22 @@ Juno Network is a completely community owned and operated smart contract platfor
 
 ### **Token Distribution Breakdown**
 
-
-
 ⚪️ **Community Stakedrop**: 30.663.193 $JUNO (Genesis Community Stakedrop - Unvested)
 
-Free stakedrop to ATOM stakers at inception on October 1st 2021.&#x20;
-
-
+Free stakedrop to ATOM stakers at inception on October 1st 2021.
 
 ⚪️ **Community Pool:** 20.000.000 $JUNO (Genesis Community Pool Allocation / Non circulating at genesis)
 
 At inception, 20 Million $JUNO were allocated to the community pool. Non-circulating and owned by the public JUNO commonwealth ie. all network stakers own these funds.
 
-
-
 ⚪️ **Hackathons**: 2.373.341 $JUNO (50% distributed post genesis via JunoHack 1)
 
 Allocated to HackJuno smart contract challenges. These funds are managed by the Core-1 SubDAO and assigned to various Hackathons.
-
-
 
 ⚪️ **Core** **Software** **Development Reserve** (Community owned. Managed by Core 1 SubDAO)**:** 10.084.396 $JUNO (Vested 12 years / Periodic unlocks until year 12)
 
 Genesis core software and infrastructure reserve. Owned by the public JUNO commonwealth. Managed by the Core-1 subDAO.
 
-
-
 ⚪️ **Core- 1 Developers** (Genesis allocations)**:** 1.782.312 $JUNO (Vested 12 years / Periodic unlocks until year 12)
 
 Genesis core developer allocation.
-

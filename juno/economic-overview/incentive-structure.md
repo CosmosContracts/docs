@@ -1,11 +1,11 @@
 ---
-cover: ../../.gitbook/assets/Discord Invite.png
+cover: ../../.gitbook/assets/Discord Invite (52).png
 coverY: 260
 ---
 
 # Incentive structure
 
-### Reward Schedule <a href="#8ab1" id="8ab1"></a>
+### Reward Schedule <a href="#id-8ab1" id="id-8ab1"></a>
 
 {% hint style="info" %}
 The Juno rewards model distributes a fixed amount of $juno per block, which is calculated by the network and depends on the inflation rate as well as network block time. Variation in the network block time will cause variation in the calculable annual percentage rate (APR).

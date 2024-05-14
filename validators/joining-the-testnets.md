@@ -1,6 +1,6 @@
 ---
 description: General instructions on how to join the Juno testnet
-cover: ../.gitbook/assets/Discord Invite (1) (50).png
+cover: ../.gitbook/assets/Discord Invite (29).png
 coverY: 260
 ---
 

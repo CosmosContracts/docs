@@ -2,7 +2,7 @@
 description: >-
   Core Root is a global developer collective.  Maintaining & advancing JUNO core
   software development.
-cover: ../.gitbook/assets/Complementary Color.png
+cover: ../.gitbook/assets/Complementary Color (2).png
 coverY: 0
 ---
 
@@ -10,17 +10,13 @@ coverY: 0
 
 <figure><img src="../.gitbook/assets/CoreRoot-Salmon_2.png" alt=""><figcaption></figcaption></figure>
 
-
-
 ⚵ Official Twitter: [https://twitter.com/CoreRootHQ](https://twitter.com/CoreRootHQ)
 
 ⚵ Public Forum: [https://discord.gg/Juno](https://discord.gg/Juno)
 
+Reece Williams [https://twitter.com/Reecepbcups\_](https://twitter.com/Reecepbcups\_)
 
-
-Reece Williams  [https://twitter.com/Reecepbcups\_](https://twitter.com/Reecepbcups\_)
-
-Andrea Di Michele aka Dimi  [https://twitter.com/dimiandre](https://twitter.com/dimiandre)
+Andrea Di Michele aka Dimi [https://twitter.com/dimiandre](https://twitter.com/dimiandre)
 
 Blockcreators [https://twitter.com/CosmosChain](https://twitter.com/CosmosChain)
 

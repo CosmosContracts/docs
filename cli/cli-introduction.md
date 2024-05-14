@@ -2,7 +2,7 @@
 description: >-
   A general introduction Juno cli along with a brief description of commands and
   flags
-cover: ../.gitbook/assets/Discord Invite (1) (50).png
+cover: ../.gitbook/assets/Discord Invite (29).png
 coverY: 258
 ---
 

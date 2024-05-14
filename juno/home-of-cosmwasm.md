@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/Discord Invite.png
+cover: ../.gitbook/assets/Discord Invite (52).png
 coverY: 185.16283716283715
 ---
 

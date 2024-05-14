@@ -31,7 +31,6 @@ coverY: -4
 
 {% file src="../.gitbook/assets/Wordmark_Dark.png" %}
 
-
 **Color Identity**
 
 Primary Color: #FF7B7C
@@ -44,7 +43,7 @@ Secondary Color: #270B0D
 
 Complementary Color: #FFEBD2
 
-<figure><img src="../.gitbook/assets/Complementary Color.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Complementary Color (2).png" alt=""><figcaption></figcaption></figure>
 
 **Font Identity**
 
