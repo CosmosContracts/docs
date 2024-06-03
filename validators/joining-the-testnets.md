@@ -155,9 +155,7 @@ After creating a new key, the key information and seed phrase will be shown. It 
 
 ### **Get some testnet tokens**
 
-Testnet tokens can be requested from the `#faucet` channel on [Discord](https://discord.gg/HnHKpzd3Db).
-
-To request tokens type `$request <your-public-address>` in the message field and press enter.
+Testnet tokens can be requested from the faucet. To request tokens, visit [HERE](https://faucet.testnet.chaintools.tech/uni-6/) and enter your Juno address in the address field like this: `https://faucet.testnet.chaintools.tech/uni-6/<your_juno_address_here>`.
 
 ## Setup cosmovisor
 
