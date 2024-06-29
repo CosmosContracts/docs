@@ -36,7 +36,7 @@ gRPCui is a command-line tool that provides a web-based user interface for gRPC.
 1. Access the tool at [https://juno.grpcui.chaintools.host/](https://juno.grpcui.chaintools.host/) or install the tool from [grpcui](https://github.com/fullstorydev/grpcui/).
 
 To be an example, let's query tokenfactory module params. For this, choose osmosis.tokenfactory.v1beta1.Query service name.
-![Service Name](./service_name.png)
+![Service Name](../.gitbook/assets/grpc-web-ui-service_name.png)
 
 Then, choose Params method name:
 
