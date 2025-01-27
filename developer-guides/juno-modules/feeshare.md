@@ -75,7 +75,7 @@ Example:
 * Factory instantiates Contract A, where the creator and admin is Factory
 * Anyone can now `junod tx feeshare register contract-a contract-a`
 * With this, all feeshare funds are saved in the contract-a balance
-* To move these funds, your child contract needs a way to set a withdraw address. For example `ExecuteMsg::SetWithdrawAddress{address:juno123...}}` or do this on instantiate through the factory message payload. Just some other adderss we can withdraw the funds to
+* To move these funds, your child contract needs a way to set a withdraw address. For example `ExecuteMsg::SetWithdrawAddress{address:juno123...}}` or do this on instantiate through the factory message payload. Just some other address we can withdraw the funds to
 * The child contract then has `ExecuteMsg::GetFeeShare{}` which takes the contracts balance minus any funds which are meant to be in the contract (ex: proposal deposits), and sends those tokens to the `juno123...` address set earlier
 
 ## Update Contract Withdraw Address
