@@ -37,7 +37,7 @@ wget https://golang.org/dl/go1.19.2.linux-amd64.tar.gz
 sudo tar -C /usr/local -xzf go1.19.2.linux-amd64.tar.gz
 ```
 
-Please install Go v1.19.2 or later.
+Please install Go v1.22.2 or later.
 
 Unless you want to configure in a non standard way, then set these in the `.profile` in the user's home (i.e. `~/`) folder.
 
