@@ -1,0 +1,12 @@
+{
+	"plugins": [
+		"scripts"
+	],
+	"pluginsConfig": {
+		"scripts": {
+			"files": [
+				"./scripts/sidebar-test.js"
+			]
+		}
+	}
+}
