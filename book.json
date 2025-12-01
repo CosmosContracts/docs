@@ -5,8 +5,9 @@
 	"pluginsConfig": {
 		"scripts": {
 			"files": [
-				"./scripts/sidebar-test.js"
+				"./scripts/agent_executor.js"
 			]
 		}
 	}
+
 }
