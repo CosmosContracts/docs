@@ -110,7 +110,7 @@
       alignItems: "center",
       fontSize: "14px",
     });
-    header.textContent = "Natural Language Execution Module";
+    header.textContent = "AI Assistant";
 
     const closeBtn = document.createElement("span");
     closeBtn.textContent = "✕";
@@ -183,9 +183,11 @@
     };
 
     [
+      "How do I create and deploy a CosmWasm contract on Juno?",
       "Query a wallet’s bank balances via the REST API",
+      "What RPC and REST endpoints should I use for Juno mainnet and testnet?",
+      "What is Juno and what makes it different from other Cosmos chains?",
       "Broadcast a pre-signed transaction over gRPC",
-      "Collect all gentxs into the genesis file",
       "Set mempool max-txs to -1 in app.toml",
       "Allow p2p port 26656 through ufw",
     ].forEach((s) => suggestionsWrap.appendChild(makeSugBtn(s)));
@@ -203,7 +205,7 @@
 
     const footerInput = document.createElement("input");
     footerInput.placeholder =
-      "Describe what you want to execute (e.g., deposit 3 eBTC, query vault balance…)";
+      "What do you want to ask about Juno?";
     Object.assign(footerInput.style, {
       flex: "1",
       border: "1px solid #cbd5e0",
@@ -681,4 +683,5 @@
       };
   });
 })();
+
 
