@@ -141,22 +141,63 @@
     chatArea.appendChild(placeholder);
     sidebar.appendChild(chatArea);
 
-    // Suggestions (visible when no assistant response yet)
+    // ---- Collapsible Suggestions ----
     const suggestionsWrap = document.createElement("div");
     Object.assign(suggestionsWrap.style, {
       borderTop: "1px solid #e2e8f0",
-      padding: "10px 16px",
       background: "#f7faf7",
+      padding: "10px 16px",
     });
-    const suggestionsLabel = document.createElement("p");
+
+    // Toggle section container
+    let suggestionsOpen = true;
+
+    // Header row with text + toggle arrow
+    const suggestionsHeader = document.createElement("div");
+    Object.assign(suggestionsHeader.style, {
+      display: "flex",
+      justifyContent: "space-between",
+      alignItems: "center",
+      cursor: "pointer",
+      userSelect: "none",
+    });
+
+    const suggestionsLabel = document.createElement("span");
     suggestionsLabel.textContent = "Suggestions";
     Object.assign(suggestionsLabel.style, {
       fontSize: "13px",
       fontWeight: "600",
       color: "#2d3748",
-      margin: "0 0 6px 0",
     });
-    suggestionsWrap.appendChild(suggestionsLabel);
+
+    // Arrow icon
+    const arrow = document.createElement("span");
+    arrow.textContent = "▼";
+    Object.assign(arrow.style, {
+      fontSize: "12px",
+      marginLeft: "6px",
+      color: "#2d3748",
+      transition: "transform 0.2s ease",
+    });
+
+    suggestionsHeader.appendChild(suggestionsLabel);
+    suggestionsHeader.appendChild(arrow);
+    suggestionsWrap.appendChild(suggestionsHeader);
+
+    // Container holding suggestion buttons
+    const suggestionsBody = document.createElement("div");
+    Object.assign(suggestionsBody.style, {
+      marginTop: "8px",
+      display: "block",
+    });
+
+    // Toggle behavior
+    suggestionsHeader.onclick = () => {
+      suggestionsOpen = !suggestionsOpen;
+      suggestionsBody.style.display = suggestionsOpen ? "block" : "none";
+      arrow.style.transform = suggestionsOpen ? "rotate(0deg)" : "rotate(-90deg)";
+    };
+
 
     const makeSugBtn = (text) => {
       const btn = document.createElement("button");
@@ -178,6 +219,11 @@
       btn.onclick = () => {
         footerInput.value = text;
         footerInput.focus();
+
+        // collapse suggestions after click
+        suggestionsOpen = false;
+        suggestionsBody.style.display = "none";
+        arrow.style.transform = "rotate(-90deg)";
       };
       return btn;
     };
@@ -190,7 +236,9 @@
       "Broadcast a pre-signed transaction over gRPC",
       "Set mempool max-txs to -1 in app.toml",
       "Allow p2p port 26656 through ufw",
-    ].forEach((s) => suggestionsWrap.appendChild(makeSugBtn(s)));
+    ].forEach((s) => suggestionsBody.appendChild(makeSugBtn(s)));
+
+    suggestionsWrap.appendChild(suggestionsBody);
 
     // Footer input
     const footer = document.createElement("form");
