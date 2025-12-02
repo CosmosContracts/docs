@@ -110,7 +110,7 @@
       alignItems: "center",
       fontSize: "14px",
     });
-    header.textContent = "AI Assistant";
+    header.textContent = "Docs Assistant";
 
     const closeBtn = document.createElement("span");
     closeBtn.textContent = "✕";
@@ -683,5 +683,6 @@
       };
   });
 })();
+
 
 
