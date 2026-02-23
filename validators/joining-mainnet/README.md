@@ -91,7 +91,7 @@ This will generate the following files in `~/.juno/config/`
 
 ### Download the genesis file
 
-Download the the "Phoenix" geneis file, and upload it to your server [from here](https://drive.google.com/file/d/1RBfPNrZUaD4tn_t3ES9ifaO6CvaFbBMh/view?usp=drive_link).
+Download the the "Phoenix" geneis file [from here](https://drive.google.com/file/d/1RBfPNrZUaD4tn_t3ES9ifaO6CvaFbBMh/view?usp=drive_link), and upload it to your server. Then replace the default genesis.json with the one extracted from the archive.&#x20;
 
 ```bash
 # Delete old genesis
