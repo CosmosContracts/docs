@@ -91,12 +91,12 @@ This will generate the following files in `~/.juno/config/`
 
 ### Download the genesis file
 
-Download the the "Phoenix" geneis file. The following instructions download the genesis file hosted by [Dimi](https://twitter.com/dimiandre).
+Download the the "Phoenix" geneis file, and upload it to your server [from here](https://drive.google.com/file/d/1RBfPNrZUaD4tn_t3ES9ifaO6CvaFbBMh/view?usp=drive_link).
 
 ```bash
-# Download genesis.json file
+# Delete old genesis
 rm ~/.juno/config/genesis.json
-wget https://download.dimi.sh/juno-phoenix2-genesis.tar.gz
+# Extract genesis file from the downloaded archive
 tar -xvf juno-phoenix2-genesis.tar.gz
 mv juno-phoenix2-genesis.json $HOME/.juno/config/genesis.json
 ```
