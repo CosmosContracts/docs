@@ -118,10 +118,6 @@ Then use the path returned to copy it to the directory Cosmovisor expects. Let's
 cp $HOME/go/bin/junod $DAEMON_HOME/cosmovisor/genesis/bin
 ```
 
-```bash
-cp $HOME/go/bin/junod $DAEMON_HOME/cosmovisor/genesis/bin
-```
-
 ## Cosmovisor init
 
 Post v1 versions of Cosmovisor have a command that will create the directories and copy the `junod` binary into the proper directory. To create the directories and copy the binary, run this command:
