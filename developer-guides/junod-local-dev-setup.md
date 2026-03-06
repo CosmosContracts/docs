@@ -43,7 +43,7 @@ docker run -it \
   -p 26657:26657 \
   -e STAKE_TOKEN=ujunox \
   -e UNSAFE_CORS=true \
-  ghcr.io/cosmoscontracts/juno:14.1.0 \
+  ghcr.io/cosmoscontracts/juno:v22.0.1 \
   ./setup_and_run.sh juno16g2rahf5846rxzp3fwlswy08fz8ccuwk03k57y
 ```
 
@@ -75,7 +75,7 @@ To call Juno inside a container, use `docker exec` like so:
 docker run --rm -v "$(pwd)":/code \
   --mount type=volume,source="$(basename "$(pwd)")_cache",target=/code/target \
   --mount type=volume,source=registry_cache,target=/usr/local/cargo/registry \
-  cosmwasm/rust-optimizer:0.12.11
+  cosmwasm/rust-optimizer:0.16.0
 
 # copy wasm to container
 docker cp artifacts/your_compiled.wasm juno_node_1:/your_compiled.wasm
