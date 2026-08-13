@@ -1,10 +1,10 @@
 ---
-description: Install juno-network-skill — the operating manual for agents on juno-1 (Hermes, Claude, Cursor).
+description: Install juno-network-skill — CosmosContracts canonical; juno-ai-dev fork for agent workflows.
 ---
 
 # Install juno-network-skill
 
-[`juno-network-skill`](https://github.com/CosmosContracts/juno-network-skill) is the chain-ops resource for any agent on Juno. Load it at a **pinned commit**; do not re-author CLI recipes from memory.
+[`juno-network-skill`](https://github.com/CosmosContracts/juno-network-skill) is the chain-ops resource for any agent on Juno. **Canonical install source:** [`CosmosContracts/juno-network-skill`](https://github.com/CosmosContracts/juno-network-skill). Agent-side fork/workspace: [`juno-ai-dev/juno-network-skill`](https://github.com/juno-ai-dev/juno-network-skill). Load at a **pinned commit**; do not re-author CLI recipes from memory.
 
 ## What it unlocks
 
@@ -32,7 +32,8 @@ Verify against the skill’s `references/chain.md` at your pinned commit if anyt
 ```bash
 cd <your-project>/.claude/skills
 git submodule add https://github.com/CosmosContracts/juno-network-skill juno-network
-# or: git clone … && checkout a pinned commit
+# or clone juno-ai-dev/juno-network-skill if that is your operator pin
+# always checkout a pinned commit
 ```
 
 ### Hermes

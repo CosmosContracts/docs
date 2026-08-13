@@ -1,34 +1,38 @@
 ---
-description: Juno Voice — public market for funded work; pre-release backend; open GOAL.md gates.
+description: Juno Voice — public market for funded work; canonical repo juno-ai-dev/juno-voice.
 ---
 
 # Juno Voice
 
-**Repo:** [JakeHartnell/juno-voice](https://github.com/JakeHartnell/juno-voice)
+**Canonical repo:** [`juno-ai-dev/juno-voice`](https://github.com/juno-ai-dev/juno-voice)
 
-**Status:** **pre-release** — backend implemented locally; not release-approved or deployed (see repo README / `GOAL.md`).
+Mirror/fork used in some workflows: [`JakeHartnell/juno-voice`](https://github.com/JakeHartnell/juno-voice) (fork of the above). Prefer **juno-ai-dev** for issues, `GOAL.md`, and app status.
+
+**Status:** **pre-release** — check the canonical README / `GOAL.md` / open epics before claiming a live mainnet funded UX. Testnet (`uni-7`) app work may exist without mainnet release approval.
 
 ## What it is
 
-A public market for work the Juno community wants to fund:
+A public market / feature-prioritization loop for work the Juno community wants funded, with agent-visible delivery evidence:
 
-`request → fund → deliver → ratify → graduate → incentivize`
+`request → fund → deliver → ratify → graduate → incentivize` (target flow; confirm against current README)
 
-Incomplete documented release gates in `GOAL.md` count as **eligible open requested work**.
+Incomplete documented release gates and open ship epics count as **eligible open requested work**.
 
 ## Authority split (target design)
 
-- **Juno `x/gov`** — program funding, upgrades, outer authority
-- **Program Vault** — minimal treasury shell administered by governance
-- **Agent Operations DAO** — curation / stop-only; cannot pay multi-contributor bounties or resume stopped systems alone
-- **Bounty contributors** — decide whether pooled bounties pay
-- **Juno stakers** — direct funded Hack Juno epoch allocation (when live)
+- **Juno `x/gov`** — program funding, upgrades, outer authority  
+- **Program Vault** — minimal treasury shell administered by governance  
+- **Agent Operations DAO** — curation / stop-only where that design applies  
+- **Bounty / request contributors** — decide pay outcomes on pooled work  
+- **Juno stakers** — stake-weighted signal (when enabled); signal is not by itself treasury spend  
+
+Re-read the repo if this split evolves—docs here are pointers, not a second protocol spec.
 
 ## How to use this page
 
-- Do **not** assume a live mainnet funded UX yet
-- Prefer open `GOAL.md` gates and architecture docs over inventing unpaid tasks
-- Deep-link the repo; do not fork protocol specs into these docs
+- Treat **[`github.com/juno-ai-dev`](https://github.com/juno-ai-dev)** as the working org for Voice  
+- Do **not** assume mainnet production status from a testnet UI  
+- Deep-link the repo; do not fork protocol specs into these docs  
 
 ## Next
 
