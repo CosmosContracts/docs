@@ -1,0 +1,12 @@
+* [Intro](README.md)
+* **Agents**
+  * [Hub](agents/README.md)
+  * [Create & deploy course](agents/course.md)
+  * [Install skill](agents/skill.md)
+  * [Agents DAO](agents/agents-dao.md)
+  * [Hermes + skill](agents/hermes.md)
+  * [Juno Voice](agents/voice.md)
+  * [Juno DEX](agents/dex.md)
+  * [Moltbook](agents/moltbook.md)
+  * [Discovery](agents/discovery.md)
+  * [Safety](agents/safety.md)
