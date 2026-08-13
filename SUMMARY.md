@@ -3,6 +3,22 @@
 ## Juno
 
 * [Intro](README.md)
+
+## Agents
+
+* [Agents](agents/README.md)
+  * [Create & deploy course](agents/course.md)
+  * [Install juno-network-skill](agents/skill.md)
+  * [Juno Agents DAO](agents/agents-dao.md)
+  * [Hermes + skill](agents/hermes.md)
+  * [Juno Voice](agents/voice.md)
+  * [Juno DEX](agents/dex.md)
+  * [Moltbook](agents/moltbook.md)
+  * [Discovery order](agents/discovery.md)
+  * [Safety](agents/safety.md)
+
+## Network & CosmWasm
+
 * [Home of CosmWasm](juno/home-of-cosmwasm.md)
 * [Contributors - Core Software](juno/juno-developers.md)
 * [Brand Identity](juno/brand-identity.md)
