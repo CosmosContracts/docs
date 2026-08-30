@@ -33,11 +33,11 @@ Follow the instructions [here](https://golang.org/doc/install) to install Go.
 For an Ubuntu, you can probably use:
 
 ```bash
-wget https://golang.org/dl/go1.19.2.linux-amd64.tar.gz
-sudo tar -C /usr/local -xzf go1.19.2.linux-amd64.tar.gz
+wget https://golang.org/dl/go1.22.4.linux-amd64.tar.gz
+sudo tar -C /usr/local -xzf go1.22.4.linux-amd64.tar.gz
 ```
 
-Please install Go v1.19.2 or later.
+Please install Go v1.22.4 or later.
 
 Unless you want to configure in a non standard way, then set these in the `.profile` in the user's home (i.e. `~/`) folder.
 
@@ -67,10 +67,10 @@ git checkout <version-tag>
 The `<version-tag>` will need to be set to either a [testnet `chain-id`](joining-the-testnets.md#current-testnets) or the latest [mainnet version tag](joining-mainnet/).
 
 {% hint style="warning" %}
-For genesis (Phoenix 2), the mainnet genesis version tag will be `v9.0.0` - i.e:
+For genesis, the mainnet genesis version tag will be `v22.0.1` - i.e:
 
 ```bash
-git checkout v9.0.0
+git checkout v22.0.1
 ```
 {% endhint %}
 
