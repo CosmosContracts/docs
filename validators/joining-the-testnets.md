@@ -16,7 +16,7 @@ If you get stuck, then please ask on Discord.
 
 | chain-id | Current Github version tag |
 | -------- | -------------------------- |
-| uni-6    | v16.0.0                    |
+| uni-6    | v22.0.1                    |
 
 ## Minimum Hardware Requirements
 
