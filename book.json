@@ -1,0 +1,13 @@
+{
+	"plugins": [
+		"scripts"
+	],
+	"pluginsConfig": {
+		"scripts": {
+			"files": [
+				"./scripts/agent_executor.js"
+			]
+		}
+	}
+
+}
